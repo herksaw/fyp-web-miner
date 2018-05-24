@@ -1,0 +1,3 @@
+TAG_TRIM_LEN = 30
+
+DIR_OUTPUT = "output/"

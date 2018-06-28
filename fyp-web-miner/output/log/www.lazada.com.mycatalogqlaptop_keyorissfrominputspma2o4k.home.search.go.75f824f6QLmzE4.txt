@@ -1,0 +1,3676 @@
+Curr: head | 
+
+Refer: head | 
+
+Same
+Curr: title | laptop - Buy laptop at Best Price in Malaysia | www.lazada.com.my
+Refer: title | laptop - Buy laptop at Best Price in Malaysia | www.lazada.com.my
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: span | SAVE MORE ON APP
+Refer: span | SAVE MORE ON APP
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | Download the App for the best experience
+Refer: div | Download the App for the best experience
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: p | Shop through our app to enjoy: 
+Refer: p | Shop through our app to enjoy: 
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | Exclusive Vouchers 
+Refer: li | Exclusive Vouchers 
+Same
+Curr: li | Better deals 
+Refer: li | Better deals 
+Same
+Curr: li | Personalised recommendations 
+Refer: li | Personalised recommendations 
+Same
+Curr: li | Find out first 
+Refer: li | Find out first 
+Same
+Curr: form | 
+
+Refer: form | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: button | 
+
+Refer: button | 
+
+Same
+Curr: span | Success! Please check your phone for the download link  
+Refer: span | Success! Please check your phone for the download link  
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | sell on lazada
+Refer: a | sell on lazada
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: span | customer care
+Refer: span | customer care
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: span | Contact Us
+Refer: span | Contact Us
+Same
+Curr: a | 
+                  Live Chat (Mon-Fri / 9am to 9pm) & Sat,Sun, Public Holiday (9am-6pm)
+              
+Refer: a | 
+                  Live Chat (Mon-Fri / 9am to 9pm) & Sat,Sun, Public Holiday (9am-6pm)
+              
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: span | Track my order
+Refer: span | Track my order
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | Track my order
+Refer: div | Track my order
+Same
+Curr: form | 
+
+Refer: form | 
+
+Same
+Curr: label | Your order number:
+Refer: label | Your order number:
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: button | 
+
+Refer: button | 
+
+Same
+Curr: p | For any other inquiries, 
+Refer: p | For any other inquiries, 
+Same
+Curr: a | Click here
+Refer: a | Click here
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | LOGIN
+Refer: a | LOGIN
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | signup
+Refer: a | signup
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: span | TUKAR BAHASA
+Refer: span | TUKAR BAHASA
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: button | SEARCH
+Refer: button | SEARCH
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Categories
+Refer: span | Categories
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Electronic Devices
+Refer: span | Electronic Devices
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Electronic Accessories
+Refer: span | Electronic Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | TV & Home Appliances
+Refer: span | TV & Home Appliances
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Health & Beauty
+Refer: span | Health & Beauty
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Babies & Toys
+Refer: span | Babies & Toys
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Groceries & Pets
+Refer: span | Groceries & Pets
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Home & Lifestyle
+Refer: span | Home & Lifestyle
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Women's Fashion
+Refer: span | Women's Fashion
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Men's Fashion
+Refer: span | Men's Fashion
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Fashion Accessories
+Refer: span | Fashion Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sports & Travel
+Refer: span | Sports & Travel
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Automotive & Motorcycles
+Refer: span | Automotive & Motorcycles
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Mobiles
+Refer: span | Mobiles
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Tablets
+Refer: span | Tablets
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Laptops
+Refer: span | Laptops
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Desktops
+Refer: span | Desktops
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Gaming Consoles
+Refer: span | Gaming Consoles
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Car Cameras
+Refer: span | Car Cameras
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Action/Video Cameras
+Refer: span | Action/Video Cameras
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Security Cameras
+Refer: span | Security Cameras
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Digital Cameras
+Refer: span | Digital Cameras
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Gadgets
+Refer: span | Gadgets
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Mobile Accessories
+Refer: span | Mobile Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Portable Audio
+Refer: span | Portable Audio
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Wearable
+Refer: span | Wearable
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Console Accessories
+Refer: span | Console Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Camera Accessories
+Refer: span | Camera Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Computer Accessories
+Refer: span | Computer Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Storage
+Refer: span | Storage
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Printers
+Refer: span | Printers
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Computer Components
+Refer: span | Computer Components
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Tablet Accessories
+Refer: span | Tablet Accessories
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | TV & Video Devices
+Refer: span | TV & Video Devices
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | TV Accessories
+Refer: span | TV Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Home Audio
+Refer: span | Home Audio
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Large Appliances
+Refer: span | Large Appliances
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Small Kitchen Appliances
+Refer: span | Small Kitchen Appliances
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Cooling & Air Treatment
+Refer: span | Cooling & Air Treatment
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Vacuums & Floor Care
+Refer: span | Vacuums & Floor Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Iron & Sewing Machines
+Refer: span | Iron & Sewing Machines
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Parts & Accessories
+Refer: span | Parts & Accessories
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Food Supplements
+Refer: span | Food Supplements
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Skincare
+Refer: span | Skincare
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Makeup
+Refer: span | Makeup
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Beauty Tools
+Refer: span | Beauty Tools
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Mens Care
+Refer: span | Mens Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Medical Supplies
+Refer: span | Medical Supplies
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Bath & Body
+Refer: span | Bath & Body
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Hair Care
+Refer: span | Hair Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Personal Care
+Refer: span | Personal Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Fragrances
+Refer: span | Fragrances
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Feeding
+Refer: span | Feeding
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Milk Formula & Food
+Refer: span | Milk Formula & Food
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Baby Gear
+Refer: span | Baby Gear
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Diapering & Potty
+Refer: span | Diapering & Potty
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Nursery
+Refer: span | Nursery
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Baby Personal Care
+Refer: span | Baby Personal Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Clothing & Accessories
+Refer: span | Clothing & Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Baby & Toddler Toys
+Refer: span | Baby & Toddler Toys
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Collectible, RC & Vehicle
+Refer: span | Collectible, RC & Vehicle
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sports & Outdoor Play 
+Refer: span | Sports & Outdoor Play 
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Beverages
+Refer: span | Beverages
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Cereal & Confectionery
+Refer: span | Cereal & Confectionery
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Dried & Canned Food
+Refer: span | Dried & Canned Food
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Fresh,Frozen & Chilled 
+Refer: span | Fresh,Frozen & Chilled 
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Laundry & Household
+Refer: span | Laundry & Household
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Cats
+Refer: span | Cats
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Dogs
+Refer: span | Dogs
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Fish
+Refer: span | Fish
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Bath
+Refer: span | Bath
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Bedding
+Refer: span | Bedding
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Décor
+Refer: span | Décor
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Furniture
+Refer: span | Furniture
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Kitchen & Dining
+Refer: span | Kitchen & Dining
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Lighting
+Refer: span | Lighting
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Tools, DIY & Outdoor
+Refer: span | Tools, DIY & Outdoor
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Stationery & Craft
+Refer: span | Stationery & Craft
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Books
+Refer: span | Books
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Music & Instruments
+Refer: span | Music & Instruments
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Dresses
+Refer: span | Dresses
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Tops
+Refer: span | Tops
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Pants & Leggings
+Refer: span | Pants & Leggings
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Jackets & Coats
+Refer: span | Jackets & Coats
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Flat Shoes
+Refer: span | Flat Shoes
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sandals
+Refer: span | Sandals
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sneakers
+Refer: span | Sneakers
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Lingerie, Sleep & Lounge
+Refer: span | Lingerie, Sleep & Lounge
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Muslim Wear
+Refer: span | Muslim Wear
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Bags
+Refer: span | Bags
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Casual Tops
+Refer: span | Casual Tops
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Jackets & coats
+Refer: span | Jackets & coats
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Shirts
+Refer: span | Shirts
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Pants
+Refer: span | Pants
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Jeans
+Refer: span | Jeans
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sneakers
+Refer: span | Sneakers
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Formal Shoes
+Refer: span | Formal Shoes
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Boots
+Refer: span | Boots
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Bags
+Refer: span | Bags
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Accessories
+Refer: span | Accessories
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Women's Watches
+Refer: span | Women's Watches
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Men's Watches
+Refer: span | Men's Watches
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Kid's Watches
+Refer: span | Kid's Watches
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Pure Gold & Silver
+Refer: span | Pure Gold & Silver
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Women's Jewellery
+Refer: span | Women's Jewellery
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Men's Accessories
+Refer: span | Men's Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sunglasses
+Refer: span | Sunglasses
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Eyeglasses
+Refer: span | Eyeglasses
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Contact lens
+Refer: span | Contact lens
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Luggage
+Refer: span | Luggage
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Laptop Bags
+Refer: span | Laptop Bags
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Travel Accessories
+Refer: span | Travel Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Exercise & Fitness
+Refer: span | Exercise & Fitness
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Outdoor Recreation
+Refer: span | Outdoor Recreation
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Women's Clothing & Shoes
+Refer: span | Women's Clothing & Shoes
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Men's Clothing & Shoes
+Refer: span | Men's Clothing & Shoes
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Racket Sports
+Refer: span | Racket Sports
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Water Sports
+Refer: span | Water Sports
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Sports Accessories
+Refer: span | Sports Accessories
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Automotive
+Refer: span | Automotive
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Service & Installations
+Refer: span | Service & Installations
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Auto Oils & Fluids
+Refer: span | Auto Oils & Fluids
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Interior Accessories
+Refer: span | Interior Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Exterior Accessories
+Refer: span | Exterior Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Car Audio
+Refer: span | Car Audio
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Auto Care
+Refer: span | Auto Care
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Riding Gear
+Refer: span | Riding Gear
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Moto Parts & Accessories
+Refer: span | Moto Parts & Accessories
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Motorcycle
+Refer: span | Motorcycle
+Same
+Curr: nav | 
+
+Refer: nav | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Official Stores
+Refer: span | Official Stores
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Taobao Collection
+Refer: span | Taobao Collection
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Top Up & eStore
+Refer: span | Top Up & eStore
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Voucher
+Refer: span | Voucher
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: span | Home
+Refer: span | Home
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: span | 
+
+Refer: span | 
+
+Same
+Curr: span | Search Results
+Refer: span | Search Results
+Same
+Curr: span | 11615988 items found for "
+Curr: span | laptop
+Refer: span | laptop
+Same
+Curr: span | "
+Refer: span | "
+Same
+Curr: div | Sort By:
+Refer: div | Sort By:
+Same
+Curr: div | Popularity
+Refer: div | Popularity
+Same
+Curr: div | View:
+Refer: div | View:
+Same
+Curr: span | RM349.00
+Refer: span | RM349.00
+Same
+Curr: del | RM1,299.00
+Curr: span | -73%
+Curr: span | (116)
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM995.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (5)
+Refer: span | (5)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,699.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (15)
+Refer: span | (15)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM995.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,249.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,019.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (139)
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541N-AGO282T 15.6" Laptop Red (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (7)
+Refer: span | (7)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,349.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (26)
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM445.50
+Curr: del | RM590.80
+Curr: span | -25%
+Curr: span | (3)
+Refer: span | (3)
+Same
+Curr: span | Johore
+Refer: span | Johore
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Lenovo intel core i3 2367M 320GB 4GB WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e
+Curr: span | RM659.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Kedah
+Refer: span | Kedah
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM395.00
+Curr: del | RM599.00
+Curr: span | -34%
+Curr: span | (11)
+Refer: span | (11)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541N-AGO280T 15.6" Laptop Black (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (3)
+Refer: span | (3)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus VivoBook Max X441N-AGA142T 14" Laptop Aqua Blue (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (3)
+Refer: span | (3)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,699.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (13)
+Refer: span | (13)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | ACER A314-31-C0SG N3350 4GD3 500G WIN10H (BLACK) FREE ACER DESIGNED BACKPACK
+Curr: span | RM1,105.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | LENOVO IDEAPAD 110-14IBR 80T600AEMJ -BLACK (N3060/4GB/500GB/14"HD/W10/1YR) + BAG
+Curr: span | RM980.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (17)
+Curr: span | Johore
+Refer: span | Johore
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,019.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (123)
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a |  [Original imported Set] Apple 13.3" MacBook Air 128GB SSD MQD32LL/A (Mid 2017, Silver) 
+Curr: span | RM3,399.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (92)
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,499.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (30)
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,090.00
+Curr: del | RM2,899.00
+Curr: span | -28%
+Curr: span | (2)
+Refer: span | (2)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM3,099.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (8)
+Refer: span | (8)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,099.00
+Curr: del | RM1,499.00
+Curr: span | -27%
+Curr: span | (1)
+Refer: span | (1)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,099.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (7)
+Refer: span | (7)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM5,329.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (6)
+Refer: span | (6)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Lenovo Ideapad 120S Notebook - Stylish and Light with Intel Pentium Quad Core /4GB DDR4 / 14” LED 
+Curr: span | RM1,300.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | Pulau Pinang
+Refer: span | Pulau Pinang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541N-AGO281T 15.6" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (3)
+Refer: span | (3)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | REFURBISHED Dell Latitude 3330 Laptop, 3RD Gen i5,8GB, 500GB
+Curr: span | RM880.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (1)
+Refer: span | (1)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | ASUS VivoBook Max X441NA Series Notebook/Laptop (INTEL®DUAL-CORE N3350/4GB/500GB/14''/DVDRW/WIN10)
+Curr: span | RM1,285.50
+Curr: del | RM1,449.00
+Curr: span | -11%
+Curr: span | (6)
+Refer: span | (6)
+Same
+Curr: span | Perak
+Refer: span | Perak
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM550.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Dell Latitude E6410 Core i5 / 8GB RAM / 250GB HDD / Windows 10 Home Laptop / 3 Month Warranty (Factory Refurbished)
+Curr: span | RM1,107.00
+Curr: span | (1)
+Refer: span | (1)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a |  Acer Aspire ES14 ES1-432-C8AR Laptop(Intel Dual-Core Celeron/4GB D3/500GB/Intel HD/14˝HD/W10)Red
+Curr: span | RM1,109.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM399.00
+Curr: del | RM1,299.00
+Curr: span | -69%
+Curr: span | (35)
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus VivoBook Max X441N-AGA141T 14" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,135.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook S15 S510U-QBQ620T 15.6" FHD Laptop Gold ( i5-8250u, 4GB, 1TB, GT940MX 2GB, W10H )
+Curr: span | RM2,579.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (5)
+Refer: span | (5)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,559.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (1)
+Refer: span | (1)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541U-VXX1462T 15.6" Laptop Black (i3-6100U, 4GB, 1TB, GT920MX 2GB, W10)
+Curr: span | RM1,667.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (7)
+Refer: span | (7)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM2,449.00
+Curr: del | RM2,599.00
+Refer: del | RM2,599.00
+Same
+Curr: span | -6%
+Curr: span | (3)
+Refer: span | (3)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM399.00
+Curr: del | RM1,499.00
+Curr: span | -73%
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: span | RM1,039.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (1)
+Refer: span | (1)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Lenovo Ideapad 320-14ISK 80XG005VMJ 14" Laptop Black (i3-6006U, 4GB, 1TB, Integrated, DOS)
+Curr: span | RM1,345.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (2)
+Refer: span | (2)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | 1
+Refer: a | 1
+Same
+Curr: a | 2
+Curr: a | 3
+Refer: a | 3
+Same
+Curr: a | 4
+Refer: a | 4
+Same
+Curr: a | 5
+Refer: a | 5
+Same
+Curr: a | 102
+Refer: a | 102
+Same
+Curr: div | Related Categories
+Refer: div | Related Categories
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: a | Traditional Laptops
+Refer: a | Traditional Laptops
+Same
+Curr: a | Gaming
+Refer: a | Gaming
+Same
+Curr: a | 2-in-1s
+Refer: a | 2-in-1s
+Same
+Curr: a | Macbooks
+Refer: a | Macbooks
+Same
+Curr: a | All-In-One
+Refer: a | All-In-One
+Same
+Curr: a | Laptop Backpacks
+Refer: a | Laptop Backpacks
+Same
+Curr: a | Gaming
+Refer: a | Gaming
+Same
+Curr: a | Power Cord & Adaptors
+Refer: a | Power Cord & Adaptors
+Same
+Curr: a | Monitors
+Refer: a | Monitors
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | Brand
+Refer: div | Brand
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | HP
+Refer: span | HP
+Same
+Curr: span | ASUS
+Refer: span | ASUS
+Same
+Curr: span | Acer
+Refer: span | Acer
+Same
+Curr: span | Lenovo
+Refer: span | Lenovo
+Same
+Curr: span | Dell
+Refer: span | Dell
+Same
+Curr: span | Samsung
+Refer: span | Samsung
+Same
+Curr: span | MSI
+Refer: span | MSI
+Same
+Curr: span | Lenovo ThinkPad
+Refer: span | Lenovo ThinkPad
+Same
+Curr: span | NEC
+Refer: span | NEC
+Same
+Curr: span | Panasonic
+Refer: span | Panasonic
+Same
+Curr: span | Dell Computers
+Refer: span | Dell Computers
+Same
+Curr: span | Fujitsu
+Refer: span | Fujitsu
+Same
+Curr: span | Microsoft
+Refer: span | Microsoft
+Same
+Curr: span | Sony
+Refer: span | Sony
+Same
+Curr: span | Apple
+Refer: span | Apple
+Same
+Curr: span | Toshiba
+Refer: span | Toshiba
+Same
+Curr: span | Thunderobot
+Refer: span | Thunderobot
+Same
+Curr: span | Xiaomi
+Refer: span | Xiaomi
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | Service
+Refer: div | Service
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Cash On Delivery
+Refer: span | Cash On Delivery
+Same
+Curr: span | Fulfilled By Lazada
+Refer: span | Fulfilled By Lazada
+Same
+Curr: div | Location
+Refer: div | Location
+Same
+Curr: span | Local
+Refer: span | Local
+Same
+Curr: span | Overseas
+Refer: span | Overseas
+Same
+Curr: div | Price
+Refer: div | Price
+Same
+Curr: div | -
+Refer: div | -
+Same
+Curr: div | Rating
+Refer: div | Rating
+Same
+Curr: span |  
+Refer: span |  
+Same
+Curr: span |  And Up
+Refer: span |  And Up
+Same
+Curr: span |  And Up
+Refer: span |  And Up
+Same
+Curr: span |  And Up
+Refer: span |  And Up
+Same
+Curr: span |  And Up
+Refer: span |  And Up
+Same
+Curr: div | Color Family
+Refer: div | Color Family
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Black
+Refer: span | Black
+Same
+Curr: span | Silver
+Refer: span | Silver
+Same
+Curr: span | Grey
+Refer: span | Grey
+Same
+Curr: span | Red
+Refer: span | Red
+Same
+Curr: span | Gold
+Refer: span | Gold
+Same
+Curr: span | Pink
+Refer: span | Pink
+Same
+Curr: span | Blue
+Refer: span | Blue
+Same
+Curr: span | Green
+Refer: span | Green
+Same
+Curr: span | Aqua
+Refer: span | Aqua
+Same
+Curr: span | White
+Refer: span | White
+Same
+Curr: span | Burgundy
+Refer: span | Burgundy
+Same
+Curr: span | Neutral
+Refer: span | Neutral
+Same
+Curr: span | Bronze
+Refer: span | Bronze
+Same
+Curr: span | Purple
+Refer: span | Purple
+Same
+Curr: span | Galaxy
+Refer: span | Galaxy
+Same
+Curr: span | Rose Gold
+Refer: span | Rose Gold
+Same
+Curr: span | Rose
+Refer: span | Rose
+Same
+Curr: span | Clear
+Refer: span | Clear
+Same
+Curr: span | Orange
+Refer: span | Orange
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | Warranty Type
+Refer: div | Warranty Type
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Local Manufacturer Warranty
+Refer: span | Local Manufacturer Warranty
+Same
+Curr: span | Local Supplier Warranty
+Refer: span | Local Supplier Warranty
+Same
+Curr: span | International Manufacturer Warranty
+Refer: span | International Manufacturer Warranty
+Same
+Curr: span | No Warranty
+Refer: span | No Warranty
+Same
+Curr: span | International Seller Warranty
+Refer: span | International Seller Warranty
+Same
+Curr: div | Screen Size
+Refer: div | Screen Size
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | 14 - 14.9 Inches
+Refer: span | 14 - 14.9 Inches
+Same
+Curr: span | 15 - 15.9 Inches
+Refer: span | 15 - 15.9 Inches
+Same
+Curr: span | 11 - 11.9 Inches
+Refer: span | 11 - 11.9 Inches
+Same
+Curr: span | 13 - 13.9 Inches
+Refer: span | 13 - 13.9 Inches
+Same
+Curr: span | 11 Inches & Under
+Refer: span | 11 Inches & Under
+Same
+Curr: span | 12 - 12.9 Inches
+Refer: span | 12 - 12.9 Inches
+Same
+Curr: span | 17 Inches & Above
+Refer: span | 17 Inches & Above
+Same
+Curr: span | 16 - 16.9 Inches
+Refer: span | 16 - 16.9 Inches
+Same
+Curr: div | Warranty Period
+Refer: div | Warranty Period
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | 1 Year
+Refer: span | 1 Year
+Same
+Curr: span | 3 Months
+Refer: span | 3 Months
+Same
+Curr: span | 2 Years
+Refer: span | 2 Years
+Same
+Curr: span | 1 Month
+Refer: span | 1 Month
+Same
+Curr: span | 3 Years
+Refer: span | 3 Years
+Same
+Curr: span | 6 Months
+Refer: span | 6 Months
+Same
+Curr: span | 4 Months
+Refer: span | 4 Months
+Same
+Curr: span | 5 Years
+Refer: span | 5 Years
+Same
+Curr: span | Life Time Warranty
+Refer: span | Life Time Warranty
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | Hard Drive Capacity
+Refer: div | Hard Drive Capacity
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | 500GB
+Refer: span | 500GB
+Same
+Curr: span | 1TB
+Refer: span | 1TB
+Same
+Curr: span | 320GB
+Refer: span | 320GB
+Same
+Curr: span | 160GB
+Refer: span | 160GB
+Same
+Curr: span | 128GB
+Refer: span | 128GB
+Same
+Curr: span | 64GB
+Refer: span | 64GB
+Same
+Curr: span | 250GB
+Refer: span | 250GB
+Same
+Curr: span | 256GB
+Refer: span | 256GB
+Same
+Curr: span | 256gb SSD
+Refer: span | 256gb SSD
+Same
+Curr: span | 120GB & Under
+Refer: span | 120GB & Under
+Same
+Curr: span | 512GB
+Refer: span | 512GB
+Same
+Curr: span | 120GB
+Refer: span | 120GB
+Same
+Curr: span | 2TB
+Refer: span | 2TB
+Same
+Curr: span | 32GB
+Refer: span | 32GB
+Same
+Curr: span | 1.5TB
+Refer: span | 1.5TB
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | Processor Type
+Refer: div | Processor Type
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Dual-core
+Refer: span | Dual-core
+Same
+Curr: span | Quad-core
+Refer: span | Quad-core
+Same
+Curr: span | Intel Core i5
+Refer: span | Intel Core i5
+Same
+Curr: span | Single-core
+Refer: span | Single-core
+Same
+Curr: span | Intel Core i3
+Refer: span | Intel Core i3
+Same
+Curr: span | Intel Core i7
+Refer: span | Intel Core i7
+Same
+Curr: span | Octa-core
+Refer: span | Octa-core
+Same
+Curr: div | Operating System
+Refer: div | Operating System
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Windows
+Refer: span | Windows
+Same
+Curr: span | Windows 10
+Refer: span | Windows 10
+Same
+Curr: span | Windows 10 Pro 64
+Refer: span | Windows 10 Pro 64
+Same
+Curr: span | Windows 7
+Refer: span | Windows 7
+Same
+Curr: span | Windows 7 Pro
+Refer: span | Windows 7 Pro
+Same
+Curr: span | Android
+Refer: span | Android
+Same
+Curr: span | Windows 7 Professional
+Refer: span | Windows 7 Professional
+Same
+Curr: span | Free DOS 
+Refer: span | Free DOS 
+Same
+Curr: span | Android 4.4 KitKat
+Refer: span | Android 4.4 KitKat
+Same
+Curr: span | Windows XP
+Refer: span | Windows XP
+Same
+Curr: span | Mac OS X
+Refer: span | Mac OS X
+Same
+Curr: span | Windows 8.1
+Refer: span | Windows 8.1
+Same
+Curr: div | VIEW MORE
+Refer: div | VIEW MORE
+Same
+Curr: div | System Memory
+Refer: div | System Memory
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | 4GB
+Refer: span | 4GB
+Same
+Curr: span | 2GB
+Refer: span | 2GB
+Same
+Curr: span | 8GB
+Refer: span | 8GB
+Same
+Curr: span | 6GB
+Refer: span | 6GB
+Same
+Curr: span | 16GB & Up
+Refer: span | 16GB & Up
+Same
+Curr: span | 1GB & Under
+Refer: span | 1GB & Under
+Same
+Curr: span | 16GB
+Refer: span | 16GB
+Same
+Curr: div | Touchpad
+Refer: div | Touchpad
+Same
+Curr: div |  
+Refer: div |  
+Same
+Curr: span | Yes
+Refer: span | Yes
+Same
+Curr: span | No
+Refer: span | No
+Same
+Curr: h3 | Seller Picks
+Refer: h3 | Seller Picks
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> |  en 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> |  en 
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: section | 
+
+Refer: section | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | CONTACT US
+Refer: h3 | CONTACT US
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: a | Help Center
+Refer: a | Help Center
+Same
+Curr: a | Payment
+Refer: a | Payment
+Same
+Curr: a | How to Buy
+Refer: a | How to Buy
+Same
+Curr: a | Shipping & Delivery
+Refer: a | Shipping & Delivery
+Same
+Curr: a | International Product Policy
+Refer: a | International Product Policy
+Same
+Curr: a | How to Return
+Refer: a | How to Return
+Same
+Curr: a | Question?
+Refer: a | Question?
+Same
+Curr: a | Contact Us
+Refer: a | Contact Us
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Lazada
+Refer: h3 | Lazada
+Same
+Curr: ul | 
+
+Refer: ul | 
+
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | About Lazada
+Refer: a | About Lazada
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Afﬁliate Program
+Refer: a | Afﬁliate Program
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Careers
+Refer: a | Careers
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Terms & Conditions
+Refer: a | Terms & Conditions
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Privacy Policy
+Refer: a | Privacy Policy
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Press & Media
+Refer: a | Press & Media
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Popular Pages
+Refer: a | Popular Pages
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Campaign Terms & Conditions
+Refer: a | Campaign Terms & Conditions
+Same
+Curr: li | 
+
+Refer: li | 
+
+Same
+Curr: a | Redmart
+Refer: a | Redmart
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Exclusive Deals and Offers!
+Refer: h3 | Exclusive Deals and Offers!
+Same
+Curr: div | Subscribe and be the first to get great deals!
+Refer: div | Subscribe and be the first to get great deals!
+Same
+Curr: form | 
+
+Refer: form | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: label | Male
+Refer: label | Male
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: label | Female
+Refer: label | Female
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | Effortless Shopping
+Refer: div | Effortless Shopping
+Same
+Curr: div | Download the App
+Refer: div | Download the App
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Payment Methods
+Refer: h3 | Payment Methods
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Delivery Services
+Refer: h3 | Delivery Services
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30" 
+Same
+Curr: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30" 
+Refer: <cyfunction Comment at 0x00000229F675FBC8> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30" 
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Verified by
+Refer: h3 | Verified by
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Lazada Southeast Asia
+Refer: h3 | Lazada Southeast Asia
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: h3 | Follow Us
+Refer: h3 | Follow Us
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: a | 
+
+Refer: a | 
+
+Same
+Curr: div | 
+
+Refer: div | 
+
+Same
+Curr: div | 
+    © Lazada 2018
+    
+Refer: div | 
+    © Lazada 2018
+    
+Same

@@ -15,7 +15,8 @@ class Node:
         self.link_chars = 0 # Hyperlink characters count
         self.non_link_chars = 0 # Non-hyperlink characters count
         self.link_tags = 0  # Hyperlink tags count
-        self.is_content = False 
+        self.is_content = False
+        self.duplicate_count = 0
     
     def is_same(e1, e2):    # Compare if two elements are the same instance
         if e1 == None or e2 == None:

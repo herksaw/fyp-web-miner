@@ -17,6 +17,9 @@ class Node:
         self.link_tags = 0  # Hyperlink tags count
         self.is_content = False
         self.duplicate_count = 0
+        self.parent_count = 0
+        self.same_child_count = []
+        self.largest_child_trait = {}
     
     def is_same(e1, e2):    # Compare if two elements are the same instance
         if e1 == None or e2 == None:

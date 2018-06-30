@@ -34,29 +34,7 @@ class Parser:
     threshold = 0
 
     def __init__(self):
-        pass
-
-    def start_parsing_with_js(self):
-        root_path = os.path.join(os.path.abspath(
-            os.path.dirname(__file__)), "../")
-
-        curr_url = self.url_list[5]
-
-        session = HTMLSession()
-        r = session.get(curr_url)
-
-        r.html.render()
-
-        out_name = ""
-
-        if curr_url[-1] == "/":
-            out_name = curr_url[:len(curr_url) - 1]
-
-        out_name = root_path + const.DIR_OUTPUT + \
-            out_name[out_name.find("//") + 2:] + ".txt"
-
-        with codecs.open(out_name, "w", "utf-8") as output:
-            output.write("{}\n".format(r.html.lxml.getroot()))
+        pass    
 
     def start_parsing(self):
         # path = os.path.join(os.path.abspath(
@@ -150,8 +128,6 @@ class Parser:
 
         self.write_info(link_dict_list[1]["url"], refer_node_list)
 
-        result_node_list = []
-
         print("Done.")
         print("Searching for duplicated nodes...")    
 
@@ -168,23 +144,68 @@ class Parser:
         with codecs.open(out_name, "w", "utf-8") as output:
             for curr in curr_node_list:
                 if curr.el.text != None:
-                    output.write("Curr: {} | {}\n".format(curr.tag, curr.el.text))
+                    output.write("Curr: {} | {}\n".format(curr.el.tag, curr.el.text))
                     for refer in refer_node_list:
                         if refer.el.text != None:
-                            if curr.el.text == refer.el.text and curr.tag == refer.tag:
-                                output.write("Refer: {} | {}\n".format(refer.tag, refer.el.text))
+                            # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
+                            if Node.is_same(curr.el, refer.el):
+                                output.write("Refer: {} | {}\n".format(refer.el.tag, refer.el.text))
                                 output.write("{}\n".format("Same"))
                                 curr.duplicate_count = curr.duplicate_count + 1
-                                break                    
-
-        for curr in curr_node_list:
-            if curr.duplicate_count == 0 and curr.el.text != None:
-                result_node_list.append(curr)
+                                break
 
         print("Done.")
-        print("Writing nodes into file...")
+        print("Counting number of children for each node...")
 
-        self.write_node(curr_url, result_node_list)
+        result_node_list = []   
+
+        for curr in curr_node_list:
+            if curr.duplicate_count == 0 and curr.el.text != None:                
+                curr.el.set("fyp-web-miner", "content")
+                result_node_list.append(curr)
+
+        for node in curr_node_list:            
+            curr_child_el = None
+            index = 0
+            node.same_child_count.append(0)
+            curr_largest = -1
+
+            for child_el in node.el.iterchildren():
+                if child_el.tag != "meta":
+                    curr_child_el = child_el
+                    break
+
+            for child_el in node.el.iterchildren():
+                if child_el.tag != "meta":
+                    if curr_child_el.tag == child_el.tag and curr_child_el.keys() == child_el.keys():                        
+                        node.same_child_count[index] = node.same_child_count[index] + 1
+                    else:
+                        if node.same_child_count[index] > curr_largest:
+                            curr_largest = node.same_child_count[index]
+                            node.largest_child_trait["tag"] = curr_child_el.tag
+                            node.largest_child_trait["keys"] = curr_child_el.keys()
+
+                        curr_child_el = child_el
+                        index = index + 1
+                        node.same_child_count.append(0)
+
+            node.same_child_count.sort(reverse=True)
+
+        selected_node = curr_node_list[0]
+
+        for node in curr_node_list:
+            if node.same_child_count[0] > selected_node.same_child_count[0]:
+                selected_node = node
+
+        selected_node.el.set("fyp-web-miner", "same-child-count")
+
+        self.write_info(curr_url, curr_node_list)
+
+        print("Done.")
+        print("Writing nodes into file...") 
+
+        self.write_same_children(curr_url, selected_node)
+        self.write_diff_pages(curr_url, result_node_list)
 
         print("Done.")
 
@@ -195,17 +216,22 @@ class Parser:
             if element.tag != "script" and element.tag != "style":
                 node = Node()
                 node.el = element
-                node.tag = element.tag
+                # node.tag = element.tag
+
+                if node.el.text != None:
+                    node.el.text = node.el.text.strip()
+
                 # node.tag = element.tag[const.TAG_TRIM_LEN:]
+
+                for parent in node.el.iterancestors():
+                    node.parent_count = node.parent_count + 1
 
                 node_list.append(node)
 
-        for p_node in node_list:
-            for c_node in node_list:
-                if (Node.is_same(p_node.el, c_node.el.getparent())):
-                    p_node.children.append(c_node)
-
-        # self.write_node(curr_url, node_list)
+        # for p_node in node_list:
+        #     for c_node in node_list:
+        #         if (Node.is_same(p_node.el, c_node.el.getparent())):
+        #             p_node.children.append(c_node)
 
         return node_list
 
@@ -225,53 +251,64 @@ class Parser:
 
         # return root
 
-    def calculate_td(self, node):
-        node.chars += len(node.el.text) if node.el.text != None else 0
+    # def calculate_td(self, node):
+    #     node.chars += len(node.el.text) if node.el.text != None else 0
 
-        for child_node in node.children:
-            node.tags += child_node.tags
+    #     for child_node in node.children:
+    #         node.tags += child_node.tags
 
-            if child_node.tag != "a":
-                node.chars += child_node.chars
+    #         if child_node.el.tag != "a":
+    #             node.chars += child_node.chars
 
-        node.td = float(node.chars) / node.tags
+    #     node.td = float(node.chars) / node.tags
 
-    def init_ctd(self, node):
-        node.all_chars += len(node.el.text) if node.el.text != None else 0
+    # def init_ctd(self, node):
+    #     node.all_chars += len(node.el.text) if node.el.text != None else 0
 
-        if node.tag != "a":
-            node.non_link_chars += node.all_chars
-        else:
-            node.link_chars += node.all_chars
-            node.link_tags += 1
+    #     if node.el.tag != "a":
+    #         node.non_link_chars += node.all_chars
+    #     else:
+    #         node.link_chars += node.all_chars
+    #         node.link_tags += 1
 
-        for child_node in node.children:
-            node.all_tags += child_node.all_tags
-            node.all_chars += child_node.all_chars
+    #     for child_node in node.children:
+    #         node.all_tags += child_node.all_tags
+    #         node.all_chars += child_node.all_chars
 
-            if child_node.tag != "a":
-                node.non_link_chars += child_node.non_link_chars
-            else:
-                node.link_chars += child_node.link_chars
-                node.link_tags += child_node.link_tags
+    #         if child_node.el.tag != "a":
+    #             node.non_link_chars += child_node.non_link_chars
+    #         else:
+    #             node.link_chars += child_node.link_chars
+    #             node.link_tags += child_node.link_tags
 
-        if node.tag == "body":
-            Node.body_chars = node.all_chars
-            Node.body_link_chars = node.link_chars
+    #     if node.el.tag == "body":
+    #         Node.body_chars = node.all_chars
+    #         Node.body_link_chars = node.link_chars
 
-    def calculate_ctd(self, node):
-        link_chars_proportion = (float(node.all_chars) /
-                                 node.link_chars) if node.link_chars != 0 else 1
-        link_tags_proportion = (float(node.all_tags) /
-                                node.link_tags) if node.link_tags != 0 else 1
-        non_link_chars = node.non_link_chars if node.non_link_chars != 0 else 1
+    # def calculate_ctd(self, node):
+    #     link_chars_proportion = (float(node.all_chars) /
+    #                              node.link_chars) if node.link_chars != 0 else 1
+    #     link_tags_proportion = (float(node.all_tags) /
+    #                             node.link_tags) if node.link_tags != 0 else 1
+    #     non_link_chars = node.non_link_chars if node.non_link_chars != 0 else 1
 
-        node.ctd = float(node.all_chars) / node.all_tags * (math.log10(math.log(
-            (float(node.chars) / non_link_chars * node.link_chars) +
-            (float(Node.body_link_chars) / Node.body_chars * node.all_chars) + math.e)) *
-            (link_chars_proportion * link_tags_proportion))
+    #     node.ctd = float(node.all_chars) / node.all_tags * (math.log10(math.log(
+    #         (float(node.chars) / non_link_chars * node.link_chars) +
+    #         (float(Node.body_link_chars) / Node.body_chars * node.all_chars) + math.e)) *
+    #         (link_chars_proportion * link_tags_proportion))
+    # def calculate_ctd(self, node):
+    #     link_chars_proportion = (float(node.all_chars) /
+    #                              node.link_chars) if node.link_chars != 0 else 1
+    #     link_tags_proportion = (float(node.all_tags) /
+    #                             node.link_tags) if node.link_tags != 0 else 1
+    #     non_link_chars = node.non_link_chars if node.non_link_chars != 0 else 1
 
-    def write_node(self, curr_url, node_list):
+    #     node.ctd = float(node.all_chars) / node.all_tags * (math.log10(math.log(
+    #         (float(node.chars) / non_link_chars * node.link_chars) +
+    #         (float(Node.body_link_chars) / Node.body_chars * node.all_chars) + math.e)) *
+    #         (link_chars_proportion * link_tags_proportion))
+
+    def write_same_children(self, curr_url, selected_node):
         root_path = os.path.join(os.path.abspath(
             os.path.dirname(__file__)), "../")
 
@@ -280,7 +317,28 @@ class Parser:
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
 
-        out_name = root_path + const.DIR_OUTPUT_NODE + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+        out_name = root_path + const.DIR_OUTPUT_SAME_CHILDREN + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+
+        with codecs.open(out_name, "w", "utf-8") as output:
+            for el in selected_node.el.iterchildren():
+                if selected_node.largest_child_trait["tag"] == el.tag and selected_node.largest_child_trait["keys"] == el.keys():
+                    for child_el in el.iter():
+                        # if child_el.get("fyp-web-miner") == "content":
+                        if child_el.text != None and child_el.tag != "button":
+                            output.write("{}\n".format(child_el.text))
+                
+                output.write("{}\n".format("-" * 64))
+
+    def write_diff_pages(self, curr_url, result_node_list):
+        root_path = os.path.join(os.path.abspath(
+            os.path.dirname(__file__)), "../")
+
+        out_name = curr_url
+
+        if curr_url[-1] == "/":
+            out_name = curr_url[:len(curr_url) - 1]
+
+        out_name = root_path + const.DIR_OUTPUT_DIFF_PAGES + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             # for node in reversed(node_list):
@@ -293,9 +351,8 @@ class Parser:
 
             #     self.init_ctd(node)
 
-            for node in node_list:
-                output.write("{}\n".format(node.el.text))
-                # pass
+            for node in result_node_list:
+                output.write("{} | {}\n".format("-" * node.parent_count, node.el.text))
 
     def write_query(self, curr_url, query_list):
         root_path = os.path.join(os.path.abspath(
@@ -320,9 +377,9 @@ class Parser:
 
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
-
+    
         out_name = root_path + const.DIR_OUTPUT_INFO + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for info in info_list:
-                output.write("{} | {} | {}\n".format(info.tag, info.el.text, info.el.items()))
+                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.same_child_count, info.el.text, info.el.items()))

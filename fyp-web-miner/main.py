@@ -10,5 +10,3 @@ if __name__ == "__main__":
     parser = Parser()
 
     parser.start_parsing()
-
-    # parser.start_parsing_with_js()

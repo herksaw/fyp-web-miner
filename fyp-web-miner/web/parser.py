@@ -180,14 +180,14 @@ class Parser:
                     if curr_child_el.tag == child_el.tag and curr_child_el.keys() == child_el.keys():                        
                         node.same_child_count[index] = node.same_child_count[index] + 1
                     else:
-                        if node.same_child_count[index] > curr_largest:
+                        curr_child_el = child_el
+                        index = index + 1                    
+                        node.same_child_count.append(0)
+
+                    if node.same_child_count[index] > curr_largest:
                             curr_largest = node.same_child_count[index]
                             node.largest_child_trait["tag"] = curr_child_el.tag
-                            node.largest_child_trait["keys"] = curr_child_el.keys()
-
-                        curr_child_el = child_el
-                        index = index + 1
-                        node.same_child_count.append(0)
+                            node.largest_child_trait["keys"] = curr_child_el.keys()                    
 
             node.same_child_count.sort(reverse=True)
 
@@ -321,7 +321,7 @@ class Parser:
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for el in selected_node.el.iterchildren():
-                if selected_node.largest_child_trait["tag"] == el.tag and selected_node.largest_child_trait["keys"] == el.keys():
+                if selected_node.largest_child_trait.get("tag") == el.tag and selected_node.largest_child_trait.get("keys") == el.keys():
                     for child_el in el.iter():
                         # if child_el.get("fyp-web-miner") == "content":
                         if child_el.text != None and child_el.tag != "button":

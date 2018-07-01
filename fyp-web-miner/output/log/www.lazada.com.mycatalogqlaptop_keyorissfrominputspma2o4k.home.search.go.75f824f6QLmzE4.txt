@@ -175,8 +175,8 @@ Same
 Curr: div | Track my order
 Refer: div | Track my order
 Same
-Curr: label | Please confirm your email:
-Refer: label | Please confirm your email:
+Curr: form | 
+Refer: form | 
 Same
 Curr: label | Your order number:
 Refer: label | Your order number:
@@ -280,8 +280,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | 
-Refer: div | 
-Same
 Curr: div | 
 Refer: div | 
 Same
@@ -1566,7 +1564,7 @@ Same
 Curr: span | Search Results
 Refer: span | Search Results
 Same
-Curr: span | 12313014 items found for "
+Curr: span | 12652204 items found for "
 Curr: span | laptop
 Refer: span | laptop
 Same
@@ -1582,27 +1580,31 @@ Same
 Curr: div | View:
 Refer: div | View:
 Same
+Curr: a | SAMSUNG XE303C12-A01US Chromebook Samsung Exynos 1.70 GHz 2 GB Memory 16 GB SSD 11.6" Google Chrome OS(Refurbished)
 Curr: span | RM349.00
-Refer: span | RM349.00
-Same
 Curr: del | RM1,299.00
-Refer: del | RM1,299.00
-Same
 Curr: span | -73%
-Refer: span | -73%
-Same
 Curr: span | (117)
-Refer: span | (117)
-Same
 Curr: span | Federal Territory of Kuala Lumpur
 Refer: span | Federal Territory of Kuala Lumpur
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM1,249.00
-Refer: span | RM1,249.00
+Curr: a | HP Notebook Black 14-bS537TU (N3060/4GB/500GB/W10/14")
+Curr: span | RM989.00
+Curr: div | Installment available
+Refer: div | Installment available
 Same
+Curr: span | (7)
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | HP 14-bs537TU Laptop (Celeron N3060, 4GBD3, 500GB, 14.0", Win10) - Jet Black + HP 2135 Deskjet Printer + Free Backpack
+Curr: span | RM1,249.00
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -1615,47 +1617,24 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM989.00
-Refer: span | RM989.00
-Same
+Curr: a | Acer Aspire E14-E5-476G-53M0 14" Laptop (Steel Grey)
+Curr: span | RM2,349.00
 Curr: div | Installment available
 Refer: div | Installment available
 Same
-Curr: span | (7)
-Refer: span | (7)
-Same
-Curr: span | Pahang
-Refer: span | Pahang
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM1,019.00
-Refer: span | RM1,019.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (140)
-Refer: span | (140)
-Same
+Curr: span | (26)
 Curr: span | Selangor
 Refer: span | Selangor
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM1,420.00
-Refer: span | RM1,420.00
+Curr: a | Microsoft Surface Pro i5 - 128GB SSD/ 8GB [Free Type Cover Platinum]
+Curr: span | RM4,039.00
+Refer: span | RM4,039.00
 Same
-Curr: del | RM2,799.00
-Refer: del | RM2,799.00
-Same
-Curr: span | -49%
-Refer: span | -49%
-Same
-Curr: span | (6)
-Refer: span | (6)
+Curr: span | (5)
+Refer: span | (5)
 Same
 Curr: span | Federal Territory of Kuala Lumpur
 Refer: span | Federal Territory of Kuala Lumpur
@@ -1663,12 +1642,20 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | Acer Aspire ES14 ES1-432-C8AR 14" Notebook (Red) + AcerFreeBackpack
+Curr: span | RM1,049.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (140)
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
 Curr: a | Asus Vivobook Max X541N-AGO282T 15.6" Laptop Red (N3350, 4GB, 500GB, Intel, W10)
-Refer: a | Asus Vivobook Max X541N-AGO282T 15.6" Laptop Red (N3350, 4GB, 500GB, Intel, W10)
-Same
 Curr: span | RM1,073.00
-Refer: span | RM1,073.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -1681,60 +1668,10 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM2,349.00
-Refer: span | RM2,349.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (26)
-Refer: span | (26)
-Same
-Curr: span | Selangor
-Refer: span | Selangor
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: a | YEPO 737A Laptop Apollo 13.3 inch Laptop Intel Celeron N3450 Notebook 6GB RAM 64GB eMMC
-Refer: a | YEPO 737A Laptop Apollo 13.3 inch Laptop Intel Celeron N3450 Notebook 6GB RAM 64GB eMMC
-Same
-Curr: span | RM849.99
-Refer: span | RM849.99
-Same
-Curr: span | (4)
-Refer: span | (4)
-Same
-Curr: span | China
-Refer: span | China
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM995.00
-Refer: span | RM995.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (4)
-Refer: span | (4)
-Same
-Curr: span | Pahang
-Refer: span | Pahang
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
+Curr: a | (REFURBISHED) Laptop NEC Intel Celeron 2GB DDR3 12" 320GB HDD
 Curr: span | RM395.00
-Refer: span | RM395.00
-Same
 Curr: del | RM599.00
-Refer: del | RM599.00
-Same
 Curr: span | -34%
-Refer: span | -34%
-Same
 Curr: span | (11)
 Refer: span | (11)
 Same
@@ -1744,6 +1681,7 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | HP 14-BS537TU Notebook /(2BD72PA#UUF) + Free HP X3000 Wireless Mouse n HP H2800 Headset
 Curr: span | RM1,039.00
 Refer: span | RM1,039.00
 Same
@@ -1759,9 +1697,31 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM2,699.00
-Refer: span | RM2,699.00
+Curr: a | YEPO 737A Laptop Apollo 13.3 inch Laptop Intel Celeron N3450 Notebook 6GB RAM 64GB eMMC
+Curr: span | RM849.99
+Curr: span | (4)
+Refer: span | (4)
 Same
+Curr: span | China
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | HP Notebook 14-bs538TU (SILVER) N3060/4GD3/500GB/W10/14"
+Curr: span | RM995.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Acer Swift 3 SF315-51-54ZB 15.6" Laptop (Stellar Blue)
+Curr: span | RM2,699.00
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -1774,12 +1734,62 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | HP 14-bs538TU Laptop (Celeron N3060, 4GBD3, 500GB, 14.0", Win10) - Natural Silver + Free 1 X  HP Mini Pillow & HP X3000 Wireless Mouse
+Curr: span | RM1,099.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (7)
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541N-AGO280T 15.6" Laptop Black (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus VivoBook Max X441N-AGA142T 14" Laptop Aqua Blue (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Asus Vivobook Max X541N-AGO281T 15.6" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
+Curr: span | RM1,073.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
 Curr: a | Lenovo intel core i3 2367M 320GB 4GB WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e
-Refer: a | Lenovo intel core i3 2367M 320GB 4GB WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e
-Same
 Curr: span | RM659.00
-Refer: span | RM659.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -1792,99 +1802,24 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | Asus Vivobook Max X541N-AGO280T 15.6" Laptop Black (N3350, 4GB, 500GB, Intel, W10)
-Refer: a | Asus Vivobook Max X541N-AGO280T 15.6" Laptop Black (N3350, 4GB, 500GB, Intel, W10)
-Same
-Curr: span | RM1,073.00
-Refer: span | RM1,073.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (3)
-Refer: span | (3)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM2,699.00
-Refer: span | RM2,699.00
-Same
+Curr: a | Acer Swift 3 SF315-51-520J 15.6" Laptop (Sparkly Silver)
+Curr: span | RM2,449.00
 Curr: div | Installment available
 Refer: div | Installment available
 Same
 Curr: span | (13)
-Refer: span | (13)
-Same
 Curr: span | Selangor
 Refer: span | Selangor
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM1,099.00
-Refer: span | RM1,099.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (7)
-Refer: span | (7)
-Same
-Curr: span | Selangor
-Refer: span | Selangor
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: a | Asus VivoBook Max X441N-AGA142T 14" Laptop Aqua Blue (N3350, 4GB, 500GB, Intel, W10)
-Refer: a | Asus VivoBook Max X441N-AGA142T 14" Laptop Aqua Blue (N3350, 4GB, 500GB, Intel, W10)
-Same
-Curr: span | RM1,073.00
-Refer: span | RM1,073.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (4)
-Refer: span | (4)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: a | [Original imported Set] Apple 13.3" MacBook Air 128GB SSD MQD32LL/A (Mid 2017, Silver)
-Refer: a | [Original imported Set] Apple 13.3" MacBook Air 128GB SSD MQD32LL/A (Mid 2017, Silver)
-Same
-Curr: span | RM3,399.00
-Refer: span | RM3,399.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (93)
-Refer: span | (93)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
+Curr: a | Acer AC700-1090 11.6-Inch Chromebook  Intel Atom
 Curr: span | RM399.00
-Refer: span | RM399.00
-Same
 Curr: del | RM1,499.00
 Refer: del | RM1,499.00
 Same
 Curr: span | -73%
-Refer: span | -73%
-Same
 Curr: span | (4)
 Refer: span | (4)
 Same
@@ -1894,33 +1829,14 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | Asus Vivobook Max X541N-AGO281T 15.6" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
-Refer: a | Asus Vivobook Max X541N-AGO281T 15.6" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
-Same
-Curr: span | RM1,073.00
-Refer: span | RM1,073.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (4)
-Refer: span | (4)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
+Curr: a | HP ELITEBOOK 840 G1 - ULTRABOOK SUPERDUTY [CORE I5  4GB  1TB HDD] 1 YEAR WARRANTY
 Curr: span | RM1,499.00
 Refer: span | RM1,499.00
 Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
-Curr: span | (31)
-Refer: span | (31)
-Same
+Curr: span | (33)
 Curr: span | Federal Territory of Kuala Lumpur
 Refer: span | Federal Territory of Kuala Lumpur
 Same
@@ -1928,8 +1844,6 @@ Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
 Curr: a | Asus Vivobook Max X541U-VXX1462T 15.6" Laptop Black (i3-6100U, 4GB, 1TB, GT920MX 2GB, W10)
-Refer: a | Asus Vivobook Max X541U-VXX1462T 15.6" Laptop Black (i3-6100U, 4GB, 1TB, GT920MX 2GB, W10)
-Same
 Curr: span | RM1,667.00
 Refer: span | RM1,667.00
 Same
@@ -1945,33 +1859,10 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | LENOVO IDEAPAD 110-14IBR 80T600AEMJ -BLACK (N3060/4GB/500GB/14"HD/W10/1YR) + BAG
-Refer: a | LENOVO IDEAPAD 110-14IBR 80T600AEMJ -BLACK (N3060/4GB/500GB/14"HD/W10/1YR) + BAG
-Same
-Curr: span | RM969.00
-Refer: span | RM969.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (17)
-Refer: span | (17)
-Same
-Curr: span | Johore
-Refer: span | Johore
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM575.00
-Refer: span | RM575.00
-Same
+Curr: a | [Refurbished] HP Probook 6550b/Core i5-520M 2.40GHz/250GB HDD/4GB RAM
+Curr: span | RM599.00
 Curr: del | RM840.00
-Refer: del | RM840.00
-Same
-Curr: span | -32%
-Refer: span | -32%
-Same
+Curr: span | -29%
 Curr: span | (4)
 Refer: span | (4)
 Same
@@ -1982,11 +1873,7 @@ Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
 Curr: a | REFURBISHED Dell Latitude 3330 Laptop, 3RD Gen i5,8GB, 500GB
-Refer: a | REFURBISHED Dell Latitude 3330 Laptop, 3RD Gen i5,8GB, 500GB
-Same
 Curr: span | RM880.00
-Refer: span | RM880.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -1999,42 +1886,8 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | ACER A314-31-C0SG N3350 4GD3 500G WIN10H (BLACK) FREE ACER DESIGNED BACKPACK
-Refer: a | ACER A314-31-C0SG N3350 4GD3 500G WIN10H (BLACK) FREE ACER DESIGNED BACKPACK
-Same
-Curr: span | RM1,105.00
-Refer: span | RM1,105.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (4)
-Refer: span | (4)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM699.00
-Refer: span | RM699.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (14)
-Refer: span | (14)
-Same
-Curr: span | Federal Territory of Kuala Lumpur
-Refer: span | Federal Territory of Kuala Lumpur
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
+Curr: a | HP 15-bs642TX  Core i5  4GB  1TB  AMD 520 2GB  15.6" - Silver
 Curr: span | RM2,216.00
-Refer: span | RM2,216.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -2047,12 +1900,49 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | Refurbished Lenovo Thinkpad T420 Intel Core i5-2520M 2.50GHz,4GB RAM,320GB HDD, Win 7 Pro License
+Curr: span | RM799.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (8)
+Refer: span | (8)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | ACER A314-31-C0SG N3350 4GD3 500G WIN10H (BLACK) FREE ACER DESIGNED BACKPACK
+Curr: span | RM1,105.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (4)
+Refer: span | (4)
+Same
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Lenovo IdeaPad 320s-14IKB 14" Laptop 81BN002XMJ / 81BN002YMJ (INTEL® CORE™ i5-8250U PROCESSOR)
+Curr: span | RM2,080.00
+Curr: del | RM2,899.00
+Curr: span | -28%
+Curr: span | (2)
+Refer: span | (2)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
 Curr: a | Dell Inspiron 3467-50412G-W10 14" Laptop Black (i7-7500U, 4GB, 1TB, R5 M430 2GB, W10)
-Refer: a | Dell Inspiron 3467-50412G-W10 14" Laptop Black (i7-7500U, 4GB, 1TB, R5 M430 2GB, W10)
-Same
 Curr: span | RM2,258.00
-Refer: span | RM2,258.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -2065,15 +1955,12 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | HP 14-bs537tu/ 14-bs538tu 14" (N3060, 4GB, 500GB) Laptop/ Notebook
 Curr: span | RM1,099.00
-Refer: span | RM1,099.00
-Same
 Curr: del | RM1,499.00
 Refer: del | RM1,499.00
 Same
 Curr: span | -27%
-Refer: span | -27%
-Same
 Curr: span | (1)
 Refer: span | (1)
 Same
@@ -2083,68 +1970,52 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | Acer Aspire E15 E5-576G-54KG Laptop - 15.6" / i5-8250 / 4GB / 1TB / NV MX150 2GB / W10 (Rococo Red) +  FREE ACER BACKPACK
-Refer: a | Acer Aspire E15 E5-576G-54KG Laptop - 15.6" / i5-8250 / 4GB / 1TB / NV MX150 2GB / W10 (Rococo Red) +  FREE ACER BACKPACK
-Same
-Curr: span | RM2,395.00
-Refer: span | RM2,395.00
-Same
+Curr: a | (REFURBISHED) LENOVO THINK PAD X220 INTEL CORE i5  2ND GEN/4GB/160GB/INTEL HD GRAPHIC /W7
+Curr: span | RM699.00
 Curr: div | Installment available
 Refer: div | Installment available
 Same
-Curr: span | (2)
-Refer: span | (2)
-Same
-Curr: span | Pahang
-Refer: span | Pahang
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: span | RM2,090.00
-Refer: span | RM2,090.00
-Same
-Curr: del | RM2,899.00
-Refer: del | RM2,899.00
-Same
-Curr: span | -28%
-Refer: span | -28%
-Same
-Curr: span | (2)
-Refer: span | (2)
-Same
-Curr: span | Pahang
-Refer: span | Pahang
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
-Curr: a | Asus Vivobook Max X541U-VXX1464T 15.6" Laptop Red (i3-6100U, 4GB, 1TB, GT920MX 2GB, W10)
-Refer: a | Asus Vivobook Max X541U-VXX1464T 15.6" Laptop Red (i3-6100U, 4GB, 1TB, GT920MX 2GB, W10)
-Same
-Curr: span | RM1,667.00
-Refer: span | RM1,667.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (5)
-Refer: span | (5)
-Same
+Curr: span | (14)
 Curr: span | Federal Territory of Kuala Lumpur
 Refer: span | Federal Territory of Kuala Lumpur
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM445.50
-Refer: span | RM445.50
+Curr: a | Acer Aspire E15 E5-576G-58RV Intel i5 8250 / 4GB DDR3L / 1TB / Nvidia MX150 2GB DDR5/ 15.6" FHD LED / Win 10 Notebook (Obsidian Black) + Free Backpack
+Curr: span | RM2,299.00
+Curr: del | RM2,549.00
+Curr: span | -10%
+Refer: span | -10%
 Same
+Curr: span | (2)
+Refer: span | (2)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Acer Aspire E15 E5-576G-54KG Laptop - 15.6" / i5-8250 / 4GB / 1TB / NV MX150 2GB / W10 (Rococo Red) +  FREE ACER BACKPACK
+Curr: span | RM2,395.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (2)
+Refer: span | (2)
+Same
+Curr: span | Pahang
+Refer: span | Pahang
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | Refurb Panasonic CF-Y9 Core 2 Duo~4Gb~250Gb~W7 Pro
+Curr: span | RM531.72
 Curr: del | RM590.80
-Refer: del | RM590.80
-Same
-Curr: span | -25%
-Refer: span | -25%
+Curr: span | -10%
+Refer: span | -10%
 Same
 Curr: span | (3)
 Refer: span | (3)
@@ -2155,12 +2026,20 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
+Curr: a | HP 14-BS537TU BLACK (N3060/4GB/500GB/14'/W10/1YR)
+Curr: span | RM960.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (9)
+Curr: span | Johore
+Refer: span | Johore
+Same
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
 Curr: a | HP Pavilion 15-CS0033TX (I5-8250U,4GB,1TB,MX150 2GB,15.6" FULL HD,WIN10,NO ODD,GOLD,2 YEARS WARRANTY)
-Refer: a | HP Pavilion 15-CS0033TX (I5-8250U,4GB,1TB,MX150 2GB,15.6" FULL HD,WIN10,NO ODD,GOLD,2 YEARS WARRANTY)
-Same
 Curr: span | RM2,488.00
-Refer: span | RM2,488.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -2173,30 +2052,9 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM960.00
-Refer: span | RM960.00
-Same
-Curr: div | Installment available
-Refer: div | Installment available
-Same
-Curr: span | (9)
-Refer: span | (9)
-Same
-Curr: span | Johore
-Refer: span | Johore
-Same
-Curr: button | ADD TO CART
-Refer: button | ADD TO CART
-Same
 Curr: a | ASUS VivoBook Max X441NA Series Notebook/Laptop (INTEL®DUAL-CORE N3350/4GB/500GB/14''/DVDRW/WIN10)
-Refer: a | ASUS VivoBook Max X441NA Series Notebook/Laptop (INTEL®DUAL-CORE N3350/4GB/500GB/14''/DVDRW/WIN10)
-Same
 Curr: span | RM1,285.50
-Refer: span | RM1,285.50
-Same
 Curr: del | RM1,449.00
-Refer: del | RM1,449.00
-Same
 Curr: span | -11%
 Refer: span | -11%
 Same
@@ -2204,22 +2062,32 @@ Curr: span | (6)
 Refer: span | (6)
 Same
 Curr: span | Perak
-Refer: span | Perak
+Curr: button | ADD TO CART
+Refer: button | ADD TO CART
+Same
+Curr: a | HP 15-BS641TX / 15-BS642TX Laptop (i5-7200U, 1TB, RADEON 520 2GB, 15.6”, Win10) - Black / Silver
+Curr: span | RM1,799.00
+Curr: div | Installment available
+Refer: div | Installment available
+Same
+Curr: span | (8)
+Refer: span | (8)
+Same
+Curr: span | Selangor
+Refer: span | Selangor
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: a | HP 14-bs537TU 14" Laptop Black (N3060, 4GB, 500GB, Intel, W10H)
-Refer: a | HP 14-bs537TU 14" Laptop Black (N3060, 4GB, 500GB, Intel, W10H)
-Same
-Curr: span | RM1,005.00
-Refer: span | RM1,005.00
+Curr: a | HP 14-bs581TU 14" Laptop Red ( i3-6006u, 4GB, 1TB, Intel, W10H )
+Curr: span | RM1,515.00
+Refer: span | RM1,515.00
 Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
-Curr: span | (1)
-Refer: span | (1)
+Curr: span | (2)
+Refer: span | (2)
 Same
 Curr: span | Federal Territory of Kuala Lumpur
 Refer: span | Federal Territory of Kuala Lumpur
@@ -2228,11 +2096,7 @@ Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
 Curr: a | Asus VivoBook Max X441N-AGA141T 14" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
-Refer: a | Asus VivoBook Max X441N-AGA141T 14" Laptop Silver (N3350, 4GB, 500GB, Intel, W10)
-Same
 Curr: span | RM1,135.00
-Refer: span | RM1,135.00
-Same
 Curr: div | Installment available
 Refer: div | Installment available
 Same
@@ -2245,20 +2109,16 @@ Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
 Same
-Curr: span | RM2,299.00
-Refer: span | RM2,299.00
+Curr: a | HP 14-bs537TU 14" Laptop Black (N3060, 4GB, 500GB, Intel, W10H)
+Curr: span | RM1,005.00
+Curr: div | Installment available
+Refer: div | Installment available
 Same
-Curr: del | RM2,549.00
-Refer: del | RM2,549.00
+Curr: span | (1)
+Refer: span | (1)
 Same
-Curr: span | -10%
-Refer: span | -10%
-Same
-Curr: span | (2)
-Refer: span | (2)
-Same
-Curr: span | Selangor
-Refer: span | Selangor
+Curr: span | Federal Territory of Kuala Lumpur
+Refer: span | Federal Territory of Kuala Lumpur
 Same
 Curr: button | ADD TO CART
 Refer: button | ADD TO CART
@@ -2286,6 +2146,7 @@ Refer: div | Related Categories
 Same
 Curr: div | 
 Curr: a | Traditional Laptops
+Curr: a | Chromebooks
 Curr: a | Gaming
 Curr: a | 2-in-1s
 Curr: a | Macbooks
@@ -2321,14 +2182,11 @@ Same
 Curr: span | Samsung
 Refer: span | Samsung
 Same
-Curr: span | MSI
-Refer: span | MSI
-Same
 Curr: span | Lenovo ThinkPad
 Refer: span | Lenovo ThinkPad
 Same
-Curr: span | NEC
-Refer: span | NEC
+Curr: span | MSI
+Refer: span | MSI
 Same
 Curr: span | Panasonic
 Refer: span | Panasonic
@@ -2348,11 +2206,11 @@ Same
 Curr: span | Toshiba
 Refer: span | Toshiba
 Same
+Curr: span | Thunderobot
+Refer: span | Thunderobot
+Same
 Curr: span | Xiaomi
 Refer: span | Xiaomi
-Same
-Curr: span | Android
-Refer: span | Android
 Same
 Curr: div | VIEW MORE
 Refer: div | VIEW MORE
@@ -2453,11 +2311,11 @@ Same
 Curr: span | Galaxy
 Refer: span | Galaxy
 Same
-Curr: span | Rose
-Refer: span | Rose
-Same
 Curr: span | Purple
 Refer: span | Purple
+Same
+Curr: span | Rose
+Refer: span | Rose
 Same
 Curr: span | Clear
 Refer: span | Clear
@@ -2488,33 +2346,6 @@ Refer: span | No Warranty
 Same
 Curr: span | International Seller Warranty
 Refer: span | International Seller Warranty
-Same
-Curr: div | Screen Size
-Refer: div | Screen Size
-Same
-Curr: div | 
-Refer: div | 
-Same
-Curr: span | 14 - 14.9 Inches
-Refer: span | 14 - 14.9 Inches
-Same
-Curr: span | 15 - 15.9 Inches
-Refer: span | 15 - 15.9 Inches
-Same
-Curr: span | 11 - 11.9 Inches
-Refer: span | 11 - 11.9 Inches
-Same
-Curr: span | 13 - 13.9 Inches
-Refer: span | 13 - 13.9 Inches
-Same
-Curr: span | 11 Inches & Under
-Refer: span | 11 Inches & Under
-Same
-Curr: span | 12 - 12.9 Inches
-Refer: span | 12 - 12.9 Inches
-Same
-Curr: span | 17 Inches & Above
-Refer: span | 17 Inches & Above
 Same
 Curr: div | Warranty Period
 Refer: div | Warranty Period
@@ -2551,6 +2382,33 @@ Refer: span | Life Time Warranty
 Same
 Curr: div | VIEW MORE
 Refer: div | VIEW MORE
+Same
+Curr: div | Screen Size
+Refer: div | Screen Size
+Same
+Curr: div | 
+Refer: div | 
+Same
+Curr: span | 14 - 14.9 Inches
+Refer: span | 14 - 14.9 Inches
+Same
+Curr: span | 15 - 15.9 Inches
+Refer: span | 15 - 15.9 Inches
+Same
+Curr: span | 11 - 11.9 Inches
+Refer: span | 11 - 11.9 Inches
+Same
+Curr: span | 13 - 13.9 Inches
+Refer: span | 13 - 13.9 Inches
+Same
+Curr: span | 11 Inches & Under
+Refer: span | 11 Inches & Under
+Same
+Curr: span | 12 - 12.9 Inches
+Refer: span | 12 - 12.9 Inches
+Same
+Curr: span | 17 Inches & Above
+Refer: span | 17 Inches & Above
 Same
 Curr: div | Hard Drive Capacity
 Refer: div | Hard Drive Capacity
@@ -2630,8 +2488,8 @@ Same
 Curr: span | Intel Core i7
 Refer: span | Intel Core i7
 Same
-Curr: span | AMD Turion
-Refer: span | AMD Turion
+Curr: span | Intel
+Refer: span | Intel
 Same
 Curr: span | Octa-core
 Refer: span | Octa-core
@@ -2654,9 +2512,6 @@ Same
 Curr: span | Windows 7
 Refer: span | Windows 7
 Same
-Curr: span | DOS
-Refer: span | DOS
-Same
 Curr: span | Windows 7 Pro
 Refer: span | Windows 7 Pro
 Same
@@ -2665,12 +2520,6 @@ Refer: span | Android
 Same
 Curr: span | Windows 7 Professional
 Refer: span | Windows 7 Professional
-Same
-Curr: span | Free DOS
-Refer: span | Free DOS
-Same
-Curr: span | FreeDOS
-Refer: span | FreeDOS
 Same
 Curr: span | Windows XP
 Refer: span | Windows XP
@@ -2699,9 +2548,6 @@ Same
 Curr: span | 8GB
 Refer: span | 8GB
 Same
-Curr: span | 6GB
-Refer: span | 6GB
-Same
 Curr: span | 16GB & Up
 Refer: span | 16GB & Up
 Same
@@ -2726,8 +2572,8 @@ Same
 Curr: h3 | Seller Picks
 Refer: h3 | Seller Picks
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | en
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | en
+Curr: <cyfunction Comment at 0x0000027594AABB10> | en
+Refer: <cyfunction Comment at 0x0000027594AABB10> | en
 Same
 Curr: div | 
 Refer: div | 
@@ -2906,38 +2752,38 @@ Same
 Curr: h3 | Delivery Services
 Refer: h3 | Delivery Services
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1ggIncOqAXuNjy1XdXXaYcVXa-294-46.png" alt="nanji" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1MBqOfdfJ8KJjy0FeXXXKEXXa-78-30.png" alt="gdex" height="31"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB16_TlfgDD8KJjy0FdXXcjvXXa-108-30.png" alt="laju" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1SX9GflfH8KJjy1XbXXbLdXXa-31-30.png" alt="lx" height="31"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1GmcncOqAXuNjy1XdXXaYcVXa-46-60.png" alt="col" height="31"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1CQDfffDH8KJjy1XcXXcpdXXa-105-30.png" alt="sky" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="https://laz-img-cdn.alicdn.com/tfs/TB1EI9GflfH8KJjy1XbXXbLdXXa-166-60.png" alt="boxit" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="abx" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="snt" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="chinma" height="30"
 Same
-Curr: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30"
-Refer: <cyfunction Comment at 0x0000018BF725BB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30"
+Curr: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30"
+Refer: <cyfunction Comment at 0x0000027594AABB10> | img class="lzd-icon-delivery pull-left " data-ks-lazyload="" alt="ktmd" height="30"
 Same
 Curr: div | 
 Refer: div | 

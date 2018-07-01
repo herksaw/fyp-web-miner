@@ -1,29 +1,29 @@
 Curr: head | 
 Curr: title | Laptop price, harga in Malaysia - Mudah cari di Lelong
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Twitter Card data
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Twitter Card data
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Twitter Card data
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Twitter Card data
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Open Graph data
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Open Graph data
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Open Graph data
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Open Graph data
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Analytic
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Analytic
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Google Analytic
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Google Analytic
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Analytic
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Analytic
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End Google Analytic
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End Google Analytic
 Same
 Curr: body | 
 Curr: noscript | 
 Refer: noscript | 
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Tag Manager
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Tag Manager
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Google Tag Manager
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Google Tag Manager
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Tag Manager
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Tag Manager
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End Google Tag Manager
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End Google Tag Manager
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Modal pops up during selecting language
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Modal pops up during selecting language
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Modal pops up during selecting language
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Modal pops up during selecting language
 Same
 Curr: div | 
 Refer: div | 
@@ -64,14 +64,14 @@ Same
 Curr: button | Ok
 Refer: button | Ok
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Temporary Notification
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Temporary Notification
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Temporary Notification
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Temporary Notification
 Same
 Curr: div | 
 Curr: div | 
@@ -223,14 +223,14 @@ Same
 Curr: p | Loading ...
 Refer: p | Loading ...
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal
 Same
 Curr: div | 
 Refer: div | 
@@ -256,20 +256,20 @@ Same
 Curr: p | Loading ...
 Refer: p | Loading ...
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-content
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-content
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal-dialog
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal-dialog
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | /.modal
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | /.modal
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | /.modal
 Same
 Curr: div | 
 Refer: div | 
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Header Begin
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Header Begin
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Header Begin
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Header Begin
 Same
 Curr: div | 
 Refer: div | 
@@ -283,8 +283,8 @@ Same
 Curr: a | 
 Refer: a | 
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Search Bar
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Search Bar
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Search Bar
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Search Bar
 Same
 Curr: div | 
 Refer: div | 
@@ -304,11 +304,11 @@ Same
 Curr: div | Learn How to Sell
 Refer: div | Learn How to Sell
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Daily Promo
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Daily Promo
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Daily Promo
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Daily Promo
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Search Info
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Search Info
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Search Info
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Search Info
 Same
 Curr: div | 
 Refer: div | 
@@ -466,8 +466,8 @@ Same
 Curr: span | Computer & Software
 Refer: span | Computer & Software
 Same
-Curr: span | (15218)
-Refer: span | (15218)
+Curr: span | (15216)
+Refer: span | (15216)
 Same
 Curr: li | 
 Refer: li | 
@@ -478,8 +478,8 @@ Same
 Curr: span | Electronics & Appliances
 Refer: span | Electronics & Appliances
 Same
-Curr: span | (1093)
-Refer: span | (1093)
+Curr: span | (1096)
+Refer: span | (1096)
 Same
 Curr: li | 
 Refer: li | 
@@ -529,8 +529,8 @@ Same
 Curr: span | Phone & Tablet
 Refer: span | Phone & Tablet
 Same
-Curr: span | (248)
-Refer: span | (248)
+Curr: span | (247)
+Refer: span | (247)
 Same
 Curr: li | 
 Refer: li | 
@@ -886,8 +886,8 @@ Same
 Curr: span | New
 Refer: span | New
 Same
-Curr: span | (18224)
-Refer: span | (18224)
+Curr: span | (18231)
+Refer: span | (18231)
 Same
 Curr: li | 
 Refer: li | 
@@ -910,8 +910,8 @@ Same
 Curr: span | Used
 Refer: span | Used
 Same
-Curr: span | (218)
-Refer: span | (218)
+Curr: span | (212)
+Refer: span | (212)
 Same
 Curr: li | 
 Refer: li | 
@@ -961,8 +961,8 @@ Same
 Curr: span | Unknown
 Refer: span | Unknown
 Same
-Curr: span | (6)
-Refer: span | (6)
+Curr: span | (5)
+Refer: span | (5)
 Same
 Curr: li | 
 Refer: li | 
@@ -1012,8 +1012,8 @@ Same
 Curr: span | Kuala Lumpur
 Refer: span | Kuala Lumpur
 Same
-Curr: span | (9609)
-Refer: span | (9609)
+Curr: span | (9623)
+Refer: span | (9623)
 Same
 Curr: li | 
 Refer: li | 
@@ -1021,8 +1021,8 @@ Same
 Curr: span | Selangor
 Refer: span | Selangor
 Same
-Curr: span | (3220)
-Refer: span | (3220)
+Curr: span | (3213)
+Refer: span | (3213)
 Same
 Curr: li | 
 Refer: li | 
@@ -1048,8 +1048,8 @@ Same
 Curr: span | Penang
 Refer: span | Penang
 Same
-Curr: span | (1001)
-Refer: span | (1001)
+Curr: span | (994)
+Refer: span | (994)
 Same
 Curr: b | See All
 Refer: b | See All
@@ -1214,88 +1214,89 @@ Curr: div |
 Curr: div | 
 Curr: div | 
 Curr: a | 
-Curr: span | 10 Sold
-Refer: span | 10 Sold
-Same
+Curr: span | 515 Sold
 Curr: div | 
-Curr: span | RM 33.02
-Curr: span | HP 564 Cyan Original Ink Cartridge
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: a | 
-Curr: span | 5 Sold
-Refer: span | 5 Sold
-Same
-Curr: div | 
-Curr: span | RM 316.04
-Curr: span | Western Digital 2TB Caviar Blue Internal Hard Disk  WD20EZRZ
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: a | 
-Curr: span | 42 Sold
-Curr: div | 
-Curr: span | RM 15.90
-Curr: del | RM49.90
-Curr: span | Sandisk Cruzer Dial/Edge/Blade 8GB/16GB/32GB/64GB Pendrive
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: a | 
-Curr: span | 28 Sold
-Curr: div | 
-Curr: span | RM 52.00
-Curr: del | RM58.00
-Curr: span | Arduino ESP8266 wifi shield
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: a | 
-Curr: div | 
-Curr: span | RM 20.64
-Curr: del | RM299.00
-Curr: span | Travel X Multifunction Travel Hanging Wash Bag Toiletry Bag FREE make
+Curr: span | RM 10.50
+Curr: del | RM39.00
+Curr: span | Catch Caddy Car Seat Pocket Catcher Catches Item Before They Drop
 Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: a | 
 Curr: span | 8 Sold
 Curr: div | 
-Curr: span | RM 322.60
-Curr: span | Timo Cordyceps King 120's + 30's
+Curr: span | RM 42.00
+Curr: del | RM130.00
+Curr: span | PFS-200 8" 300mm Hand Impulse Sealer
 Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: a | 
 Curr: div | 
-Curr: span | RM 69.90
-Curr: span | WLToys Vortex A949 A959 A979 2S 7.4v 1200mAh Upgrade Lipo Battery
+Curr: span | RM 79.00
+Curr: del | RM99.00
+Curr: span | Men PU Leather Crazy Horse Clutch Sling Shoulder Cross Bag
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: a | 
+Curr: span | 33 Sold
+Curr: div | 
+Curr: span | RM 65.00
+Curr: del | RM99.00
+Curr: span | XIAOMI ROIDMI Mi Music Player Bluetooth Car Charger 3S FM Transmitter
+Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: a | 
 Curr: div | 
-Curr: span | RM 55.00
-Curr: del | RM42.10
-Curr: span | WOMEN SEXY SPAGHETTI STRAP FLORAL PATTERN PADDING BIKINI SET SWIMWEAR
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: div | 
-Curr: a | 
-Curr: span | 9 Sold
-Curr: div | 
-Curr: span | RM 2.50
-Curr: span | Electronic Component 3x6x3.5mm Micro Switch - each
+Curr: span | RM 65.00
+Curr: del | RM75.00
+Curr: span | I FLAWLESS - Minyak Argan Emas (Pelembap Solekan) 15ml e/0.5 fl oz.
 Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: a | 
 Curr: div | 
-Curr: span | RM 26.40
-Curr: span | GENUINE KASPERSKY ANTI VIRUS 2018 (1 YEAR 1 USER) CD-KEY ONLY
+Curr: span | RM 89.90
+Curr: del | RM109.90
+Curr: span | Ori CS HUM800SL Huawei Ascend Mate 8 Dual SIM M200-UL00 Battery
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: a | 
+Curr: div | 
+Curr: span | RM 80.00
+Curr: del | RM80.00
+Curr: span | Dell Black Ink Cartridge For V305 All-in-One Printer 0MK992 MK992
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: a | 
+Curr: div | 
+Curr: span | RM 71.90
+Curr: span | Mens Multi-color Stripes Camouflage Designed Hooded Sweater Jacket
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: a | 
+Curr: span | 10 Sold
+Curr: div | 
+Curr: span | RM 36.00
+Curr: del | RM199.00
+Curr: span | MAX MAN IV Powerful Sex Pill Ubat Kuat Zakar Tahan Lama Topman Vigrx
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: a | 
+Curr: span | 6 Sold
+Refer: span | 6 Sold
+Same
+Curr: div | 
+Curr: span | RM 83.96
+Curr: span | NOCTUA Casing Fan 14CM 1500RPM (NF-A14 PWM)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1458,7 +1459,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 433
-Curr: span | View (27597)
+Curr: span | View (27601)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -1473,6 +1474,8 @@ Curr: div |
 Curr: b | [PROMO]NEW ORI 50800mAh Car Jump Jumper  Starter Laptop Power Bank
 Curr: div | 
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1496,8 +1499,8 @@ Curr: span |
 Curr: a | 
 Curr: span | Add to Wishlist
 Curr: span | (
-Curr: span | 168
-Curr: span | View (15406)
+Curr: span | 167
+Curr: span | View (15416)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1526,13 +1529,13 @@ Curr: a | chianwai
 Curr: div | 
 Curr: div | 
 Curr: span | 
-Curr: b | RM 43.00
-Curr: span | 
 Refer: span | 
 Same
-Curr: del | RM 99.00
-Refer: del | RM 99.00
+Curr: b | RM 43.00
+Refer: b | RM 43.00
 Same
+Curr: span | 
+Curr: del | RM 99.00
 Curr: span | Ship + RM 7.00
 Refer: span | Ship + RM 7.00
 Same
@@ -1543,8 +1546,8 @@ Curr: span |
 Curr: a | 
 Curr: span | Add to Wishlist
 Curr: span | (
-Curr: span | 645
-Curr: span | View (25013)
+Curr: span | 646
+Curr: span | View (25018)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -1561,16 +1564,9 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Oversea
-Refer: div | Ship from : Oversea
-Same
 Curr: span | ,
                                     Estimated Arrival
-Refer: span | ,
-                                    Estimated Arrival
-Same
 Curr: b | 7-10 working days
-Refer: b | 7-10 working days
-Same
 Curr: div | 
 Curr: a | bumz83
 Curr: div | 
@@ -1585,10 +1581,8 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 10
-Curr: span | View (1313)
+Curr: span | View (1316)
 Curr: div | 
-Refer: div | 
-Same
 Curr: div | 
 Refer: div | 
 Same
@@ -1605,6 +1599,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1632,7 +1628,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 254
-Curr: span | View (21361)
+Curr: span | View (21368)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1644,6 +1640,8 @@ Curr: div |
 Curr: b | [PROMO]NEW ORI 50800mAh Car Jump Jumper  Starter Laptop Power Bank
 Curr: div | 
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1668,7 +1666,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 56
-Curr: span | View (13556)
+Curr: span | View (13558)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -1685,6 +1683,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1710,7 +1710,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 8
-Curr: span | View (264)
+Curr: span | View (266)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1724,6 +1724,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1751,7 +1753,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 110
-Curr: span | View (8750)
+Curr: span | View (8765)
 Curr: a | 
 Curr: span | 
 Curr: span | (4 reviews)
@@ -1768,6 +1770,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -1792,7 +1796,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 29
-Curr: span | View (2845)
+Curr: span | View (2848)
 Curr: a | 
 Curr: span | 
 Curr: span | (1 review)
@@ -1838,7 +1842,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 67
-Curr: span | View (16135)
+Curr: span | View (16140)
 Curr: a | 
 Curr: span | 
 Curr: span | (1 review)
@@ -1864,8 +1868,6 @@ Curr: b | RM 69.00
 Curr: span | 
 Curr: del | RM 89.00
 Curr: span | Ship + RM 8.00
-Refer: span | Ship + RM 8.00
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1874,7 +1876,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 21
-Curr: span | View (5077)
+Curr: span | View (5079)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1905,11 +1907,7 @@ Curr: div |
 Curr: span | 
 Curr: b | RM 62.90
 Curr: span | 
-Refer: span | 
-Same
 Curr: del | RM 150.00
-Refer: del | RM 150.00
-Same
 Curr: span | Ship + RM 7.00
 Refer: span | Ship + RM 7.00
 Same
@@ -1922,7 +1920,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 20
-Curr: span | View (1445)
+Curr: span | View (1449)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1951,10 +1949,8 @@ Curr: a | LZFent
 Curr: div | 
 Curr: div | 
 Curr: span | 
-Curr: b | RM 19.90
+Curr: b | RM 18.00
 Curr: span | Ship + RM 8.00
-Refer: span | Ship + RM 8.00
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -1963,7 +1959,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (32)
+Curr: span | View (33)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2007,7 +2003,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 8
-Curr: span | View (405)
+Curr: span | View (416)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2021,8 +2017,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Johor
-Refer: div | Ship from : Johor
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2048,7 +2042,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 1
-Curr: span | View (697)
+Curr: span | View (698)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2097,16 +2091,9 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Oversea
-Refer: div | Ship from : Oversea
-Same
 Curr: span | ,
                                     Estimated Arrival
-Refer: span | ,
-                                    Estimated Arrival
-Same
 Curr: b | 7-10 working days
-Refer: b | 7-10 working days
-Same
 Curr: div | 
 Curr: a | aeioumall
 Curr: div | 
@@ -2124,7 +2111,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (208)
+Curr: span | View (210)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2155,11 +2142,7 @@ Curr: div |
 Curr: span | 
 Curr: b | RM 19.90
 Curr: span | 
-Refer: span | 
-Same
 Curr: del | RM 99.00
-Refer: del | RM 99.00
-Same
 Curr: span | Ship + RM 9.00
 Curr: div | 
 Curr: div | 
@@ -2169,7 +2152,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 50
-Curr: span | View (6550)
+Curr: span | View (6552)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -2186,6 +2169,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2210,7 +2195,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (89)
+Curr: span | View (90)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2253,7 +2238,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 258
-Curr: span | View (10571)
+Curr: span | View (10574)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -2270,6 +2255,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2296,7 +2283,7 @@ Curr: span |
 Curr: a | 
 Curr: span | Add to Wishlist
 Curr: span | (
-Curr: span | 872
+Curr: span | 873
 Curr: span | View (30088)
 Curr: a | 
 Curr: span | 
@@ -2340,7 +2327,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 605
-Curr: span | View (29592)
+Curr: span | View (29595)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2354,6 +2341,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2379,7 +2368,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 77
-Curr: span | View (9356)
+Curr: span | View (9358)
 Curr: a | 
 Curr: span | 
 Curr: span | (1 review)
@@ -2418,7 +2407,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 2
-Curr: span | View (7403)
+Curr: span | View (7404)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2433,6 +2422,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2458,7 +2449,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 6
-Curr: span | View (299)
+Curr: span | View (305)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2472,6 +2463,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2483,9 +2476,17 @@ Same
 Curr: div | 
 Curr: a | verygoodz
 Curr: div | 
+Refer: div | 
+Same
 Curr: div | 
+Refer: div | 
+Same
 Curr: span | 
+Refer: span | 
+Same
 Curr: b | RM 78.00
+Refer: b | RM 78.00
+Same
 Curr: span | Ship + RM 7.00
 Refer: span | Ship + RM 7.00
 Same
@@ -2497,7 +2498,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 5
-Curr: span | View (508)
+Curr: span | View (510)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2511,8 +2512,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kedah
-Refer: div | Ship from : Kedah
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2522,11 +2521,7 @@ Curr: b | 1-3 working days
 Refer: b | 1-3 working days
 Same
 Curr: div | 
-Refer: div | 
-Same
 Curr: a | taktau44
-Refer: a | taktau44
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -2538,8 +2533,6 @@ Same
 Curr: span | 
 Curr: del | RM 105.00
 Curr: span | Ship + RM 6.50
-Refer: span | Ship + RM 6.50
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2548,7 +2541,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 65
-Curr: span | View (5275)
+Curr: span | View (5276)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2562,8 +2555,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kedah
-Refer: div | Ship from : Kedah
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2573,11 +2564,7 @@ Curr: b | 1-3 working days
 Refer: b | 1-3 working days
 Same
 Curr: div | 
-Refer: div | 
-Same
 Curr: a | taktau44
-Refer: a | taktau44
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -2585,8 +2572,6 @@ Curr: b | RM 59.00
 Curr: span | 
 Curr: del | RM 160.00
 Curr: span | Ship + RM 6.50
-Refer: span | Ship + RM 6.50
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2595,7 +2580,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 53
-Curr: span | View (6391)
+Curr: span | View (6396)
 Curr: a | 
 Curr: span | 
 Curr: span | (1 review)
@@ -2657,8 +2642,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kedah
-Refer: div | Ship from : Kedah
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2676,8 +2659,6 @@ Curr: b | RM 14.50
 Curr: span | 
 Curr: del | RM 20.00
 Curr: span | Ship + RM 6.50
-Refer: span | Ship + RM 6.50
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2686,7 +2667,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 14
-Curr: span | View (2036)
+Curr: span | View (2038)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2700,8 +2681,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kedah
-Refer: div | Ship from : Kedah
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -2711,11 +2690,7 @@ Curr: b | 1-3 working days
 Refer: b | 1-3 working days
 Same
 Curr: div | 
-Refer: div | 
-Same
 Curr: a | taktau44
-Refer: a | taktau44
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -2723,8 +2698,6 @@ Curr: b | RM 16.90
 Curr: span | 
 Curr: del | RM 75.00
 Curr: span | Ship + RM 6.50
-Refer: span | Ship + RM 6.50
-Same
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2733,7 +2706,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 10
-Curr: span | View (2454)
+Curr: span | View (2456)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2777,7 +2750,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 127
-Curr: span | View (18139)
+Curr: span | View (18145)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2810,7 +2783,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 13
-Curr: span | View (1141)
+Curr: span | View (1145)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2850,7 +2823,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 32
-Curr: span | View (25551)
+Curr: span | View (25555)
 Curr: a | 
 Curr: span | 
 Curr: span | (2 reviews)
@@ -2892,7 +2865,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (24)
+Curr: span | View (25)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2926,7 +2899,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 1
-Curr: span | View (84)
+Curr: span | View (88)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -2960,7 +2933,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (57)
+Curr: span | View (59)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3000,7 +2973,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 12
-Curr: span | View (398)
+Curr: span | View (400)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3025,15 +2998,10 @@ Curr: div |
 Curr: span | 
 Curr: b | RM 59.00
 Curr: span | 
-Refer: span | 
-Same
 Curr: del | RM 150.00
-Refer: del | RM 150.00
-Same
 Curr: span | Ship + RM 6.00
 Refer: span | Ship + RM 6.00
 Same
-Curr: div | 
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -3041,7 +3009,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (92)
+Curr: span | View (94)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3055,8 +3023,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kedah
-Refer: div | Ship from : Kedah
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3122,7 +3088,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 2
-Curr: span | View (257)
+Curr: span | View (260)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3161,7 +3127,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 2
-Curr: span | View (985)
+Curr: span | View (986)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3194,8 +3160,6 @@ Curr: b | RM 178.00
 Curr: span | 
 Curr: del | RM 299.00
 Curr: span | Ship + RM 6.50
-Refer: span | Ship + RM 6.50
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -3217,8 +3181,6 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Johor
-Refer: div | Ship from : Johor
-Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3236,8 +3198,6 @@ Curr: b | RM 36.90
 Curr: span | 
 Curr: del | RM 60.00
 Curr: span | Ship + RM 8.00
-Refer: span | Ship + RM 8.00
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -3259,6 +3219,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3297,6 +3259,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3321,7 +3285,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (63)
+Curr: span | View (64)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3335,6 +3299,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3359,7 +3325,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (70)
+Curr: span | View (72)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3371,6 +3337,8 @@ Curr: div |
 Curr: b | NIKE LAPTOP BAG SCHOOL BACKPACK TRAVEL BAG
 Curr: div | 
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3392,7 +3360,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 14
-Curr: span | View (11943)
+Curr: span | View (11947)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3406,6 +3374,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3445,12 +3415,7 @@ Same
 Curr: div | Ship from : Kuala Lumpur
 Curr: span | ,
                                     Estimated Arrival
-Refer: span | ,
-                                    Estimated Arrival
-Same
 Curr: b | 7-10 working days
-Refer: b | 7-10 working days
-Same
 Curr: div | 
 Curr: a | ebosses
 Curr: div | 
@@ -3469,7 +3434,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 19
-Curr: span | View (834)
+Curr: span | View (835)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3483,6 +3448,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3509,7 +3476,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 4
-Curr: span | View (745)
+Curr: span | View (747)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3543,7 +3510,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 26
-Curr: span | View (2006)
+Curr: span | View (2010)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3557,6 +3524,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3583,7 +3552,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 50
-Curr: span | View (10036)
+Curr: span | View (10049)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3640,6 +3609,8 @@ Curr: div |
 Refer: div | 
 Same
 Curr: div | Ship from : Kuala Lumpur
+Refer: div | Ship from : Kuala Lumpur
+Same
 Curr: span | ,
                                     Estimated Arrival
 Refer: span | ,
@@ -3662,7 +3633,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 1
-Curr: span | View (310)
+Curr: span | View (311)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3696,7 +3667,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Refer: span | Add to Wishlist
 Same
-Curr: span | View (563)
+Curr: span | View (565)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3729,8 +3700,6 @@ Curr: b | RM 89.90
 Curr: span | 
 Curr: del | RM 399.90
 Curr: span | Ship + RM 8.00
-Refer: span | Ship + RM 8.00
-Same
 Curr: div | 
 Curr: div | 
 Curr: span | 
@@ -3738,7 +3707,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 22
-Curr: span | View (2231)
+Curr: span | View (2233)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3767,11 +3736,7 @@ Curr: a | hengls
 Curr: div | 
 Curr: div | 
 Curr: span | 
-Refer: span | 
-Same
 Curr: b | RM 88.00
-Refer: b | RM 88.00
-Same
 Curr: span | Ship + RM 5.00
 Curr: div | 
 Curr: div | 
@@ -3780,7 +3745,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 18
-Curr: span | View (2269)
+Curr: span | View (2270)
 Curr: div | 
 Curr: div | 
 Curr: div | 
@@ -3819,7 +3784,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 158
-Curr: span | View (11989)
+Curr: span | View (11991)
 Curr: a | 
 Curr: span | 
 Curr: span | (1 review)
@@ -3844,7 +3809,11 @@ Curr: a | svrmarketing
 Curr: div | 
 Curr: div | 
 Curr: span | 
+Refer: span | 
+Same
 Curr: b | RM 90.00
+Refer: b | RM 90.00
+Same
 Curr: span | 
 Curr: del | RM 125.00
 Curr: div | 
@@ -3854,7 +3823,7 @@ Curr: a |
 Curr: span | Add to Wishlist
 Curr: span | (
 Curr: span | 6
-Curr: span | View (3270)
+Curr: span | View (3273)
 Curr: div | 
 Curr: ul | 
 Curr: span | 1
@@ -3868,12 +3837,12 @@ Curr: a | 4
 Refer: a | 4
 Same
 Curr: a | 5
+Refer: a | 5
+Same
 Curr: a | 6
 Refer: a | 6
 Same
 Curr: a | 7
-Refer: a | 7
-Same
 Curr: a | 8
 Refer: a | 8
 Same
@@ -3893,9 +3862,9 @@ Same
 Curr: div | 
 Curr: b | Laptop
 Curr: p | 
-Curr: span | Computer & Software (15218)
+Curr: span | Computer & Software (15216)
 Curr: span | ,
-Curr: span | Electronics & Appliances (1093)
+Curr: span | Electronics & Appliances (1096)
 Curr: span | ,
 Curr: span | Fashion (900)
 Curr: span | ,
@@ -3916,9 +3885,9 @@ Curr: span | ,
 Curr: span | kindheart (617)
 Curr: p | The sellers mainly come from :
 Curr: p | 
-Curr: span | Kuala Lumpur (9609)
+Curr: span | Kuala Lumpur (9623)
 Curr: span | ,
-Curr: span | Selangor (3220)
+Curr: span | Selangor (3213)
 Curr: span | ,
 Curr: span | Johor (2808)
 Curr: b | Laptop
@@ -4201,29 +4170,29 @@ Same
 Curr: td | 
 Refer: td | 
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End Of Bottom
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End Of Bottom
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End Of Bottom
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End Of Bottom
 Same
 Curr: div | 
 Refer: div | 
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | facebook like and share
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | facebook like and share
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | facebook like and share
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | facebook like and share
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End facebook like and share
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End facebook like and share
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End facebook like and share
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End facebook like and share
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | twitter
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | twitter
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | twitter
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | twitter
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End twitter
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End twitter
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End twitter
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End twitter
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Plus
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | Google Plus
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | Google Plus
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | Google Plus
 Same
-Curr: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Plus
-Refer: <cyfunction Comment at 0x0000020FBD6BBB10> | End Google Plus
+Curr: <cyfunction Comment at 0x0000019488E0BB10> | End Google Plus
+Refer: <cyfunction Comment at 0x0000019488E0BB10> | End Google Plus
 Same
 Curr: div | 
 Refer: div | 

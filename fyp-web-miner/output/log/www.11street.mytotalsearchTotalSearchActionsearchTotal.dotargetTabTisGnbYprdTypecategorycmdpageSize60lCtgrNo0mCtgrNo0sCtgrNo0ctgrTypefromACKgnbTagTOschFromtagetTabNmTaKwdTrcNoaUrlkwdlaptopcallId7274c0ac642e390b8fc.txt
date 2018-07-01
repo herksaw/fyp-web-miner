@@ -1,0 +1,380 @@
+Curr: title | Buy laptop | Shop Online at 11street Malaysia
+Curr: style | @charset "utf-8";a,abbr,acronym,address,article,aside,audio,b,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main figure,mark,menu,nav,object,ol,output,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;width:inherit}body{line-height:1}ol,ul{list-style-type:none}ol li ol,ul li ul{list-style-image:url('/img_glb/common/blank.gif')}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}@font-face{font-family:'Roboto';src:url('/fonts/roboto/light/Roboto-Light-webfont.eot');src:url('/fonts/roboto/light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/light/Roboto-Light-webfont.woff2') format('woff2'), url('/fonts/roboto/light/Roboto-Light-webfont.woff') format('woff'), url('/fonts/roboto/light/Roboto-Light-webfont.ttf') format('truetype'), url('/fonts/roboto/light/Roboto-Light-webfont.svg#robotolight') format('svg');font-weight:300;font-style:normal}@font-face{font-family:'Roboto';src:url('/fonts/roboto/regular/Roboto-Regular-webfont.eot');src:url('/fonts/roboto/regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/regular/Roboto-Regular-webfont.woff2') format('woff2'), url('/fonts/roboto/regular/Roboto-Regular-webfont.woff') format('woff'), url('/fonts/roboto/regular/Roboto-Regular-webfont.ttf') format('truetype'), url('/fonts/roboto/regular/Roboto-Regular-webfont.svg#robotolight') format('svg');font-weight:400;font-style:normal}@font-face{font-family:'Roboto';src:url('/fonts/roboto/italic/Roboto-Italic-webfont.eot');src:url('/fonts/roboto/italic/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/italic/Roboto-Italic-webfont.woff2') format('woff2'), url('/fonts/roboto/italic/Roboto-Italic-webfont.woff') format('woff'), url('/fonts/roboto/italic/Roboto-Italic-webfont.ttf') format('truetype'), url('/fonts/roboto/italic/Roboto-Italic-webfont.svg#robotolight') format('svg');font-weight:400;font-style:italic}@font-face{font-family:'Roboto';src:url('/fonts/roboto/medium/Roboto-Medium-webfont.eot');src:url('/fonts/roboto/medium/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/medium/Roboto-Medium-webfont.woff2') format('woff2'), url('/fonts/roboto/medium/Roboto-Medium-webfont.woff') format('woff'), url('/fonts/roboto/medium/Roboto-Medium-webfont.ttf') format('truetype'), url('/fonts/roboto/medium/Roboto-Medium-webfont.svg#robotolight') format('svg');font-weight:500;font-style:normal}@font-face{font-family:'Roboto';src:url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.eot');src:url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.woff2') format('woff2'), url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.woff') format('woff'), url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.ttf') format('truetype'), url('/fonts/roboto/mediumitalic/Roboto-MediumItalic-webfont.svg#robotolight') format('svg');font-weight:500;font-style:italic}@font-face{font-family:'Roboto';src:url('/fonts/roboto/bold/Roboto-Bold-webfont.eot');src:url('/fonts/roboto/bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/bold/Roboto-Bold-webfont.woff2') format('woff2'), url('/fonts/roboto/bold/Roboto-Bold-webfont.woff') format('woff'), url('/fonts/roboto/bold/Roboto-Bold-webfont.ttf') format('truetype'), url('/fonts/roboto/bold/Roboto-Bold-webfont.svg#robotobold') format('svg');font-weight:600;font-style:normal}@font-face{font-family:'Roboto';src:url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.eot');src:url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.woff2') format('woff2'), url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.woff') format('woff'), url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.ttf') format('truetype'), url('/fonts/roboto/bolditalic/Roboto-BoldItalic-webfont.svg#robotobold') format('svg');font-weight:600;font-style:italic}@font-face{font-family:'my11street';src:url('/fonts/my11street/icomoon.eot');src:url('/fonts/my11street/icomoon.eot?#iefix') format('embedded-opentype'), url('/fonts/my11street/icomoon.ttf') format('truetype'), url('/fonts/my11street/icomoon.woff') format('woff'), url('/fonts/my11street/icomoon.svg?#my11street') format('svg');font-weight:normal;font-style:normal}[class*=" st11-icon-"],[class^=st11-icon-]{font-family:'my11street'!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.st11-icon-025:before,.st11-icon-heart-filled:before{content:"\e918"}.st11-icon-026:before,.st11-icon-heart-empty:before{content:"\e919"}.st11-icon-084:before,.st11-icon-checkbox-empty:before{content:"\25a2"}.st11-icon-085:before,.st11-icon-checkbox-filled:before{content:"\1f5f9"}.st11-icon-086:before,.st11-icon-radio-empty:before{content:"\25ce"}.st11-icon-087:before,.st11-icon-radio-filled:before{content:"\1f518"}.st11-icon-088:before,.st11-icon-circle-filled-close:before{content:"\e957"}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(0.3, 0.3, 0.3);transform:scale3d(0.3, 0.3, 0.3)}50%{opacity:1}}@-webkit-keyframes zoomIn{0%{-webkit-opacity:0;-webkit-transform:scale3d(0.3, 0.3, 0.3)}50%{-webkit-opacity:1}}@-moz-keyframes zoomIn{0%{-moz-opacity:0;-moz-transform:scale3d(0.3, 0.3, 0.3)}50%{-moz-opacity:1}}.zoomIn{-moz-animation-duration:1.5s;-moz-animation-fill-mode:both;-moz-animation-name:zoomIn;-webkit-animation-duration:1.5s;-webkit-animation-fill-mode:both;-webkit-animation-name:zoomIn;animation-duration:1.5s;animation-fill-mode:both;animation-name:zoomIn}@-webkit-keyframes loading{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes loading{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.loading:before{content:'';-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;top:50%;left:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;border-radius:50%;border:2px solid #ccc;border-top-color:#333;-webkit-animation:spinner .6s linear infinite;animation:spinner .6s linear infinite}@media only screen and (min-width:1220px){.loc_category{width:1180px}}.loc_category a{font-family:verdana, sans-serif;font-size:11px;color:#616161}.loc_category:after{display:block;clear:both;content:""}.loc_category{padding:9px 0 0px 0;margin-bottom:20px;font-size:11px;line-height:19px}.loc_category a.home{float:left;height:21px;line-height:21px;margin-left:10px}.loc_category .cate_area{float:left;position:relative;height:21px;padding-left:12px;margin-left:7px;background:url("/img_glb/common/bullet/loc.png") no-repeat 0 50%;z-index:10}.loc_category .cate_area.last{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;width:400px;color:#616161;line-height:2.1em}.loc_category .cate_area a.mn{display:block;overflow:hidden;height:21px;line-height:21px;padding:0 23px 0 0;background:url("/img_glb/common/icon/select.png") no-repeat right -19px;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}.loc_category .cate_area a.on{background-position:right 3px}.loc_category .cate_area .cate_sub{display:none;position:absolute;width:457px;border:1px solid #3f3f3f;background:#fff;z-index:10;margin-top:-1px}.loc_category .cate_area .cate_sub.on{display:block}.loc_category .cate_area .cate_sub ul{float:left;position:relative;width:228px;padding:15px 0 18px 0}.loc_category .cate_area .cate_sub.one{width:228px}.loc_category .cate_area .cate_sub ul li{overflow:hidden;padding:2px 10px 0 19px;line-height:17px}.loc_category .cate_area .cate_sub.one ul{border-right:0}.loc_category .cate_area .cate_sub ul{border-right:1px solid #c3c5c4}.loc_category .cate_area .cate_sub ul+ul{margin-left:-1px;border-left:1px solid #c3c5c4;border-right:0}.loc_category .cate_area .cate_sub ul li a{font-size:12px;color:#404040;white-space:pre-wrap;word-break:keep-all;word-wrap:normal}.loc_category .cate_area .cate_sub ul li a:hover{text-decoration:underline}.loc_category .cate_area .cate_sub ul li.select a{color:#ee2b2e}.loc_category .cate_area .cate_sub ul li.select a:hover{text-decoration:none}.loc_category .cate_area .cate_sub ul li ul{float:none;width:auto;padding:5px 0;border-right:0}.loc_category .cate_area .cate_sub ul li ul li{padding-left:10px}.loc_category>ol>li:first-child{padding-left:0px;background:none;margin-left:0px}.nav-breadcrumb{width:1180px;margin-left:auto;margin-right:auto}.nav-breadcrumb li{display:inline-block;background:transparent url(/img_glb/common/bullet/loc.png) 0 50% no-repeat;padding-left:12px;margin-left:7px}.nav-breadcrumb li:first-child{text-transform:uppercase;background:none;padding-left:0;margin-left:0}.nav-breadcrumb .cate_sub.on{display:block!important}.nav-breadcrumb .cate_sub li{text-transform:none;display:block;background:none;padding-left:0;margin-left:0;display:inline-block;width:196px}.nav-category,.nav-category a{font-size:13px;color:#212121;cursor:pointer}.nav-category:hover,.nav-category a:hover{color:#4c6ccd}.nav-category a span,.nav-category span{color:#999999;margin-left:2px}.nav-category{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #cccccc}.nav-category>ul{margin-top:10px}.nav-category li{line-height:1.1;margin-bottom:.5em}.nav-category li a span{font-weight:400}.subnav-list{margin:0.5em;margin-left:18px}.nav-expand{color:#4d6ccd;font-weight:600;cursor:pointer}.nav-expand span{color:#4d6ccd}.nav-expand:after{font-family:'my11street';display:inline-block;content:"\1f53d";margin-left:5px;line-height:1.3;vertical-align:top}.nav-expand.expanded:after{font-family:'my11street';display:inline-block;content:"\1f53c";margin-left:5px;line-height:1.3;vertical-align:top}.subnav-list{display:none}.current-selected-category>a{font-weight:600}.current-selected-category>a span{font-weight:400}.current-selected-category>.subnav-list{display:block}.current-selected-category.active>a{color:#f22a2c}.nav-small-category .active>a{font-weight:600;color:#f22a2c}blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,input,legend,li,menu,ol,p,pre,select,td,textarea,th,ul{margin:0;padding:0}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}.product-listing{font-family:'Roboto', verdana}.layout-grid{width:1180px;*zoom:1;margin-left:auto;margin-right:auto;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.layout-grid:after,.layout-grid:before{content:'';display:table}.layout-grid:after{clear:both}.layout-row{*zoom:1;margin-bottom:20px}.layout-row:after,.layout-row:before{content:'';display:table}.layout-row:after{clear:both}@media(min-width:320px){.layout-row{margin-left:-10px;margin-right:-10px}}.layout-row .row{margin-left:-10px;margin-right:-10px}.layout-col-left,.layout-col-secondary{position:relative;min-height:1px;padding-left:10px;padding-right:10px;float:left;width:20%}@media(min-width:300px){.layout-col-left,.layout-col-secondary{float:left;width:20%}}.layout-col-primary,.layout-col-right{position:relative;min-height:1px;padding-left:10px;padding-right:10px;float:left;width:80%}@media(min-width:300px){.layout-col-primary,.layout-col-right{float:left;width:80%}}.layout-col-fullwidth{position:relative;min-height:1px;padding-left:10px;padding-right:10px;float:left;width:100%}@media(min-width:300px){.layout-col-fullwidth{float:left;width:100%}}.product-item-sprites{background:url('/img_glb/product-listing-sprites.png') no-repeat;background-size:300px 300px;image-rendering:optimizeSpeed;image-rendering:-moz-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:-o-crisp-edges;image-rendering:crisp-edges;-ms-interpolation-mode:nearest-neighbor;display:inline-block}.product-detail-link{color:#4d6ccd;position:relative}.product-detail-link:after{background:url('/img_glb/product-detail-sprites.png') no-repeat;background-size:500px 500px;image-rendering:optimizeSpeed;image-rendering:-moz-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:-o-crisp-edges;image-rendering:crisp-edges;-ms-interpolation-mode:nearest-neighbor;display:inline-block;content:'';background-position:0 -90px;height:10px;width:10px;top:5px;margin-left:3px;position:absolute}.sponsored-ads-banner-fullwidth{width:1180px;height:150px;margin-right:auto;margin-left:auto;padding-left:0px;padding-right:0px}.sponsored-ads-product-list{background-color:#edf1fa}.product-listing-aside{display:block;width:100%;padding-right:20px}.product-listing-aside>section{display:block}.product-listing-aside>section:after{display:block;content:'';clear:both}.product-listing-aside .side-section-title{font-size:16px;font-weight:600}.product-listing-side-filter .form-group{border-bottom:1px solid #cccccc;padding:15px 0px;position:relative}.product-listing-side-filter .see-all{font-size:13px;right:0px;top:15px;position:absolute;color:#4d6ccd;font-weight:500}.product-listing-side-filter .filter-price-group{vertical-text:bottom}.product-listing-side-filter .filter-price-group:after{display:block;content:'';clear:both}.product-listing-side-filter .filter-price-group .btn,.product-listing-side-filter .filter-price-group .form-inline-input,.product-listing-side-filter .filter-price-group .form-inline-text{float:left;text-align:right}.product-listing-side-filter .filter-price-group .form-inline-input{width:70px}.product-listing-side-filter .filter-price-group .form-inline-text{padding:6px 3px}.product-listing-side-filter .filter-price-group .btn{font-size:13px;border:2px solid #4c6ccd;line-height:1.1;width:30px;height:30px;padding:3px 5px 3px 7px;text-align:center;float:right}.sponsored-products-section{background-color:#edf1fa;*zoom:1;width:100%;margin-bottom:30px}.sponsored-products-section:after,.sponsored-products-section:before{content:'';display:table}.sponsored-products-section:after{clear:both}.product-listing-filter-keywords{margin-top:10px;margin-bottom:10px;color:#757575;*zoom:1}.product-listing-filter-keywords:after,.product-listing-filter-keywords:before{content:'';display:table}.product-listing-filter-keywords:after{clear:both}.product-listing-filter-keywords label{float:left;font-size:14px;font-weight:600;margin-right:8px;line-height:1.3}.product-listing-filter-keywords .pill{float:left;font-size:12px;margin-right:5px;border:1px solid #cfcfcf;padding:2px 5px 4px 8px;border-radius:3px;line-height:1.2;margin-bottom:5px}.product-listing-filter-keywords .pill span{display:inline-block}.product-listing-filter-keywords .pill a.cta-delete-selected-keyword{display:inline-block;width:12px;height:8px;margin-left:10px;background-position:-235px 0px;cursor:pointer}.product-listing-filter-keywords .pill.clear-all{border:0px;padding:3px 5px 4px 8px}.product-listing-filter-keywords .pill.clear-all .cta-clear-all-keyword{color:#4d6ccd;cursor:pointer}.cta-top{display:none}
+Curr: <cyfunction Comment at 0x00000230A1017B10> | [if lte IE 8]><link rel="stylesheet" href="//www.11street.my/css_glb/page/product-listing-page-ie8.css"><![endif]
+Curr: noscript | 
+Curr: script | var getCookieValue=function(cookieName){var from_idx=document.cookie.indexOf(cookieName+'=');if(from_idx!=-1){from_idx+=cookieName.length+1;var to_idx=document.cookie.indexOf(';',from_idx);if(to_idx==-1){to_idx=document.cookie.length}
+return unescape(document.cookie.substring(from_idx,to_idx))}
+return""};var createCookie=function(name,value,website_host,expires){document.cookie=name+'='+value+';'+'path=/;domain='+website_host+';expires='+expires;};var createCookieNoExp=function(name,value){createCookie(name,value,'.11street.my','Fri, 31 Dec 9999 23:59:59 GMT');};var deleteCookie=function(name,value){createCookie(name,value,'.11street.my','Thu, 01 Jan 1970 00:00:01 GMT;');};var getQueryParam=function(param,url){var result=url.match(new RegExp("(\\?|&)"+param+"(\\[\\])?=([^&]*)"));return result?result[3]:false;};var contentIds=[];var gtmObjDev={};var gtmObjData={};var gtmObjCombine={};var gtmPageType=''||(location.pathname=="/"?'home':'other');var gtmCategoryName='';var gtmCategoryId='';var gtmSearchTerm="laptop";var sortBy='';var itemsFound='';var itemsDisp='';var pageNo='';var pageLayout='';var GTM_PROMO_NM="";var GTM_CUPN_NM={};var gtm_action_list="Direct";var gtm_brand_name="";
+Curr: script | var gtmObjRegUsr={};var cookieValue=getCookieValue("GTM_USER");var noUser={userLoggedIn:"false",userBuyerCategory:"Visitor",userBuyerSubCategory:"Visitor"};if(cookieValue){cookieValue=JSON.parse(cookieValue);if(typeof cookieValue==='string'){cookieValue=JSON.parse(cookieValue);}}
+gtmObjRegUsr.user=cookieValue?cookieValue:noUser;gtmObjData.user=cookieValue?cookieValue:noUser;gtmObjDev.user=cookieValue?cookieValue:noUser;gtmObjCombine.pageType=gtmPageType&&"null"!=gtmPageType&&!gtmObjCombine.pageType?gtmPageType:"";gtmObjCombine.categoryName=gtmCategoryName&&"null"!=gtmCategoryName?gtmCategoryName:"";gtmObjCombine.categoryId=gtmCategoryId&&"null"!=gtmCategoryId&&"0"!=gtmCategoryId?gtmCategoryId:"";gtmObjCombine.searchTerm=gtmSearchTerm&&"null"!=gtmSearchTerm?gtmSearchTerm:"";gtmObjCombine.itemsFound=itemsFound&&"null"!=itemsFound?itemsFound:"";gtmObjCombine.itemsDisplayed=itemsDisp&&"null"!=itemsDisp?itemsDisp:"";gtmObjCombine.pageNo=pageNo&&"null"!=pageNo?pageNo:"";gtmObjCombine.pageLayout=pageLayout&&"null"!=pageLayout?(pageLayout=="I"?"Grid":"List"):"";switch(sortBy){case"NP":gtmObjCombine.sortBy="Ranking: high to low";break;case"SS":gtmObjCombine.sortBy="Popularity";break;case"G":gtmObjCombine.sortBy="Buyer rating: high to Low";break;case"I":gtmObjCombine.sortBy="Best reviews/comments";break;case"L":gtmObjCombine.sortBy="Price: low to high";break;case"H":gtmObjCombine.sortBy="Price: high to low";break;case"IM":gtmObjCombine.sortBy="Discount: high to low";break;default:gtmObjCombine.sortBy="";}
+if(GTM_PROMO_NM){if(GTM_PROMO_NM&&"null"!=GTM_PROMO_NM){gtmObjCombine.promotionName=GTM_PROMO_NM.replace(/[\'\"]/g,'\\');}
+var promotionId=getQueryParam("promo-id",window.location.href);if(promotionId&&"null"!=promotionId){gtmObjCombine.promotionId=promotionId;}}
+Curr: script | if(typeof(gtmObjData)!=="undefined"){gtmObjData=Object.assign(gtmObjData,gtmObjCombine);}
+if(gtmObjData.ecommerce&&gtmObjData.ecommerce.purchase&&gtmObjData.ecommerce.purchase.actionField&&gtmObjData.ecommerce.purchase.actionField.id){if(getCookieValue("gtm_purchase2_allow_"+gtmObjData.ecommerce.purchase.actionField.id)!="N"){createCookieNoExp("gtm_purchase2_allow_"+gtmObjData.ecommerce.purchase.actionField.id,"N");}
+else if(gtmObjData.ecommerce){delete gtmObjData.ecommerce;if(gtmObjDev.ecommerce){delete gtmObjDev.ecommerce;}}}
+var dataLayer=contentIds.length>0?[{'content_ids':contentIds}]:[];var devLayer=[gtmObjDev];if(typeof(shoppingCart)!=="undefined"){dataLayer.push(shoppingCart);}
+dataLayer.push(gtmObjData);if("registeredBuyer"==gtmObjRegUsr.event&&getCookieValue("gtm_user_reg_allow")=='Y'){dataLayer.push(gtmObjRegUsr);deleteCookie("gtm_user_reg_allow","N");}
+Curr: script | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-NKPNV5');window.GTM_INITIALIZED=true;
+Curr: script | var _DSERVER_TYPE_="real";var _JS_PATH_="http://www.11street.my";var _ACTION_CONTEXT_URL_="http://www.11street.my";var _SSL_ACTION_CONTEXT_URL_="https://www.11street.my";var _UPLOAD_IMG_PATH_="http://image.11st.my";var _SSL_UPLOAD_IMG_PATH_="https://image.11st.my";var _IMG_PATH_="http://www.11street.my";var _SSL_IMG_PATH_="https://www.11street.my";var _IMG_URL_="http://www.11street.my";var _SSL_IMG_URL_="https://www.11street.my";var _UPLOAD_URL_="http://image.11st.my";var _SSL_UPLOAD_URL_="https://image.11st.my";var _CSS_URL_="http://www.11street.my";var _SSL_CSS_URL_="https://www.11street.my";var _GNB_CONTEXT_PATH_="http://www.11street.my";var _PRODUCT_DETAIL_URL_="http://www.11street.my/product/ProductDetailAction/getProductDetail.do?prdNo=";var _SELLERZONE_URL_="http://sellerzone.11street.my";var _SELLER_OFFICE_URL_="https://soffice.11street.my";var _JS_URL_="http://www.11street.my";var _SSL_JS_URL_="https://www.11street.my";var _ACTION_CONTEXT_="http://www.11street.my";var _FILE_UPLOAD_PATH_="/data1/upload//file";var _PRDIMG_UPLOAD_PATH_="/data1/upload//prdImg";var _HELP_URL_="http://help.11street.my";var _OPEN_API_URL_="http://openapi.11street.my ";var _DOMAIN_=".11street.my";var _DOMAIN_NO_DOT_="11street.my";
+Curr: script | ELEVENSTMY=window.ELEVENSTMY||{};ELEVENSTMY.UTILS=ELEVENSTMY.UTILS||{};ELEVENSTMY.COMPONENTS=ELEVENSTMY.COMPONENTS||{};var _gtmId='GTM-NKPNV5';var _gtmVar='dataLayer';var _rakeEnv='LIVE';var _rakeToken='15d152ef9010fc40548e85f1ebce8c2e1d33299';var _pcid='15304395532245093499436';var _advertViewUrl='//tns.gap.11st.io/gapview';var _advertClickUrl='//tns.gap.11st.io/gapclick';var _advertOrderUrl='//tns.gap.11st.io/gaporder';var _keyIssueBannerListJson=[];_keyIssueBannerListJson=JSON.parse('[]');var _gnbAdsSearchTextListJson=[];_gnbAdsSearchTextListJson=JSON.parse('[]');function loginPopupPositionMove(obj){if(obj.src=="")return;var fx=parseInt(obj.style.width);var fy=parseInt(obj.style.height);jQuery(obj).css({"marginTop":-(fy/2),"marginLeft":-(fx/2)});}
+Curr: body | 
+Curr: script | var pageType=window.pageType||'';
+Curr: header | 
+Curr: div | 
+Curr: div | 
+Curr: div | 
+Curr: ul | 
+Curr: a | Login
+Curr: a | Sign Up
+Curr: a | 
+Curr: span | My Page
+Curr: div | 
+Curr: ul | 
+Curr: a | Shopping History
+Curr: a | My Wish List
+Curr: a | Coupon
+Curr: a | Credit
+Curr: a | Point
+Curr: a | Edit Profile
+Curr: a | Membership Benefits
+Curr: a | 
+Curr: span | Cart
+Curr: span | 0
+Curr: a | Customer Service
+Curr: div | 
+Curr: ul | 
+Curr: li | 
+Curr: p | Download 11street App
+Curr: p | 
+Curr: strong | How to download 11street app
+Curr: p | Scan below code using your mobile phone QR code reader to download our app.
+Curr: ul | 
+Curr: li | 
+Curr: p | Seller Service
+Curr: div | 
+Curr: ul | 
+Curr: strong | Seller Office
+Curr: strong | Seller Zone
+Curr: strong | My Store
+Curr: a | 
+Curr: strong | Advertisement Centre
+Curr: div | 
+Curr: div | 
+Curr: span | Online shopping at 11street Malaysia.
+Curr: div | 
+Curr: form | 
+Curr: div | 
+Curr: button | Previous
+Curr: li | 
+Curr: li | 
+Curr: button | Next
+Curr: strong | 1
+Curr: strong | 2
+Curr: div | 
+Curr: div | 
+Curr: nav | 
+Curr: ul | 
+Curr: li | 
+Curr: i | 
+Curr: span | All Categories
+Curr: div | 
+Curr: div | 
+Curr: ul | 
+Curr: li | Women Fashion
+Curr: ul | 
+Curr: a | Women Clothing
+Curr: a | Women Bags & Shoes
+Curr: a | Women Watches & Eyewear
+Curr: a | Women Jewellery & Accessories
+Curr: a | Muslimah Wear
+Curr: li | Men Fashion
+Curr: ul | 
+Curr: a | Men Clothing
+Curr: a | Men Bags & Shoes
+Curr: a | Men Watches & Accessories
+Curr: li | Mobile, IT & Camera
+Curr: ul | 
+Curr: a | Mobile & Tablets
+Curr: a | Computer & Laptop
+Curr: a | Camera
+Curr: a | Smartwatches & Wearables
+Curr: li | Home Electronics
+Curr: ul | 
+Curr: a | Small Appliances
+Curr: a | Large Appliances
+Curr: a | Cooling & Heating
+Curr: a | TV & Video
+Curr: a | Audio & Gaming
+Curr: li | Home & Living
+Curr: ul | 
+Curr: a | Furniture
+Curr: a | Bedding & Bathroom
+Curr: a | Kitchen & Dining
+Curr: a | Home Decor
+Curr: a | Home Improvement
+Curr: a | Outdoor & Gardens
+Curr: a | Pets
+Curr: a | Stationery
+Curr: li | Sports & Automotive
+Curr: ul | 
+Curr: a | Sports
+Curr: a | Outdoor Recreation
+Curr: a | Automotive
+Curr: li | Health & Beauty
+Curr: ul | 
+Curr: a | Cosmetics & Fragrance
+Curr: a | Skin & Personal Care
+Curr: a | Dietary Supplement & Tools
+Curr: li | Baby, Kids & Toys
+Curr: ul | 
+Curr: a | Baby
+Curr: a | Kids
+Curr: a | Toys & Others
+Curr: li | Grocery
+Curr: ul | 
+Curr: a | Beverage
+Curr: a | Household
+Curr: a | Food
+Curr: li | E-voucher & More
+Curr: ul | 
+Curr: a | E-vouchers & Top-up
+Curr: a | Travel & Ticket
+Curr: a | Books & Media
+Curr: a | Hobbies & Gift
+Curr: a | X
+Curr: li | 
+Curr: div | Star Brands
+Curr: a | Shocking Deals
+Curr: a | Hot Selling
+Curr: a | Coupon Street
+Curr: a | Promotions
+Curr: li | 
+Curr: div | Browsing History
+Curr: span | 0
+Curr: main | 
+Curr: form | 
+Curr: article | 
+Curr: div | 
+Curr: section | 
+Curr: a | Sponsored Ads
+Curr: section | 
+Curr: header | 
+Curr: h4 | Sponsored
+Curr: a | X
+Curr: div | 
+Curr: p | Ads are advertisements related to your recent product search query or content on the page and are always clearly labelled. These are the ads product you'll find on
+Curr: a | www.11street.my
+Curr: div | 
+Curr: div | 
+Curr: aside | 
+Curr: section | 
+Curr: h2 | Categories
+Curr: section | 
+Curr: h2 | Filters
+Curr: div | 
+Curr: h3 | Shipping
+Curr: ul | 
+Curr: li | 
+Curr: label | Free Shipping
+Curr: li | 
+Curr: label | Conditional Free Shipping
+Curr: div | 
+Curr: h3 | Ship From
+Curr: ul | 
+Curr: li | 
+Curr: label | ALL
+Curr: li | 
+Curr: label | Malaysia
+Curr: li | 
+Curr: label | International
+Curr: div | 
+Curr: h3 | Brands
+Curr: a | See all
+Curr: section | 
+Curr: header | 
+Curr: h3 | Brands
+Curr: a | X
+Curr: div | 
+Curr: div | 
+Curr: ul | 
+Curr: button | ALL
+Curr: button | A
+Curr: button | B
+Curr: button | C
+Curr: button | D
+Curr: button | E
+Curr: button | F
+Curr: button | G
+Curr: button | H
+Curr: button | I
+Curr: button | J
+Curr: button | K
+Curr: button | L
+Curr: button | M
+Curr: button | N
+Curr: button | O
+Curr: button | P
+Curr: button | Q
+Curr: button | R
+Curr: button | S
+Curr: button | T
+Curr: button | U
+Curr: button | V
+Curr: button | W
+Curr: button | X
+Curr: button | Y
+Curr: button | Z
+Curr: button | ETC
+Curr: div | 
+Curr: div | 
+Curr: a | Cancel
+Curr: a | Apply
+Curr: div | 
+Curr: h3 | Price (RM)
+Curr: div | 
+Curr: div | 
+Curr: span | –
+Curr: button | ▶
+Curr: div | 
+Curr: h3 | Halal Certification
+Curr: ul | 
+Curr: label | View All
+Curr: label | View Halal Products Only
+Curr: div | 
+Curr: h1 | Search Results
+Curr: section | 
+Curr: div | 
+Curr: h2 | Sponsored Products
+Curr: div | 
+Curr: a | Sponsored Ads
+Curr: section | 
+Curr: header | 
+Curr: h4 | Sponsored
+Curr: a | X
+Curr: div | 
+Curr: p | Ads are advertisements related to your recent product search query or content on the page and are always clearly labelled. These are the ads product you'll find on
+Curr: a | www.11street.my
+Curr: div | 
+Curr: section | 
+Curr: header | 
+Curr: h2 | 
+Curr: strong | 783,042
+Curr: strong | laptop
+Curr: div | 
+Curr: div | 
+Curr: label | Sort by
+Curr: div | 
+Curr: select | 
+Curr: option | Best Match
+Curr: option | Best Selling
+Curr: option | Best Reviews
+Curr: option | Price: low to high
+Curr: option | Price: high to low
+Curr: label | View
+Curr: div | 
+Curr: select | 
+Curr: option | 40
+Curr: option | 60
+Curr: option | 120
+Curr: div | 
+Curr: label | Filter by
+Curr: ul | 
+Curr: a | Clear all
+Curr: section | 
+Curr: div | 
+Curr: h2 | Inspired By Your Browsing History
+Curr: div | 
+Curr: script | function getCurrentDateFormat(){var today=new Date();var dd=(today.getDate()<10)?'0'+parseInt(today.getDate()):today.getDate();var mm=(today.getMonth()+1<10)?'0'+parseInt(today.getMonth()+1):parseInt(today.getMonth()+1);var yyyy=today.getFullYear();var hh=today.getHours();var min=today.getMinutes();var ss=today.getSeconds();var ms=today.getMilliseconds().toString().substring(0,2);return yyyy+''+mm+''+dd+''+hh+''+min+''+ss+''+ms;}
+window.bk_async=function(){bk_use_multiple_iframes=true;bk_allow_multiple_calls=true;bk_addPageCtx('Aid','9719');bk_addPageCtx('Etype','SEARCH');bk_addPageCtx('Searchterm','laptop');bk_addPageCtx('Channel','M');bk_addPageCtx('t',getCurrentDateFormat());bk_addPageCtx('TagTriggeredDt',Math.round(new Date().getTime()));BKTAG.doTag(40124,1);BKTAG._reset();};(function(){var scripts=document.getElementsByTagName('script')[0];var s=document.createElement('script');s.async=true;s.src="//tags.bkrtx.com/js/bk-coretag.js";scripts.parentNode.insertBefore(s,scripts);}());
+Curr: footer | 
+Curr: div | 
+Curr: div | 
+Curr: section | 
+Curr: h3 | Customer Service
+Curr: p | MON to FRI, 8AM to 8PM / SAT to SUN, 9AM to 6PM
+Curr: dl | 
+Curr: dt | Contact Number
+Curr: dd | 03-2720 0000
+Curr: dt | Email
+Curr: dd | Buyer Support:
+Curr: a | hello@11street.my
+Curr: dd | Seller Support:
+Curr: a | seller@11street.my
+Curr: section | 
+Curr: div | 
+Curr: h3 | Buyer
+Curr: ul | 
+Curr: a | How to Shop
+Curr: a | Privacy Policy
+Curr: a | FAQ
+Curr: div | 
+Curr: h3 | Seller
+Curr: ul | 
+Curr: a | Be a Seller
+Curr: a | Start Selling
+Curr: a | Seller Office
+Curr: a | Seller Zone
+Curr: a | FAQ
+Curr: div | 
+Curr: h3 | 11street
+Curr: ul | 
+Curr: a | About Us
+Curr: a | Notification
+Curr: a | Terms & Conditions
+Curr: a | Site Map
+Curr: a | 11street Blog
+Curr: a | Careers
+Curr: section | 
+Curr: div | 
+Curr: h3 | Mobile App Download
+Curr: ul | 
+Curr: a | Download 11street IOS app on the App Store
+Curr: a | Download 11street Android app on the Google play
+Curr: div | 
+Curr: h3 | Follow Us
+Curr: ul | 
+Curr: a | 11street facebook
+Curr: a | 11street twitter
+Curr: a | 11street instagram
+Curr: div | 
+Curr: div | 
+Curr: section | 
+Curr: h3 | Payment Methods
+Curr: ul | 
+Curr: span | iPay88 Payment Gateway
+Curr: span | MOLPay
+Curr: span | Visa Credit/Debit Cards
+Curr: span | MasterCard
+Curr: span | Amex
+Curr: span | CIMBBank bank transfer
+Curr: span | maybank2u
+Curr: span | CIMB Clicks
+Curr: span | rhbnow
+Curr: span | Ambank Online Banking
+Curr: span | Boost
+Curr: span | 7 Eleven
+Curr: section | 
+Curr: h3 | About 11street
+Curr: p | 11street is Malaysia’s latest one stop online shopping mall that connects customers to variety of quality products at competitive prices, in a trustworthy and secure environment for buyers and sellers. Uncover endless selections and shocking deals from Women Fashion, Men Fashion, Health & Beauty, Mobile IT & Camera, Home Electronics, Home & Living, Sports & Automotive, Baby, Kids and Toys, Grocery and E-voucher & More.
+Curr: p | 11street is an open marketplace operated by Celcom Planet Sdn. Bhd. – a joint venture between two established names Celcom Axiata Bhd. and SK Planet Ltd. Celcom Axiata is Malaysia’s premier and most experienced mobile telecommunications group and SK Planet owns Korea’s best e-commerce site, 11st.co.kr, a reliable and revolutionary e-commerce platform.
+Curr: div | 
+Curr: div | 
+Curr: ul | 
+Curr: li | Celcom Planet
+Curr: li | SK Planet
+Curr: div | 
+Curr: em | 11street.my is owned and operated under Celcom Planet Sdn. Bhd. (1113867-K)
+Curr: p | Copyright © Celcom Planet Sdn. Bhd., a joint venture between Celcom Axiata Berhad and SK Planet ltd. All Right Reserved.
+Curr: i | PCI DSS
+Curr: script | (function(){var a=document.createElement("script");a.async=!0;a.src="https://asia.creativecdn.com/tags?type\x3dscript\x26id\x3dpr_Y88j3dyXLxsbnJ2Zq9wq\x26ncm\x3d1";document.getElementsByTagName("head")[0].appendChild(a)})();
+Curr: script | !function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","357927734405647");var nestle=google_tag_manager["GTM-NKPNV5"].macro(10);nestle&&fbq("init","174266963075465");var RB=google_tag_manager["GTM-NKPNV5"].macro(14);
+RB&&fbq("init","2017983054900801");fbq("track","PageView");
+Curr: noscript | 
+Curr: script | fbq("track","Search",{search_string:google_tag_manager["GTM-NKPNV5"].macro(15),content_type:"product"});
+Curr: script | (function(){var a=document.createElement("script");a.async=!0;a.src="https://asia.creativecdn.com/tags?type\x3dscript\x26id\x3dpr_Y88j3dyXLxsbnJ2Zq9wq_listing_{ID},{ID},{ID}";document.getElementsByTagName("head")[0].appendChild(a)})();
+Curr: script | function GoopCookie(a){this.brand=a;this.encodedBrand=this.brand.replace(/[^\w]/gi,"").toLowerCase();this.name="_goop_"+this.encodedBrand;this.DOMAIN=google_tag_manager["GTM-NKPNV5"].macro(16);this.DAYS=parseInt(google_tag_manager["GTM-NKPNV5"].macro(17));this.version=google_tag_manager["GTM-NKPNV5"].macro(18);google_tag_manager["GTM-NKPNV5"].macro(20)&&console.log("[GOOP "+google_tag_manager["GTM-NKPNV5"].macro(21)+" "+this.brand+"] '00.' GoopCookie Init");this.now=function(){return(new Date).getTime()};this.expiresIn=function(b){var a=new Date;a.setDate(a.getDate()+b);return a.toGMTString()};this.save=
+function(){var a=this.name+'\x3d{"value":"'+this.brand+'",  "creation":'+this.now()+"}; expires\x3d"+this.expiresIn(this.DAYS)+"; path\x3d/";"NA"!=this.DOMAIN&&(a+="; domain\x3d"+this.DOMAIN);document.cookie=a;google_tag_manager["GTM-NKPNV5"].macro(23)&&console.log("[GOOP "+google_tag_manager["GTM-NKPNV5"].macro(24)+" "+this.brand+"] '00.' Cookie set: "+a)}}
+try{google_tag_manager["GTM-NKPNV5"].macro(26)&&console.log("[GOOP "+google_tag_manager["GTM-NKPNV5"].macro(27)+"] '00.'");var goopBrand=google_tag_manager["GTM-NKPNV5"].macro(28);goopBrand&&0<goopBrand.length&&(google_tag_manager["GTM-NKPNV5"].macro(30)&&console.log("[GOOP "+google_tag_manager["GTM-NKPNV5"].macro(31)+" "+goopBrand+"] '00.' Found utm_goop Param"),(new GoopCookie(goopBrand)).save());google_tag_manager["GTM-NKPNV5"].macro(33)&&console.log("[GOOP "+google_tag_manager["GTM-NKPNV5"].macro(34)+"] '00.' Triggering event: 'goop_cookie_ready'");dataLayer.push({event:"goop_cookie_ready"})}catch(a){try{google_tag_manager["GTM-NKPNV5"].macro(36)&&console.log("[GOOP "+
+google_tag_manager["GTM-NKPNV5"].macro(37)+"] '00.' Error: "+a)}catch(b){}};
+Curr: div | 
+Curr: script | if(document.referrer){var ord=1E12*Math.random();document.write('\x3cSCRIPT language\x3d"JavaScript1.1" SRC\x3d"https://ad.doubleclick.net/ddm/adj/N243802.197812NSO.CODESRV/B9120554.123682311;dcadv\x3d5150641;sz\x3d1x2;ord\x3d'+ord+'?"\x3e\x3c/SCRIPT\x3e')};

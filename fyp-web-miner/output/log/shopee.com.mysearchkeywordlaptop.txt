@@ -1,0 +1,1096 @@
+Curr: head | 
+Curr: script | !function(n){var o={};function a(e){if(o[e])return o[e].exports;var t=o[e]={i:e,l:!1,exports:{}};return n[e].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.m=n,a.c=o,a.d=function(e,t,n){a.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:n})},a.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(t,"a",t),t},a.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},a.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",a(a.s=0)}([function(e,t){function n(){document&&document.body&&(document.body.style.visibility="visible")}var o=location&&location.pathname;if("/"!==o&&o.length<256&&""===location.hash&&-1===o.indexOf("-")&&0===o.lastIndexOf("/")){document&&document.body&&(document.body.style.visibility="hidden"),setTimeout(n,5e3);var a=new XMLHttpRequest;a.open("GET","/api/v0/is_short_url/?path="+o.replace("/","")),a.setRequestHeader("Content-Type","application/json"),a.setRequestHeader("Accept","application/json"),a.onreadystatechange=function(){if(4===this.readyState)if(200===this.status)if(JSON.parse(this.responseText).error)n();else{var e=document.createElement("a");e.href=location.href,e.search+="?"===e.search[0]?"&__classic__=1":"?__classic__=1",location.href=e.href}else n()},a.send()}}]);
+Refer: script | !function(n){var o={};function a(e){if(o[e])return o[e].exports;var t=o[e]={i:e,l:!1,exports:{}};return n[e].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.m=n,a.c=o,a.d=function(e,t,n){a.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:n})},a.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(t,"a",t),t},a.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},a.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",a(a.s=0)}([function(e,t){function n(){document&&document.body&&(document.body.style.visibility="visible")}var o=location&&location.pathname;if("/"!==o&&o.length<256&&""===location.hash&&-1===o.indexOf("-")&&0===o.lastIndexOf("/")){document&&document.body&&(document.body.style.visibility="hidden"),setTimeout(n,5e3);var a=new XMLHttpRequest;a.open("GET","/api/v0/is_short_url/?path="+o.replace("/","")),a.setRequestHeader("Content-Type","application/json"),a.setRequestHeader("Accept","application/json"),a.onreadystatechange=function(){if(4===this.readyState)if(200===this.status)if(JSON.parse(this.responseText).error)n();else{var e=document.createElement("a");e.href=location.href,e.search+="?"===e.search[0]?"&__classic__=1":"?__classic__=1",location.href=e.href}else n()},a.send()}}]);
+Same
+Curr: script | !function(r){var t={};function a(e){if(t[e])return t[e].exports;var n=t[e]={i:e,l:!1,exports:{}};return r[e].call(n.exports,n,n.exports,a),n.l=!0,n.exports}a.m=r,a.c=t,a.d=function(e,n,r){a.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},a.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(n,"a",n),n},a.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},a.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",a(a.s=0)}([function(e,n){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,window.PerformanceObserver&&new window.PerformanceObserver(function(e){for(var n=e.getEntries(),r=0;r<n.length;r++){var t=n[r],a=t.name,o=Math.round(t.startTime+t.duration);ga("send",{hitType:"timing",timingCategory:"Performance Metrics",timingVar:a,timingValue:o})}}).observe({entryTypes:["paint"]})}]);
+Refer: script | !function(r){var t={};function a(e){if(t[e])return t[e].exports;var n=t[e]={i:e,l:!1,exports:{}};return r[e].call(n.exports,n,n.exports,a),n.l=!0,n.exports}a.m=r,a.c=t,a.d=function(e,n,r){a.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},a.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(n,"a",n),n},a.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},a.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",a(a.s=0)}([function(e,n){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,window.PerformanceObserver&&new window.PerformanceObserver(function(e){for(var n=e.getEntries(),r=0;r<n.length;r++){var t=n[r],a=t.name,o=Math.round(t.startTime+t.duration);ga("send",{hitType:"timing",timingCategory:"Performance Metrics",timingVar:a,timingValue:o})}}).observe({entryTypes:["paint"]})}]);
+Same
+Curr: script | !function(t){var r={};function o(n){if(r[n])return r[n].exports;var e=r[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,o),e.l=!0,e.exports}o.m=t,o.c=r,o.d=function(n,e,t){o.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},o.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return o.d(e,"a",e),e},o.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},o.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",o(o.s=0)}([function(n,e){var t,r;t=!0,r=[],window.webpackJsonp=function(n){t&&r.push(n)},window.prometheusGetChunks=function(){return t=!1,r}}]);
+Refer: script | !function(t){var r={};function o(n){if(r[n])return r[n].exports;var e=r[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,o),e.l=!0,e.exports}o.m=t,o.c=r,o.d=function(n,e,t){o.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},o.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return o.d(e,"a",e),e},o.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},o.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",o(o.s=0)}([function(n,e){var t,r;t=!0,r=[],window.webpackJsonp=function(n){t&&r.push(n)},window.prometheusGetChunks=function(){return t=!1,r}}]);
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Open search
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Open search
+Same
+Curr: script | dataLayer = [];
+Refer: script | dataLayer = [];
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Google Tag Manager
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Google Tag Manager
+Same
+Curr: script | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js',country:'my'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJZQSJF');
+Refer: script | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js',country:'my'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJZQSJF');
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Tag Manager
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Tag Manager
+Same
+Curr: title | Explore laptop Product Offers and Prices | Shopee Malaysia
+Curr: script | {"@context":"http://schema.org","@type":"WebSite","name":"Shopee","url":"https://shopee.com.my","potentialAction":{"@type":"SearchAction","target":"/search/?keyword={search_term_string}","query-input":"required name=search_term_string"},"sameAs":["https://www.facebook.com/ShopeeMY","https://www.instagram.com/Shopee_MY","https://www.youtube.com/channel/UCuo-9GW0hmlGviP9LGbd9PA","https://play.google.com/store/apps/details?id=com.shopee.my","https://itunes.apple.com/MY/app/id959841113"]}
+Refer: script | {"@context":"http://schema.org","@type":"WebSite","name":"Shopee","url":"https://shopee.com.my","potentialAction":{"@type":"SearchAction","target":"/search/?keyword={search_term_string}","query-input":"required name=search_term_string"},"sameAs":["https://www.facebook.com/ShopeeMY","https://www.instagram.com/Shopee_MY","https://www.youtube.com/channel/UCuo-9GW0hmlGviP9LGbd9PA","https://play.google.com/store/apps/details?id=com.shopee.my","https://itunes.apple.com/MY/app/id959841113"]}
+Same
+Curr: style | html, body { font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "\\6587泉驛正黑", "WenQuanYi Zen Hei", "Hiragino Sans GB", "\\5137黑Pro", "LiHei Pro", "Heiti TC", "\\5FAE軟正黑體", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif; }
+Refer: style | html, body { font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "\\6587泉驛正黑", "WenQuanYi Zen Hei", "Hiragino Sans GB", "\\5137黑Pro", "LiHei Pro", "Heiti TC", "\\5FAE軟正黑體", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif; }
+Same
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"*Hot Selling*New Laptop Travel School Backpack Bag","description":"","url":"https://shopee.com.my/*Hot-Selling*New-Laptop-Travel-School-Backpack-Bag-i.59423012.1256637930","image":"https://cf.shopee.com.my/file/37e24879a3f149ee2280f866b6340d26","offers":{"@type":"Offer","price":"49.90","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Urban Backpack Bag Waterproof Laptop Backpack School Travel Shoulder Bag Men Bag","description":"","url":"https://shopee.com.my/Urban-Backpack-Bag-Waterproof-Laptop-Backpack-School-Travel-Shoulder-Bag-Men-Bag-i.53917720.1274251885","image":"https://cf.shopee.com.my/file/e44c19006a1d058fb5a165ace9a6df53","offers":{"@type":"Offer","price":"39.50","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"1M Black 4 PORT USB 2.0 MULTI SMART HUB EXPANSION SPLITTER ADAPTER PC LAPTOP","description":"","url":"https://shopee.com.my/1M-Black-4-PORT-USB-2.0-MULTI-SMART-HUB-EXPANSION-SPLITTER-ADAPTER-PC-LAPTOP-i.8040259.61456711","image":"https://cf.shopee.com.my/file/49d53951e2e03dbf45837c9d09df0396","offers":{"@type":"Offer","price":"3.20","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"16","ratingValue":"4.88"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Ready stock Isales Anti theft backpack laptop bag","description":"","url":"https://shopee.com.my/Ready-stock-Isales-Anti-theft-backpack-laptop-bag-i.2814460.1054042281","image":"https://cf.shopee.com.my/file/5c9b18c849b7fe90c1a800f2d2542bf6","offers":{"@type":"Offer","price":"37.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"26","ratingValue":"4.81"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(Refurbished Notebook) DELL D630 INTEL CORE 2 DUO","description":"","url":"https://shopee.com.my/(Refurbished-Notebook)-DELL-D630-INTEL-CORE-2-DUO-i.10168300.408732530","image":"https://cf.shopee.com.my/file/a0405e8f308e33968403a689ca63166d","offers":{"@type":"Offer","price":"384.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"13","ratingValue":"3.46"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Intel Core i5-7400 | Turbo Boost up to 3.5 GHz, 6MB Cache, LGA 1151","description":"","url":"https://shopee.com.my/Intel-Core-i5-7400-Turbo-Boost-up-to-3.5-GHz-6MB-Cache-LGA-1151-i.18799831.224321082","image":"https://cf.shopee.com.my/file/ebb80831c3c5bb187a9d2db90fc96094","offers":{"@type":"Offer","price":"627.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"8","ratingValue":"4.63"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(Refurbished Notebook) DELL D630 INTEL CORE 2 DUO","description":"","url":"https://shopee.com.my/(Refurbished-Notebook)-DELL-D630-INTEL-CORE-2-DUO-i.10168300.408732530","image":"https://cf.shopee.com.my/file/a0405e8f308e33968403a689ca63166d","offers":{"@type":"Offer","price":"384.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"13","ratingValue":"3.46"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(Refurbished Notebook) HP COMPAQ 6910 INTEL CORE 2 DUO","description":"","url":"https://shopee.com.my/(Refurbished-Notebook)-HP-COMPAQ-6910-INTEL-CORE-2-DUO-i.10168300.408724732","image":"https://cf.shopee.com.my/file/e2a5983e5a0e86ed154aec8d3d7ab628","offers":{"@type":"Offer","price":"384.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"4","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(REFURBISHED) Toshiba satellite Intel core i5 250gb NOTEBOOK core i3 LAPTOP","description":"","url":"https://shopee.com.my/(REFURBISHED)-Toshiba-satellite-Intel-core-i5-250gb-NOTEBOOK-core-i3-LAPTOP-i.17267784.365818267","image":"https://cf.shopee.com.my/file/29284142a26232d42c602db0923283e6","offers":{"@type":"AggregateOffer","lowPrice":"599.00","highPrice":"729.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"15","ratingValue":"4.53"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"ASUS X441U-AWX317T RED 1 YEAR GLOBAL WARRANTY CORE i3/4GB/500GB/Intel HD/14˝/W10","description":"","url":"https://shopee.com.my/ASUS-X441U-AWX317T-RED-1-YEAR-GLOBAL-WARRANTY-CORE-i3-4GB-500GB-Intel-HD-14%CB%9D-W10-i.36213492.673547149","image":"https://cf.shopee.com.my/file/fad7711b9b67042abc5b38277564f9a5","offers":{"@type":"Offer","price":"1749.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Dell XPS Intel Core i7 Nvidia GeForce GT Graphic Laptop","description":"","url":"https://shopee.com.my/Dell-XPS-Intel-Core-i7-Nvidia-GeForce-GT-Graphic-Laptop-i.9704553.823887368","image":"https://cf.shopee.com.my/file/d081d9f7495f26708fc12f8d9a6e0418","offers":{"@type":"Offer","price":"1199.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Laptop Asus A43S Core i3 Nvidia Red Edition Gaming Laptops","description":"","url":"https://shopee.com.my/Laptop-Asus-A43S-Core-i3-Nvidia-Red-Edition-Gaming-Laptops-i.20880107.397442428","image":"https://cf.shopee.com.my/file/176d6c0b94a0dc248b1493685088e338","offers":{"@type":"Offer","price":"1500.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Lenovo Intel Core i7 Nvidia GeForce Graphic Gaming Touch Screen Laptop","description":"","url":"https://shopee.com.my/Lenovo-Intel-Core-i7-Nvidia-GeForce-Graphic-Gaming-Touch-Screen-Laptop-i.9704553.1057114027","image":"https://cf.shopee.com.my/file/861dde9ecdfcb77e9937b7392a42557d","offers":{"@type":"Offer","price":"1899.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"REFURBISHED DELL OPTIPLEX GX520 Pentium 4 [Clear Stock]","description":"","url":"https://shopee.com.my/REFURBISHED-DELL-OPTIPLEX-GX520-Pentium-4-Clear-Stock-i.43991774.828150805","image":"https://cf.shopee.com.my/file/a6d001c5205ec1a174b67c4ae93ff31c","offers":{"@type":"Offer","price":"60.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"5","ratingValue":"4.40"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Refurb Panasonic CF-Y8 Core 2 Duo~4Gb~160Gb~1.4kg","description":"","url":"https://shopee.com.my/Refurb-Panasonic-CF-Y8-Core-2-Duo~4Gb~160Gb~1.4kg-i.36194206.892034003","image":"https://cf.shopee.com.my/file/054b82a2898f099b60df5bf0cb7fae79","offers":{"@type":"Offer","price":"457.90","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"9","ratingValue":"4.89"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Acer Nitro 5 AN515-52-50WX 8th Gen i5","description":"","url":"https://shopee.com.my/Acer-Nitro-5-AN515-52-50WX-8th-Gen-i5-i.48281469.883255217","image":"https://cf.shopee.com.my/file/24824c7706e8879fd0e86403678c12b0","offers":{"@type":"Offer","price":"2769.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"6","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Lenovo intel core i3 2367M 320GB DDR3 WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e","description":"","url":"https://shopee.com.my/Lenovo-intel-core-i3-2367M-320GB-DDR3-WEBCAM-HDMI-LAPTOP-NOTEBOOK-NETBOOK-x121e-i.17267784.451014586","image":"https://cf.shopee.com.my/file/3fb36cdee5bc17daae6fd481edee3152","offers":{"@type":"Offer","price":"580.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"5","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Acer One (S1003-1671) - 10.1\" IPS HD / x5-Z8350 / 2GB / 64GB / W10","description":"","url":"https://shopee.com.my/Acer-One-(S1003-1671)-10.1-IPS-HD-x5-Z8350-2GB-64GB-W10-i.2716990.410587254","image":"https://cf.shopee.com.my/file/f9e67dbb96d7c9c2001c5c9b5666bd72","offers":{"@type":"Offer","price":"998.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"4","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Asus X505B-PBR060T Laptop- A9-9420| W10| 15.6 HD| 4GB| 1TB| R5 M420 2GB| Gold","description":"","url":"https://shopee.com.my/Asus-X505B-PBR060T-Laptop-A9-9420-W10-15.6-HD-4GB-1TB-R5-M420-2GB-Gold-i.2187349.1015908882","image":"https://cf.shopee.com.my/file/445189d99a37793080d15279d7e6f026","offers":{"@type":"Offer","price":"1668.90","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"2","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(USED)80GB/160GB/250GB/500GB/750GB/1TB Laptop Hardisk 2.5\" (Mixed Brand)","description":"","url":"https://shopee.com.my/(USED)80GB-160GB-250GB-500GB-750GB-1TB-Laptop-Hardisk-2.5-(Mixed-Brand)-i.33537402.877192781","image":"https://cf.shopee.com.my/file/272aedbd296724ff05ff92a9e3a8579b","offers":{"@type":"AggregateOffer","lowPrice":"45.00","highPrice":"90.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"21","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Acer Predator Helios 300 G3-572-7703 15.6\" IPS FHD Gaming Laptop","description":"","url":"https://shopee.com.my/Acer-Predator-Helios-300-G3-572-7703-15.6-IPS-FHD-Gaming-Laptop-i.21750575.574092314","image":"https://cf.shopee.com.my/file/92f0ec80bcc87109dde1e734ce27450c","offers":{"@type":"Offer","price":"5659.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Acer Swift 5 SF514-52T-59ZV 14'' FHD IPS Touch Laptop Charcoal Blue","description":"","url":"https://shopee.com.my/Acer-Swift-5-SF514-52T-59ZV-14''-FHD-IPS-Touch-Laptop-Charcoal-Blue-i.4346374.998975459","image":"https://cf.shopee.com.my/file/253cdb501ead4a0dc9120f56227b5c3b","offers":{"@type":"Offer","price":"3563.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"3","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"11 12 14 15 inch Burnur laptop bag slim and elastic vertical waterproof","description":"","url":"https://shopee.com.my/11-12-14-15-inch-Burnur-laptop-bag-slim-and-elastic-vertical-waterproof-i.38145649.822526123","image":"https://cf.shopee.com.my/file/ebfea308a8801258aafeea9c770119e3","offers":{"@type":"Offer","price":"28.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"1","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"NEC Versa Pro VD9 Intel Core i5 4GB 160GB Windows 7 Japan 15.4” Laptop","description":"","url":"https://shopee.com.my/NEC-Versa-Pro-VD9-Intel-Core-i5-4GB-160GB-Windows-7-Japan-15.4%E2%80%9D-Laptop-i.60634545.1045032261","image":"https://cf.shopee.com.my/file/dfb94a2658bb9cfaa8ae72372b55ac9e","offers":{"@type":"AggregateOffer","lowPrice":"650.00","highPrice":"660.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"1","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"2 Color Men Shoulder Messenger Business Briefcase PU Leather Laptop Bag 1 P ZHPC","description":"","url":"https://shopee.com.my/2-Color-Men-Shoulder-Messenger-Business-Briefcase-PU-Leather-Laptop-Bag-1-P-ZHPC-i.26213436.484526880","image":"https://cf.shopee.com.my/file/4a9734b4ade88b886a4a7076ff70ab49","offers":{"@type":"Offer","price":"69.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"1","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Natural Cowskin Men Briefcase Large Business bag Black Male Shoulder Laptop Bags","description":"","url":"https://shopee.com.my/Natural-Cowskin-Men-Briefcase-Large-Business-bag-Black-Male-Shoulder-Laptop-Bags-i.49786779.798465139","image":"https://cf.shopee.com.my/file/55fd7049e5d4deced079c13ccf0d65ca","offers":{"@type":"Offer","price":"393.80","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"hot sale laptop Bag Pack Travel Vintage Teenage college Double Shoulder School","description":"","url":"https://shopee.com.my/hot-sale-laptop-Bag-Pack-Travel-Vintage-Teenage-college-Double-Shoulder-School-i.21074822.651822312","image":"https://cf.shopee.com.my/file/74c8ae3a4bf004fa334c980e80a62d45","offers":{"@type":"Offer","price":"55.82","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Refurbished HP 6000 SFF  C2D 2GB, 160GB Win Xpp + LCD 17\" Mon (Branded)","description":"","url":"https://shopee.com.my/Refurbished-HP-6000-SFF-C2D-2GB-160GB-Win-Xpp-LCD-17-Mon-(Branded)-i.8283454.314401365","image":"https://cf.shopee.com.my/file/19b9cd831848e9b71cddef4d521dcff5","offers":{"@type":"Offer","price":"499.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"HP 14-BS538TU Laptop |Celeron N3060|4GBD3|500GB|14.0\"|Win10|Natural Silver","description":"","url":"https://shopee.com.my/HP-14-BS538TU-Laptop-Celeron-N3060-4GBD3-500GB-14.0-Win10-Natural-Silver-i.592106.577238558","image":"https://cf.shopee.com.my/file/6d81a2e121c349ef6fc408cb7aa5aa6d","offers":{"@type":"Offer","price":"1139.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"3","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Refurb Panasonic CF-Y9 Core 2 Duo~4Gb~250Gb~W7 Pro","description":"","url":"https://shopee.com.my/Refurb-Panasonic-CF-Y9-Core-2-Duo~4Gb~250Gb~W7-Pro-i.36194206.892034090","image":"https://cf.shopee.com.my/file/5686b894ef9e76cb09e3a03d09771eb5","offers":{"@type":"Offer","price":"497.93","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"9","ratingValue":"4.78"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Shoulder portable men and women PU leather laptop bag 13 14 15 15.6 inch","description":"","url":"https://shopee.com.my/Shoulder-portable-men-and-women-PU-leather-laptop-bag-13-14-15-15.6-inch-i.30872573.818080096","image":"https://cf.shopee.com.my/file/fc76efe00b4feeceabb8e455d12a233d","offers":{"@type":"Offer","price":"63.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"100% Original Acer One (S1003-1671) - 10.1\" IPS HD / x5-Z8350 / 2GB / 64GB / W10","description":"","url":"https://shopee.com.my/100-Original-Acer-One-(S1003-1671)-10.1-IPS-HD-x5-Z8350-2GB-64GB-W10-i.54503144.884124190","image":"https://cf.shopee.com.my/file/4456ecb4cdc7880f447714e88b15aebb","offers":{"@type":"Offer","price":"999.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Formal Business Men's Fashion Large Square Laptop Bag","description":"","url":"https://shopee.com.my/Formal-Business-Men's-Fashion-Large-Square-Laptop-Bag-i.34013752.743161022","image":"https://cf.shopee.com.my/file/b3798f3713245670c4173eb4e87e1c28","offers":{"@type":"Offer","price":"74.85","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Pre-order: Men PU Leather Crazy Horse Shoulder Sling Laptop Bag Briefcase","description":"","url":"https://shopee.com.my/Pre-order-Men-PU-Leather-Crazy-Horse-Shoulder-Sling-Laptop-Bag-Briefcase-i.1104605.787566128","image":"https://cf.shopee.com.my/file/c70c04a5f065488ae9665f6d4596e5f1","offers":{"@type":"Offer","price":"100.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"2","ratingValue":"4.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"hot laptop Bag Pack Travel Vintage Teenage college Double Shoulder School","description":"","url":"https://shopee.com.my/hot-laptop-Bag-Pack-Travel-Vintage-Teenage-college-Double-Shoulder-School-i.21074822.651822305","image":"https://cf.shopee.com.my/file/9771b99bf4a2e11a79c79bafb3cc96a4","offers":{"@type":"Offer","price":"62.05","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Original laptop hard disk SATA serial port 5400 rpm 2.5 inch (Refurbished)","description":"","url":"https://shopee.com.my/Original-laptop-hard-disk-SATA-serial-port-5400-rpm-2.5-inch-(Refurbished)-i.5357784.1089318695","image":"https://cf.shopee.com.my/file/769c7a97fc7269427208216773c601b3","offers":{"@type":"AggregateOffer","lowPrice":"25.00","highPrice":"100.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"4","ratingValue":"4.75"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Official Avast Pro Antivirus 2018 Instant Transfer Code Only","description":"","url":"https://shopee.com.my/Official-Avast-Pro-Antivirus-2018-Instant-Transfer-Code-Only-i.29734956.883333826","image":"https://cf.shopee.com.my/file/81fa8caea4455c213a4ac8f419f7ce66","offers":{"@type":"Offer","price":"19.50","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"13","ratingValue":"4.92"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Acer S1003-1671 2 in 1 Laptop - Atom x5  10.1 IPS Touch  2GB  64GB","description":"","url":"https://shopee.com.my/Acer-S1003-1671-2-in-1-Laptop-Atom-x5-10.1-IPS-Touch-2GB-64GB-i.2187349.365584036","image":"https://cf.shopee.com.my/file/75288cf2fa9774061426bfde09e1a296","offers":{"@type":"Offer","price":"969.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"2","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"MICROSOFT OFFICE 2010/2013/2016 PRO PLUS READY STOCK, SUITABLE FOR URGENT!","description":"","url":"https://shopee.com.my/MICROSOFT-OFFICE-2010-2013-2016-PRO-PLUS-READY-STOCK-SUITABLE-FOR-URGENT!-i.19279066.1199284294","image":"https://cf.shopee.com.my/file/01bd1ee5a128020ec91a447fed01dce2","offers":{"@type":"AggregateOffer","lowPrice":"20.00","highPrice":"85.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"8","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Men's Black Leather Guy Fashion Laptop Bag Sports Travel Back Pack","description":"","url":"https://shopee.com.my/Men's-Black-Leather-Guy-Fashion-Laptop-Bag-Sports-Travel-Back-Pack-i.9726322.1230524728","image":"https://cf.shopee.com.my/file/8544a20f44dbf1f33b8c3558a227c116","offers":{"@type":"Offer","price":"47.70","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Authentic Kingsons Premium Series Travel Casual 15.6 Inch Laptop Bag KS3113W","description":"","url":"https://shopee.com.my/Authentic-Kingsons-Premium-Series-Travel-Casual-15.6-Inch-Laptop-Bag-KS3113W-i.13037.381357721","image":"https://cf.shopee.com.my/file/4654ae7d36078a59a33a28fa2b7a7bfe","offers":{"@type":"Offer","price":"129.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Microsoft office 365 (5DEVICES+5TB STORAGE)or Office pro plus 2016 (READY STOCK)","description":"","url":"https://shopee.com.my/Microsoft-office-365-(5DEVICES-5TB-STORAGE)or-Office-pro-plus-2016-(READY-STOCK)-i.19279066.373050469","image":"https://cf.shopee.com.my/file/1a4c3468ad4dc585f16b19fa15a9e625","offers":{"@type":"AggregateOffer","lowPrice":"5.90","highPrice":"8.50","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"515","ratingValue":"4.96"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"REFURBISHED Dell E6420 Laptop Core i5 2.4Ghz 4GB 500GB 14 Inch Win 7 Pro","description":"","url":"https://shopee.com.my/REFURBISHED-Dell-E6420-Laptop-Core-i5-2.4Ghz-4GB-500GB-14-Inch-Win-7-Pro-i.8077402.371141887","image":"https://cf.shopee.com.my/file/82e61abf9d61647f84b8791a9f0f49bf","offers":{"@type":"AggregateOffer","lowPrice":"845.00","highPrice":"895.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"4","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Men High Quality Washed Canvas Shoulder Sling 12 Inch Laptop Bag (Black)","description":"","url":"https://shopee.com.my/Men-High-Quality-Washed-Canvas-Shoulder-Sling-12-Inch-Laptop-Bag-(Black)-i.36446556.739166642","image":"https://cf.shopee.com.my/file/70c72b716ae87993a2ddc54ab5aaa23b","offers":{"@type":"Offer","price":"99.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"[Spot]Apple Asus Dell 13/14/15/15.6/17.3 inch laptop bag shoulder men and women","description":"","url":"https://shopee.com.my/-Spot-Apple-Asus-Dell-13-14-15-15.6-17.3-inch-laptop-bag-shoulder-men-and-women-i.61356919.1147547608","image":"https://cf.shopee.com.my/file/7a151a899bafe139493b0e7e4e6a65a2","offers":{"@type":"AggregateOffer","lowPrice":"68.00","highPrice":"72.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"1","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(USED)80GB/160GB/250GB/500GB/750GB/1TB Laptop Hardisk 2.5\" (Mixed Brand)","description":"","url":"https://shopee.com.my/(USED)80GB-160GB-250GB-500GB-750GB-1TB-Laptop-Hardisk-2.5-(Mixed-Brand)-i.33537402.877192781","image":"https://cf.shopee.com.my/file/272aedbd296724ff05ff92a9e3a8579b","offers":{"@type":"AggregateOffer","lowPrice":"45.00","highPrice":"90.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"21","ratingValue":"5.00"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"SWISS POLO LAPTOP BACKPACK-BLACK(SUJ 6316-1)","description":"","url":"https://shopee.com.my/SWISS-POLO-LAPTOP-BACKPACK-BLACK(SUJ-6316-1)-i.61628966.1131014808","image":"https://cf.shopee.com.my/file/db4489b2a1dde3d80e5c508035457591","offers":{"@type":"Offer","price":"139.90","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"SWISS POLO LAPTOP BACKPACK-BLACK(SUJ 6315-1)","description":"","url":"https://shopee.com.my/SWISS-POLO-LAPTOP-BACKPACK-BLACK(SUJ-6315-1)-i.61628966.1131011161","image":"https://cf.shopee.com.my/file/734bf4be82d89da741fcbe4e670e2c1b","offers":{"@type":"Offer","price":"139.90","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Waterproof Multi-function Large Office PU Leather Desk Pad Laptop Mouse Pad","description":"","url":"https://shopee.com.my/Waterproof-Multi-function-Large-Office-PU-Leather-Desk-Pad-Laptop-Mouse-Pad-i.45555159.1214791704","image":"https://cf.shopee.com.my/file/e4d0a7f4e2bf56e56166cc38c143e5b9","offers":{"@type":"Offer","price":"46.99","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Neoprene Sleeve 13 inches Laptop Bag Notebook Case Cover For Macbook/HP 13.3\"","description":"","url":"https://shopee.com.my/Neoprene-Sleeve-13-inches-Laptop-Bag-Notebook-Case-Cover-For-Macbook-HP-13.3-i.73795784.1256124610","image":"https://cf.shopee.com.my/file/067aa3f7776a4ef9185b506c8e438fa5","offers":{"@type":"Offer","price":"43.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
+Curr: body | 
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Google Tag Manager (noscript)
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Google Tag Manager (noscript)
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Tag Manager (noscript)
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Tag Manager (noscript)
+Same
+Curr: div | Select Your Language
+Refer: div | Select Your Language
+Same
+Curr: button | English
+Refer: button | English
+Same
+Curr: button | Bahasa Malaysia
+Refer: button | Bahasa Malaysia
+Same
+Curr: button | 简体中文
+Refer: button | 简体中文
+Same
+Curr: div | Seller centre
+Refer: div | Seller centre
+Same
+Curr: div | Download
+Refer: div | Download
+Same
+Curr: div | Follow us on
+Refer: div | Follow us on
+Same
+Curr: span | 
+Refer: span | 
+Same
+Curr: span | Notifications
+Refer: span | Notifications
+Same
+Curr: div | Recently Received Notifications
+Refer: div | Recently Received Notifications
+Same
+Curr: a | View All
+Refer: a | View All
+Same
+Curr: p | Log in to view notifications
+Refer: p | Log in to view notifications
+Same
+Curr: div | Sign Up
+Refer: div | Sign Up
+Same
+Curr: div | Login
+Refer: div | Login
+Same
+Curr: span | help
+Refer: span | help
+Same
+Curr: li | Sign Up
+Refer: li | Sign Up
+Same
+Curr: li | Login
+Refer: li | Login
+Same
+Curr: span | kitchen rack
+Curr: span | shoulder bag
+Curr: span | long dress
+Curr: span | men wallets
+Curr: span | casing iphone
+Curr: span | face mask
+Curr: span | redmi case
+Curr: span | hard disk
+Curr: span | honor case
+Curr: span | long pants
+Curr: span | women sandals
+Curr: span | high heels
+Curr: span | casio watches
+Curr: span | dinner dresses
+Curr: span | hot wheels
+Curr: div | no products yet
+Refer: div | no products yet
+Same
+Curr: div | related searches
+Curr: div | Traditional Laptops
+Curr: div | Backpacks
+Curr: div | Sleeves
+Curr: div | Components
+Curr: div | Network Components
+Curr: div | Printers & Projectors
+Curr: div | Storage & Hard Drives
+Curr: div | Laptop Batteries
+Curr: div | Men's Bags & Wallets
+Curr: div | Keyboards
+Curr: div | Mice
+Curr: div | Women's Bags & Purses
+Curr: div | Laptops
+Curr: div | Gaming Mice
+Curr: div | Mobile & Gadgets
+Curr: div | Search Filter
+Refer: div | Search Filter
+Same
+Curr: div | by category
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Computers & Laptops
+Curr: span | (368887)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Computer Accessories
+Curr: span | (141229)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Components
+Curr: span | (71017)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Network Components
+Curr: span | (54240)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Printers & Projectors
+Curr: span | (44316)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Storage & Hard Drives
+Curr: span | (42575)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Laptops
+Curr: span | (8507)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Others
+Curr: span | (3603)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Desktops
+Curr: span | (3400)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Men's Bags & Wallets
+Curr: span | (31427)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Laptop Bags
+Curr: span | (23020)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Men's Backpacks
+Curr: span | (7367)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Messenger Bags
+Curr: span | (585)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Waist & Cross Body Bags
+Curr: span | (350)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Others
+Curr: span | (73)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Women's Bags & Purses
+Curr: span | (12133)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Laptop Bags
+Curr: span | (5159)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Women's Backpacks
+Curr: span | (4656)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Shoulder Bags
+Curr: span | (868)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Handbags
+Curr: span | (758)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Luggage & Travel
+Curr: span | (173)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Sling Bags
+Curr: span | (145)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Purses & Pouches
+Curr: span | (143)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Tote Bags
+Curr: span | (96)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Others
+Curr: span | (92)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Mobile & Gadgets
+Curr: span | (6760)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Audio
+Curr: span | (1914)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Cool Gadgets
+Curr: span | (1324)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Cases & Covers
+Curr: span | (1213)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Cables & Chargers
+Curr: span | (1154)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Powerbanks & Batteries
+Curr: span | (352)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Camera & Accessories
+Curr: span | (290)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Screen Protectors
+Curr: span | (176)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Tablets
+Curr: span | (102)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Wearables
+Curr: span | (83)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Others
+Curr: span | (56)
+Curr: div | More
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home & Living
+Curr: span | (3979)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Stationery
+Curr: span | (1363)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Lighting
+Curr: span | (689)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home Improvement
+Curr: span | (687)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Furniture
+Curr: span | (484)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home Decor
+Curr: span | (413)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Housekeeping & Laundry
+Curr: span | (131)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home Storage & Organization
+Curr: span | (73)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Automotive
+Curr: span | (2203)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Car Parts & Accessories
+Curr: span | (2047)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Moto Parts & Accessories
+Curr: span | (96)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Toys, Kids & Babies
+Curr: span | (824)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Toys & Education
+Curr: span | (564)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Accessories
+Curr: span | (206)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Everything Else
+Curr: span | (688)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Others
+Curr: span | (610)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home Appliances
+Curr: span | (446)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Cooling & Heating
+Curr: span | (146)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Home Entertainment
+Curr: span | (88)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Security & Surveillance
+Curr: span | (80)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | TV Accessories
+Curr: span | (73)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Games, Books & Hobbies
+Curr: span | (419)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Consoles & Accessories
+Curr: span | (268)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Sports & Outdoor
+Curr: span | (194)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Outdoor & Adventure
+Curr: span | (140)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Men's Shoes
+Curr: span | (94)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Sports Shoes
+Curr: span | (93)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Accessories
+Curr: span | (93)
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Women's Clothing
+Curr: span | (64)
+Curr: div | Shipped from
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Local
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Overseas
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | West Malaysia
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | East Malaysia
+Curr: div | More
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Selangor
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Kuala Lumpur
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Penang
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Johor
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Kedah
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Perak
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Melaka
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Pahang
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Negeri Sembilan
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Terengganu
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Sarawak
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Kelantan
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Perlis
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Sabah
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Putrajaya
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Labuan
+Curr: div | Shop Type
+Refer: div | Shop Type
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Shopee Mall
+Refer: span | Shopee Mall
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | shopee preferred
+Refer: span | shopee preferred
+Same
+Curr: div | Service & Promotion
+Refer: div | Service & Promotion
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | wholesale
+Refer: span | wholesale
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | With Discount
+Refer: span | With Discount
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Free Shipping
+Refer: span | Free Shipping
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Lowest Price Guarantee
+Refer: span | Lowest Price Guarantee
+Same
+Curr: div | conditions
+Refer: div | conditions
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | New Products
+Refer: span | New Products
+Same
+Curr: i | 
+Refer: i | 
+Same
+Curr: span | Used Item
+Refer: span | Used Item
+Same
+Curr: div | Price Range
+Refer: div | Price Range
+Same
+Curr: button | Apply
+Refer: button | Apply
+Same
+Curr: button | Clear All
+Refer: button | Clear All
+Same
+Curr: div | shops related to
+Curr: span | "
+Curr: span | laptop
+Curr: span | "
+Curr: button | More Shops
+Curr: div | laptopsparepart
+Curr: div | atozcsdotnet
+Curr: span | 321
+Curr: span | followers
+Curr: span | |
+Curr: span | 2
+Curr: span | following
+Curr: span | 1339
+Curr: div | products
+Curr: span | 4.9
+Curr: div | Ratings
+Curr: span | 94%
+Curr: div | response rate
+Curr: span | within hours
+Curr: div | response time
+Curr: span | Search result for '
+Curr: span | laptop
+Curr: span | Sort by
+Refer: span | Sort by
+Same
+Curr: div | relevance
+Refer: div | relevance
+Same
+Curr: div | Latest
+Refer: div | Latest
+Same
+Curr: div | Top Sales
+Refer: div | Top Sales
+Same
+Curr: span | Price
+Refer: span | Price
+Same
+Curr: span | 1
+Refer: span | 1
+Same
+Curr: span | 100
+Curr: div | ad
+Curr: div | *Hot Selling*New Laptop Travel School Backpack Bag
+Curr: div | RM49.90
+Curr: div | 0
+Curr: span | No ratings yet
+Curr: div | ad
+Curr: div | Urban Backpack Bag Waterproof Laptop Backpack School Travel Shoulder Bag Men Bag
+Curr: div | RM79.00
+Curr: div | RM39.50
+Curr: div | 5
+Curr: span | No ratings yet
+Curr: span | 50%
+Curr: span | off
+Curr: div | ad
+Curr: div | 1M Black 4 PORT USB 2.0 MULTI SMART HUB EXPANSION SPLITTER ADAPTER PC LAPTOP
+Curr: div | RM13.30
+Curr: div | RM3.20
+Curr: div | 34
+Curr: span | (16)
+Curr: span | 76%
+Curr: span | off
+Curr: div | ad
+Curr: div | Ready stock Isales Anti theft backpack laptop bag
+Curr: div | RM37.00
+Curr: div | 27
+Curr: span | (26)
+Curr: div | ad
+Curr: div | (Refurbished Notebook) DELL D630 INTEL CORE 2 DUO
+Curr: div | RM419.00
+Curr: div | RM384.00
+Curr: div | 311
+Curr: span | (13)
+Curr: span | 8%
+Curr: span | off
+Curr: div | Intel Core i5-7400 | Turbo Boost up to 3.5 GHz, 6MB Cache, LGA 1151
+Curr: div | RM627.00
+Curr: div | 30
+Curr: span | (8)
+Curr: div | (Refurbished Notebook) DELL D630 INTEL CORE 2 DUO
+Curr: div | RM419.00
+Curr: div | RM384.00
+Curr: div | 311
+Curr: span | (13)
+Curr: span | 8%
+Curr: span | off
+Curr: div | (Refurbished Notebook) HP COMPAQ 6910 INTEL CORE 2 DUO
+Curr: div | RM419.00
+Curr: div | RM384.00
+Curr: div | 126
+Curr: span | (4)
+Curr: span | 8%
+Curr: span | off
+Curr: div | (REFURBISHED) Toshiba satellite Intel core i5 250gb NOTEBOOK core i3 LAPTOP
+Curr: div | RM599.00 - RM729.00
+Curr: div | 316
+Curr: span | (15)
+Curr: div | ASUS X441U-AWX317T RED 1 YEAR GLOBAL WARRANTY CORE i3/4GB/500GB/Intel HD/14˝/W10
+Curr: div | RM1,749.00
+Curr: div | 24
+Curr: span | No ratings yet
+Curr: div | Dell XPS Intel Core i7 Nvidia GeForce GT Graphic Laptop
+Curr: div | RM1,199.00
+Curr: div | 79
+Curr: span | No ratings yet
+Curr: div | Laptop Asus A43S Core i3 Nvidia Red Edition Gaming Laptops
+Curr: div | RM1,500.00
+Curr: div | 82
+Curr: span | No ratings yet
+Curr: div | Lenovo Intel Core i7 Nvidia GeForce Graphic Gaming Touch Screen Laptop
+Curr: div | RM1,899.00
+Curr: div | 53
+Curr: span | No ratings yet
+Curr: div | REFURBISHED DELL OPTIPLEX GX520 Pentium 4 [Clear Stock]
+Curr: div | RM60.00
+Curr: div | 22
+Curr: span | (5)
+Curr: div | Refurb Panasonic CF-Y8 Core 2 Duo~4Gb~160Gb~1.4kg
+Curr: div | RM457.90
+Curr: div | 94
+Curr: span | (9)
+Curr: div | Acer Nitro 5 AN515-52-50WX 8th Gen i5
+Curr: div | RM2,769.00
+Curr: div | 68
+Curr: span | (6)
+Curr: div | Lenovo intel core i3 2367M 320GB DDR3 WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e
+Curr: div | RM580.00
+Curr: div | 158
+Curr: span | (5)
+Curr: div | RM1,099.00
+Curr: div | RM998.00
+Curr: div | 170
+Curr: span | (4)
+Curr: span | 9%
+Curr: span | off
+Curr: div | Asus X505B-PBR060T Laptop- A9-9420| W10| 15.6 HD| 4GB| 1TB| R5 M420 2GB| Gold
+Curr: div | RM1,668.90
+Curr: div | 50
+Curr: span | (2)
+Curr: div | (USED)80GB/160GB/250GB/500GB/750GB/1TB Laptop Hardisk 2.5" (Mixed Brand)
+Curr: div | RM45.00 - RM90.00
+Curr: div | 24
+Curr: span | (21)
+Curr: div | RM5,659.00
+Curr: div | 106
+Curr: span | No ratings yet
+Curr: div | Acer Swift 5 SF514-52T-59ZV 14'' FHD IPS Touch Laptop Charcoal Blue
+Curr: div | RM3,799.00
+Curr: div | RM3,563.00
+Curr: div | 16
+Curr: span | (3)
+Curr: span | 6%
+Curr: span | off
+Curr: div | 11 12 14 15 inch Burnur laptop bag slim and elastic vertical waterproof
+Curr: div | RM40.00
+Curr: div | RM28.00
+Curr: div | 28
+Curr: span | (1)
+Curr: span | 30%
+Curr: span | off
+Curr: div | NEC Versa Pro VD9 Intel Core i5 4GB 160GB Windows 7 Japan 15.4” Laptop
+Curr: div | RM650.00 - RM660.00
+Curr: div | 53
+Curr: span | (1)
+Curr: div | 2 Color Men Shoulder Messenger Business Briefcase PU Leather Laptop Bag 1 P ZHPC
+Curr: div | RM69.00
+Curr: div | 27
+Curr: span | (1)
+Curr: div | Natural Cowskin Men Briefcase Large Business bag Black Male Shoulder Laptop Bags
+Curr: div | RM393.80
+Curr: div | 6
+Curr: span | No ratings yet
+Curr: div | hot sale laptop Bag Pack Travel Vintage Teenage college Double Shoulder School
+Curr: div | RM55.82
+Curr: div | 6
+Curr: span | No ratings yet
+Curr: div | Refurbished HP 6000 SFF  C2D 2GB, 160GB Win Xpp + LCD 17" Mon (Branded)
+Curr: div | RM499.00
+Curr: div | 87
+Curr: span | No ratings yet
+Curr: div | RM1,389.00
+Curr: div | RM1,139.00
+Curr: div | 68
+Curr: span | (3)
+Curr: span | 18%
+Curr: span | off
+Curr: div | Refurb Panasonic CF-Y9 Core 2 Duo~4Gb~250Gb~W7 Pro
+Curr: div | RM497.93
+Curr: div | 50
+Curr: span | (9)
+Curr: div | Shoulder portable men and women PU leather laptop bag 13 14 15 15.6 inch
+Curr: div | RM90.00
+Curr: div | RM63.00
+Curr: div | 10
+Curr: span | No ratings yet
+Curr: span | 30%
+Curr: span | off
+Curr: div | 100% Original Acer One (S1003-1671) - 10.1" IPS HD / x5-Z8350 / 2GB / 64GB / W10
+Curr: div | RM999.00
+Curr: div | 68
+Curr: span | No ratings yet
+Curr: div | Formal Business Men's Fashion Large Square Laptop Bag
+Curr: div | RM74.85
+Curr: div | 4
+Curr: span | No ratings yet
+Curr: div | Pre-order: Men PU Leather Crazy Horse Shoulder Sling Laptop Bag Briefcase
+Curr: div | RM100.00
+Curr: div | 9
+Curr: span | (2)
+Curr: div | hot laptop Bag Pack Travel Vintage Teenage college Double Shoulder School
+Curr: div | RM62.05
+Curr: div | 5
+Curr: span | No ratings yet
+Curr: div | Original laptop hard disk SATA serial port 5400 rpm 2.5 inch (Refurbished)
+Curr: div | RM25.00 - RM100.00
+Curr: div | 15
+Curr: span | (4)
+Curr: div | Official Avast Pro Antivirus 2018 Instant Transfer Code Only
+Curr: div | RM19.50
+Curr: div | 10
+Curr: span | (13)
+Curr: div | wholesale
+Curr: span | ≥ 2
+Curr: span | RM18.90
+Curr: div | Acer S1003-1671 2 in 1 Laptop - Atom x5  10.1 IPS Touch  2GB  64GB
+Curr: div | RM969.00
+Curr: div | 99
+Curr: span | (2)
+Curr: div | MICROSOFT OFFICE 2010/2013/2016 PRO PLUS READY STOCK, SUITABLE FOR URGENT!
+Curr: div | RM20.00 - RM85.00
+Curr: div | 8
+Curr: span | (8)
+Curr: div | Men's Black Leather Guy Fashion Laptop Bag Sports Travel Back Pack
+Curr: div | RM106.00
+Curr: div | RM47.70
+Curr: div | 5
+Curr: span | No ratings yet
+Curr: span | 55%
+Curr: span | off
+Curr: div | Authentic Kingsons Premium Series Travel Casual 15.6 Inch Laptop Bag KS3113W
+Curr: div | RM299.00
+Curr: div | RM129.00
+Curr: div | 8
+Curr: span | No ratings yet
+Curr: span | 57%
+Curr: span | off
+Curr: div | Microsoft office 365 (5DEVICES+5TB STORAGE)or Office pro plus 2016 (READY STOCK)
+Curr: div | RM5.90 - RM8.50
+Curr: div | 172
+Curr: span | (515)
+Curr: div | REFURBISHED Dell E6420 Laptop Core i5 2.4Ghz 4GB 500GB 14 Inch Win 7 Pro
+Curr: div | RM845.00 - RM895.00
+Curr: div | 58
+Curr: span | (4)
+Curr: div | Men High Quality Washed Canvas Shoulder Sling 12 Inch Laptop Bag (Black)
+Curr: div | RM129.00
+Curr: div | RM99.00
+Curr: div | 6
+Curr: span | No ratings yet
+Curr: span | 23%
+Curr: span | off
+Curr: div | [Spot]Apple Asus Dell 13/14/15/15.6/17.3 inch laptop bag shoulder men and women
+Curr: div | RM68.00 - RM72.00
+Curr: div | 5
+Curr: span | (1)
+Curr: div | ad
+Curr: div | (USED)80GB/160GB/250GB/500GB/750GB/1TB Laptop Hardisk 2.5" (Mixed Brand)
+Curr: div | RM45.00 - RM90.00
+Curr: div | 24
+Curr: span | (21)
+Curr: div | ad
+Curr: div | SWISS POLO LAPTOP BACKPACK-BLACK(SUJ 6316-1)
+Curr: div | RM139.90
+Curr: div | 0
+Curr: span | No ratings yet
+Curr: div | ad
+Curr: div | SWISS POLO LAPTOP BACKPACK-BLACK(SUJ 6315-1)
+Curr: div | RM139.90
+Curr: div | 0
+Curr: span | No ratings yet
+Curr: div | ad
+Curr: div | Waterproof Multi-function Large Office PU Leather Desk Pad Laptop Mouse Pad
+Curr: div | RM79.00
+Curr: div | RM46.99
+Curr: div | 8
+Curr: span | No ratings yet
+Curr: span | 41%
+Curr: span | off
+Curr: div | ad
+Curr: div | Neoprene Sleeve 13 inches Laptop Bag Notebook Case Cover For Macbook/HP 13.3"
+Curr: div | RM43.00
+Curr: div | 4
+Curr: span | No ratings yet
+Curr: button | 1
+Curr: button | 2
+Curr: button | 3
+Curr: button | 4
+Curr: button | 5
+Curr: button | ...
+Curr: div | Customer Service
+Refer: div | Customer Service
+Same
+Curr: a | help centre
+Refer: a | help centre
+Same
+Curr: a | How to Buy
+Refer: a | How to Buy
+Same
+Curr: a | how to sell
+Refer: a | how to sell
+Same
+Curr: a | Shopee Wallet
+Refer: a | Shopee Wallet
+Same
+Curr: a | Shopee Coins
+Refer: a | Shopee Coins
+Same
+Curr: a | shopee guarantee
+Refer: a | shopee guarantee
+Same
+Curr: a | Shopee Free 5kg Shipping Program
+Refer: a | Shopee Free 5kg Shipping Program
+Same
+Curr: a | Return & Refund
+Refer: a | Return & Refund
+Same
+Curr: a | Contact us
+Refer: a | Contact us
+Same
+Curr: div | about shopee
+Refer: div | about shopee
+Same
+Curr: a | About Us
+Refer: a | About Us
+Same
+Curr: a | Shopee Careers
+Refer: a | Shopee Careers
+Same
+Curr: a | Shopee Policies
+Refer: a | Shopee Policies
+Same
+Curr: a | Privacy Policy
+Refer: a | Privacy Policy
+Same
+Curr: a | Shopee Mall
+Refer: a | Shopee Mall
+Same
+Curr: a | seller centre
+Refer: a | seller centre
+Same
+Curr: a | Shocking Sale
+Refer: a | Shocking Sale
+Same
+Curr: div | payment
+Refer: div | payment
+Same
+Curr: div | logistics
+Refer: div | logistics
+Same
+Curr: div | follow us
+Refer: div | follow us
+Same
+Curr: div | shopee app download
+Refer: div | shopee app download
+Same
+Curr: div | © 2018 Shopee. All Rights Reserved
+Refer: div | © 2018 Shopee. All Rights Reserved
+Same
+Curr: div | Country & Region:
+Refer: div | Country & Region:
+Same
+Curr: a | Singapore
+Refer: a | Singapore
+Same
+Curr: a | Indonesia
+Refer: a | Indonesia
+Same
+Curr: a | Taiwan
+Refer: a | Taiwan
+Same
+Curr: a | Thailand
+Refer: a | Thailand
+Same
+Curr: a | Malaysia
+Refer: a | Malaysia
+Same
+Curr: a | Vietnam
+Refer: a | Vietnam
+Same
+Curr: a | Philippines
+Refer: a | Philippines
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Google Analytics
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Google Analytics
+Same
+Curr: script | !function(t){var o={};function r(n){if(o[n])return o[n].exports;var e=o[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,r),e.l=!0,e.exports}r.m=t,r.c=o,r.d=function(n,e,t){r.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},r.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return r.d(e,"a",e),e},r.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},r.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",r(r.s=0)}([function(n,e,t){window.ga=window.ga||function(){(window.ga.q=window.ga.q||[]).push(arguments)},window.ga.l=+new Date,window.ga("create","UA-61915055-6","auto"),window.ga("require","ec"),window.ga("set","transport","beacon")}]);
+Curr: script | window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga("create",google_tag_manager["GTM-WJZQSJF"].macro(2),"auto","gtm");ga("gtm.require","ec");ga("gtm.set","transport","beacon");
+Refer: script | window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga("create",google_tag_manager["GTM-WJZQSJF"].macro(2),"auto","gtm");ga("gtm.require","ec");ga("gtm.set","transport","beacon");
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Analytics
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | End Google Analytics
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Facebook Pixel Code
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Facebook Pixel Code
+Same
+Curr: script | !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+Refer: script | !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | DO NOT MODIFY
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | DO NOT MODIFY
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | End Facebook Pixel Code
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | End Facebook Pixel Code
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | Criteo One Tag Code
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | Criteo One Tag Code
+Same
+Curr: script | window.criteo_q = window.criteo_q || [];
+Refer: script | window.criteo_q = window.criteo_q || [];
+Same
+Curr: <cyfunction Comment at 0x000001E6B16FBB10> | End Criteo Code
+Refer: <cyfunction Comment at 0x000001E6B16FBB10> | End Criteo Code
+Same
+Curr: script | !function(e){var a=window.webpackJsonp;window.webpackJsonp=function(c,b,t){for(var n,r,o,u=0,i=[];u<c.length;u++)r=c[u],d[r]&&i.push(d[r][0]),d[r]=0;for(n in b)Object.prototype.hasOwnProperty.call(b,n)&&(e[n]=b[n]);for(a&&a(c,b,t);i.length;)i.shift()();if(t)for(u=0;u<t.length;u++)o=f(f.s=t[u]);return o};var c={},d={88:0};function f(a){if(c[a])return c[a].exports;var d=c[a]={i:a,l:!1,exports:{}};return e[a].call(d.exports,d,d.exports,f),d.l=!0,d.exports}f.e=function(e){var a=d[e];if(0===a)return new Promise(function(e){e()});if(a)return a[2];var c=new Promise(function(c,f){a=d[e]=[c,f]});a[2]=c;var b=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.charset="utf-8",t.async=!0,t.timeout=12e4,f.nc&&t.setAttribute("nonce",f.nc),t.src=f.p+""+({8:"ProductPage",55:"ProductPageFromSameShopCarousel",65:"ProductPageDetailRatingComment",67:"ProductPageSameBundleProducts",72:"ProductPageLightBox",87:"google-libphonenumber"}[e]||e)+".bundle."+{0:"7c844d4e9433fc2cf38c",1:"5bf669536f18f8745466",2:"d139c2f38a8855b830ef",3:"7ac2e14862575801d337",4:"c4d93557b75bd32a5560",5:"d104a32b3555b920a474",6:"e87654dc80f4bcb30825",7:"51500606a75e89773738",8:"dc3f5396c01b6c67679f",9:"2d82148392750bcafbb9",10:"59be57224424e260bd67",11:"dcc26c779c277d8c322a",12:"0014b134aae25c34c4d3",13:"4e6ab47ded25c1b011b2",14:"36de57fe38ce91280f0c",15:"a39a0898dd0c497c59bb",16:"303b58f582b7cb4b44e7",17:"1440b08d52425cb325ef",18:"e238bdf81866979790b0",19:"8d4ae155f51bf3bcee57",20:"bdb96013383d0699430b",21:"83f8ceb8a043d85190ba",22:"aa2496cfce316a7499c9",23:"cfb5829d0722874bdc85",24:"1a607e24aa3b2b0efe25",25:"ff4e93778d48ed4d8a4b",26:"f82bbb7f1ae90468e5e2",27:"94498faab768f8103c6c",28:"8cf0b14810114e88f362",29:"2a7387a7653ddcebcf5e",30:"edb23251c4c6465a565f",31:"cb8b67cccc3118bfb618",32:"006b204d51572d8c4a55",33:"82aedcfb311374d56419",34:"2dd324011c56f409e9e7",35:"c58bd00fd89806403da2",36:"e0f89e35db9fb4628c76",37:"439fe9120332369b768f",38:"8ab81b95e5bebfff8ba7",39:"3e89244aed422850fb26",40:"2cfbfa25aa0a2a4a3c56",41:"1c1ef2d9e0cec1985ec1",42:"a3ad6fd24b2e1d661ec3",43:"9f65c0e7e94aec491a08",44:"45ca006b0618d0dd03a7",45:"0471118a044bbf460a5d",46:"2ddecfc478a0588c93a7",47:"fd50850bba3026fd8243",48:"f0f660e7172e93e292b1",49:"403fe4bbb33fe3fd6095",50:"52ba5fe094993394c7bb",51:"9154a83e566ff0a3bc19",52:"9ac502dd5f9a44de7c9a",55:"1804bbabf1498d003bc0",56:"fe5abd9754c830c1a9f5",57:"84c5ac0a5ed85aea2906",58:"8d382329d6a9bf1d4350",59:"ad9ca21c9b03260f2a30",60:"4721d3b5da03f4fb9eb7",61:"cb4ddbba8c63a13cc104",62:"44df5f69272a22bef7d6",63:"7bada1fa30266f1bae6d",64:"d3c10ca3cfec9a00d5ce",65:"4de3423f93bdf901f124",66:"cf37189a1bd2ca592b83",67:"3723aba94ade0b38cea5",68:"32654cd8f951e000000a",69:"5240b38d0742de77c936",70:"d1a8a29428e9fc9e1875",71:"a10d2bc7dce433c8a1b8",72:"1519c174d1abf99bb133",73:"aa54449c46cf08242d29",74:"c6f95fb120e7ca3a8a38",75:"f59789d5d47cc5b952ba",76:"ed00d48652660934c737",77:"7b7ef1626f0011ab1329",78:"31f20337d40243bc54c6",79:"1a59a12d8242403c3d0b",80:"5246fb88087fca093d55",81:"e59438b57cf18f40fd89",82:"b179f9ee971e8f6c0a04",83:"e84160f8cd8394c9a35f",84:"3d213dd49377a6fefcd6",85:"ac847672c9d5d5d9fa28",86:"ad60379e017397b38655",87:"3cef71aff06e5547f844"}[e]+".js";var n=setTimeout(r,12e4);function r(){t.onerror=t.onload=null,clearTimeout(n);var a=d[e];0!==a&&(a&&a[1](new Error("Loading chunk "+e+" failed.")),d[e]=void 0)}return t.onerror=t.onload=r,b.appendChild(t),c},f.m=e,f.c=c,f.d=function(e,a,c){f.o(e,a)||Object.defineProperty(e,a,{configurable:!1,enumerable:!0,get:c})},f.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(a,"a",a),a},f.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},f.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",f.oe=function(e){throw e}}([]);
+Refer: script | !function(e){var a=window.webpackJsonp;window.webpackJsonp=function(c,b,t){for(var n,r,o,u=0,i=[];u<c.length;u++)r=c[u],d[r]&&i.push(d[r][0]),d[r]=0;for(n in b)Object.prototype.hasOwnProperty.call(b,n)&&(e[n]=b[n]);for(a&&a(c,b,t);i.length;)i.shift()();if(t)for(u=0;u<t.length;u++)o=f(f.s=t[u]);return o};var c={},d={88:0};function f(a){if(c[a])return c[a].exports;var d=c[a]={i:a,l:!1,exports:{}};return e[a].call(d.exports,d,d.exports,f),d.l=!0,d.exports}f.e=function(e){var a=d[e];if(0===a)return new Promise(function(e){e()});if(a)return a[2];var c=new Promise(function(c,f){a=d[e]=[c,f]});a[2]=c;var b=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.charset="utf-8",t.async=!0,t.timeout=12e4,f.nc&&t.setAttribute("nonce",f.nc),t.src=f.p+""+({8:"ProductPage",55:"ProductPageFromSameShopCarousel",65:"ProductPageDetailRatingComment",67:"ProductPageSameBundleProducts",72:"ProductPageLightBox",87:"google-libphonenumber"}[e]||e)+".bundle."+{0:"7c844d4e9433fc2cf38c",1:"5bf669536f18f8745466",2:"d139c2f38a8855b830ef",3:"7ac2e14862575801d337",4:"c4d93557b75bd32a5560",5:"d104a32b3555b920a474",6:"e87654dc80f4bcb30825",7:"51500606a75e89773738",8:"dc3f5396c01b6c67679f",9:"2d82148392750bcafbb9",10:"59be57224424e260bd67",11:"dcc26c779c277d8c322a",12:"0014b134aae25c34c4d3",13:"4e6ab47ded25c1b011b2",14:"36de57fe38ce91280f0c",15:"a39a0898dd0c497c59bb",16:"303b58f582b7cb4b44e7",17:"1440b08d52425cb325ef",18:"e238bdf81866979790b0",19:"8d4ae155f51bf3bcee57",20:"bdb96013383d0699430b",21:"83f8ceb8a043d85190ba",22:"aa2496cfce316a7499c9",23:"cfb5829d0722874bdc85",24:"1a607e24aa3b2b0efe25",25:"ff4e93778d48ed4d8a4b",26:"f82bbb7f1ae90468e5e2",27:"94498faab768f8103c6c",28:"8cf0b14810114e88f362",29:"2a7387a7653ddcebcf5e",30:"edb23251c4c6465a565f",31:"cb8b67cccc3118bfb618",32:"006b204d51572d8c4a55",33:"82aedcfb311374d56419",34:"2dd324011c56f409e9e7",35:"c58bd00fd89806403da2",36:"e0f89e35db9fb4628c76",37:"439fe9120332369b768f",38:"8ab81b95e5bebfff8ba7",39:"3e89244aed422850fb26",40:"2cfbfa25aa0a2a4a3c56",41:"1c1ef2d9e0cec1985ec1",42:"a3ad6fd24b2e1d661ec3",43:"9f65c0e7e94aec491a08",44:"45ca006b0618d0dd03a7",45:"0471118a044bbf460a5d",46:"2ddecfc478a0588c93a7",47:"fd50850bba3026fd8243",48:"f0f660e7172e93e292b1",49:"403fe4bbb33fe3fd6095",50:"52ba5fe094993394c7bb",51:"9154a83e566ff0a3bc19",52:"9ac502dd5f9a44de7c9a",55:"1804bbabf1498d003bc0",56:"fe5abd9754c830c1a9f5",57:"84c5ac0a5ed85aea2906",58:"8d382329d6a9bf1d4350",59:"ad9ca21c9b03260f2a30",60:"4721d3b5da03f4fb9eb7",61:"cb4ddbba8c63a13cc104",62:"44df5f69272a22bef7d6",63:"7bada1fa30266f1bae6d",64:"d3c10ca3cfec9a00d5ce",65:"4de3423f93bdf901f124",66:"cf37189a1bd2ca592b83",67:"3723aba94ade0b38cea5",68:"32654cd8f951e000000a",69:"5240b38d0742de77c936",70:"d1a8a29428e9fc9e1875",71:"a10d2bc7dce433c8a1b8",72:"1519c174d1abf99bb133",73:"aa54449c46cf08242d29",74:"c6f95fb120e7ca3a8a38",75:"f59789d5d47cc5b952ba",76:"ed00d48652660934c737",77:"7b7ef1626f0011ab1329",78:"31f20337d40243bc54c6",79:"1a59a12d8242403c3d0b",80:"5246fb88087fca093d55",81:"e59438b57cf18f40fd89",82:"b179f9ee971e8f6c0a04",83:"e84160f8cd8394c9a35f",84:"3d213dd49377a6fefcd6",85:"ac847672c9d5d5d9fa28",86:"ad60379e017397b38655",87:"3cef71aff06e5547f844"}[e]+".js";var n=setTimeout(r,12e4);function r(){t.onerror=t.onload=null,clearTimeout(n);var a=d[e];0!==a&&(a&&a[1](new Error("Loading chunk "+e+" failed.")),d[e]=void 0)}return t.onerror=t.onload=r,b.appendChild(t),c},f.m=e,f.c=c,f.d=function(e,a,c){f.o(e,a)||Object.defineProperty(e,a,{configurable:!1,enumerable:!0,get:c})},f.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(a,"a",a),a},f.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},f.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",f.oe=function(e){throw e}}([]);
+Same
+Curr: script | (function(b,c,d,a,e){b[a]=b[a]||[];b[a].push({"icm.start":(new Date).getTime(),event:"icm.js"});b=c.getElementsByTagName(d)[0];c=c.createElement(d);a="iaDataLayer"!=a?"\x26l\x3d"+a:"";c.async=!0;c.src="https://invol.co/icm.js?id\x3d"+e+a;b.parentNode.insertBefore(c,b)})(window,document,"script","iaDataLayer",google_tag_manager["GTM-WJZQSJF"].macro(5));
+Curr: script | !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";analytics.load("jF70Dx3MfkIPA4ggX8U6LK2jgpdEROk6");analytics.page();}}();

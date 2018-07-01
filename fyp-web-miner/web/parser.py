@@ -25,7 +25,8 @@ class Parser:
                 "http://www.11street.my/totalsearch/TotalSearchAction/searchTotal.do?targetTab=T&isGnb=Y&prdType=&category=&cmd=&pageSize=60&lCtgrNo=0&mCtgrNo=0&sCtgrNo=0&ctgrType=&fromACK=&gnbTag=TO&schFrom=&tagetTabNm=T&aKwdTrcNo=&aUrl=&kwd=laptop&callId=7274c0ac642e390b8fc",
                 "https://shopee.com.my/search/?keyword=laptop",
                 "https://www.lelong.com.my/catalog/all/list?TheKeyword=laptop",
-                "https://www.tarc.com.my"]
+                "https://s.taobao.com/search?q=%E6%89%8B%E6%8F%90%E7%94%B5%E8%84%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306",
+                "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=laptop"]
 
     curr_url = ""
 
@@ -84,13 +85,13 @@ class Parser:
             has_same_query = True
 
             # if len(curr_url_qs) <= len(link_qs) and curr_url != link:
-            if curr_url != link and len(curr_url) != len(link):
-                for key, value in curr_url_qs.items():
-                    if key not in link_qs:
-                        has_same_query = False
-                        break
-            else:
-                has_same_query = False
+            # if curr_url != link and len(curr_url) != len(link):
+            #     for key, value in curr_url_qs.items():
+            #         if key not in link_qs:
+            #             has_same_query = False
+            #             break
+            # else:
+            #     has_same_query = False
 
             if has_same_query:
                 link_dict_list.append({"url": link, "query": link_qs})
@@ -160,7 +161,7 @@ class Parser:
         result_node_list = []   
 
         for curr in curr_node_list:
-            if curr.duplicate_count == 0 and curr.el.text != None:                
+            if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:                
                 curr.el.set("fyp-web-miner", "content")
                 result_node_list.append(curr)
 
@@ -213,7 +214,7 @@ class Parser:
         node_list = []
 
         for element in root.iter():
-            if element.tag != "script" and element.tag != "style":
+            # if element.tag != "script" and element.tag != "style":
                 node = Node()
                 node.el = element
                 # node.tag = element.tag
@@ -324,7 +325,7 @@ class Parser:
                 if selected_node.largest_child_trait.get("tag") == el.tag and selected_node.largest_child_trait.get("keys") == el.keys():
                     for child_el in el.iter():
                         # if child_el.get("fyp-web-miner") == "content":
-                        if child_el.text != None and child_el.tag != "button":
+                        if child_el.text != None and child_el.tag not in const.UNWANTED_TAGS:
                             output.write("{}\n".format(child_el.text))
                 
                 output.write("{}\n".format("-" * 64))

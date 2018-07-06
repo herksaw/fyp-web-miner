@@ -8,14 +8,14 @@ Same
 Curr: script | !function(t){var r={};function o(n){if(r[n])return r[n].exports;var e=r[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,o),e.l=!0,e.exports}o.m=t,o.c=r,o.d=function(n,e,t){o.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},o.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return o.d(e,"a",e),e},o.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},o.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",o(o.s=0)}([function(n,e){var t,r;t=!0,r=[],window.webpackJsonp=function(n){t&&r.push(n)},window.prometheusGetChunks=function(){return t=!1,r}}]);
 Refer: script | !function(t){var r={};function o(n){if(r[n])return r[n].exports;var e=r[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,o),e.l=!0,e.exports}o.m=t,o.c=r,o.d=function(n,e,t){o.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},o.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return o.d(e,"a",e),e},o.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},o.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",o(o.s=0)}([function(n,e){var t,r;t=!0,r=[],window.webpackJsonp=function(n){t&&r.push(n)},window.prometheusGetChunks=function(){return t=!1,r}}]);
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Open search
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Open search
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Open search
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Open search
 Same
 Curr: script | dataLayer = [];
 Refer: script | dataLayer = [];
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Google Tag Manager
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Google Tag Manager
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Tag Manager
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Tag Manager
 Same
 Curr: script | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js',country:'my'});var f=d.getElementsByTagName(s)[0],
@@ -28,8 +28,8 @@ Refer: script | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WJZQSJF');
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Tag Manager
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Tag Manager
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Tag Manager
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Tag Manager
 Same
 Curr: title | Explore laptop Product Offers and Prices | Shopee Malaysia
 Curr: script | {"@context":"http://schema.org","@type":"WebSite","name":"Shopee","url":"https://shopee.com.my","potentialAction":{"@type":"SearchAction","target":"/search/?keyword={search_term_string}","query-input":"required name=search_term_string"},"sameAs":["https://www.facebook.com/ShopeeMY","https://www.instagram.com/Shopee_MY","https://www.youtube.com/channel/UCuo-9GW0hmlGviP9LGbd9PA","https://play.google.com/store/apps/details?id=com.shopee.my","https://itunes.apple.com/MY/app/id959841113"]}
@@ -79,7 +79,7 @@ Curr: script | {"@context":"http://schema.org","@type":"Product","name":"hot sal
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"(Refurbished Notebook) DELL D630 INTEL CORE 2 DUO","description":"","url":"https://shopee.com.my/(Refurbished-Notebook)-DELL-D630-INTEL-CORE-2-DUO-i.10168300.408732530","image":"https://cf.shopee.com.my/file/a0405e8f308e33968403a689ca63166d","offers":{"@type":"Offer","price":"384.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"13","ratingValue":"3.46"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"hot laptop Bag Pack Travel Vintage Teenage college Double Shoulder School","description":"","url":"https://shopee.com.my/hot-laptop-Bag-Pack-Travel-Vintage-Teenage-college-Double-Shoulder-School-i.21074822.651822305","image":"https://cf.shopee.com.my/file/9771b99bf4a2e11a79c79bafb3cc96a4","offers":{"@type":"Offer","price":"62.05","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"2 Color Men Shoulder Messenger Business Briefcase PU Leather Laptop Bag 1 P ZHPC","description":"","url":"https://shopee.com.my/2-Color-Men-Shoulder-Messenger-Business-Briefcase-PU-Leather-Laptop-Bag-1-P-ZHPC-i.26213436.484526880","image":"https://cf.shopee.com.my/file/4a9734b4ade88b886a4a7076ff70ab49","offers":{"@type":"Offer","price":"69.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"1","ratingValue":"5.00"}}
-Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Microsoft office 365 (5DEVICES+5TB STORAGE)or Office pro plus 2016 (READY STOCK)","description":"","url":"https://shopee.com.my/Microsoft-office-365-(5DEVICES-5TB-STORAGE)or-Office-pro-plus-2016-(READY-STOCK)-i.19279066.373050469","image":"https://cf.shopee.com.my/file/1a4c3468ad4dc585f16b19fa15a9e625","offers":{"@type":"AggregateOffer","lowPrice":"5.90","highPrice":"8.50","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"528","ratingValue":"4.96"}}
+Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Microsoft office 365 (5DEVICES+5TB STORAGE)or Office pro plus 2016 (READY STOCK)","description":"","url":"https://shopee.com.my/Microsoft-office-365-(5DEVICES-5TB-STORAGE)or-Office-pro-plus-2016-(READY-STOCK)-i.19279066.373050469","image":"https://cf.shopee.com.my/file/1a4c3468ad4dc585f16b19fa15a9e625","offers":{"@type":"AggregateOffer","lowPrice":"5.90","highPrice":"8.50","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"529","ratingValue":"4.96"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"MICROSOFT OFFICE 2010/2013/2016 PRO PLUS READY STOCK, SUITABLE FOR URGENT!","description":"","url":"https://shopee.com.my/MICROSOFT-OFFICE-2010-2013-2016-PRO-PLUS-READY-STOCK-SUITABLE-FOR-URGENT!-i.19279066.1199284294","image":"https://cf.shopee.com.my/file/01bd1ee5a128020ec91a447fed01dce2","offers":{"@type":"AggregateOffer","lowPrice":"22.00","highPrice":"85.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"11","ratingValue":"5.00"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Macbook Laptop Air Pro 11.6 / 13.3 / 14 / 15.6 Inch Asus Acer Case Bag Sleeves","description":"","url":"https://shopee.com.my/Macbook-Laptop-Air-Pro-11.6-13.3-14-15.6-Inch-Asus-Acer-Case-Bag-Sleeves-i.73643494.1229406467","image":"https://cf.shopee.com.my/file/c07d9ec874eee28ba9cfd240cf61a4a9","offers":{"@type":"Offer","price":"19.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"REFURBISHED DELL OPTIPLEX GX520 Pentium 4 [Clear Stock]","description":"","url":"https://shopee.com.my/REFURBISHED-DELL-OPTIPLEX-GX520-Pentium-4-Clear-Stock-i.43991774.828150805","image":"https://cf.shopee.com.my/file/a6d001c5205ec1a174b67c4ae93ff31c","offers":{"@type":"Offer","price":"60.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"5","ratingValue":"4.40"}}
@@ -89,11 +89,11 @@ Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Swiss G
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"Enjoygo Laptop Desk Table, Bamboo Wood Ventilation Lap Desk Tray with USB Fan","description":"","url":"https://shopee.com.my/Enjoygo-Laptop-Desk-Table-Bamboo-Wood-Ventilation-Lap-Desk-Tray-with-USB-Fan-i.32338020.1273137030","image":"https://cf.shopee.com.my/file/a3d7bde69ca57d90ad5f5c82a80b3e11","offers":{"@type":"AggregateOffer","lowPrice":"60.00","highPrice":"75.00","priceCurrency":"MYR","availability":"http://schema.org/InStock"}}
 Curr: script | {"@context":"http://schema.org","@type":"Product","name":"1M Black 4 PORT USB 2.0 MULTI SMART HUB EXPANSION SPLITTER ADAPTER PC LAPTOP","description":"","url":"https://shopee.com.my/1M-Black-4-PORT-USB-2.0-MULTI-SMART-HUB-EXPANSION-SPLITTER-ADAPTER-PC-LAPTOP-i.8040259.61456711","image":"https://cf.shopee.com.my/file/49d53951e2e03dbf45837c9d09df0396","offers":{"@type":"Offer","price":"3.20","priceCurrency":"MYR","availability":"http://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","bestRating":5,"worstRating":1,"ratingCount":"18","ratingValue":"4.89"}}
 Curr: body | 
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Google Tag Manager (noscript)
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Google Tag Manager (noscript)
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Tag Manager (noscript)
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Tag Manager (noscript)
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Tag Manager (noscript)
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Tag Manager (noscript)
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Tag Manager (noscript)
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Tag Manager (noscript)
 Same
 Curr: div | Select Your Language
 Refer: div | Select Your Language
@@ -195,21 +195,13 @@ Curr: div | no products yet
 Refer: div | no products yet
 Same
 Curr: div | related searches
-Refer: div | related searches
-Same
 Curr: div | Traditional Laptops
 Curr: div | Backpacks
 Curr: div | Sleeves
 Curr: div | Components
-Refer: div | Components
-Same
 Curr: div | Network Components
-Refer: div | Network Components
-Same
 Curr: div | Printers & Projectors
 Curr: div | Storage & Hard Drives
-Refer: div | Storage & Hard Drives
-Same
 Curr: div | Laptop Batteries
 Curr: div | Men's Bags & Wallets
 Curr: div | Keyboards
@@ -218,1277 +210,631 @@ Curr: div | Women's Bags & Purses
 Curr: div | Laptops
 Curr: div | Gaming Mice
 Curr: div | Mobile & Gadgets
-Refer: div | Mobile & Gadgets
-Same
 Curr: div | Search Filter
-Refer: div | Search Filter
-Same
 Curr: div | by category
-Refer: div | by category
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Computers & Laptops
-Refer: span | Computers & Laptops
-Same
-Curr: span | (378148)
+Curr: span | (378123)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Computer Accessories
-Refer: span | Computer Accessories
-Same
-Curr: span | (146319)
+Curr: span | (146310)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Components
-Refer: span | Components
-Same
-Curr: span | (72067)
+Curr: span | (72076)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Network Components
-Refer: span | Network Components
-Same
-Curr: span | (55685)
+Curr: span | (55672)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Printers & Projectors
-Refer: span | Printers & Projectors
-Same
-Curr: span | (45027)
+Curr: span | (45019)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Storage & Hard Drives
-Refer: span | Storage & Hard Drives
-Same
-Curr: span | (42664)
+Curr: span | (42658)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Laptops
-Refer: span | Laptops
-Same
-Curr: span | (8762)
+Curr: span | (8763)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Others
-Refer: span | Others
-Same
-Curr: span | (3984)
+Curr: span | (3986)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Desktops
-Refer: span | Desktops
-Same
-Curr: span | (3640)
+Curr: span | (3639)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Men's Bags & Wallets
-Refer: span | Men's Bags & Wallets
-Same
-Curr: span | (33117)
+Curr: span | (33118)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Laptop Bags
-Refer: span | Laptop Bags
-Same
 Curr: span | (24308)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Men's Backpacks
-Refer: span | Men's Backpacks
-Same
-Curr: span | (7772)
+Curr: span | (7773)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Messenger Bags
 Curr: span | (587)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Waist & Cross Body Bags
-Refer: span | Waist & Cross Body Bags
-Same
 Curr: span | (374)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Women's Bags & Purses
-Refer: span | Women's Bags & Purses
-Same
-Curr: span | (13384)
+Curr: span | (13383)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Laptop Bags
-Refer: span | Laptop Bags
-Same
 Curr: span | (6079)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Women's Backpacks
 Curr: span | (4855)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Shoulder Bags
-Refer: span | Shoulder Bags
-Same
-Curr: span | (944)
+Curr: span | (943)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Handbags
-Refer: span | Handbags
-Same
 Curr: span | (797)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Luggage & Travel
-Refer: span | Luggage & Travel
-Same
 Curr: span | (182)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Purses & Pouches
-Refer: span | Purses & Pouches
-Same
 Curr: span | (144)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Sling Bags
 Curr: span | (143)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Others
-Refer: span | Others
-Same
 Curr: span | (93)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Tote Bags
 Curr: span | (89)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Clutches & Wristlets
-Refer: span | Clutches & Wristlets
-Same
 Curr: span | (56)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Mobile & Gadgets
-Refer: span | Mobile & Gadgets
-Same
-Curr: span | (6900)
+Curr: span | (6901)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Audio
-Refer: span | Audio
-Same
 Curr: span | (1969)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Cool Gadgets
-Refer: span | Cool Gadgets
-Same
-Curr: span | (1354)
+Curr: span | (1355)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Cases & Covers
-Refer: span | Cases & Covers
-Same
 Curr: span | (1237)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Cables & Chargers
-Refer: span | Cables & Chargers
-Same
 Curr: span | (1174)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Powerbanks & Batteries
-Refer: span | Powerbanks & Batteries
-Same
 Curr: span | (350)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Camera & Accessories
-Refer: span | Camera & Accessories
-Same
 Curr: span | (308)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Screen Protectors
 Curr: span | (183)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Tablets
-Refer: span | Tablets
-Same
 Curr: span | (108)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Wearables
-Refer: span | Wearables
-Same
 Curr: span | (66)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Selfie Accessories
-Refer: span | Selfie Accessories
-Same
 Curr: span | (57)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Others
-Refer: span | Others
-Same
 Curr: span | (53)
 Curr: div | More
-Refer: div | More
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home & Living
-Refer: span | Home & Living
-Same
 Curr: span | (4167)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Stationery
-Refer: span | Stationery
-Same
 Curr: span | (1417)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home Improvement
-Refer: span | Home Improvement
-Same
 Curr: span | (726)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Lighting
 Curr: span | (709)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Furniture
 Curr: span | (522)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home Decor
-Refer: span | Home Decor
-Same
 Curr: span | (432)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Housekeeping & Laundry
-Refer: span | Housekeeping & Laundry
-Same
 Curr: span | (139)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home Storage & Organization
-Refer: span | Home Storage & Organization
-Same
 Curr: span | (75)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Automotive
-Refer: span | Automotive
-Same
 Curr: span | (2348)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Car Parts & Accessories
-Refer: span | Car Parts & Accessories
-Same
 Curr: span | (2193)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Moto Parts & Accessories
 Curr: span | (97)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Toys, Kids & Babies
-Refer: span | Toys, Kids & Babies
-Same
 Curr: span | (903)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Toys & Education
-Refer: span | Toys & Education
-Same
 Curr: span | (605)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Accessories
-Refer: span | Accessories
-Same
 Curr: span | (238)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home Appliances
-Refer: span | Home Appliances
-Same
 Curr: span | (480)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Cooling & Heating
 Curr: span | (157)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Home Entertainment
-Refer: span | Home Entertainment
-Same
 Curr: span | (94)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Security & Surveillance
-Refer: span | Security & Surveillance
-Same
 Curr: span | (87)
-Refer: span | (87)
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | TV Accessories
-Refer: span | TV Accessories
-Same
 Curr: span | (78)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Games, Books & Hobbies
-Refer: span | Games, Books & Hobbies
-Same
-Curr: span | (426)
+Curr: span | (427)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Consoles & Accessories
-Refer: span | Consoles & Accessories
-Same
 Curr: span | (276)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Sports & Outdoor
-Refer: span | Sports & Outdoor
-Same
 Curr: span | (202)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Outdoor & Adventure
-Refer: span | Outdoor & Adventure
-Same
 Curr: span | (148)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Men's Shoes
 Curr: span | (94)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Sports Shoes
 Curr: span | (93)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Accessories
-Refer: span | Accessories
-Same
 Curr: span | (92)
-Refer: span | (92)
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Everything Else
-Refer: span | Everything Else
-Same
 Curr: span | (72)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Health & Beauty
-Refer: span | Health & Beauty
-Same
 Curr: span | (69)
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Women's Clothing
-Refer: span | Women's Clothing
-Same
 Curr: span | (65)
 Curr: div | Shipped from
-Refer: div | Shipped from
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Local
-Refer: span | Local
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Overseas
-Refer: span | Overseas
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | West Malaysia
-Refer: span | West Malaysia
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | East Malaysia
-Refer: span | East Malaysia
-Same
 Curr: div | More
-Refer: div | More
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Selangor
-Refer: span | Selangor
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Kuala Lumpur
-Refer: span | Kuala Lumpur
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Penang
-Refer: span | Penang
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Johor
-Refer: span | Johor
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Kedah
-Refer: span | Kedah
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Perak
-Refer: span | Perak
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Melaka
-Refer: span | Melaka
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Pahang
-Refer: span | Pahang
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Negeri Sembilan
-Refer: span | Negeri Sembilan
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Terengganu
-Refer: span | Terengganu
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Sarawak
-Refer: span | Sarawak
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Kelantan
-Refer: span | Kelantan
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Perlis
-Refer: span | Perlis
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Sabah
-Refer: span | Sabah
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Putrajaya
-Refer: span | Putrajaya
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Labuan
-Refer: span | Labuan
-Same
 Curr: div | Shop Type
-Refer: div | Shop Type
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Shopee Mall
-Refer: span | Shopee Mall
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | shopee preferred
-Refer: span | shopee preferred
-Same
 Curr: div | Service & Promotion
-Refer: div | Service & Promotion
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | wholesale
-Refer: span | wholesale
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | With Discount
-Refer: span | With Discount
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Free Shipping
-Refer: span | Free Shipping
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Lowest Price Guarantee
-Refer: span | Lowest Price Guarantee
-Same
 Curr: div | conditions
-Refer: div | conditions
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | New Products
-Refer: span | New Products
-Same
 Curr: i | 
-Refer: i | 
-Same
 Curr: span | Used Item
-Refer: span | Used Item
-Same
 Curr: div | Price Range
-Refer: div | Price Range
-Same
 Curr: button | Apply
-Refer: button | Apply
-Same
 Curr: button | Clear All
-Refer: button | Clear All
-Same
 Curr: div | shops related to
 Curr: span | "
+Refer: span | "
+Same
 Curr: span | laptop
 Curr: span | "
+Refer: span | "
+Same
 Curr: button | More Shops
 Curr: div | laptopsparepart
+Refer: div | laptopsparepart
+Same
 Curr: div | atozcsdotnet
+Refer: div | atozcsdotnet
+Same
 Curr: span | 328
+Refer: span | 328
+Same
 Curr: span | followers
+Refer: span | followers
+Same
 Curr: span | |
+Refer: span | |
+Same
 Curr: span | 2
+Refer: span | 2
+Same
 Curr: span | following
+Refer: span | following
+Same
 Curr: span | 1340
+Refer: span | 1340
+Same
 Curr: div | products
+Refer: div | products
+Same
 Curr: span | 4.9
+Refer: span | 4.9
+Same
 Curr: div | Ratings
+Refer: div | Ratings
+Same
 Curr: span | 94%
+Refer: span | 94%
+Same
 Curr: div | response rate
+Refer: div | response rate
+Same
 Curr: span | within hours
+Refer: span | within hours
+Same
 Curr: div | response time
+Refer: div | response time
+Same
 Curr: span | Search result for '
 Curr: span | laptop
 Curr: span | Sort by
-Refer: span | Sort by
-Same
 Curr: div | relevance
-Refer: div | relevance
-Same
 Curr: div | Latest
-Refer: div | Latest
-Same
 Curr: div | Top Sales
-Refer: div | Top Sales
-Same
 Curr: span | Price
-Refer: span | Price
-Same
 Curr: span | 1
-Refer: span | 1
-Same
 Curr: span | 100
-Refer: span | 100
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | LENOVO THINKPAD L540 (15.6" INCH) CORE I5 V-PRO/ 4GB RAM/ 1TB HDD/ W10PRO
 Curr: div | RM1,599.00
 Curr: div | 5
-Refer: div | 5
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | (Refurbished)HP 8300 i5-3470 3.2GHZ 4GB 250GB HDD
 Curr: div | RM650.00
 Curr: div | 3
 Curr: span | (1)
-Refer: span | (1)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | #New Arrival# Adidas Backpack Laptop Travel School korean Women Handbag
 Curr: div | RM31.99
 Curr: div | 0
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | DELL LATITUDE E6330 (CORE I7) ORIGINAL REMANUFACTURED 1 YEAR WARRANTY
 Curr: div | RM1,399.00
 Curr: div | 55
 Curr: span | (4)
-Refer: span | (4)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | LENOVO THINKPAD EDGE E540 CORE I5 / 15-INCH BOX PACK 1 YEAR WARRANTY
 Curr: div | RM1,459.00
 Curr: div | 19
-Refer: div | 19
-Same
 Curr: span | (1)
-Refer: span | (1)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | 100% Original Acer One (S1003-1671) - 10.1" IPS HD / x5-Z8350 / 2GB / 64GB / W10
 Curr: div | RM999.00
 Curr: div | 71
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Dell XPS Intel Core i7 Nvidia GeForce GT Graphic Laptop
 Curr: div | RM1,199.00
 Curr: div | 83
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Men Canvas Genuine Leather Messenger Briefcase Laptop Bags Crossbody Large
 Curr: div | RM131.00
 Curr: div | 2
-Refer: div | 2
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | RM1,389.00
 Curr: div | RM999.00
 Curr: div | 76
 Curr: span | (4)
-Refer: span | (4)
-Same
 Curr: span | 28%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Asus X505B-PBR060T Laptop- A9-9420| W10| 15.6 HD| 4GB| 1TB| R5 M420 2GB| Gold
 Curr: div | RM1,668.90
 Curr: div | 55
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Acer S1003-1671 2 in 1 Laptop - Atom x5  10.1 IPS Touch  2GB  64GB
 Curr: div | RM969.00
 Curr: div | 106
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | 11 12 14 15 inch Burnur laptop bag slim and elastic vertical waterproof
 Curr: div | RM40.00
 Curr: div | RM28.00
 Curr: div | 34
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: span | 30%
-Refer: span | 30%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Acer Nitro 5 AN515-52-50WX 8th Gen i5
 Curr: div | RM2,769.00
 Curr: div | 80
 Curr: span | (6)
-Refer: span | (6)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | laptop bag 14 15.6 17 inch Raytheon alien Samsung Dell HP Asus men and wom
 Curr: div | RM94.50 - RM106.50
 Curr: div | 1
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Men PU Leather Crazy Horse Shoulder Sling Laptop Bag Briefcase
 Curr: div | RM100.00
 Curr: div | 10
-Refer: div | 10
-Same
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Luxury Handmade Crazy Horse Leather Business Briefcase Casual 15 Inch Laptop Bag
 Curr: div | RM759.98
 Curr: div | RM379.99
 Curr: div | 3
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 50%
-Refer: span | 50%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Lenovo Intel Core i7 Nvidia GeForce Graphic Gaming Touch Screen Laptop
 Curr: div | RM1,899.00
 Curr: div | 55
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Shoulder portable men and women PU leather laptop bag 13 14 15 15.6 inch
 Curr: div | RM90.00
 Curr: div | RM63.00
 Curr: div | 13
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 30%
-Refer: span | 30%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Natural Cowskin Men Briefcase Large Business bag Black Male Shoulder Laptop Bags
 Curr: div | RM393.80
 Curr: div | RM196.90
 Curr: div | 6
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 50%
-Refer: span | 50%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Formal Business Men's Fashion Large Square Laptop Bag
 Curr: div | RM74.85
 Curr: div | 6
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | RM5,659.00
 Curr: div | 108
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Refurbished HP 6000 SFF  C2D 2GB, 160GB Win Xpp + LCD 17" Mon (Branded)
 Curr: div | RM499.00
-Refer: div | RM499.00
-Same
 Curr: div | RM399.00
 Curr: div | 90
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 20%
-Refer: span | 20%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ASUS X441U-AWX317T RED 1 YEAR GLOBAL WARRANTY CORE i3/4GB/500GB/Intel HD/14˝/W10
 Curr: div | RM1,749.00
 Curr: div | 24
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Lenovo intel core i3 2367M 320GB DDR3 WEBCAM HDMI LAPTOP NOTEBOOK NETBOOK x121e
 Curr: div | RM580.00
-Curr: div | 179
+Curr: div | 180
 Curr: span | (7)
-Refer: span | (7)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | [Spot]Apple Asus Dell 13/14/15/15.6/17.3 inch laptop bag shoulder men and women
 Curr: div | RM68.00 - RM72.00
 Curr: div | 6
 Curr: span | (1)
-Refer: span | (1)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | 2 Color Men Shoulder Messenger Business Briefcase PU Leather Laptop Bag LONG
 Curr: div | RM69.82
 Curr: div | 1
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | RM1,099.00
 Curr: div | RM998.00
 Curr: div | 177
 Curr: span | (4)
-Refer: span | (4)
-Same
 Curr: span | 9%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | NEC Versa Pro VD9 Intel Core i5 2GB 160GB Windows 7 Japan 15.4” Laptop
 Curr: div | RM650.00 - RM660.00
 Curr: div | 54
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Laptop bag 15.6 15 14 13.3 13 12 inch Business Hand bag Messenger Men and Women
 Curr: div | RM108.79 - RM127.99
 Curr: div | 4
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 20%
-Refer: span | 20%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | (USED)80GB/160GB/250GB/500GB/750GB/1TB Laptop Hardisk 2.5" (Mixed Brand)
 Curr: div | RM45.00 - RM90.00
 Curr: div | 27
 Curr: span | (23)
-Refer: span | (23)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | REFURBISHED Dell E6420 Laptop Core i5 2.4Ghz 4GB 500GB 14 Inch Win 7 Pro
 Curr: div | RM845.00 - RM895.00
 Curr: div | 64
 Curr: span | (4)
-Refer: span | (4)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Hot Sale FLAMEHORSE Men'S Business Simple Portable Shoulder Laptop Bag
 Curr: div | RM38.00
 Curr: div | 0
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Female Tide brLeisure travel New Europe United States fashionable laptop bag
 Curr: div | RM85.99
 Curr: div | 1
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Leisure laptop bag 15.6/14 inch men and women charging waterproof laptop bag
 Curr: div | RM117.42
 Curr: div | 9
-Refer: div | 9
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Men High Quality Washed Canvas Shoulder Sling 12 Inch Laptop Bag (Black)
 Curr: div | RM129.00
 Curr: div | RM99.00
 Curr: div | 6
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 23%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | (Refurbished Notebook) HP COMPAQ 6910 INTEL CORE 2 DUO
 Curr: div | RM419.00
-Refer: div | RM419.00
-Same
 Curr: div | RM384.00
 Curr: div | 135
 Curr: span | (6)
-Refer: span | (6)
-Same
 Curr: span | 8%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | [Spot]Apple laptop bag female portable Asus HP 14-inch fashion briefcase 15.6 s
 Curr: div | RM68.26
 Curr: div | 13
 Curr: span | (2)
-Refer: span | (2)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | hot sale laptop Bag Pack Travel Vintage Teenage college Double Shoulder School
 Curr: div | RM55.82
 Curr: div | 7
-Refer: div | 7
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | (Refurbished Notebook) DELL D630 INTEL CORE 2 DUO
 Curr: div | RM419.00
-Refer: div | RM419.00
-Same
 Curr: div | RM384.00
 Curr: div | 316
 Curr: span | (13)
 Curr: span | 8%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | hot laptop Bag Pack Travel Vintage Teenage college Double Shoulder School
 Curr: div | RM62.05
 Curr: div | 4
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | 2 Color Men Shoulder Messenger Business Briefcase PU Leather Laptop Bag 1 P ZHPC
 Curr: div | RM69.00
 Curr: div | 29
 Curr: span | (1)
-Refer: span | (1)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Microsoft office 365 (5DEVICES+5TB STORAGE)or Office pro plus 2016 (READY STOCK)
 Curr: div | RM5.90 - RM8.50
 Curr: div | 176
-Curr: span | (528)
+Curr: span | (529)
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | MICROSOFT OFFICE 2010/2013/2016 PRO PLUS READY STOCK, SUITABLE FOR URGENT!
 Curr: div | RM22.00 - RM85.00
 Curr: div | 9
-Refer: div | 9
-Same
 Curr: span | (11)
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | Macbook Laptop Air Pro 11.6 / 13.3 / 14 / 15.6 Inch Asus Acer Case Bag Sleeves
 Curr: div | RM19.00
 Curr: div | 7
-Refer: div | 7
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | REFURBISHED DELL OPTIPLEX GX520 Pentium 4 [Clear Stock]
 Curr: div | RM60.00
 Curr: div | 22
-Refer: div | 22
-Same
 Curr: span | (5)
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | LENOVO THINKPAD X240 CORE I5 V-PRO (ULTRABOOK) ORIGINAL REMANUFACTURED
 Curr: div | RM1,399.00
 Curr: div | 15
-Refer: div | 15
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | Urban Backpack Bag Waterproof Laptop Backpack School Travel Shoulder Bag Men Bag
 Curr: div | RM79.00
 Curr: div | RM39.50
 Curr: div | 7
-Refer: div | 7
-Same
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 50%
-Refer: span | 50%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | Swiss Gear Men's Computer Bag Backpack
 Curr: div | RM133.00
 Curr: div | 4
 Curr: span | (1)
-Refer: span | (1)
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | Enjoygo Laptop Desk Table, Bamboo Wood Ventilation Lap Desk Tray with USB Fan
 Curr: div | RM60.00 - RM75.00
 Curr: div | 0
 Curr: span | No ratings yet
-Refer: span | No ratings yet
-Same
 Curr: span | 50%
-Refer: span | 50%
-Same
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: div | ad
-Refer: div | ad
-Same
 Curr: div | 1M Black 4 PORT USB 2.0 MULTI SMART HUB EXPANSION SPLITTER ADAPTER PC LAPTOP
 Curr: div | RM13.30
 Curr: div | RM3.20
 Curr: div | 42
 Curr: span | (18)
-Refer: span | (18)
-Same
 Curr: span | 75%
 Curr: span | off
-Refer: span | off
-Same
 Curr: div | Find Similar
-Refer: div | Find Similar
-Same
 Curr: button | 1
 Refer: button | 1
 Same
@@ -1499,14 +845,8 @@ Curr: button | 3
 Refer: button | 3
 Same
 Curr: button | 4
-Refer: button | 4
-Same
 Curr: button | 5
-Refer: button | 5
-Same
 Curr: button | ...
-Refer: button | ...
-Same
 Curr: div | Customer Service
 Refer: div | Customer Service
 Same
@@ -1600,17 +940,17 @@ Same
 Curr: a | Philippines
 Refer: a | Philippines
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Google Analytics
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Google Analytics
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Analytics
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Google Analytics
 Same
 Curr: script | !function(t){var o={};function r(n){if(o[n])return o[n].exports;var e=o[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,r),e.l=!0,e.exports}r.m=t,r.c=o,r.d=function(n,e,t){r.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},r.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return r.d(e,"a",e),e},r.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},r.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",r(r.s=0)}([function(n,e,t){window.ga=window.ga||function(){(window.ga.q=window.ga.q||[]).push(arguments)},window.ga.l=+new Date,window.ga("create","UA-61915055-6","auto"),window.ga("require","ec"),window.ga("set","transport","beacon")}]);
 Refer: script | !function(t){var o={};function r(n){if(o[n])return o[n].exports;var e=o[n]={i:n,l:!1,exports:{}};return t[n].call(e.exports,e,e.exports,r),e.l=!0,e.exports}r.m=t,r.c=o,r.d=function(n,e,t){r.o(n,e)||Object.defineProperty(n,e,{configurable:!1,enumerable:!0,get:t})},r.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return r.d(e,"a",e),e},r.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},r.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",r(r.s=0)}([function(n,e,t){window.ga=window.ga||function(){(window.ga.q=window.ga.q||[]).push(arguments)},window.ga.l=+new Date,window.ga("create","UA-61915055-6","auto"),window.ga("require","ec"),window.ga("set","transport","beacon")}]);
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Analytics
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | End Google Analytics
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Analytics
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | End Google Analytics
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Facebook Pixel Code
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Facebook Pixel Code
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Facebook Pixel Code
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Facebook Pixel Code
 Same
 Curr: script | !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -1623,20 +963,20 @@ Refer: script | !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.ca
       t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
             document,'script','https://connect.facebook.net/en_US/fbevents.js');
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | DO NOT MODIFY
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | DO NOT MODIFY
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | DO NOT MODIFY
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | DO NOT MODIFY
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | End Facebook Pixel Code
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | End Facebook Pixel Code
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | End Facebook Pixel Code
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | End Facebook Pixel Code
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | Criteo One Tag Code
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | Criteo One Tag Code
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | Criteo One Tag Code
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | Criteo One Tag Code
 Same
 Curr: script | window.criteo_q = window.criteo_q || [];
 Refer: script | window.criteo_q = window.criteo_q || [];
 Same
-Curr: <cyfunction Comment at 0x000001ABA31BBB10> | End Criteo Code
-Refer: <cyfunction Comment at 0x000001ABA31BBB10> | End Criteo Code
+Curr: <cyfunction Comment at 0x0000026AB0FD7B10> | End Criteo Code
+Refer: <cyfunction Comment at 0x0000026AB0FD7B10> | End Criteo Code
 Same
 Curr: script | !function(e){var a=window.webpackJsonp;window.webpackJsonp=function(c,b,t){for(var n,r,o,u=0,i=[];u<c.length;u++)r=c[u],f[r]&&i.push(f[r][0]),f[r]=0;for(n in b)Object.prototype.hasOwnProperty.call(b,n)&&(e[n]=b[n]);for(a&&a(c,b,t);i.length;)i.shift()();if(t)for(u=0;u<t.length;u++)o=d(d.s=t[u]);return o};var c={},f={92:0};function d(a){if(c[a])return c[a].exports;var f=c[a]={i:a,l:!1,exports:{}};return e[a].call(f.exports,f,f.exports,d),f.l=!0,f.exports}d.e=function(e){var a=f[e];if(0===a)return new Promise(function(e){e()});if(a)return a[2];var c=new Promise(function(c,d){a=f[e]=[c,d]});a[2]=c;var b=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.charset="utf-8",t.async=!0,t.timeout=12e4,d.nc&&t.setAttribute("nonce",d.nc),t.src=d.p+""+({7:"SpecialShopPage",9:"ProductPage",10:"ShopPage",59:"ProductPageFromSameShopCarousel",69:"ProductPageDetailRatingComment",70:"ProductPageSameBundleProducts",76:"ProductPageLightBox",91:"google-libphonenumber"}[e]||e)+".bundle."+{0:"4a06347783c2f9cbd721",1:"eaf9effcc7ad4eea4f91",2:"06099638580bc59907da",3:"fb7b72ac7a727204c23e",4:"4589abd0315aa8e3bfa9",5:"27fe0f5efed97e740051",6:"46132bde3e06b57447a2",7:"9b760e91c22f8aec0eb4",8:"b1c6eff5920c19c1cfde",9:"b5a2155a2487928f62e5",10:"44a0292272dd07580ae3",11:"85ebef04185361722f3a",12:"dab9c1818fde617071bf",13:"0302bfc0e9ead22ed796",14:"be1ab97cdfbae11376b3",15:"fa775487bd302d490a64",16:"0e64946c8fb63bbb3e6c",17:"55efb26b363527c48d4c",18:"42f48344255e263a04f7",19:"b74968a49e661ec9718c",20:"2cd7d01c85b7250c28d9",21:"bc7eff0a84a87e39355c",22:"9a8393bc1929e4ff2ca2",23:"bb55b7518bd389546a15",24:"8836f3a2f5aea1f20cd2",25:"28b0eb40fd734446ba1e",26:"cbe1a63a31dc18df4fd9",27:"75652145fde764f3c9d7",28:"fc7b3a17a902bb52778c",29:"f39a3260e8ff16502799",30:"8c19a19c25002b8f2512",31:"d6c526ebf70ba6bffe60",32:"2aa805dd9b279e591de1",33:"d5fe66d947b0a4428131",34:"a4e07fbc17088e348d2d",35:"3c086a26833de1670f77",36:"8f667ac7634475a65776",37:"86acadb4f08de1eb57b8",38:"19dab46effa226fab108",39:"3bdf27dfd03b3d1cf4f2",40:"23a22b0e73806172cd5b",41:"629d6030d7e2d8c7ddcd",42:"ed4b6937606fc6bec207",43:"cc0df5e96f2bab832c21",44:"1638c9ce0819d9f20b4e",45:"08a6458b6d4a691a3baa",46:"d1ecaaab20030e562b1a",47:"55f8f38ee9d601398ff0",48:"6550cbec707250982d4b",49:"af28f91e292b2b90d349",50:"e5587da70b78637b04ea",51:"1a508ef3b39e8e639886",52:"743133ab2d482c5f74b1",53:"0abf379704643d7380ec",54:"d381dedad0af3332ac9f",55:"afee18c4c5616263c958",56:"07015d0b8d6b366f3242",59:"43059d36b114d91f437d",60:"809e69b4ca792af585ea",61:"d8669046640fd1b4f418",62:"4b274e224e7ac5ed390f",63:"a49d5eea4a227507a5a5",64:"5b22577635a6d6406030",65:"9951af293c37bd7bc3c8",66:"04092ad269806385cec2",67:"ae6fbef4fcae5d62b4c8",68:"25e608eee5f69cd1c2d3",69:"b49cecd1476845d70703",70:"b2d9000365775083ef63",71:"98510da1164df198516b",72:"fdff76e7074cf8354702",73:"fbc436cd274913a9d35c",74:"d92e0b6590eb22d1048d",75:"ece2cfc254e2a3b116bd",76:"cd6851141c0a2f3aeaf8",77:"35f2705b8b4c2c5e4720",78:"e19b782c767a7485981d",79:"f0e0f901b5ed905f2b2b",80:"0a1dec53201556ee239e",81:"4c1ebdd6ab3c4d22f610",82:"bad0125137beccf2b978",83:"872679aa436f5e836c0b",84:"0e3b279e04905e8754bc",85:"fefc968624064244d985",86:"3a151046e652603fa4f9",87:"c1abc32a6756f1794c71",88:"6a47db47ed4af904f4ae",89:"1784b52d8ed93c1e7f8f",90:"02f454862b5d2ba22d4d",91:"7ac0d5f821fe997d89ab"}[e]+".js";var n=setTimeout(r,12e4);function r(){t.onerror=t.onload=null,clearTimeout(n);var a=f[e];0!==a&&(a&&a[1](new Error("Loading chunk "+e+" failed.")),f[e]=void 0)}return t.onerror=t.onload=r,b.appendChild(t),c},d.m=e,d.c=c,d.d=function(e,a,c){d.o(e,a)||Object.defineProperty(e,a,{configurable:!1,enumerable:!0,get:c})},d.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return d.d(a,"a",a),a},d.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},d.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",d.oe=function(e){throw e}}([]);
 Refer: script | !function(e){var a=window.webpackJsonp;window.webpackJsonp=function(c,b,t){for(var n,r,o,u=0,i=[];u<c.length;u++)r=c[u],f[r]&&i.push(f[r][0]),f[r]=0;for(n in b)Object.prototype.hasOwnProperty.call(b,n)&&(e[n]=b[n]);for(a&&a(c,b,t);i.length;)i.shift()();if(t)for(u=0;u<t.length;u++)o=d(d.s=t[u]);return o};var c={},f={92:0};function d(a){if(c[a])return c[a].exports;var f=c[a]={i:a,l:!1,exports:{}};return e[a].call(f.exports,f,f.exports,d),f.l=!0,f.exports}d.e=function(e){var a=f[e];if(0===a)return new Promise(function(e){e()});if(a)return a[2];var c=new Promise(function(c,d){a=f[e]=[c,d]});a[2]=c;var b=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.charset="utf-8",t.async=!0,t.timeout=12e4,d.nc&&t.setAttribute("nonce",d.nc),t.src=d.p+""+({7:"SpecialShopPage",9:"ProductPage",10:"ShopPage",59:"ProductPageFromSameShopCarousel",69:"ProductPageDetailRatingComment",70:"ProductPageSameBundleProducts",76:"ProductPageLightBox",91:"google-libphonenumber"}[e]||e)+".bundle."+{0:"4a06347783c2f9cbd721",1:"eaf9effcc7ad4eea4f91",2:"06099638580bc59907da",3:"fb7b72ac7a727204c23e",4:"4589abd0315aa8e3bfa9",5:"27fe0f5efed97e740051",6:"46132bde3e06b57447a2",7:"9b760e91c22f8aec0eb4",8:"b1c6eff5920c19c1cfde",9:"b5a2155a2487928f62e5",10:"44a0292272dd07580ae3",11:"85ebef04185361722f3a",12:"dab9c1818fde617071bf",13:"0302bfc0e9ead22ed796",14:"be1ab97cdfbae11376b3",15:"fa775487bd302d490a64",16:"0e64946c8fb63bbb3e6c",17:"55efb26b363527c48d4c",18:"42f48344255e263a04f7",19:"b74968a49e661ec9718c",20:"2cd7d01c85b7250c28d9",21:"bc7eff0a84a87e39355c",22:"9a8393bc1929e4ff2ca2",23:"bb55b7518bd389546a15",24:"8836f3a2f5aea1f20cd2",25:"28b0eb40fd734446ba1e",26:"cbe1a63a31dc18df4fd9",27:"75652145fde764f3c9d7",28:"fc7b3a17a902bb52778c",29:"f39a3260e8ff16502799",30:"8c19a19c25002b8f2512",31:"d6c526ebf70ba6bffe60",32:"2aa805dd9b279e591de1",33:"d5fe66d947b0a4428131",34:"a4e07fbc17088e348d2d",35:"3c086a26833de1670f77",36:"8f667ac7634475a65776",37:"86acadb4f08de1eb57b8",38:"19dab46effa226fab108",39:"3bdf27dfd03b3d1cf4f2",40:"23a22b0e73806172cd5b",41:"629d6030d7e2d8c7ddcd",42:"ed4b6937606fc6bec207",43:"cc0df5e96f2bab832c21",44:"1638c9ce0819d9f20b4e",45:"08a6458b6d4a691a3baa",46:"d1ecaaab20030e562b1a",47:"55f8f38ee9d601398ff0",48:"6550cbec707250982d4b",49:"af28f91e292b2b90d349",50:"e5587da70b78637b04ea",51:"1a508ef3b39e8e639886",52:"743133ab2d482c5f74b1",53:"0abf379704643d7380ec",54:"d381dedad0af3332ac9f",55:"afee18c4c5616263c958",56:"07015d0b8d6b366f3242",59:"43059d36b114d91f437d",60:"809e69b4ca792af585ea",61:"d8669046640fd1b4f418",62:"4b274e224e7ac5ed390f",63:"a49d5eea4a227507a5a5",64:"5b22577635a6d6406030",65:"9951af293c37bd7bc3c8",66:"04092ad269806385cec2",67:"ae6fbef4fcae5d62b4c8",68:"25e608eee5f69cd1c2d3",69:"b49cecd1476845d70703",70:"b2d9000365775083ef63",71:"98510da1164df198516b",72:"fdff76e7074cf8354702",73:"fbc436cd274913a9d35c",74:"d92e0b6590eb22d1048d",75:"ece2cfc254e2a3b116bd",76:"cd6851141c0a2f3aeaf8",77:"35f2705b8b4c2c5e4720",78:"e19b782c767a7485981d",79:"f0e0f901b5ed905f2b2b",80:"0a1dec53201556ee239e",81:"4c1ebdd6ab3c4d22f610",82:"bad0125137beccf2b978",83:"872679aa436f5e836c0b",84:"0e3b279e04905e8754bc",85:"fefc968624064244d985",86:"3a151046e652603fa4f9",87:"c1abc32a6756f1794c71",88:"6a47db47ed4af904f4ae",89:"1784b52d8ed93c1e7f8f",90:"02f454862b5d2ba22d4d",91:"7ac0d5f821fe997d89ab"}[e]+".js";var n=setTimeout(r,12e4);function r(){t.onerror=t.onload=null,clearTimeout(n);var a=f[e];0!==a&&(a&&a[1](new Error("Loading chunk "+e+" failed.")),f[e]=void 0)}return t.onerror=t.onload=r,b.appendChild(t),c},d.m=e,d.c=c,d.d=function(e,a,c){d.o(e,a)||Object.defineProperty(e,a,{configurable:!1,enumerable:!0,get:c})},d.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return d.d(a,"a",a),a},d.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},d.p="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-my/assets/",d.oe=function(e){throw e}}([]);
@@ -1648,8 +988,4 @@ Curr: script | window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
 Refer: script | window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga("create",google_tag_manager["GTM-WJZQSJF"].macro(2),"auto","gtm");ga("gtm.require","ec");ga("gtm.set","transport","beacon");
 Same
 Curr: script | (function(b,c,d,a,e){b[a]=b[a]||[];b[a].push({"icm.start":(new Date).getTime(),event:"icm.js"});b=c.getElementsByTagName(d)[0];c=c.createElement(d);a="iaDataLayer"!=a?"\x26l\x3d"+a:"";c.async=!0;c.src="https://invol.co/icm.js?id\x3d"+e+a;b.parentNode.insertBefore(c,b)})(window,document,"script","iaDataLayer",google_tag_manager["GTM-WJZQSJF"].macro(6));
-Refer: script | (function(b,c,d,a,e){b[a]=b[a]||[];b[a].push({"icm.start":(new Date).getTime(),event:"icm.js"});b=c.getElementsByTagName(d)[0];c=c.createElement(d);a="iaDataLayer"!=a?"\x26l\x3d"+a:"";c.async=!0;c.src="https://invol.co/icm.js?id\x3d"+e+a;b.parentNode.insertBefore(c,b)})(window,document,"script","iaDataLayer",google_tag_manager["GTM-WJZQSJF"].macro(6));
-Same
 Curr: script | !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";analytics.load("jF70Dx3MfkIPA4ggX8U6LK2jgpdEROk6");analytics.page();}}();
-Refer: script | !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";analytics.load("jF70Dx3MfkIPA4ggX8U6LK2jgpdEROk6");analytics.page();}}();
-Same

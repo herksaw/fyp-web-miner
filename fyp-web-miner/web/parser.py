@@ -43,7 +43,7 @@ class Parser:
         # path = os.path.join(os.path.abspath(
         #     os.path.dirname(__file__)), self.url_list[2])       
 
-        curr_url = self.url_list[0]
+        curr_url = self.url_list[6]
 
         # cleaner=Cleaner()
 
@@ -166,8 +166,13 @@ class Parser:
         for curr in curr_node_list:
             if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
                 # Commented, h* tags are not allowed to set attributes
-                # print(curr.el.tag ," ", curr.el.attrib)           
-                curr.el.set("fyp-web-miner", "content")
+                # print(curr.el.tag ," ", curr.el.attrib)
+                
+                try:
+                    curr.el.set("fyp-web-miner", "content")
+                except TypeError as e:
+                    print(curr.el.tag, " can't set attributes")                         
+                
                 result_node_list.append(curr)
 
         for node in curr_node_list:            

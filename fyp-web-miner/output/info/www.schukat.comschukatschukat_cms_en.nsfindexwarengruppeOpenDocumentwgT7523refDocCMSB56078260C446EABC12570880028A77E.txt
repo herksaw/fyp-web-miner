@@ -1,0 +1,782 @@
+ | html | 0 | None | [('lang', 'en')]
+- | head | 0 |  | []
+-- | title | 0 | T7523 ESD Metallized Shielding Bag With Pressure Seal Series: TME | []
+-- | meta | 0 | None | [('content', 'Schukat electronic Vertriebs GmbH'), ('name', 'publisher')]
+-- | meta | 0 | None | [('content', 'Schukat electronic'), ('name', 'author')]
+-- | meta | 0 | None | [('content', 'Schukat electronic Vertriebs GmbH'), ('name', 'copyright')]
+-- | meta | 0 | None | [('content', 'index, follow'), ('name', 'robots')]
+-- | meta | 0 | None | [('content', 'T7523, ESD Metallized Shielding Bag, With Pressure Seal, Series: TME'), ('name', 'Keywords')]
+-- | meta | 0 | None | [('content', 'T7523 ESD Metallized Shielding Bag With Pressure Seal Series: TME'), ('name', 'description')]
+-- | meta | 0 | None | [('content', 'T7523 ESD Metallized Shielding Bag With Pressure Seal Series: TME'), ('name', 'PageTopic')]
+-- | meta | 0 | None | [('content', 'text/html; charset=iso-8859-1'), ('http-equiv', 'Content-Type')]
+-- | meta | 0 | None | [('content', 'max-age=0'), ('http-equiv', 'cache-control')]
+-- | meta | 0 | None | [('content', 'no-cache'), ('http-equiv', 'cache-control')]
+-- | meta | 0 | None | [('content', '0'), ('http-equiv', 'expires')]
+-- | meta | 0 | None | [('content', 'Tue, 01 Jan 1980 1:00:00 GMT'), ('http-equiv', 'expires')]
+-- | meta | 0 | None | [('content', 'no-cache'), ('http-equiv', 'Pragma')]
+-- | link | 0 | None | [('href', '/schukat/schukat_cms_de.nsf/resources/css-20180525/$file/schukat.min.css'), ('rel', 'stylesheet'), ('type', 'text/css')]
+- | body | 0 |  | [('bgcolor', '#FFFFFF'), ('class', ''), ('onload', 'init()'), ('style', 'margin: 0'), ('text', '#000000')]
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Piwik | []
+-- | script | 0 | None | [('async', ''), ('defer', ''), ('src', 'https://stats.schukat.com/piwik.js'), ('type', 'text/javascript')]
+-- | script | 0 | var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  _paq.push(["setSecureCookie", true]);
+  (function() {
+    var u="https://stats.schukat.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })(); | [('type', 'application/javascript')]
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | End Piwik Code | []
+-- | script | 0 | None | [('charset', 'utf-8'), ('src', '/scripts/04843c74/compatible.min.js'), ('type', 'application/javascript')]
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | <script type="text/javascript" src="/jquery.js"></script> | []
+-- | script | 0 | $(document).ready(function () {
+  var back_to_top_button = '<div class="back-to-top"><a href="#top" title="to top"><div class="arrow-up"></div></a></div>';
+  $("body").append(back_to_top_button)
+  // Der Button wird ausgeblendet
+  $(".back-to-top").hide();
+  // Funktion fÃ¼r das Scrollen
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
+        $('.back-to-top').fadeIn();
+      } else {
+        $('.back-to-top').fadeOut();
+      }
+    });
+    $('.back-to-top').click(function () { // Klick auf den Button
+      $('body,html').animate({
+        scrollTop: 0
+      }, 300);
+      return false;
+    });
+  });
+}); | [('type', 'text/javascript')]
+-- | script | 0 | function logon(href) {
+  var doc = href.substring(href.lastIndexOf("/") + 1, href.length);
+  doc = doc + "?OpenDocument&login";
+  //alert(doc);
+  window.location.href = doc;
+}
+function getUrlParameter(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.indexOf("&", startPos);
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = "";
+  }
+  return backStr;
+}
+/*
+ * Go to the url you were before the login
+ */
+function showLink() {
+  var sourceLink = getUrlAt(document.location.href, "src")
+    //  alert('at: '+sourceLink);
+    sourceLink = switchParameter(sourceLink, "lgx1", "refDoc");
+  window.open(sourceLink, "_self");
+}
+function myLogin(mySourceURL) {
+  window.open(mySourceURL + "&src=" + switchParameter(document.location.href, 'refDoc', 'lgx1'), "_self");
+}
+function myLogout(mySourceURL) {
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktAL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktWL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'WG1="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  window.open(mySourceURL, "_self");
+}
+/*
+ * Take all parameters after the selected!
+ */
+function getUrlAt(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.length;
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+/*
+ * Changes the parametername in the url
+ */
+function switchParameter(qs, par, newPar) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + 1;
+    endPos = qs.indexOf("&" + par + "=") + (par.length + 1);
+    if (endPos != -1) {
+      backStr = qs.substring(0, startPos) + newPar + qs.substring(endPos, qs.length);
+    } else {
+      backStr = qs;
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+  function searchThis() {
+    var form = document.forms.search;
+    var query = 'squery' in form ? form.squery.value : form.query.value;
+    if (query === '' || query === 'Search: parts, keywords, ...' || query === 'Suchen: Begriffe/Teilenummern...') {
+      alert('Please enter a search term.');
+    } else {
+      location.href = "suchergebnisse?OpenDocument&query=" + encodeURIComponent(query) + "&news=true&katalog=true";
+    }
+    return false;
+  }
+function searchThisHtn() {
+  var query = document.forms['searchhtn'].squeryhtn.value;
+  if (query == '') {
+    alert('Please enter a search term.');
+  } else {
+    newsString = "&news=false";
+    katalogString = "&katalog=true";
+    location.href = "suchergebnissehtn?OpenDocument&query=" + query + newsString + katalogString;
+  }
+  return false;
+}
+function pdfWin(kb, wg) {
+  url = "FrameView?OpenDocument&art=" + encodeURIComponent(kb) + "&wg=" + encodeURIComponent(wg);
+  //alert(url);
+  win = window.open(url, "download", "location=no, menubar=no, toolbar=no, resizable=yes, height=800, width=1024");
+}
+function zoomImage(uri) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, resizable=yes, height=732, width=732");
+}
+function viewImage(uri, x, y) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, scrollbars=yes, resizable=yes, height=" + y + ", width=" + x);
+}
+function printDocument(uri) {
+  if (uri.indexOf("previewprint") < 1) {
+    win = window.open(uri, "Print", "location=no, menubar=no, toolbar=no, resizable=yes,scrollbars=yes,width=700,height=1200");
+  }
+}
+/*
+ * Changes the look of the Upload-Button
+ */
+var W3CDOM = (document.createElement && document.getElementsByTagName);
+function initUpload() {
+  if (!W3CDOM)
+    return;
+  var fakeFileUpload = document.createElement('div');
+  fakeFileUpload.className = 'fakefile';
+  fakeFileUpload.appendChild(document.createElement('input'));
+  var image = document.createElement('img');
+  image.src = 'pix/button_select.gif';
+  fakeFileUpload.appendChild(image);
+  var x = document.getElementsByTagName('input');
+  for (var i = 0; i < x.length; i++) {
+    if (x[i].type != 'file')
+      continue;
+    if (x[i].parentNode.className != 'fileinputs')
+      continue;
+    x[i].className = 'file hidden';
+    var clone = fakeFileUpload.cloneNode(true);
+    x[i].parentNode.appendChild(clone);
+    x[i].relatedElement = clone.getElementsByTagName('input')[0];
+    x[i].onchange = x[i].onmouseout = function () {
+      this.relatedElement.value = this.value;
+    }
+  }
+}
+function langswitch(to) {
+  uri = document.location.href;
+  if (to == "de") {
+    uri = uri.replace(/cms_en.nsf/, "cms_de.nsf");
+    uri = uri.replace(/print/, "index");
+  } else {
+    uri = uri.replace(/cms_de.nsf/, "cms_en.nsf");
+    uri = uri.replace(/print/, "index");
+  }
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.location.href = uri;
+} | [('language', 'javascript'), ('type', 'text/javascript')]
+-- | script | 0 | if('$' in window) {
+  $(function () {
+    if (getCookies()['cookies'] !== 'accepted') {
+      $('body').append('<div class="cookie-info"><div class="cookie-container"><button type="button" class="btn btn-inverted" id="cookie-button">OK</button><p>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out <a href="/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument">more</a>.</p></div></div>')
+    }
+    $('.cookie-info button').on('click', function() {
+      $('.cookie-info').hide();
+      document.cookie = 'cookies=accepted;path=/';
+    })
+  })
+} | [('type', 'application/javascript')]
+-- | script | 0 | document.cookie = 'SessionID=3308779997136517610; Path=/; Comment=GlobalContext; Version=1;';
+document.cookie = 'WG1=T7523CMSB56078260C446EABC12570880028A77E; Path=/; Expires=Fri, 20 Jul 2018 01:10:50 GMT;'; | [('type', 'application/javascript')]
+-- | script | 0 | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
+  $(function(){
+    if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({"language":"en"});
+    }
+    if ($.fn.colorbox) {
+      $('[data-galery]').colorbox({rel: 'images'});
+    }
+  });
+} | [('type', 'text/javascript')]
+-- | script | 0 | function init() {
+} | [('type', 'text/javascript')]
+-- | script | 0 | /*
+* Ãœber dieses Script werden die eine Form in den DatensÃ¤tzen auf die  
+* verschiedenen events verteilt, Warenkorb, Merkliste, Anfrageliste
+*/
+function doProduktSubmit(formaction, formnr, url){
+	 var actionwk= url;
+        var formAktuell=0;
+        //forms durchlaufen um das benÃ¶tigte herauszufiltern
+        for(var i = 0; i < document.forms.length; i++){
+         //alert(document.forms[i].name);
+         if(document.forms[i].name.length>6){
+           var teil = document.forms[i].name.substring(6,document.forms[i].name.length);
+            if(teil==formnr){
+               //alert(teil +" -- "+i);
+               formAktuell =i;
+               break;
+            } 
+          }
+        }
+	 Ziel = document.forms[formAktuell].action = actionwk;
+	 Name = document.forms[formAktuell].name = formaction+"form"+formnr;
+	 //alert("wk: "+Ziel +" Name\n"+Name +" Forms: " +document.forms[formAktuell].name );
+        document.forms[formAktuell].submit();
+	
+} | [('language', 'JavaScript'), ('type', 'text/javascript')]
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Base Table | []
+-- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin: 0 auto;')]
+--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Logo und Service | []
+--- | tbody | 0 | None | []
+---- | tr | 0 |  | []
+----- | td | 0 |  | [('valign', 'top'), ('width', '200')]
+------ | a | 0 | None | [('href', 'home?openDocument')]
+------- | img | 0 | None | [('alt', 'Logo'), ('border', '0'), ('height', '80'), ('hspace', '0'), ('id', 'toTop'), ('src', '../resources/CMS2F65FB219EE27E1AC1256D47003995C1/$file/logo.gif'), ('vspace', '0'), ('width', '200')]
+----- | td | 0 |  | [('class', 'service'), ('colspan', '2'), ('valign', 'middle'), ('width', '800')]
+------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | Service Menu | []
+------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '800')]
+------- | tbody | 0 | None | []
+-------- | tr | 0 |  | []
+--------- | td | 0 | None | [('width', '10')]
+--------- | td | 0 |  | [('align', 'left'), ('width', '90')]
+---------- | a | 0 | DE | [('class', 'service'), ('href', "javascript:langswitch('de')")]
+---------- | a | 0 | EN | [('class', 'service'), ('href', "javascript:langswitch('en')")]
+--------- | td | 0 |  | [('align', 'right'), ('width', '560')]
+---------- | a | 0 | Contact | [('class', 'service'), ('href', '../index/kontakt')]
+---------- | a | 0 | About us | [('class', 'service'), ('href', '../index/ueber_uns')]
+---------- | a | 0 | Terms of Business | [('class', 'service'), ('href', '../index/agb')]
+---------- | a | 0 | Imprint | [('class', 'service'), ('href', '../index/impressum')]
+---------- | a | 0 | Privacy & Cookies | [('class', 'service'), ('href', '../index/CMS224F6857F5DEA479C125776700325017?OpenDocument')]
+---------- | a | 0 | Help | [('class', 'service'), ('href', '../index/hilfe')]
+---------- | a | 0 | None | [('class', 'service'), ('href', '../index/newsletter')]
+----------- | span | 0 | new: | [('class', 'label-new')]
+--------- | td | 0 |  | [('align', 'right'), ('width', '140')]
+---------- | a | 0 | Registration | [('class', 'service'), ('href', '../index/registrierung')]
+---------- | a | 0 | Login | [('class', 'service'), ('onclick', "javascript:myLogin('../index/Kundenportal?OpenDocument&login');"), ('style', 'cursor:pointer;')]
+-------- | tr | 0 |  | []
+--------- | td | 0 |  | [('colspan', '4')]
+-------- | tr | 0 |  | [('style', 'height:25px')]
+--------- | td | 0 |  | [('colspan', '4')]
+---- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start main Nav | []
+---- | tr | 0 |  | []
+----- | td | 0 |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
+------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | search | []
+------ | form | 0 |  | [('accept-charset', 'utf-8'), ('action', '/schukat/schukat_cms_en.nsf/index/suchergebnisse'), ('method', 'GET'), ('name', 'search'), ('onsubmit', 'return searchThis();')]
+------- | input | 0 | None | [('name', 'OpenDocument'), ('type', 'hidden')]
+------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '190px')]
+-------- | tbody | 0 | None | []
+--------- | tr | 0 |  | []
+---------- | td | 0 |  | [('align', 'right'), ('valign', 'top'), ('width', '170px')]
+----------- | input | 0 | None | [('class', 'searchInput'), ('name', 'query'), ('onblur', "if(RegExp('^\\\\s*$').test(this.value)) {this.value='Search: parts, keywords, ...'}"), ('onfocus', "if(this.value==='Search: parts, keywords, ...'){this.value=''}"), ('style', 'color:#374957;font-size:9px'), ('type', 'search'), ('value', 'Search: parts, keywords, ...')]
+---------- | td | 0 |  | [('align', 'right'), ('valign', 'top'), ('width', '20px')]
+----------- | button | 0 | None | [('class', 'searchButtonContent'), ('type', 'submit')]
+------------ | img | 0 | None | [('alt', 'Suche'), ('height', '12px'), ('src', '/schukat/schukat_cms_de.nsf/resources/icon_lupe.png/$file/icon_lupe.png'), ('width', '10px')]
+----- | td | 0 |  | [('class', 'background-gray'), ('colspan', '2'), ('valign', 'top'), ('width', '800')]
+------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | oberes menÃ¼ start | []
+------ | table | 0 |  | [('cellpadding', '0'), ('cellspacing', '0')]
+------- | tbody | 0 | None | []
+-------- | tr | 0 | None | []
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuHalbleiter'), ('height', '32'), ('width', '65')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Halbleiter?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Halbleiter'), ('border', '0'), ('src', '../resources/tmHalbleiter.gif/$file/tmHalbleiter.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuOptoelektronik'), ('height', '32'), ('width', '65')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Optoelektronik?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Optoelektronik'), ('border', '0'), ('src', '../resources/tmOptoelektronik.gif/$file/tmOptoelektronik.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuBauteile'), ('height', '32'), ('width', '78')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Bauteile?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Bauteile'), ('border', '0'), ('src', '../resources/tmBauteile.gif/$file/tmBauteile.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuSunon'), ('height', '32'), ('width', '32')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Sunon?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Sunon'), ('border', '0'), ('src', '../resources/tmSunon.gif/$file/tmSunon.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuSchaltnetzteile'), ('height', '32'), ('width', '92')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'MeanWell?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'MEAN WELL'), ('border', '0'), ('src', '../resources/tmSchaltnetzteile.gif/$file/tmSchaltnetzteile.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuPowerSupplies'), ('height', '32'), ('width', '92')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'PowerSupplies?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'PowerSupplies'), ('border', '0'), ('src', '../resources/tmPowerSupplies.gif/$file/tmPowerSupplies.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuKomponenten'), ('height', '32'), ('width', '76')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Komponenten?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Komponenten'), ('border', '0'), ('src', '../resources/tmKomponenten.gif/$file/tmKomponenten.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '48')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'news?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'ProductNews'), ('border', '0'), ('src', '../resources/tmProductNews.gif/$file/tmProductNews.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '53')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Hersteller?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Hersteller'), ('border', '0'), ('src', '../resources/tmHersteller.gif/$file/tmHersteller.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '55')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Bestellhinweise?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Bestellhinweise'), ('border', '0'), ('src', '../resources/tmBestellhinweise.gif/$file/tmBestellhinweise.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '60')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Kundenportal?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Kundenportal'), ('border', '0'), ('src', '../resources/tmKundenportal.gif/$file/tmKundenportal.gif')]
+--------- | td | 0 | None | [('align', 'left'), ('class', 'TopMenuContentShop'), ('height', '32'), ('width', '40')]
+---------- | a | 0 | None | [('class', 'genSmallWhite'), ('href', 'Shop?OpenDocument')]
+----------- | img | 0 | None | [('alt', 'Shop'), ('border', '0'), ('src', '../resources/tmShop.gif/$file/tmShop.gif')]
+-------- | tr | 0 | None | []
+--------- | td | 0 | None | [('class', 'breadcrumb'), ('colspan', '12'), ('height', '32'), ('valign', 'middle')]
+---------- | a | 0 | Home | [('class', 'breadcrumb-item'), ('href', '/schukat/schukat_cms_en.nsf/index/home?OpenDocument')]
+---------- | a | 0 | Tools, Measuring, Electro-Chemicals, Motors and more | [('class', 'breadcrumb-item'), ('href', 'CMS0C846C9ADFB523C7C1256D48004FC63C?OpenDocument')]
+---------- | a | 0 | Soldering Equipment, PCB Prototyping, Hand Tools | [('class', 'breadcrumb-item'), ('href', 'CMSDBD74A6388CFAF15C1256D67002DE72C?OpenDocument')]
+---------- | a | 0 | ESD Equipment | [('class', 'breadcrumb-item'), ('href', 'CMS857463C03FA561C0C1256D6E0046E880?OpenDocument')]
+---------- | a | 0 | IC Transporting Accessories | [('class', 'breadcrumb-item'), ('href', 'CMSB56078260C446EABC12570880028A77E?OpenDocument')]
+---------- | a | 0 | T7523 | [('class', 'breadcrumb-item active'), ('href', 'warengruppe?OpenDocument&wg=T7523&refDoc=CMSB56078260C446EABC12570880028A77E')]
+---------- | script | 0 | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS0C846C9ADFB523C7C1256D48004FC63C?OpenDocument","name":"Tools, Measuring, Electro-Chemicals, Motors and more"}},{"@type":"ListItem","position":3,"item":{"@id":"CMSDBD74A6388CFAF15C1256D67002DE72C?OpenDocument","name":"Soldering Equipment, PCB Prototyping, Hand Tools"}},{"@type":"ListItem","position":4,"item":{"@id":"CMS857463C03FA561C0C1256D6E0046E880?OpenDocument","name":"ESD Equipment"}},{"@type":"ListItem","position":5,"item":{"@id":"CMSB56078260C446EABC12570880028A77E?OpenDocument","name":"IC Transporting Accessories"}},{"@type":"ListItem","position":6,"item":{"@id":"warengruppe?OpenDocument&wg=T7523&refDoc=CMSB56078260C446EABC12570880028A77E","name":"T7523"}}]} | [('type', 'application/ld+json')]
+------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | oberes menÃ¼ ende | []
+---- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Ende Logo und Service | []
+---- | tr | 0 |  | []
+----- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Linker MenÃ¼ Bereich | []
+----- | td | 0 |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
+------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0')]
+------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | HauptmenÃ¼ | []
+------- | tbody | 0 | None | []
+-------- | tr | 0 | None | []
+--------- | td | 0 | None | [('width', '200')]
+---------- | table | 0 | None | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '200')]
+----------- | tbody | 0 | None | []
+------------ | tr | 0 | None | []
+------------- | td | 0 | R | [('align', 'center'), ('class', 'MenuArea'), ('style', 'padding-top:6px; padding-bottom:6px; border-top: 1px solid #ffffff;'), ('valign', 'top'), ('width', '20')]
+------------- | td | 0 | None | [('colspan', '3'), ('style', 'padding-top:6px; padding-bottom:6px; padding-left:4px; border-top: 1px solid #ffffff;')]
+-------------- | a | 0 | Electro-Chemicals | [('class', 'ML1KO'), ('href', 'CMS151128B72AF31508C1256D67002DDED1?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | T | [('align', 'center'), ('class', 'MenuArea'), ('style', 'padding-top:6px; padding-bottom:6px; border-top: 1px solid #ffffff;'), ('valign', 'top'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('colspan', '3'), ('style', 'padding-top:6px; padding-bottom:6px; padding-left:4px; border-top: 1px solid #ffffff;')]
+-------------- | a | 0 | Soldering Equipment | [('class', 'MLSelected1KO'), ('href', 'CMSDBD74A6388CFAF15C1256D67002DE72C?OpenDocument')]
+--------------- | br | 0 | None | []
+--------------- | br | 0 | None | []
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px;padding-bottom:1px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('valign', 'top'), ('width', '18')]
+-------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '9'), ('src', '../resources/twistyClosed/$file/twistyClosed.gif'), ('style', 'padding-left:8px;padding-top:2px;'), ('width', '10')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('colspan', '2'), ('style', 'line-height:15px; padding-bottom:5px;')]
+-------------- | a | 0 | Soldering Irons, Stations & Accessories | [('class', 'MenuListKO'), ('href', 'CMSCCC15EFE676FEBABC1256D6E0043848D?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px;padding-bottom:1px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('valign', 'top'), ('width', '18')]
+-------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '9'), ('src', '../resources/twistyClosed/$file/twistyClosed.gif'), ('style', 'padding-left:8px;padding-top:2px;'), ('width', '10')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('colspan', '2'), ('style', 'line-height:15px; padding-bottom:5px;')]
+-------------- | a | 0 | Equipment for PCB Production | [('class', 'MenuListKO'), ('href', 'CMSCD96C5B793A053DDC1256D6E0044A051?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px;padding-bottom:1px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('valign', 'top'), ('width', '18')]
+-------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '9'), ('src', '../resources/twistyClosed/$file/twistyClosed.gif'), ('style', 'padding-left:8px;padding-top:2px;'), ('width', '10')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('colspan', '2'), ('style', 'line-height:15px; padding-bottom:5px;')]
+-------------- | a | 0 | Tools | [('class', 'MenuListKO'), ('href', 'CMSAC02E3493C72BD4FC1256D6E0045475F?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px;padding-bottom:1px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('valign', 'top'), ('width', '18')]
+-------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '9'), ('src', '../resources/twistyClosed/$file/twistyClosed.gif'), ('style', 'padding-left:8px;padding-top:2px;'), ('width', '10')]
+------------- | td | 0 | None | [('class', 'MenuListSelectedKO'), ('colspan', '2'), ('style', 'line-height:15px; padding-bottom:5px;')]
+-------------- | a | 0 | ESD Equipment | [('class', 'MLSelectedKO'), ('href', 'CMS857463C03FA561C0C1256D6E0046E880?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px; padding-bottom:5px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('width', '18')]
+------------- | td | 0 | - | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px; vertical-align:top; text-align:left;'), ('width', '9')]
+------------- | td | 0 | None | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('width', '153')]
+-------------- | a | 0 | ESD Equipment | [('class', 'MenuListSubSelectedKO'), ('href', 'CMSCBF2FA45EE5CE872C1256D6E00471999?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'line-height:15px; padding-bottom:5px;'), ('width', '20')]
+------------- | td | 0 | None | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('width', '18')]
+------------- | td | 0 | - | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px; vertical-align:top; text-align:left;'), ('width', '9')]
+------------- | td | 0 | None | [('class', 'MenuListSubSelectedKO'), ('style', 'line-height:15px; padding-bottom:5px;'), ('width', '153')]
+-------------- | a | 0 | IC Transporting Accessories | [('class', 'MLSubSelectedKO'), ('href', 'CMSB56078260C446EABC12570880028A77E?OpenDocument')]
+------------ | tr | 0 | None | []
+------------- | td | 0 | N | [('align', 'center'), ('class', 'MenuArea'), ('style', 'padding-top:6px; padding-bottom:6px; border-top: 1px solid #ffffff;'), ('valign', 'top'), ('width', '20')]
+------------- | td | 0 | None | [('colspan', '3'), ('style', 'padding-top:6px; padding-bottom:6px; padding-left:4px; border-top: 1px solid #ffffff;')]
+-------------- | a | 0 | Measuring | [('class', 'ML1KO'), ('href', 'CMS53EC2E3C04543262C1257EB20048763A?OpenDocument')]
+--------------- | br | 0 | None | []
+------------ | tr | 0 | None | []
+------------- | td | 0 | P | [('align', 'center'), ('class', 'MenuArea'), ('style', 'padding-top:6px; padding-bottom:6px; border-top: 1px solid #ffffff;'), ('valign', 'top'), ('width', '20')]
+------------- | td | 0 | None | [('colspan', '3'), ('style', 'padding-top:6px; padding-bottom:6px; padding-left:4px; border-top: 1px solid #ffffff;')]
+-------------- | a | 0 | Motors & Controllers | [('class', 'ML1KO'), ('href', 'CMS4BA30DE8A091BC4FC125778F0024E436?OpenDocument')]
+--------------- | br | 0 | None | []
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('style', 'min-width:20px; height:0; border-top:1px solid #ffffff'), ('width', '20')]
+------------- | td | 0 | None | [('style', 'min-width:18px; height:0; border-top:1px solid #ffffff'), ('width', '18')]
+------------- | td | 0 | None | [('style', 'min-width:9px; height:0; border-top:1px solid #ffffff'), ('width', '9')]
+------------- | td | 0 | None | [('style', 'min-width:153px; height:0; border-top:1px solid #ffffff'), ('width', '153')]
+---------- | br | 0 | None | []
+----- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Ende Linker MenÃ¼ Bereich | []
+----- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Rechter Content Bereich | []
+----- | td | 0 |  | [('colspan', '2'), ('valign', 'top'), ('width', '800')]
+------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-top:0px;'), ('width', '800')]
+------- | tbody | 0 | None | []
+-------- | tr | 0 |  | []
+--------- | td | 0 |  | [('valign', 'top'), ('width', '800')]
+---------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-left:10px;margin-right:0px;margin-top:0px;')]
+----------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | do not next row show in nav level 1 | []
+----------- | tbody | 0 | None | []
+------------ | tr | 0 | None | []
+------------- | td | 0 | None | [('colspan', '3')]
+-------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | legende | []
+-------------- | table | 0 | None | [('cellpadding', '0'), ('cellspacing', '0'), ('class', 'plTa'), ('style', 'height:25px;')]
+--------------- | tbody | 0 | None | []
+---------------- | tr | 0 | None | []
+----------------- | td | 0 | None | [('width', '1')]
+----------------- | td | 0 | None | [('width', '15')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '12'), ('src', '../icon_neu.gif'), ('width', '12')]
+----------------- | td | 0 | New | [('width', '40')]
+----------------- | td | 0 | None | [('width', '15')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '12'), ('src', '../icon_angebot.gif'), ('width', '12')]
+----------------- | td | 0 | Offers | [('width', '62')]
+----------------- | td | 0 | None | [('width', '15')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '12'), ('src', '../icon_abgekuendigt.gif'), ('width', '13')]
+----------------- | td | 0 | Phased out | [('width', '90')]
+----------------- | td | 0 | None | [('width', '15')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '12'), ('src', '../icon_anfrage.gif'), ('width', '12')]
+----------------- | td | 0 | Only on request | [('width', '99')]
+----------------- | td | 0 | None | [('width', '15')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '12'), ('src', '../icon_rohs.gif'), ('width', '12')]
+----------------- | td | 0 | RoHS compliant | [('width', '99')]
+----------------- | td | 0 | None | [('width', '20')]
+------------------ | img | 0 | None | [('alt', ''), ('height', '14'), ('src', '../icon_ersatz.gif'), ('width', '12')]
+----------------- | td | 0 | Replace. part (not always suited) | [('width', '200')]
+------------ | tr | 0 |  | []
+------------- | td | 0 |  | [('valign', 'top')]
+-------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Tabelle Start | []
+-------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel Tabelle ### | []
+-------------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '1'), ('width', '789')]
+--------------- | tbody | 0 | None | []
+---------------- | tr | 0 |  | []
+----------------- | td | 0 |  | [('class', 'komponentenTDLite'), ('colspan', '9'), ('height', '30'), ('style', 'padding-left:5px')]
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('class', 'printnoborder'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | None | []
+---------------------- | span | 0 | T7523 | [('class', 'MenuAreaBold')]
+---------------------- | span | 0 | =Product Group | [('class', 'genMiddleWhite')]
+--------------------- | td | 0 | None | [('align', 'right')]
+---------------------- | a | 0 | None | [('class', 'MenuArea'), ('href', 'warengruppe?OpenDocument&wg=T7522&refDoc=CMSB56078260C446EABC12570880028A77E')]
+----------------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('src', '../resources/pfeil_back.gif/$file/pfeil_back.gif')]
+---------------------- | a | 0 | U1232 | [('class', 'MenuArea'), ('href', 'warengruppe?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15')]
+----------------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('src', '../resources/pfeil_weiter.gif/$file/pfeil_weiter.gif')]
+---------------- | tr | 0 |  | []
+----------------- | td | 0 |  | [('class', 'komponentenTDSH'), ('colspan', '12'), ('height', '30'), ('style', 'padding:5px')]
+------------------ | h1 | 0 | None | [('class', 'komponentenTDSH'), ('style', 'margin-bottom: 0px; margin-top: 0px;')]
+------------------- | b | 0 | ESD Metallized Shielding Bag | []
+------------------ | h2 | 0 | None | [('class', 'komponentenTDSH'), ('style', 'margin-bottom: 0px; margin-top: 0px;')]
+------------------- | span | 0 | With Pressure Seal
+   Series: TME | [('style', 'font-weight:normal;font-size:14')]
+---------------- | tr | 0 | None | []
+----------------- | td | 0 |  | [('colspan', '12')]
+---------------- | tr | 0 | None | [('valign', 'top')]
+----------------- | td | 0 | None | [('width', '16')]
+----------------- | td | 0 | Article | [('class', 'plHL'), ('width', '300')]
+------------------ | br | 0 | None | []
+------------------ | br | 0 | None | []
+----------------- | td | 0 | PDF | [('class', 'plHM'), ('valign', 'top'), ('width', '30')]
+----------------- | td | 0 | PU | [('class', 'plHM'), ('valign', 'top'), ('width', '20')]
+----------------- | td | 0 |  | [('align', 'center'), ('class', 'plHM'), ('valign', 'top'), ('width', '139')]
+------------------ | table | 0 |  | [('align', 'center'), ('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('class', 'plHM')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | None | [('align', 'center'), ('class', 'plHM'), ('colspan', '3')]
+---------------------- | p | 0 | Price Grade | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | from | [('align', 'left'), ('class', 'plHM')]
+--------------------- | td | 0 | None | [('align', 'center'), ('class', 'plHM')]
+--------------------- | td | 0 | [EUR] | [('align', 'right'), ('class', 'plHM')]
+----------------- | td | 0 | MOQ | [('align', 'center'), ('class', 'plHM'), ('valign', 'top'), ('width', '50')]
+------------------ | br | 0 | None | []
+----------------- | td | 0 | Stock & next | [('class', 'plHM'), ('valign', 'top'), ('width', '76')]
+------------------ | br | 0 | None | []
+----------------- | td | 0 | Procurement time | [('class', 'plHM'), ('valign', 'top'), ('width', '66')]
+----------------- | td | 0 | Select amount | [('class', 'plHM'), ('valign', 'top'), ('width', '83')]
+---------------- | tr | 0 | None | [('bgcolor', '#dee7ef'), ('valign', 'top')]
+----------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel TME100 ### | []
+----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | div | 0 | None | []
+------------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '14'), ('src', '../icon_rohs.gif'), ('style', 'padding-top:2px'), ('title', 'RoHS compliant'), ('width', '12')]
+----------------- | td | 0 | None | [('align', 'left'), ('bgcolor', '#dee7ef'), ('class', 'plCO'), ('valign', 'top')]
+------------------ | a | 0 | None | [('name', 'TME100')]
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('class', 'printnoborder'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | None | [('bgcolor', '#dee7ef'), ('class', 'plCO'), ('valign', 'top')]
+---------------------- | h3 | 0 | None | [('class', 'plCO'), ('style', 'margin-bottom: 0px; margin-top: 0px;')]
+----------------------- | b | 0 | TME100 | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | Met. Shield. Bag 100x150mm | []
+----------------- | td | 0 |  | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | a | 0 | H | [('style', 'text-decoration:none;'), ('title', '100\xa0items')]
+----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | table | 0 |  | [('align', 'center'), ('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('class', 'plWB')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | 100 | [('align', 'right'), ('class', 'plTD'), ('colspan', '2'), ('width', '60')]
+--------------------- | td | 0 | None | [('align', 'right'), ('class', 'plTD'), ('width', '13')]
+--------------------- | td | 0 | 16.05 | [('align', 'right'), ('class', 'plTD'), ('width', '60')]
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | 300 | [('align', 'right'), ('class', 'plTD'), ('colspan', '2'), ('width', '60')]
+--------------------- | td | 0 | None | [('align', 'right'), ('class', 'plTD'), ('width', '13')]
+--------------------- | td | 0 | 12.75 | [('align', 'right'), ('class', 'plTD'), ('width', '60')]
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | 1,000 | [('align', 'right'), ('class', 'plTD'), ('colspan', '2'), ('width', '60')]
+--------------------- | td | 0 | None | [('align', 'right'), ('class', 'plTD'), ('width', '13')]
+--------------------- | td | 0 | 11.10 | [('align', 'right'), ('class', 'plTD'), ('width', '60')]
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | 3,000 | [('align', 'right'), ('class', 'plTD'), ('colspan', '2'), ('width', '60')]
+--------------------- | td | 0 | None | [('align', 'right'), ('class', 'plTD'), ('width', '13')]
+--------------------- | td | 0 | 10.60 | [('align', 'right'), ('class', 'plTD'), ('width', '60')]
+----------------- | td | 0 | 100 | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | br | 0 | None | []
+----------------- | td | 0 | 1,400 | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+----------------- | td | 0 | Ã˜1 | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | br | 0 | None | []
+------------------ | br | 0 | None | []
+----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
+------------------ | button | 0 | None | [('class', 'plBu'), ('onclick', "doProduktSubmit('wk','0','https://www.schukat.com/schukat/schukat_cms_en.nsf/WKManager?OpenAgent&prodanlegen=true&proddbdocuid=C1256D5500447B04C125717100780AC7&wkaktualisieren=1&lg=EN&Target=schukat/schukat_wk_en.nsf&mode=WK') "), ('type', 'button')]
+------------------- | img | 0 | None | [('alt', '(Order)'), ('src', '../button_order.gif')]
+------------------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | form | []
+------------------ | form | 0 |  | [('action', 'https://www.schukat.com/schukat/schukat_cms_en.nsf/WKManager?OpenAgent&prodanlegen=true&proddbdocuid={0}&wkaktualisieren=1&lg=EN&Target=schukat/schukat_wk_en.nsf&mode=WK'), ('class', 'formbe'), ('method', 'post'), ('name', 'wkform0'), ('style', 'padding:0px;margin:0px'), ('target', '_self')]
+------------------- | input | 0 | None | [('name', 'LostData'), ('type', 'hidden'), ('value', 'Dummy')]
+------------------- | input | 0 | None | [('class', 'inpbe'), ('name', 'p_prodAnzahl'), ('size', '5'), ('style', 'font-size: 9px;font-weight:normal;height:14px'), ('type', 'text'), ('value', '')]
+------------------- | input | 0 | None | [('name', 'ART_K_BEZ'), ('type', 'hidden'), ('value', 'TME100')]
+------------------- | input | 0 | None | [('name', 'ART_BEZ'), ('type', 'hidden'), ('value', 'Met. Shield. Bag 100x150mm')]
+------------------- | input | 0 | None | [('name', 'WG_RABATT'), ('type', 'hidden'), ('value', 'VDc1MjNf')]
+------------------- | input | 0 | None | [('name', 'PMR_BEZ1'), ('type', 'hidden'), ('value', 'MTAw')]
+------------------- | input | 0 | None | [('name', 'PMR_BEZ2'), ('type', 'hidden'), ('value', 'MzAw')]
+------------------- | input | 0 | None | [('name', 'PMR_BEZ3'), ('type', 'hidden'), ('value', 'MTAwMA==')]
+------------------- | input | 0 | None | [('name', 'PMR_BEZ4'), ('type', 'hidden'), ('value', 'MzAwMA==')]
+------------------- | input | 0 | None | [('name', 'PMR_WERT1'), ('type', 'hidden'), ('value', 'MTAw')]
+------------------- | input | 0 | None | [('name', 'PMR_WERT2'), ('type', 'hidden'), ('value', 'MzAw')]
+------------------- | input | 0 | None | [('name', 'PMR_WERT3'), ('type', 'hidden'), ('value', 'MTAwMA==')]
+------------------- | input | 0 | None | [('name', 'PMR_WERT4'), ('type', 'hidden'), ('value', 'MzAwMA==')]
+------------------- | input | 0 | None | [('name', 'N_ARPE'), ('type', 'hidden'), ('value', 'H')]
+------------------- | input | 0 | None | [('name', 'PREIS1'), ('type', 'hidden'), ('value', 'MTYuMDU=')]
+------------------- | input | 0 | None | [('name', 'PREIS2'), ('type', 'hidden'), ('value', 'MTIuNzU=')]
+------------------- | input | 0 | None | [('name', 'PREIS3'), ('type', 'hidden'), ('value', 'MTEuMTA=')]
+------------------- | input | 0 | None | [('name', 'PREIS4'), ('type', 'hidden'), ('value', 'MTAuNjA=')]
+------------------- | input | 0 | None | [('name', 'KD_RABATT'), ('type', 'hidden'), ('value', 'MS4w')]
+------------------- | input | 0 | None | [('name', 'PRKZ'), ('type', 'hidden'), ('value', 'G')]
+------------------- | input | 0 | None | [('name', 'N_ARERSATZ'), ('type', 'hidden'), ('value', '')]
+------------------- | input | 0 | None | [('name', 'N_ARPRUEFZ'), ('type', 'hidden'), ('value', 'true')]
+------------------- | input | 0 | None | [('name', 'N_ARBESTAND'), ('type', 'hidden'), ('value', '1400')]
+------------------- | input | 0 | None | [('name', 'N_ARNWE'), ('type', 'hidden'), ('value', '')]
+------------------- | input | 0 | None | [('name', 'N_ARDBZ'), ('type', 'hidden'), ('value', '1')]
+------------------- | input | 0 | None | [('name', 'N_ARST1'), ('type', 'hidden'), ('value', '32')]
+------------------- | input | 0 | None | [('name', 'p_flags'), ('type', 'hidden'), ('value', '32')]
+------------------- | input | 0 | None | [('name', 'N_ARWAGR_MOD'), ('type', 'hidden'), ('value', 'T7523')]
+-------------- | span | 0 | None | [('class', 'plHL')]
+--------------- | b | 0 | MOQ | []
+--------------- | b | 0 | PU (Price unit): | []
+--------------- | b | 0 | E | []
+--------------- | b | 0 | H | []
+--------------- | b | 0 | T | []
+--------------- | b | 0 | p | []
+--------------- | b | 0 | P | []
+--------------- | b | 0 | k | []
+--------------- | b | 0 | h | []
+--------------- | br | 0 | None | []
+--------------- | b | 0 | RRP | []
+--------------- | br | 0 | None | []
+--------------- | br | 0 | None | []
+-------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel Tabelle ### | []
+-------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Tabelle ENDE | []
+-------------- | br | 0 | None | []
+-------------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '790')]
+--------------- | tbody | 0 | None | []
+---------------- | tr | 0 |  | []
+----------------- | td | 0 |  | [('valign', 'top'), ('width', '502')]
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '2'), ('cellspacing', '1'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | [('bgcolor', '#7C97A8'), ('style', 'color:#FFFFFF; font-size:12px;')]
+---------------------- | b | 0 | Features | []
+----------------------- | br | 0 | None | []
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '2'), ('cellspacing', '1'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | â€¢ meet with DIN EN 61340 | []
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+---------------------- | span | 0 | None | [('style', '')]
+----------------------- | sup | 0 | 11 | []
+---------------------- | br | 0 | None | []
+---------------------- | span | 0 | None | [('style', '')]
+----------------------- | sup | 0 | 2 | []
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | []
+---------------------- | img | 0 | None | [('alt', ''), ('height', '20'), ('src', '../blind.gif'), ('width', '1')]
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '2'), ('cellspacing', '1'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | [('bgcolor', '#7C97A8'), ('style', 'color:#FFFFFF; font-size:12px;')]
+---------------------- | b | 0 | Terms of Delivery | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | Minimum order quantity: 1 PKU = 100 pieces | []
+---------------------- | br | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | []
+---------------------- | img | 0 | None | [('alt', ''), ('height', '20'), ('src', '../blind.gif'), ('width', '1')]
+------------------ | table | 0 |  | [('border', '0'), ('cellpadding', '2'), ('cellspacing', '1'), ('width', '100%')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | [('bgcolor', '#7C97A8'), ('style', 'color:#FFFFFF; font-size:12px;')]
+---------------------- | b | 0 | Manufacturer | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | Various | []
+---------------------- | br | 0 | None | []
+-------------------- | tr | 0 |  | []
+--------------------- | td | 0 | None | []
+---------------------- | img | 0 | None | [('alt', ''), ('height', '20'), ('src', '../blind.gif'), ('width', '1')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+------------------ | tt | 0 | None | []
+------------------- | font | 0 | None | [('size', '2')]
+----------------- | td | 0 | None | [('width', '10')]
+----------------- | td | 0 |  | [('valign', 'top'), ('width', '278')]
+------------------ | table | 0 | None | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '278')]
+------------------- | tbody | 0 | None | []
+-------------------- | tr | 0 | None | []
+--------------------- | td | 0 | None | [('colspan', '3'), ('height', '134'), ('valign', 'top'), ('width', '278')]
+---------------------- | a | 0 | None | [('class', 'cboxElement'), ('data-galery', ''), ('href', '/schukat/schukat_proto_01.nsf/lookupfiguresweb/T7523|a|TME_|f|a|w/$file/wz.jpg'), ('title', 'TME_ The content is not included in the delivery.')]
+----------------------- | img | 0 | None | [('alt', ''), ('height', '134'), ('src', '/schukat/schukat_proto_01.nsf/lookupfiguresweb/T7523|a|TME_|f|a|w/$file/wi.jpg'), ('width', '278')]
+---------------------- | br | 0 | None | []
+---------------------- | br | 0 | None | []
+---- | tr | 0 |  | []
+----- | td | 0 | None | [('class', 'background-gray')]
+----- | td | 0 | None | [('width', '10')]
+----- | td | 0 |  | [('align', 'center'), ('height', '20'), ('width', '790')]
+------ | table | 0 |  | [('bgcolor', '#dee7ef'), ('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'width:100%')]
+------- | tbody | 0 | None | []
+-------- | tr | 0 |  | []
+--------- | td | 0 |  | [('align', 'center'), ('width', '100%')]
+---------- | a | 0 | None | [('href', 'http://www.facebook.com/schukat.electronic'), ('target', '_blank')]
+----------- | img | 0 | None | [('alt', 'Facebook'), ('height', '18'), ('src', '../facebook_2014.gif'), ('title', 'Werden Sie Schukat-Fan auf Facebook'), ('width', '18')]
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | SF-Warengruppe | []
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | End Base Table | []
+-- | <cyfunction Comment at 0x00000272670BBB10> | 0 | EXCEPTIONS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Plugin Manager caught the following Excepetions: 
++ - - Start plugin processing:
++ - - - Pfadanzeiger
++ - - - ServiceMenu
++ - - - ServiceUnten
++ - - - TopNav
++ - - - Hauptmenue
++ - - - WarengruppeImages
++ - - - WarengruppenTabellen
++ - - - MetaInfoWriter
++ - - - WGDisplayWarengruppen
++ - - - WarengruppeNeu
++ - - End of plugin processing.
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LOGGING:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - | []
+-- | div | 0 | None | [('id', 'cboxOverlay'), ('style', 'display: none;')]
+-- | div | 0 | None | [('class', ''), ('id', 'colorbox'), ('role', 'dialog'), ('style', 'display: none;'), ('tabindex', '-1')]
+--- | div | 0 | None | [('id', 'cboxWrapper')]
+---- | div | 0 | None | []
+----- | div | 0 | None | [('id', 'cboxTopLeft'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxTopCenter'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxTopRight'), ('style', 'float: left;')]
+---- | div | 0 | None | [('style', 'clear: left;')]
+----- | div | 0 | None | [('id', 'cboxMiddleLeft'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxContent'), ('style', 'float: left;')]
+------ | div | 0 | None | [('id', 'cboxTitle'), ('style', 'float: left;')]
+------ | div | 0 | None | [('id', 'cboxCurrent'), ('style', 'float: left;')]
+------ | button | 0 | None | [('class', 'nav-button prev'), ('id', 'cboxPrevious'), ('type', 'button')]
+------ | button | 0 | None | [('class', 'nav-button next'), ('id', 'cboxNext'), ('type', 'button')]
+------ | button | 0 | None | [('id', 'cboxSlideshow'), ('type', 'button')]
+------ | div | 0 | None | [('id', 'cboxLoadingOverlay'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxMiddleRight'), ('style', 'float: left;')]
+---- | div | 0 | None | [('style', 'clear: left;')]
+----- | div | 0 | None | [('id', 'cboxBottomLeft'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxBottomCenter'), ('style', 'float: left;')]
+----- | div | 0 | None | [('id', 'cboxBottomRight'), ('style', 'float: left;')]
+--- | div | 0 | None | [('style', 'position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;')]
+-- | div | 0 | None | [('class', 'back-to-top'), ('style', 'display: none;')]
+--- | a | 0 | None | [('href', '#top'), ('title', 'to top')]
+---- | div | 0 | None | [('class', 'arrow-up')]
+-- | div | 0 | None | [('class', 'cookie-info')]
+--- | div | 0 | None | [('class', 'cookie-container')]
+---- | button | 0 | OK | [('class', 'btn btn-inverted'), ('id', 'cookie-button'), ('type', 'button')]
+---- | p | 0 | This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out | []
+----- | a | 0 | more | [('href', '/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument')]

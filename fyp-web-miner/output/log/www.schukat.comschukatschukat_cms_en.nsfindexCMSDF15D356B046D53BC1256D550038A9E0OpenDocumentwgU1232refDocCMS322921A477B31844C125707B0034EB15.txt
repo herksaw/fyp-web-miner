@@ -1,12 +1,8 @@
 Curr: head | 
-Refer: head | 
-Same
 Curr: title | U1232 Small Signal Transistors Bulk Series: BC_ Case: TO92
-Refer: title | U1232 Small Signal Transistors Bulk Series: BC_ Case: TO92
-Same
 Curr: body | 
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Piwik
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Piwik
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Piwik
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Piwik
 Same
 Curr: script | var _paq = _paq || [];
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
@@ -33,11 +29,11 @@ Refer: script | var _paq = _paq || [];
     g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
   })();
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | End Piwik Code
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | End Piwik Code
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | End Piwik Code
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | End Piwik Code
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | <script type="text/javascript" src="/jquery.js"></script>
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | <script type="text/javascript" src="/jquery.js"></script>
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | <script type="text/javascript" src="/jquery.js"></script>
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | <script type="text/javascript" src="/jquery.js"></script>
 Same
 Curr: script | $(document).ready(function () {
   var back_to_top_button = '<div class="back-to-top"><a href="#top" title="to top"><div class="arrow-up"></div></a></div>';
@@ -426,8 +422,7 @@ Refer: script | if('$' in window) {
   })
 }
 Same
-Curr: script | document.cookie = 'SessionID=-5033768152279703432; Path=/; Comment=GlobalContext; Version=1;';
-document.cookie = 'WG1=U1232CMS322921A477B31844C125707B0034EB15; Path=/; Expires=Fri, 20 Jul 2018 12:35:49 GMT;';
+Curr: script | document.cookie = 'WG1=U1232CMS322921A477B31844C125707B0034EB15; Path=/; Expires=Fri, 20 Jul 2018 01:14:01 GMT;';
 Curr: script | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
   $(function(){
     if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
@@ -505,12 +500,12 @@ function doProduktSubmit(formaction, formnr, url){
 	
 }
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Start Base Table
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Start Base Table
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Start Base Table
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Start Base Table
 Same
 Curr: table | 
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Start Logo und Service
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Start Logo und Service
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Start Logo und Service
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Start Logo und Service
 Same
 Curr: tr | 
 Refer: tr | 
@@ -521,8 +516,8 @@ Same
 Curr: td | 
 Refer: td | 
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Service Menu
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Service Menu
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Service Menu
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Service Menu
 Same
 Curr: table | 
 Refer: table | 
@@ -584,17 +579,15 @@ Same
 Curr: td | 
 Refer: td | 
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Start main Nav
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Start main Nav
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Start main Nav
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Start main Nav
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
 Refer: td | 
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | search
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | search
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | search
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | search
 Same
 Curr: form | 
 Refer: form | 
@@ -612,14 +605,10 @@ Curr: td |
 Refer: td | 
 Same
 Curr: td | 
-Refer: td | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | oberes menÃ¼ start
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | oberes menÃ¼ start
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | oberes menÃ¼ start
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | oberes menÃ¼ start
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: a | Home
 Refer: a | Home
 Same
@@ -636,25 +625,21 @@ Curr: a | AF Small Signal Transistors
 Refer: a | AF Small Signal Transistors
 Same
 Curr: a | U1232
-Refer: a | U1232
-Same
 Curr: script | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS94AAEA20F3A23D7CC1256D48005095D6?OpenDocument","name":"Semiconductors"}},{"@type":"ListItem","position":3,"item":{"@id":"CMS783A30D0FCD09B7BC125707B00327196?OpenDocument","name":"Transistors"}},{"@type":"ListItem","position":4,"item":{"@id":"CMS7292449057B8F241C125707B0032A199?OpenDocument","name":"Bipolar Transistors"}},{"@type":"ListItem","position":5,"item":{"@id":"CMS322921A477B31844C125707B0034EB15?OpenDocument","name":"AF Small Signal Transistors"}},{"@type":"ListItem","position":6,"item":{"@id":"warengruppe?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15","name":"U1232"}}]}
-Refer: script | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS94AAEA20F3A23D7CC1256D48005095D6?OpenDocument","name":"Semiconductors"}},{"@type":"ListItem","position":3,"item":{"@id":"CMS783A30D0FCD09B7BC125707B00327196?OpenDocument","name":"Transistors"}},{"@type":"ListItem","position":4,"item":{"@id":"CMS7292449057B8F241C125707B0032A199?OpenDocument","name":"Bipolar Transistors"}},{"@type":"ListItem","position":5,"item":{"@id":"CMS322921A477B31844C125707B0034EB15?OpenDocument","name":"AF Small Signal Transistors"}},{"@type":"ListItem","position":6,"item":{"@id":"warengruppe?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15","name":"U1232"}}]}
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | oberes menÃ¼ ende
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | oberes menÃ¼ ende
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | oberes menÃ¼ ende
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | oberes menÃ¼ ende
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Ende Logo und Service
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Ende Logo und Service
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Ende Logo und Service
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Ende Logo und Service
 Same
 Curr: tr | 
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Start Linker MenÃ¼ Bereich
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Start Linker MenÃ¼ Bereich
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Start Linker MenÃ¼ Bereich
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Start Linker MenÃ¼ Bereich
 Same
 Curr: td | 
 Curr: table | 
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | HauptmenÃ¼
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | HauptmenÃ¼
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | HauptmenÃ¼
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | HauptmenÃ¼
 Same
 Curr: td | U
 Refer: td | U
@@ -719,32 +704,29 @@ Same
 Curr: a | ICs Analog
 Refer: a | ICs Analog
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Ende Linker MenÃ¼ Bereich
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Ende Linker MenÃ¼ Bereich
+Curr: div | 
+Curr: p | Visited Product Groups:
+Refer: p | Visited Product Groups:
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Start Rechter Content Bereich
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Start Rechter Content Bereich
+Curr: p | 
+Curr: a | U1232
+Curr: a | Small Signal Transistors Bulk
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Ende Linker MenÃ¼ Bereich
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Ende Linker MenÃ¼ Bereich
+Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Start Rechter Content Bereich
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Start Rechter Content Bereich
 Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: table | 
-Refer: table | 
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | do not next row show in nav level 1
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | do not next row show in nav level 1
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | do not next row show in nav level 1
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | do not next row show in nav level 1
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | legende
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | legende
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | legende
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | legende
 Same
 Curr: td | New
 Refer: td | New
@@ -765,47 +747,25 @@ Curr: td | Replace. part (not always suited)
 Refer: td | Replace. part (not always suited)
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
-Refer: td | 
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Tabelle Start
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Tabelle Start
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Tabelle Start
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Tabelle Start
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel Tabelle ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel Tabelle ###
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel Tabelle ###
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel Tabelle ###
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: span | U1232
-Refer: span | U1232
-Same
 Curr: span | =Product Group
 Refer: span | =Product Group
 Same
 Curr: a | U1234
-Refer: a | U1234
-Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: b | Small Signal Transistors Bulk
-Refer: b | Small Signal Transistors Bulk
-Same
 Curr: span | Series: BC_
    Case: TO92
 Refer: span | Series: BC_
@@ -850,261 +810,127 @@ Same
 Curr: td | Select amount
 Refer: td | Select amount
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC327-25 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC327-25 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC327-25 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC327-25
-Refer: b | BC327-25
-Same
 Curr: td | PNP 45V 0,8A 0,625W B:160-400 TO92
 Refer: td | PNP 45V 0,8A 0,625W B:160-400 TO92
 Same
 Curr: td | BC32725BU : Fairchild Semiconductor
-Refer: td | BC32725BU : Fairchild Semiconductor
-Same
 Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.05
-Refer: td | 3.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.45
-Refer: td | 2.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 16,700
-Refer: td | 16,700
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC327-40 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC327-40 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC327-40 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC327-40
-Refer: b | BC327-40
-Same
 Curr: td | PNP 45V 0,8A 0,625W B:250-630 TO92
 Refer: td | PNP 45V 0,8A 0,625W B:250-630 TO92
 Same
 Curr: td | BC32740BU : Fairchild Semiconductor
-Refer: td | BC32740BU : Fairchild Semiconductor
-Same
 Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.40
-Refer: td | 6.40
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.40
-Refer: td | 3.40
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.80
-Refer: td | 2.80
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.60
-Refer: td | 2.60
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 38,600
-Refer: td | 38,600
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC337-25 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC337-25 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC337-25 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC337-25
-Refer: b | BC337-25
-Same
 Curr: td | NPN 45V 0,8A 0,625W B:160-400 TO92
 Refer: td | NPN 45V 0,8A 0,625W B:160-400 TO92
 Same
 Curr: td | BC33725BU : Fairchild Semiconductor
-Refer: td | BC33725BU : Fairchild Semiconductor
-Same
 Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.10
 Refer: td | 6.10
 Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.10
-Refer: td | 3.10
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.50
 Refer: td | 2.50
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.35
-Refer: td | 2.35
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 54,700
-Refer: td | 54,700
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC337-40 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC337-40 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC337-40 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC337-40
-Refer: b | BC337-40
-Same
 Curr: td | NPN 45V 0,8A 0,625W B:250-630 TO92
 Refer: td | NPN 45V 0,8A 0,625W B:250-630 TO92
 Same
 Curr: td | BC33740BU : Fairchild Semiconductor
-Refer: td | BC33740BU : Fairchild Semiconductor
-Same
 Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.05
-Refer: td | 3.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.45
-Refer: td | 2.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 96,500 &
-Refer: td | 96,500 &
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC546A ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC546A ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC546A ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC546A
-Refer: b | BC546A
-Same
 Curr: td | NPN 65V 0,1A 0,5W B:110-220 TO92
-Refer: td | NPN 65V 0,1A 0,5W B:110-220 TO92
-Same
 Curr: td | BC546ABU : Fairchild Semiconductor
-Refer: td | BC546ABU : Fairchild Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1112,62 +938,30 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.05
-Refer: td | 3.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.45
-Refer: td | 2.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4,800
-Refer: td | 4,800
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC546B ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC546B ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC546B ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC546B
-Refer: b | BC546B
-Same
 Curr: td | NPN 65V 0,1A 0,5W B:200-450 TO92
 Refer: td | NPN 65V 0,1A 0,5W B:200-450 TO92
 Same
 Curr: td | BC546B B1 : Taiwan Semiconductor
-Refer: td | BC546B B1 : Taiwan Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1175,62 +969,28 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.15
-Refer: td | 6.15
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.15
-Refer: td | 3.15
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.55
-Refer: td | 2.55
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.40
-Refer: td | 2.40
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 56,900 &
-Refer: td | 56,900 &
-Same
 Curr: td | Ã˜12
-Refer: td | Ã˜12
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC547B ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC547B ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC547B ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC547B
-Refer: b | BC547B
-Same
 Curr: td | NPN 45V 0,1A 0,5W B:200-450 TO92
 Refer: td | NPN 45V 0,1A 0,5W B:200-450 TO92
 Same
 Curr: td | BC547BBU : Fairchild Semiconductor
-Refer: td | BC547BBU : Fairchild Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1238,62 +998,28 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.05
-Refer: td | 3.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.45
-Refer: td | 2.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 105,900 &
-Refer: td | 105,900 &
-Same
 Curr: td | Ã˜9
-Refer: td | Ã˜9
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC547C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC547C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC547C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC547C
-Refer: b | BC547C
-Same
 Curr: td | NPN 45V 0,1A 0,5W B:420-800 TO92
 Refer: td | NPN 45V 0,1A 0,5W B:420-800 TO92
 Same
 Curr: td | BC547CBU : Fairchild Semiconductor
-Refer: td | BC547CBU : Fairchild Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1301,62 +1027,28 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.05
-Refer: td | 3.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.45
-Refer: td | 2.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 51,300 &
-Refer: td | 51,300 &
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC548B ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC548B ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC548B ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC548B
-Refer: b | BC548B
-Same
 Curr: td | NPN 30V 0,1A 0,5W B:200-450 TO92
-Refer: td | NPN 30V 0,1A 0,5W B:200-450 TO92
-Same
 Curr: td | BC548B B1 : Taiwan Semiconductor
-Refer: td | BC548B B1 : Taiwan Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1364,62 +1056,32 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4.95
-Refer: td | 4.95
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 1.95
 Refer: td | 1.95
 Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.35
 Refer: td | 1.35
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.25
 Refer: td | 1.25
 Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 20,600
-Refer: td | 20,600
-Same
 Curr: td | Ã˜12
-Refer: td | Ã˜12
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC548C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC548C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC548C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC548C
-Refer: b | BC548C
-Same
 Curr: td | NPN 30V 0,1A 0,5W B:420-800 TO92
-Refer: td | NPN 30V 0,1A 0,5W B:420-800 TO92
-Same
 Curr: td | BC548C B1 : Taiwan Semiconductor
-Refer: td | BC548C B1 : Taiwan Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1427,62 +1089,32 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4.95
-Refer: td | 4.95
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 1.95
 Refer: td | 1.95
 Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.35
 Refer: td | 1.35
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.25
 Refer: td | 1.25
 Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 61,600
-Refer: td | 61,600
-Same
 Curr: td | Ã˜12
-Refer: td | Ã˜12
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC549C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC549C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC549C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC549C
-Refer: b | BC549C
-Same
 Curr: td | NPN 30V 0,1A 0,5W B:420-800 TO92
-Refer: td | NPN 30V 0,1A 0,5W B:420-800 TO92
-Same
 Curr: td | BC549C B1 : Taiwan Semiconductor
-Refer: td | BC549C B1 : Taiwan Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1490,62 +1122,34 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4.95
-Refer: td | 4.95
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 1.95
 Refer: td | 1.95
 Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.35
 Refer: td | 1.35
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.25
 Refer: td | 1.25
 Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6,100
-Refer: td | 6,100
-Same
 Curr: td | Ã˜12
-Refer: td | Ã˜12
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC550C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC550C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC550C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC550C
-Refer: b | BC550C
-Same
 Curr: td | NPN 45V 0,1A 0,5W B:420-800 TO92
 Refer: td | NPN 45V 0,1A 0,5W B:420-800 TO92
 Same
 Curr: td | BC550CBU : Fairchild Semiconductor
-Refer: td | BC550CBU : Fairchild Semiconductor
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1553,62 +1157,34 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.10
 Refer: td | 6.10
 Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.10
-Refer: td | 3.10
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 2.50
 Refer: td | 2.50
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 2.35
-Refer: td | 2.35
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 26,800 &
-Refer: td | 26,800 &
-Same
 Curr: td | Ã˜6
 Refer: td | Ã˜6
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC556B ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC556B ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC556B ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC556B
-Refer: b | BC556B
-Same
 Curr: td | PNP 65V 0,1A 0,5W B:220-475 TO92
 Refer: td | PNP 65V 0,1A 0,5W B:220-475 TO92
 Same
 Curr: td | BC556BBK : Diotec
-Refer: td | BC556BBK : Diotec
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1616,62 +1192,28 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4.80
-Refer: td | 4.80
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 1.80
-Refer: td | 1.80
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.20
-Refer: td | 1.20
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.12
-Refer: td | 1.12
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 42,000 &
-Refer: td | 42,000 &
-Same
 Curr: td | Ã˜18
-Refer: td | Ã˜18
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC557B ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC557B ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC557B ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC557B
-Refer: b | BC557B
-Same
 Curr: td | PNP 45V 0,1A 0,5W B:220-475 TO92
 Refer: td | PNP 45V 0,1A 0,5W B:220-475 TO92
 Same
 Curr: td | BC557BBK : Diotec
-Refer: td | BC557BBK : Diotec
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1679,62 +1221,28 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 6.90
-Refer: td | 6.90
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 3.90
-Refer: td | 3.90
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 3.30
-Refer: td | 3.30
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 3.10
-Refer: td | 3.10
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 26,300 &
-Refer: td | 26,300 &
-Same
 Curr: td | Ã˜18
-Refer: td | Ã˜18
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC557C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC557C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC557C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC557C
-Refer: b | BC557C
-Same
 Curr: td | PNP 45V 0,1A 0,5W B:420-800 TO92
 Refer: td | PNP 45V 0,1A 0,5W B:420-800 TO92
 Same
 Curr: td | BC557CBK : Diotec
-Refer: td | BC557CBK : Diotec
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1742,62 +1250,30 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 4.76
-Refer: td | 4.76
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 1.76
-Refer: td | 1.76
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.16
 Refer: td | 1.16
 Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.09
-Refer: td | 1.09
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 35,600 &
-Refer: td | 35,600 &
-Same
 Curr: td | Ã˜18
-Refer: td | Ã˜18
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC560C ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC560C ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC560C ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC560C
-Refer: b | BC560C
-Same
 Curr: td | PNP 45V 0,1A 0,5W B:420-800 TO92
 Refer: td | PNP 45V 0,1A 0,5W B:420-800 TO92
 Same
 Curr: td | TBC560CG : Continental Device India
-Refer: td | TBC560CG : Continental Device India
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1805,62 +1281,30 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 5.30
-Refer: td | 5.30
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 2.30
-Refer: td | 2.30
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 1.70
-Refer: td | 1.70
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 1.60
-Refer: td | 1.60
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 5,700
-Refer: td | 5,700
-Same
 Curr: td | Ã˜10
 Refer: td | Ã˜10
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC639 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC639 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC639 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC639
-Refer: b | BC639
-Same
 Curr: td | NPN 80V 1A 0,8W B:40-250 TO92
 Refer: td | NPN 80V 1A 0,8W B:40-250 TO92
 Same
 Curr: td | TBC639G : Continental Device India
-Refer: td | TBC639G : Continental Device India
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1868,62 +1312,30 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 9.05
-Refer: td | 9.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 5.45
-Refer: td | 5.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 5.10
-Refer: td | 5.10
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 29,400
-Refer: td | 29,400
-Same
 Curr: td | Ã˜10
 Refer: td | Ã˜10
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC640 ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel BC640 ###
-Same
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel BC640 ###
 Curr: table | 
-Refer: table | 
-Same
 Curr: b | BC640
-Refer: b | BC640
-Same
 Curr: td | PNP 80V 1A 0,8W B:40-250 TO92
 Refer: td | PNP 80V 1A 0,8W B:40-250 TO92
 Same
 Curr: td | TBC640G : Continental Device India
-Refer: td | TBC640G : Continental Device India
-Same
 Curr: td | 
 Refer: td | 
 Same
@@ -1931,47 +1343,23 @@ Curr: a | H
 Refer: a | H
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 9.05
-Refer: td | 9.05
-Same
 Curr: td | 1,000
-Refer: td | 1,000
-Same
 Curr: td | 6.05
-Refer: td | 6.05
-Same
 Curr: td | 5,000
-Refer: td | 5,000
-Same
 Curr: td | 5.45
-Refer: td | 5.45
-Same
 Curr: td | 10,000
-Refer: td | 10,000
-Same
 Curr: td | 5.10
-Refer: td | 5.10
-Same
 Curr: td | 100
-Refer: td | 100
-Same
 Curr: td | 7,100
-Refer: td | 7,100
-Same
 Curr: td | Ã˜10
 Refer: td | Ã˜10
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | form
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | form
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | form
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | form
 Same
 Curr: form | 
-Refer: form | 
-Same
 Curr: b | MOQ
 Refer: b | MOQ
 Same
@@ -2002,21 +1390,15 @@ Same
 Curr: b | RRP
 Refer: b | RRP
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel Tabelle ###
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | ### Artikel Tabelle ###
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel Tabelle ###
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | ### Artikel Tabelle ###
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | Tabelle ENDE
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | Tabelle ENDE
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | Tabelle ENDE
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | Tabelle ENDE
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: table | 
 Refer: table | 
 Same
@@ -2027,11 +1409,7 @@ Curr: b | Technical Specifications
 Refer: b | Technical Specifications
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: tr | 
 Refer: tr | 
 Same
@@ -2087,11 +1465,7 @@ Curr: td |
 Refer: td | 
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC327-25
-Refer: b | BC327-25
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2108,11 +1482,7 @@ Curr: td | 160...400
 Refer: td | 160...400
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC327-40
-Refer: b | BC327-40
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2129,11 +1499,7 @@ Curr: td | 250...630
 Refer: td | 250...630
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC337-25
-Refer: b | BC337-25
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2150,11 +1516,7 @@ Curr: td | 160...400
 Refer: td | 160...400
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC337-40
-Refer: b | BC337-40
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2171,11 +1533,7 @@ Curr: td | 250...630
 Refer: td | 250...630
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC546A
-Refer: b | BC546A
-Same
 Curr: td | 65
 Refer: td | 65
 Same
@@ -2192,11 +1550,7 @@ Curr: td | 110...220
 Refer: td | 110...220
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC546B
-Refer: b | BC546B
-Same
 Curr: td | 65
 Refer: td | 65
 Same
@@ -2213,11 +1567,7 @@ Curr: td | 200...450
 Refer: td | 200...450
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC547B
-Refer: b | BC547B
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2234,11 +1584,7 @@ Curr: td | 200...450
 Refer: td | 200...450
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC547C
-Refer: b | BC547C
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2255,14 +1601,8 @@ Curr: td | 420...800
 Refer: td | 420...800
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC548B
-Refer: b | BC548B
-Same
 Curr: td | 30
-Refer: td | 30
-Same
 Curr: td | 0,1
 Refer: td | 0,1
 Same
@@ -2276,14 +1616,8 @@ Curr: td | 200...450
 Refer: td | 200...450
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC548C
-Refer: b | BC548C
-Same
 Curr: td | 30
-Refer: td | 30
-Same
 Curr: td | 0,1
 Refer: td | 0,1
 Same
@@ -2297,14 +1631,8 @@ Curr: td | 420...800
 Refer: td | 420...800
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC549C
-Refer: b | BC549C
-Same
 Curr: td | 30
-Refer: td | 30
-Same
 Curr: td | 0,1
 Refer: td | 0,1
 Same
@@ -2318,11 +1646,7 @@ Curr: td | 420...800
 Refer: td | 420...800
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC550C
-Refer: b | BC550C
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2339,11 +1663,7 @@ Curr: td | 420...800
 Refer: td | 420...800
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC556B
-Refer: b | BC556B
-Same
 Curr: td | 65
 Refer: td | 65
 Same
@@ -2360,11 +1680,7 @@ Curr: td | 220...475
 Refer: td | 220...475
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC557B
-Refer: b | BC557B
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2381,11 +1697,7 @@ Curr: td | 220...475
 Refer: td | 220...475
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC557C
-Refer: b | BC557C
-Same
 Curr: td | 45
 Refer: td | 45
 Same
@@ -2402,11 +1714,7 @@ Curr: td | 420...800
 Refer: td | 420...800
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC639
-Refer: b | BC639
-Same
 Curr: td | 80
 Refer: td | 80
 Same
@@ -2423,11 +1731,7 @@ Curr: td | 40...250
 Refer: td | 40...250
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: b | BC640
-Refer: b | BC640
-Same
 Curr: td | 80
 Refer: td | 80
 Same
@@ -2483,8 +1787,6 @@ Curr: tr |
 Refer: tr | 
 Same
 Curr: table | 
-Refer: table | 
-Same
 Curr: tr | 
 Refer: tr | 
 Same
@@ -2492,17 +1794,11 @@ Curr: b | Manufacturer
 Refer: b | Manufacturer
 Same
 Curr: tr | 
-Refer: tr | 
-Same
 Curr: td | Various
-Refer: td | Various
-Same
 Curr: tr | 
 Refer: tr | 
 Same
 Curr: td | 
-Refer: td | 
-Same
 Curr: tr | 
 Refer: tr | 
 Same
@@ -2518,13 +1814,13 @@ Same
 Curr: td | 
 Refer: td | 
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | SF-Warengruppe
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | SF-Warengruppe
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | SF-Warengruppe
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | SF-Warengruppe
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | End Base Table
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | End Base Table
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | End Base Table
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | End Base Table
 Same
-Curr: <cyfunction Comment at 0x000001FF46F6BB10> | EXCEPTIONS:
+Curr: <cyfunction Comment at 0x00000207F22FBB10> | EXCEPTIONS:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Plugin Manager caught the following Excepetions: 
 + - - Start plugin processing:
@@ -2545,7 +1841,7 @@ LOGGING:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Refer: <cyfunction Comment at 0x000001FF46F6BB10> | EXCEPTIONS:
+Refer: <cyfunction Comment at 0x00000207F22FBB10> | EXCEPTIONS:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Plugin Manager caught the following Excepetions: 
 + - - Start plugin processing:

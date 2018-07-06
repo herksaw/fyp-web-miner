@@ -1,0 +1,794 @@
+Curr: head | 
+Curr: title | HF Small Signal Transistors
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | kein sub-standard Cookie
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | kein sub-standard Cookie
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | kein Cookie2
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | kein Cookie2
+Same
+Curr: body | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | [if lte IE 9]>
+<style>
+  .news-category .news-slide,
+  .news-entry  .news-slide {
+    width: 610px;
+  }
+</style>
+<!-- <![endif]
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | [if lte IE 9]>
+<style>
+  .news-category .news-slide,
+  .news-entry  .news-slide {
+    width: 610px;
+  }
+</style>
+<!-- <![endif]
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Piwik
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Piwik
+Same
+Curr: script | var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  _paq.push(["setSecureCookie", true]);
+  (function() {
+    var u="https://stats.schukat.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+Refer: script | var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  _paq.push(["setSecureCookie", true]);
+  (function() {
+    var u="https://stats.schukat.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | End Piwik Code
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | End Piwik Code
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | <script type="text/javascript" src="/jquery.js"></script>
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | <script type="text/javascript" src="/jquery.js"></script>
+Same
+Curr: script | $(document).ready(function () {
+  var back_to_top_button = '<div class="back-to-top"><a href="#top" title="to top"><div class="arrow-up"></div></a></div>';
+  $("body").append(back_to_top_button)
+  // Der Button wird ausgeblendet
+  $(".back-to-top").hide();
+  // Funktion fÃ¼r das Scrollen
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
+        $('.back-to-top').fadeIn();
+      } else {
+        $('.back-to-top').fadeOut();
+      }
+    });
+    $('.back-to-top').click(function () { // Klick auf den Button
+      $('body,html').animate({
+        scrollTop: 0
+      }, 300);
+      return false;
+    });
+  });
+});
+Curr: script | function logon(href) {
+  var doc = href.substring(href.lastIndexOf("/") + 1, href.length);
+  doc = doc + "?OpenDocument&login";
+  //alert(doc);
+  window.location.href = doc;
+}
+function getUrlParameter(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.indexOf("&", startPos);
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = "";
+  }
+  return backStr;
+}
+/*
+ * Go to the url you were before the login
+ */
+function showLink() {
+  var sourceLink = getUrlAt(document.location.href, "src")
+    //  alert('at: '+sourceLink);
+    sourceLink = switchParameter(sourceLink, "lgx1", "refDoc");
+  window.open(sourceLink, "_self");
+}
+function myLogin(mySourceURL) {
+  window.open(mySourceURL + "&src=" + switchParameter(document.location.href, 'refDoc', 'lgx1'), "_self");
+}
+function myLogout(mySourceURL) {
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktAL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktWL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'WG1="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  window.open(mySourceURL, "_self");
+}
+/*
+ * Take all parameters after the selected!
+ */
+function getUrlAt(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.length;
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+/*
+ * Changes the parametername in the url
+ */
+function switchParameter(qs, par, newPar) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + 1;
+    endPos = qs.indexOf("&" + par + "=") + (par.length + 1);
+    if (endPos != -1) {
+      backStr = qs.substring(0, startPos) + newPar + qs.substring(endPos, qs.length);
+    } else {
+      backStr = qs;
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+  function searchThis() {
+    var form = document.forms.search;
+    var query = 'squery' in form ? form.squery.value : form.query.value;
+    if (query === '' || query === 'Search: parts, keywords, ...' || query === 'Suchen: Begriffe/Teilenummern...') {
+      alert('Please enter a search term.');
+    } else {
+      location.href = "suchergebnisse?OpenDocument&query=" + encodeURIComponent(query) + "&news=true&katalog=true";
+    }
+    return false;
+  }
+function searchThisHtn() {
+  var query = document.forms['searchhtn'].squeryhtn.value;
+  if (query == '') {
+    alert('Please enter a search term.');
+  } else {
+    newsString = "&news=false";
+    katalogString = "&katalog=true";
+    location.href = "suchergebnissehtn?OpenDocument&query=" + query + newsString + katalogString;
+  }
+  return false;
+}
+function pdfWin(kb, wg) {
+  url = "FrameView?OpenDocument&art=" + encodeURIComponent(kb) + "&wg=" + encodeURIComponent(wg);
+  //alert(url);
+  win = window.open(url, "download", "location=no, menubar=no, toolbar=no, resizable=yes, height=800, width=1024");
+}
+function zoomImage(uri) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, resizable=yes, height=732, width=732");
+}
+function viewImage(uri, x, y) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, scrollbars=yes, resizable=yes, height=" + y + ", width=" + x);
+}
+function printDocument(uri) {
+  if (uri.indexOf("previewprint") < 1) {
+    win = window.open(uri, "Print", "location=no, menubar=no, toolbar=no, resizable=yes,scrollbars=yes,width=700,height=1200");
+  }
+}
+/*
+ * Changes the look of the Upload-Button
+ */
+var W3CDOM = (document.createElement && document.getElementsByTagName);
+function initUpload() {
+  if (!W3CDOM)
+    return;
+  var fakeFileUpload = document.createElement('div');
+  fakeFileUpload.className = 'fakefile';
+  fakeFileUpload.appendChild(document.createElement('input'));
+  var image = document.createElement('img');
+  image.src = 'pix/button_select.gif';
+  fakeFileUpload.appendChild(image);
+  var x = document.getElementsByTagName('input');
+  for (var i = 0; i < x.length; i++) {
+    if (x[i].type != 'file')
+      continue;
+    if (x[i].parentNode.className != 'fileinputs')
+      continue;
+    x[i].className = 'file hidden';
+    var clone = fakeFileUpload.cloneNode(true);
+    x[i].parentNode.appendChild(clone);
+    x[i].relatedElement = clone.getElementsByTagName('input')[0];
+    x[i].onchange = x[i].onmouseout = function () {
+      this.relatedElement.value = this.value;
+    }
+  }
+}
+function langswitch(to) {
+  uri = document.location.href;
+  if (to == "de") {
+    uri = uri.replace(/cms_en.nsf/, "cms_de.nsf");
+    uri = uri.replace(/print/, "index");
+  } else {
+    uri = uri.replace(/cms_de.nsf/, "cms_en.nsf");
+    uri = uri.replace(/print/, "index");
+  }
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.location.href = uri;
+}
+Refer: script | function logon(href) {
+  var doc = href.substring(href.lastIndexOf("/") + 1, href.length);
+  doc = doc + "?OpenDocument&login";
+  //alert(doc);
+  window.location.href = doc;
+}
+function getUrlParameter(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.indexOf("&", startPos);
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = "";
+  }
+  return backStr;
+}
+/*
+ * Go to the url you were before the login
+ */
+function showLink() {
+  var sourceLink = getUrlAt(document.location.href, "src")
+    //  alert('at: '+sourceLink);
+    sourceLink = switchParameter(sourceLink, "lgx1", "refDoc");
+  window.open(sourceLink, "_self");
+}
+function myLogin(mySourceURL) {
+  window.open(mySourceURL + "&src=" + switchParameter(document.location.href, 'refDoc', 'lgx1'), "_self");
+}
+function myLogout(mySourceURL) {
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktAL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktWL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'WG1="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  window.open(mySourceURL, "_self");
+}
+/*
+ * Take all parameters after the selected!
+ */
+function getUrlAt(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.length;
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+/*
+ * Changes the parametername in the url
+ */
+function switchParameter(qs, par, newPar) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + 1;
+    endPos = qs.indexOf("&" + par + "=") + (par.length + 1);
+    if (endPos != -1) {
+      backStr = qs.substring(0, startPos) + newPar + qs.substring(endPos, qs.length);
+    } else {
+      backStr = qs;
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+  function searchThis() {
+    var form = document.forms.search;
+    var query = 'squery' in form ? form.squery.value : form.query.value;
+    if (query === '' || query === 'Search: parts, keywords, ...' || query === 'Suchen: Begriffe/Teilenummern...') {
+      alert('Please enter a search term.');
+    } else {
+      location.href = "suchergebnisse?OpenDocument&query=" + encodeURIComponent(query) + "&news=true&katalog=true";
+    }
+    return false;
+  }
+function searchThisHtn() {
+  var query = document.forms['searchhtn'].squeryhtn.value;
+  if (query == '') {
+    alert('Please enter a search term.');
+  } else {
+    newsString = "&news=false";
+    katalogString = "&katalog=true";
+    location.href = "suchergebnissehtn?OpenDocument&query=" + query + newsString + katalogString;
+  }
+  return false;
+}
+function pdfWin(kb, wg) {
+  url = "FrameView?OpenDocument&art=" + encodeURIComponent(kb) + "&wg=" + encodeURIComponent(wg);
+  //alert(url);
+  win = window.open(url, "download", "location=no, menubar=no, toolbar=no, resizable=yes, height=800, width=1024");
+}
+function zoomImage(uri) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, resizable=yes, height=732, width=732");
+}
+function viewImage(uri, x, y) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, scrollbars=yes, resizable=yes, height=" + y + ", width=" + x);
+}
+function printDocument(uri) {
+  if (uri.indexOf("previewprint") < 1) {
+    win = window.open(uri, "Print", "location=no, menubar=no, toolbar=no, resizable=yes,scrollbars=yes,width=700,height=1200");
+  }
+}
+/*
+ * Changes the look of the Upload-Button
+ */
+var W3CDOM = (document.createElement && document.getElementsByTagName);
+function initUpload() {
+  if (!W3CDOM)
+    return;
+  var fakeFileUpload = document.createElement('div');
+  fakeFileUpload.className = 'fakefile';
+  fakeFileUpload.appendChild(document.createElement('input'));
+  var image = document.createElement('img');
+  image.src = 'pix/button_select.gif';
+  fakeFileUpload.appendChild(image);
+  var x = document.getElementsByTagName('input');
+  for (var i = 0; i < x.length; i++) {
+    if (x[i].type != 'file')
+      continue;
+    if (x[i].parentNode.className != 'fileinputs')
+      continue;
+    x[i].className = 'file hidden';
+    var clone = fakeFileUpload.cloneNode(true);
+    x[i].parentNode.appendChild(clone);
+    x[i].relatedElement = clone.getElementsByTagName('input')[0];
+    x[i].onchange = x[i].onmouseout = function () {
+      this.relatedElement.value = this.value;
+    }
+  }
+}
+function langswitch(to) {
+  uri = document.location.href;
+  if (to == "de") {
+    uri = uri.replace(/cms_en.nsf/, "cms_de.nsf");
+    uri = uri.replace(/print/, "index");
+  } else {
+    uri = uri.replace(/cms_de.nsf/, "cms_en.nsf");
+    uri = uri.replace(/print/, "index");
+  }
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.location.href = uri;
+}
+Same
+Curr: script | if('$' in window) {
+  $(function () {
+    if (getCookies()['cookies'] !== 'accepted') {
+      $('body').append('<div class="cookie-info"><div class="cookie-container"><button type="button" class="btn btn-inverted" id="cookie-button">OK</button><p>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out <a href="/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument">more</a>.</p></div></div>')
+    }
+    $('.cookie-info button').on('click', function() {
+      $('.cookie-info').hide();
+      document.cookie = 'cookies=accepted;path=/';
+    })
+  })
+}
+Refer: script | if('$' in window) {
+  $(function () {
+    if (getCookies()['cookies'] !== 'accepted') {
+      $('body').append('<div class="cookie-info"><div class="cookie-container"><button type="button" class="btn btn-inverted" id="cookie-button">OK</button><p>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out <a href="/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument">more</a>.</p></div></div>')
+    }
+    $('.cookie-info button').on('click', function() {
+      $('.cookie-info').hide();
+      document.cookie = 'cookies=accepted;path=/';
+    })
+  })
+}
+Same
+Curr: script | document.cookie = 'SessionID=1937589230712167765; Path=/; Comment=GlobalContext; Version=1;';
+Curr: script | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
+  $(function(){
+    if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({"language":"en"});
+    }
+    if ($.fn.colorbox) {
+      $('[data-galery]').colorbox({rel: 'images'});
+    }
+  });
+}
+Refer: script | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
+  $(function(){
+    if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({"language":"en"});
+    }
+    if ($.fn.colorbox) {
+      $('[data-galery]').colorbox({rel: 'images'});
+    }
+  });
+}
+Same
+Curr: script | function init() {
+}
+Refer: script | function init() {
+}
+Same
+Curr: script | /*
+* Ãœber dieses Script werden die eine Form in den DatensÃ¤tzen auf die  
+* verschiedenen events verteilt, Warenkorb, Merkliste, Anfrageliste
+*/
+function doProduktSubmit(formaction, formnr, url){	
+	 var actionwk= url;
+        var formAktuell=0;
+        // forms durchlaufen um das benÃ¶tigte herauszufiltern
+        for(var i = 0; i < document.forms.length; i++){
+        // alert(document.forms[i].name);
+         if(document.forms[i].name.length>6){
+           var teil = document.forms[i].name.substring(6,document.forms[i].name.length);
+            if(teil==formnr){
+               //alert(teil +" -- "+i);
+               formAktuell =i;
+               break;
+            } 
+          }
+          
+         }            
+	 Ziel = document.forms[formAktuell].action = actionwk;
+	 Name = document.forms[formAktuell].name = formaction+"form"+formnr;
+	 //alert("wk"+Ziel +"Name\n"+Name +" Forms: ");
+        document.forms[formAktuell].submit();
+	
+}
+function SetNewCookie()
+{
+      var value="";  
+	var value2="";
+	var Verfall = 1000*60*60*24*365;
+	var Bezeichner = "warenkorb";
+	var jetzt = new Date();
+	var Auszeit = new Date(jetzt.getTime() + Verfall);
+	var serverA = location.host
+	//alert(serverA)
+	document.cookie = Bezeichner+"=" + value +"; expires=" + Auszeit.toGMTString() + "; path=/;";
+	if (value2!="") document.cookie = "warenkorbwerte=" + value2 +"; expires=" + Auszeit.toGMTString() + "; path=/;";
+//	window.open('https://' + serverA +'/schukat/schukat_wk_en.nsf/wkmanager?OpenAgent&wkanzeigen=true&login','tnb_wk','width=880,height=500, left=60,top=60,resizable=yes,scrollbars=yes,status=yes');               
+                location.reload();
+       
+}
+function getCookie(name)
+{
+ 	var prefix = name + "="; 	
+ 	var cookieStartIndex = document.cookie.indexOf(prefix);
+	if (cookieStartIndex == -1){
+    		return " ";
+	}else{
+           return document.cookie.substring(cookieStartIndex +10,cookieStartIndex +42 );
+      } 
+}
+function writeLinkToNewCookie()
+{
+  var cookieValue =""; 
+  var aktCookie=getCookie('warenkorb');
+    if(aktCookie ==" " && aktCookie !=cookieValue){ 
+    //    alert("1"); 
+   var hinweis1 =   " <b>Please note:<\/b> an open shopping cart has been found. Status as at: ";
+          var hinweis2b=   "<br>You can reactivate this shopping cart here: <a href='#' onclick='SetNewCookie()'> <img alt='Reaktivierung' src='../action_swapdocs.gif' border='0' align='absmiddle'><\/a>";
+var hinweis2a ="Do You want to activate it now?";
+//            return  hinweis1 +hinweis2;
+if (confirm(hinweis1 +" "+ hinweis2a)) { 
+	SetNewCookie(); 
+} else { return("<b>information: <\/b>" +hinweis1+hinweis2b); }
+      }else{      
+       return " ";
+    }   
+}
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Start Base Table
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Start Base Table
+Same
+Curr: table | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Start Logo und Service
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Start Logo und Service
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Service Menu
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Service Menu
+Same
+Curr: table | 
+Refer: table | 
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: a | DE
+Refer: a | DE
+Same
+Curr: a | EN
+Refer: a | EN
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: a | Contact
+Refer: a | Contact
+Same
+Curr: a | About us
+Refer: a | About us
+Same
+Curr: a | Terms of Business
+Refer: a | Terms of Business
+Same
+Curr: a | Imprint
+Refer: a | Imprint
+Same
+Curr: a | Privacy & Cookies
+Refer: a | Privacy & Cookies
+Same
+Curr: a | Help
+Refer: a | Help
+Same
+Curr: span | new:
+Refer: span | new:
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: a | Registration
+Refer: a | Registration
+Same
+Curr: a | Login
+Refer: a | Login
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Start main Nav
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Start main Nav
+Same
+Curr: tr | 
+Curr: td | 
+Refer: td | 
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | search
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | search
+Same
+Curr: form | 
+Refer: form | 
+Same
+Curr: table | 
+Refer: table | 
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: td | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | oberes menÃ¼ start
+Curr: table | 
+Curr: a | Home
+Refer: a | Home
+Same
+Curr: a | Semiconductors
+Curr: a | Transistors
+Curr: a | Bipolar Transistors
+Curr: a | HF Small Signal Transistors
+Curr: script | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS94AAEA20F3A23D7CC1256D48005095D6?OpenDocument","name":"Semiconductors"}},{"@type":"ListItem","position":3,"item":{"@id":"CMS783A30D0FCD09B7BC125707B00327196?OpenDocument","name":"Transistors"}},{"@type":"ListItem","position":4,"item":{"@id":"CMS7292449057B8F241C125707B0032A199?OpenDocument","name":"Bipolar Transistors"}},{"@type":"ListItem","position":5,"item":{"@id":"CMSB5A38F73D94252D2C125707B00357507?OpenDocument","name":"HF Small Signal Transistors"}}]}
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | oberes menÃ¼ ende
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Ende Logo und Service
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Ende Logo und Service
+Same
+Curr: tr | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Start Linker MenÃ¼ Bereich
+Curr: td | 
+Curr: table | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | HauptmenÃ¼
+Curr: td | U
+Curr: a | Transistors
+Curr: a | Bipolar Transistors
+Curr: td | -
+Curr: a | AF Small Signal Transistors
+Curr: td | -
+Curr: a | HF Small Signal Transistors
+Curr: td | -
+Curr: a | Power Transistors
+Curr: a | IGBTs
+Curr: a | BIMOSFETs
+Curr: a | J-FETs
+Curr: a | MOSFETs
+Curr: td | V
+Curr: a | Diodes
+Curr: td | Y
+Curr: a | ICs Digital
+Curr: td | A
+Curr: a | ICs Mixed Signal/Analog
+Curr: td | B
+Curr: a | ICs Analog
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Ende Linker MenÃ¼ Bereich
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Start Rechter Content Bereich
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Start Rechter Content Bereich
+Same
+Curr: td | 
+Curr: table | 
+Curr: tr | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | do not show next row in nav level 1
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | do not show next row in nav level 1
+Same
+Curr: tr | 
+Curr: td | 
+Curr: div | 
+Curr: span | General product information
+Curr: h1 | HF Small Signal Transistors
+Curr: tr | 
+Curr: td | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Suche/Subnav Start
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Suche/Subnav Start
+Same
+Curr: table | 
+Curr: td | 
+Curr: td | Product Group
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | <img alt="" src="../blindpix.gif" border="0" height="15" width="9px">
+Curr: span | Product Description
+Curr: tr | 
+Curr: td | 
+Curr: td | 
+Curr: td | 
+Curr: a | 
+Curr: b | U2473
+Curr: td | 
+Curr: b | FAIRCHILD (FAI), ON SEMICONDUCTOR (ONS) SMD RF Small Signal Transistors up to 1GHz
+Curr: tr | 
+Curr: td | 
+Curr: td | 
+Curr: td | 
+Curr: a | 
+Curr: b | U2478
+Curr: td | 
+Curr: b | NXP SMD RF Power Transistors up to 1GHz
+Curr: tr | 
+Curr: td | 
+Curr: td | 
+Curr: td | 
+Curr: a | 
+Curr: b | U2674
+Curr: td | 
+Curr: b | INFINEON (INF), NXP SMD RF Small Signal Transistors up to 11GHz
+Curr: tr | 
+Curr: td | 
+Curr: td | 
+Curr: td | 
+Curr: a | 
+Curr: b | U2677
+Curr: td | 
+Curr: b | INFINEON (INF), NXP SMD RF Small Signal Transistors up to 65GHz
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Suche/Subnav Start
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Suche/Subnav Start
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Lastorder
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Lastorder
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Teaser Start
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Teaser Start
+Same
+Curr: td | 
+Curr: tr | 
+Curr: td | 
+Curr: tr | 
+Curr: td | 
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | Teaser End
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | Teaser End
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | untere serviceleiste
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | untere serviceleiste
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: table | 
+Refer: table | 
+Same
+Curr: tr | 
+Refer: tr | 
+Same
+Curr: td | 
+Refer: td | 
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | End Base Table
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | End Base Table
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | SF-Standard
+Refer: <cyfunction Comment at 0x0000026946C0BB10> | SF-Standard
+Same
+Curr: <cyfunction Comment at 0x0000026946C0BB10> | EXCEPTIONS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Plugin Manager caught the following Excepetions: 
++ - - Start plugin processing:
++ - - - WGDisplayWarengruppen
++ - - - Hauptmenue
++ - - - Links
++ - - - Pfadanzeiger
++ - - - ServiceMenu
++ - - - ServiceUnten
++ - - - TopNav
++ - - - Warengruppenliste
++ - - End of plugin processing.
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LOGGING:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Curr: button | OK
+Refer: button | OK
+Same
+Curr: p | This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out
+Refer: p | This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out
+Same
+Curr: a | more
+Refer: a | more
+Same

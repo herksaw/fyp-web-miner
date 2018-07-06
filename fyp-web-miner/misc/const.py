@@ -8,3 +8,4 @@ DIR_OUTPUT_SAME_CHILDREN = "output/result/same_children/"
 DIR_OUTPUT_DIFF_PAGES = "output/result/diff_pages/"
 
 UNWANTED_TAGS = ["button", "script", "style"]
+NO_ATTRIBUTE_TAGS = ["h1", "h2", "h3", "h4", "h5", "h6"]

@@ -26,7 +26,9 @@ class Parser:
                 "https://shopee.com.my/search/?keyword=laptop",
                 "https://www.lelong.com.my/catalog/all/list?TheKeyword=laptop",
                 "https://s.taobao.com/search?q=%E6%89%8B%E6%8F%90%E7%94%B5%E8%84%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306",
-                "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=laptop"]
+                "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=laptop",
+                "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSDF15D356B046D53BC1256D550038A9E0?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15",
+                "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSB5A38F73D94252D2C125707B00357507?OpenDocument"]
 
     curr_url = ""
 
@@ -86,12 +88,13 @@ class Parser:
 
             # if len(curr_url_qs) <= len(link_qs) and curr_url != link:
             # if curr_url != link and len(curr_url) != len(link):
-            #     for key, value in curr_url_qs.items():
-            #         if key not in link_qs:
-            #             has_same_query = False
-            #             break
-            # else:
-            #     has_same_query = False
+            if curr_url != link:
+                for key, value in curr_url_qs.items():
+                    if key not in link_qs:
+                        has_same_query = False
+                        break
+            else:
+                has_same_query = False
 
             if has_same_query:
                 link_dict_list.append({"url": link, "query": link_qs})
@@ -161,7 +164,9 @@ class Parser:
         result_node_list = []   
 
         for curr in curr_node_list:
-            if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:                
+            if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
+                # Commented, h* tags are not allowed to set attributes
+                # print(curr.el.tag ," ", curr.el.attrib)           
                 curr.el.set("fyp-web-miner", "content")
                 result_node_list.append(curr)
 
@@ -383,4 +388,8 @@ class Parser:
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for info in info_list:
-                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.same_child_count, info.el.text, info.el.items()))
+                # Same children test info
+                # output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.same_child_count, info.el.text, info.el.items()))
+
+                # Different pages test info
+                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))

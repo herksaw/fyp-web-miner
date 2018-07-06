@@ -1,0 +1,820 @@
+ | html | [] | None | [('lang', 'en')]
+- | head | [] |  | []
+-- | title | [] | General Terms and Conditions | []
+-- | meta | [] | None | [('content', 'en'), ('http-equiv', 'Content-Language')]
+-- | meta | [] | None | [('content', 'Schukat electronic Vertriebs GmbH'), ('name', 'publisher')]
+-- | meta | [] | None | [('content', 'Schukat electronic'), ('name', 'author')]
+-- | meta | [] | None | [('content', 'Schukat electronic Vertriebs GmbH'), ('name', 'copyright')]
+-- | meta | [] | None | [('content', 'index, follow'), ('name', 'robots')]
+-- | meta | [] | None | [('content', 'General, Terms, and, Conditions'), ('name', 'keywords')]
+-- | meta | [] | None | [('content', ''), ('name', 'description')]
+-- | meta | [] | None | [('content', ''), ('name', 'pagetopic')]
+-- | meta | [] | None | [('content', 'text/html; charset=iso-8859-1'), ('http-equiv', 'Content-Type')]
+-- | meta | [] | None | [('content', 'max-age=0'), ('http-equiv', 'cache-control')]
+-- | meta | [] | None | [('content', 'no-cache'), ('http-equiv', 'cache-control')]
+-- | meta | [] | None | [('content', 'Tue, 01 Jan 2016 1:00:00 GMT'), ('http-equiv', 'expires')]
+-- | meta | [] | None | [('content', 'text/html; charset=iso-8859-1'), ('http-equiv', 'Content-Type')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | kein sub-standard Cookie | []
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | kein Cookie2 | []
+-- | meta | [] | None | [('content', 'no-cache'), ('http-equiv', 'pragma')]
+-- | link | [] | None | [('href', '/schukat/schukat_cms_de.nsf/resources/css-20180525/$file/schukat.min.css'), ('rel', 'stylesheet'), ('type', 'text/css')]
+-- | link | [] | None | [('href', '/schukat/schukat_wk.nsf/lookupwebresourcesbyname/csswarenkorb.css/$file/csswarenkorb.css'), ('rel', 'stylesheet'), ('type', 'text/css')]
+- | body | [] |  | [('bgcolor', '#FFFFFF'), ('class', ''), ('onload', 'init()'), ('style', 'margin: 0'), ('text', '#000000')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | [if lte IE 9]>
+<style>
+  .news-category .news-slide,
+  .news-entry  .news-slide {
+    width: 610px;
+  }
+</style>
+<!-- <![endif] | []
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Piwik | []
+-- | script | [] | None | [('async', ''), ('defer', ''), ('src', 'https://stats.schukat.com/piwik.js'), ('type', 'text/javascript')]
+-- | script | [] | var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  _paq.push(["setSecureCookie", true]);
+  (function() {
+    var u="https://stats.schukat.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })(); | [('type', 'application/javascript')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | End Piwik Code | []
+-- | script | [] | None | [('charset', 'utf-8'), ('src', '/scripts/04843c74/compatible.min.js'), ('type', 'application/javascript')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | <script type="text/javascript" src="/jquery.js"></script> | []
+-- | script | [] | $(document).ready(function () {
+  var back_to_top_button = '<div class="back-to-top"><a href="#top" title="to top"><div class="arrow-up"></div></a></div>';
+  $("body").append(back_to_top_button)
+  // Der Button wird ausgeblendet
+  $(".back-to-top").hide();
+  // Funktion für das Scrollen
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
+        $('.back-to-top').fadeIn();
+      } else {
+        $('.back-to-top').fadeOut();
+      }
+    });
+    $('.back-to-top').click(function () { // Klick auf den Button
+      $('body,html').animate({
+        scrollTop: 0
+      }, 300);
+      return false;
+    });
+  });
+}); | [('type', 'text/javascript')]
+-- | script | [] | function logon(href) {
+  var doc = href.substring(href.lastIndexOf("/") + 1, href.length);
+  doc = doc + "?OpenDocument&login";
+  //alert(doc);
+  window.location.href = doc;
+}
+function getUrlParameter(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.indexOf("&", startPos);
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = "";
+  }
+  return backStr;
+}
+/*
+ * Go to the url you were before the login
+ */
+function showLink() {
+  var sourceLink = getUrlAt(document.location.href, "src")
+    //  alert('at: '+sourceLink);
+    sourceLink = switchParameter(sourceLink, "lgx1", "refDoc");
+  window.open(sourceLink, "_self");
+}
+function myLogin(mySourceURL) {
+  window.open(mySourceURL + "&src=" + switchParameter(document.location.href, 'refDoc', 'lgx1'), "_self");
+}
+function myLogout(mySourceURL) {
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktAL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'AktWL="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'WG1="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  window.open(mySourceURL, "_self");
+}
+/*
+ * Take all parameters after the selected!
+ */
+function getUrlAt(qs, par) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + (par.length + 2);
+    endPos = qs.length;
+    if (endPos != -1) {
+      backStr = qs.substring(startPos, endPos);
+    } else {
+      backStr = qs.substring(startPos, qs.length);
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+/*
+ * Changes the parametername in the url
+ */
+function switchParameter(qs, par, newPar) {
+  backStr = "";
+  if (qs.indexOf("&" + par + "=") != -1) {
+    startPos = qs.indexOf("&" + par + "=") + 1;
+    endPos = qs.indexOf("&" + par + "=") + (par.length + 1);
+    if (endPos != -1) {
+      backStr = qs.substring(0, startPos) + newPar + qs.substring(endPos, qs.length);
+    } else {
+      backStr = qs;
+    }
+  } else {
+    backStr = qs;
+  }
+  return backStr;
+}
+  function searchThis() {
+    var form = document.forms.search;
+    var query = 'squery' in form ? form.squery.value : form.query.value;
+    if (query === '' || query === 'Search: parts, keywords, ...' || query === 'Suchen: Begriffe/Teilenummern...') {
+      alert('Please enter a search term.');
+    } else {
+      location.href = "suchergebnisse?OpenDocument&query=" + encodeURIComponent(query) + "&news=true&katalog=true";
+    }
+    return false;
+  }
+function searchThisHtn() {
+  var query = document.forms['searchhtn'].squeryhtn.value;
+  if (query == '') {
+    alert('Please enter a search term.');
+  } else {
+    newsString = "&news=false";
+    katalogString = "&katalog=true";
+    location.href = "suchergebnissehtn?OpenDocument&query=" + query + newsString + katalogString;
+  }
+  return false;
+}
+function pdfWin(kb, wg) {
+  url = "FrameView?OpenDocument&art=" + encodeURIComponent(kb) + "&wg=" + encodeURIComponent(wg);
+  //alert(url);
+  win = window.open(url, "download", "location=no, menubar=no, toolbar=no, resizable=yes, height=800, width=1024");
+}
+function zoomImage(uri) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, resizable=yes, height=732, width=732");
+}
+function viewImage(uri, x, y) {
+  //alert(uri);
+  win = window.open(uri, "zoomImage", "location=no, menubar=no, toolbar=no, scrollbars=yes, resizable=yes, height=" + y + ", width=" + x);
+}
+function printDocument(uri) {
+  if (uri.indexOf("previewprint") < 1) {
+    win = window.open(uri, "Print", "location=no, menubar=no, toolbar=no, resizable=yes,scrollbars=yes,width=700,height=1200");
+  }
+}
+/*
+ * Changes the look of the Upload-Button
+ */
+var W3CDOM = (document.createElement && document.getElementsByTagName);
+function initUpload() {
+  if (!W3CDOM)
+    return;
+  var fakeFileUpload = document.createElement('div');
+  fakeFileUpload.className = 'fakefile';
+  fakeFileUpload.appendChild(document.createElement('input'));
+  var image = document.createElement('img');
+  image.src = 'pix/button_select.gif';
+  fakeFileUpload.appendChild(image);
+  var x = document.getElementsByTagName('input');
+  for (var i = 0; i < x.length; i++) {
+    if (x[i].type != 'file')
+      continue;
+    if (x[i].parentNode.className != 'fileinputs')
+      continue;
+    x[i].className = 'file hidden';
+    var clone = fakeFileUpload.cloneNode(true);
+    x[i].parentNode.appendChild(clone);
+    x[i].relatedElement = clone.getElementsByTagName('input')[0];
+    x[i].onchange = x[i].onmouseout = function () {
+      this.relatedElement.value = this.value;
+    }
+  }
+}
+function langswitch(to) {
+  uri = document.location.href;
+  if (to == "de") {
+    uri = uri.replace(/cms_en.nsf/, "cms_de.nsf");
+    uri = uri.replace(/print/, "index");
+  } else {
+    uri = uri.replace(/cms_de.nsf/, "cms_en.nsf");
+    uri = uri.replace(/print/, "index");
+  }
+  document.cookie = 'warenkorb="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'warenkorbwerte="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.cookie = 'OldWK="";path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT';
+  document.location.href = uri;
+} | [('language', 'javascript'), ('type', 'text/javascript')]
+-- | script | [] | if('$' in window) {
+  $(function () {
+    if (getCookies()['cookies'] !== 'accepted') {
+      $('body').append('<div class="cookie-info"><div class="cookie-container"><button type="button" class="btn btn-inverted" id="cookie-button">OK</button><p>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out <a href="/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument">more</a>.</p></div></div>')
+    }
+    $('.cookie-info button').on('click', function() {
+      $('.cookie-info').hide();
+      document.cookie = 'cookies=accepted;path=/';
+    })
+  })
+} | [('type', 'application/javascript')]
+-- | script | [] | document.cookie = 'SessionID=-7225434507499437314; Path=/; Comment=GlobalContext; Version=1;'; | [('type', 'application/javascript')]
+-- | script | [] | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
+  $(function(){
+    if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({"language":"en"});
+    }
+    if ($.fn.colorbox) {
+      $('[data-galery]').colorbox({rel: 'images'});
+    }
+  });
+} | [('type', 'text/javascript')]
+-- | script | [] | function init() {
+} | [('type', 'text/javascript')]
+-- | script | [] | /*
+* Über dieses Script werden die eine Form in den Datensätzen auf die  
+* verschiedenen events verteilt, Warenkorb, Merkliste, Anfrageliste
+*/
+function doProduktSubmit(formaction, formnr, url){	
+	 var actionwk= url;
+        var formAktuell=0;
+        // forms durchlaufen um das benötigte herauszufiltern
+        for(var i = 0; i < document.forms.length; i++){
+        // alert(document.forms[i].name);
+         if(document.forms[i].name.length>6){
+           var teil = document.forms[i].name.substring(6,document.forms[i].name.length);
+            if(teil==formnr){
+               //alert(teil +" -- "+i);
+               formAktuell =i;
+               break;
+            } 
+          }
+          
+         }            
+	 Ziel = document.forms[formAktuell].action = actionwk;
+	 Name = document.forms[formAktuell].name = formaction+"form"+formnr;
+	 //alert("wk"+Ziel +"Name\n"+Name +" Forms: ");
+        document.forms[formAktuell].submit();
+	
+}
+function SetNewCookie()
+{
+      var value="";  
+	var value2="";
+	var Verfall = 1000*60*60*24*365;
+	var Bezeichner = "warenkorb";
+	var jetzt = new Date();
+	var Auszeit = new Date(jetzt.getTime() + Verfall);
+	var serverA = location.host
+	//alert(serverA)
+	document.cookie = Bezeichner+"=" + value +"; expires=" + Auszeit.toGMTString() + "; path=/;";
+	if (value2!="") document.cookie = "warenkorbwerte=" + value2 +"; expires=" + Auszeit.toGMTString() + "; path=/;";
+//	window.open('https://' + serverA +'/schukat/schukat_wk_en.nsf/wkmanager?OpenAgent&wkanzeigen=true&login','tnb_wk','width=880,height=500, left=60,top=60,resizable=yes,scrollbars=yes,status=yes');               
+                location.reload();
+       
+}
+function getCookie(name)
+{
+ 	var prefix = name + "="; 	
+ 	var cookieStartIndex = document.cookie.indexOf(prefix);
+	if (cookieStartIndex == -1){
+    		return " ";
+	}else{
+           return document.cookie.substring(cookieStartIndex +10,cookieStartIndex +42 );
+      } 
+}
+function writeLinkToNewCookie()
+{
+  var cookieValue =""; 
+  var aktCookie=getCookie('warenkorb');
+    if(aktCookie ==" " && aktCookie !=cookieValue){ 
+    //    alert("1"); 
+   var hinweis1 =   " <b>Please note:<\/b> an open shopping cart has been found. Status as at: ";
+          var hinweis2b=   "<br>You can reactivate this shopping cart here: <a href='#' onclick='SetNewCookie()'> <img alt='Reaktivierung' src='../action_swapdocs.gif' border='0' align='absmiddle'><\/a>";
+var hinweis2a ="Do You want to activate it now?";
+//            return  hinweis1 +hinweis2;
+if (confirm(hinweis1 +" "+ hinweis2a)) { 
+	SetNewCookie(); 
+} else { return("<b>information: <\/b>" +hinweis1+hinweis2b); }
+      }else{      
+       return " ";
+    }   
+} | [('type', 'text/javascript')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Start Base Table | []
+-- | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin: 0 auto;')]
+--- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Start Logo und Service | []
+--- | tbody | [] | None | []
+---- | tr | [] |  | []
+----- | td | [] |  | [('valign', 'top'), ('width', '200')]
+------ | a | [] | None | [('href', 'home?openDocument')]
+------- | img | [] | None | [('alt', ''), ('border', '0'), ('height', '80'), ('hspace', '0'), ('id', 'toTop'), ('src', '../resources/CMS2F65FB219EE27E1AC1256D47003995C1/$file/logo.gif'), ('vspace', '0'), ('width', '200')]
+----- | td | [] |  | [('class', 'service'), ('colspan', '2'), ('valign', 'middle'), ('width', '800')]
+------ | <cyfunction Comment at 0x0000026946C0BB10> | [] | Service Menu | []
+------ | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '800')]
+------- | tbody | [] | None | []
+-------- | tr | [] |  | []
+--------- | td | [] | None | [('width', '10')]
+--------- | td | [] |  | [('align', 'left'), ('width', '90')]
+---------- | a | [] | DE | [('class', 'service'), ('href', "javascript:langswitch('de')")]
+---------- | a | [] | EN | [('class', 'service'), ('href', "javascript:langswitch('en')")]
+--------- | td | [] |  | [('align', 'right'), ('width', '560')]
+---------- | a | [] | Contact | [('class', 'service'), ('href', '../index/kontakt')]
+---------- | a | [] | About us | [('class', 'service'), ('href', '../index/ueber_uns')]
+---------- | a | [] | Terms of Business | [('class', 'service'), ('href', '../index/agb')]
+---------- | a | [] | Imprint | [('class', 'service'), ('href', '../index/impressum')]
+---------- | a | [] | Privacy & Cookies | [('class', 'service'), ('href', '../index/CMS224F6857F5DEA479C125776700325017?OpenDocument')]
+---------- | a | [] | Help | [('class', 'service'), ('href', '../index/hilfe')]
+---------- | a | [] | None | [('class', 'service'), ('href', '../index/newsletter')]
+----------- | span | [] | new: | [('class', 'label-new')]
+--------- | td | [] |  | [('align', 'right'), ('width', '140')]
+---------- | a | [] | Registration | [('class', 'service'), ('href', '../index/registrierung')]
+---------- | a | [] | Login | [('class', 'service'), ('onclick', "javascript:myLogin('../index/Kundenportal?OpenDocument&login');"), ('style', 'cursor:pointer;')]
+-------- | tr | [] |  | []
+--------- | td | [] |  | [('colspan', '4')]
+-------- | tr | [] |  | [('style', 'height:25px')]
+--------- | td | [] |  | [('colspan', '4')]
+---- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Start main Nav | []
+---- | tr | [] |  | []
+----- | td | [] |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
+------ | <cyfunction Comment at 0x0000026946C0BB10> | [] | search | []
+------ | form | [] |  | [('accept-charset', 'utf-8'), ('action', '/schukat/schukat_cms_en.nsf/index/suchergebnisse'), ('method', 'GET'), ('name', 'search'), ('onsubmit', 'return searchThis();')]
+------- | input | [] | None | [('name', 'OpenDocument'), ('type', 'hidden')]
+------- | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '190px')]
+-------- | tbody | [] | None | []
+--------- | tr | [] |  | []
+---------- | td | [] |  | [('align', 'right'), ('valign', 'top'), ('width', '170px')]
+----------- | input | [] | None | [('class', 'searchInput'), ('name', 'query'), ('onblur', "if(RegExp('^\\\\s*$').test(this.value)) {this.value='Search: parts, keywords, ...'}"), ('onfocus', "if(this.value==='Search: parts, keywords, ...'){this.value=''}"), ('style', 'color:#374957;font-size:9px'), ('type', 'search'), ('value', 'Search: parts, keywords, ...')]
+---------- | td | [] |  | [('align', 'right'), ('valign', 'top'), ('width', '20px')]
+----------- | button | [] | None | [('class', 'searchButtonContent'), ('type', 'submit')]
+------------ | img | [] | None | [('alt', 'Suche'), ('height', '12px'), ('src', '/schukat/schukat_cms_de.nsf/resources/icon_lupe.png/$file/icon_lupe.png'), ('width', '10px')]
+----- | td | [] |  | [('class', 'background-gray'), ('colspan', '2'), ('valign', 'top'), ('width', '800')]
+------ | <cyfunction Comment at 0x0000026946C0BB10> | [] | oberes menü start | []
+------ | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0')]
+------- | tbody | [] | None | []
+-------- | tr | [] | None | []
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuHalbleiter'), ('height', '32'), ('width', '65')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Halbleiter?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Halbleiter'), ('border', '0'), ('src', '../resources/tmHalbleiter.gif/$file/tmHalbleiter.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuOptoelektronik'), ('height', '32'), ('width', '65')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Optoelektronik?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Optoelektronik'), ('border', '0'), ('src', '../resources/tmOptoelektronik.gif/$file/tmOptoelektronik.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuBauteile'), ('height', '32'), ('width', '78')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Bauteile?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Bauteile'), ('border', '0'), ('src', '../resources/tmBauteile.gif/$file/tmBauteile.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuSunon'), ('height', '32'), ('width', '32')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Sunon?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Sunon'), ('border', '0'), ('src', '../resources/tmSunon.gif/$file/tmSunon.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuSchaltnetzteile'), ('height', '32'), ('width', '92')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'MeanWell?OpenDocument')]
+----------- | img | [] | None | [('alt', 'MEAN WELL'), ('border', '0'), ('src', '../resources/tmSchaltnetzteile.gif/$file/tmSchaltnetzteile.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuPowerSupplies'), ('height', '32'), ('width', '92')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'PowerSupplies?OpenDocument')]
+----------- | img | [] | None | [('alt', 'PowerSupplies'), ('border', '0'), ('src', '../resources/tmPowerSupplies.gif/$file/tmPowerSupplies.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuKomponenten'), ('height', '32'), ('width', '76')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Komponenten?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Komponenten'), ('border', '0'), ('src', '../resources/tmKomponenten.gif/$file/tmKomponenten.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '48')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'news?OpenDocument')]
+----------- | img | [] | None | [('alt', 'ProductNews'), ('border', '0'), ('src', '../resources/tmProductNews.gif/$file/tmProductNews.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '53')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Hersteller?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Hersteller'), ('border', '0'), ('src', '../resources/tmHersteller.gif/$file/tmHersteller.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '55')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Bestellhinweise?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Bestellhinweise'), ('border', '0'), ('src', '../resources/tmBestellhinweise.gif/$file/tmBestellhinweise.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuContent'), ('height', '32'), ('width', '60')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Kundenportal?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Kundenportal'), ('border', '0'), ('src', '../resources/tmKundenportal.gif/$file/tmKundenportal.gif')]
+--------- | td | [] | None | [('align', 'left'), ('class', 'TopMenuContentShop'), ('height', '32'), ('width', '40')]
+---------- | a | [] | None | [('class', 'genSmallWhite'), ('href', 'Shop?OpenDocument')]
+----------- | img | [] | None | [('alt', 'Shop'), ('border', '0'), ('src', '../resources/tmShop.gif/$file/tmShop.gif')]
+-------- | tr | [] | None | []
+--------- | td | [] | None | [('class', 'breadcrumb'), ('colspan', '12'), ('height', '32'), ('valign', 'middle')]
+---------- | a | [] | Home | [('class', 'breadcrumb-item'), ('href', '/schukat/schukat_cms_en.nsf/index/home?OpenDocument')]
+---------- | a | [] | General Terms and Conditions | [('class', 'breadcrumb-item active'), ('href', 'CMS1BB832AD11917552C1256D580035DF57?OpenDocument')]
+---------- | script | [] | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS1BB832AD11917552C1256D580035DF57?OpenDocument","name":"General Terms and Conditions"}}]} | [('type', 'application/ld+json')]
+------ | <cyfunction Comment at 0x0000026946C0BB10> | [] | oberes menü ende | []
+---- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Ende Logo und Service | []
+---- | tr | [] |  | []
+----- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Start Linker Menü Bereich | []
+----- | td | [] |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
+------ | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0')]
+------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Hauptmenü | []
+------- | tbody | [] | None | []
+-------- | tr | [] | None | []
+--------- | td | [] | None | [('width', '200')]
+---------- | table | [] | None | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '200')]
+----------- | tbody | [] | None | []
+------------ | tr | [] | None | []
+------------- | td | [] | None | [('colspan', '5'), ('height', '0'), ('style', 'height:0px; border-top: 1px solid #ffffff;'), ('width', '200')]
+------------ | tr | [] | None | []
+------------- | td | [] | None | [('style', 'min-width:10px; height:5px;'), ('width', '10')]
+------------- | td | [] | None | [('style', 'min-width:10px; height:5px;'), ('width', '10')]
+------------- | td | [] | None | [('style', 'min-width:9px; height:5px;'), ('width', '9')]
+------------- | td | [] | None | [('style', 'min-width:151px; height:5px;'), ('width', '151')]
+------------- | td | [] | None | [('style', 'width:20px; height:5px;'), ('width', '20')]
+---------- | br | [] | None | []
+----- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Ende Linker Menü Bereich | []
+----- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Start Rechter Content Bereich | []
+----- | td | [] |  | [('colspan', '2'), ('valign', 'top'), ('width', '800')]
+------ | table | [] |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-top:0px;'), ('width', '800')]
+------- | tbody | [] | None | []
+-------- | tr | [] |  | []
+--------- | td | [] | None | [('valign', 'top'), ('width', '600')]
+---------- | table | [] | None | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-left:10px;margin-right:5px;margin-top:5px;margin-bottom:5px;'), ('width', '580')]
+----------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | do not show next row in nav level 1 | []
+----------- | tbody | [] | None | []
+------------ | tr | [] | None | []
+------------- | td | [] | None | [('class', 'contentTDLite'), ('colspan', '3'), ('height', '30'), ('style', 'padding-left:5px'), ('width', '580')]
+-------------- | h1 | [] | General Terms and Conditions | [('class', 'MenuArea')]
+------------ | tr | [] |  | []
+------------- | td | [] |  | [('colspan', '3')]
+-------------- | div | [] | None | [('class', 'section')]
+--------------- | h2 | [] | English Translation of the General Terms and Conditions of Schukat electronic Vertriebs GmbH | [('class', '')]
+--------------- | div | [] |  | [('class', 'paragraph')]
+---------------- | p | [] | Please find here our General Terms and Conditions | []
+----------------- | a | [] | PDF Download | [('class', 'hotspotSE1'), ('href', '/schukat/pdf.nsf/E7D1F655FF37AEC9C1257B52004017A4/$file/AGB_eng_22Aug2014.pdf'), ('target', '_blank')]
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | This translation is provided to the customers of Schukat electronic Vertriebs GmbH for their convenience. However, only the German version of the General Terms and Conditions is applicable. Schukat electronic Vertriebs GmbH does not assume any warranty or guarantee for the correctness of this translation. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §1 Sphere of validity | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §2 Offer and contract conclusion | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 7. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 8. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 9. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 10. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §3 Delivery | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 7. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 8. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 9. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §4 Dispatch and passing of risk | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | Damaged packaging: | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by rail: | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by post and/or parcel delivery service: | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by a haulage company: | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | Packaging in good order but with damaged contents (concealed damage): | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by rail: | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by post and/or parcel delivery service: | []
+----------------- | br | [] | None | []
+----------------- | b | [] | For transport by a haulage company: | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §5 Consignments of dutiable goods | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §6 Export regulations | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §7 Notification of defects | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §8 Defects and warranty | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 7. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 8. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 9. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §9 Liability | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §10 Terms and conditions of payment and Schukat’s rights of rescission | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 7. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §11 Retention of title | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 4. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 5. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 6. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 7. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 8. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §12 Place of jurisdiction/Place of performance | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | §13 Miscellaneous | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 1. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 2. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | 3. | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | b | [] | SCHUKAT electronic Vertriebs GmbH | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | a | [] | info@schukat.com | [('class', 'hotspotSE1'), ('href', 'mailto:info@schukat.com')]
+----------------- | br | [] | None | []
+----------------- | a | [] | www.schukat.com | [('class', 'hotspotSE1'), ('href', '/schukat/schukat_cms_de.nsf/index/home')]
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+----------------- | br | [] | None | []
+-------------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Suche/Subnav Start | []
+-------------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Suche/Subnav Start | []
+-------------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Lastorder | []
+-------------- | br | [] | None | []
+--------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Teaser Start | []
+--------- | td | [] |  | [('style', 'padding-top: 5px;'), ('valign', 'top'), ('width', '200')]
+---------- | br | [] | None | []
+---------- | br | [] | None | []
+--------- | <cyfunction Comment at 0x0000026946C0BB10> | [] | Teaser End | []
+---- | <cyfunction Comment at 0x0000026946C0BB10> | [] | untere serviceleiste | []
+---- | tr | [] |  | []
+----- | td | [] |  | [('class', 'background-gray')]
+----- | td | [] | None | [('width', '10')]
+----- | td | [] |  | [('align', 'center'), ('class', 'background-gray'), ('height', '20'), ('width', '790')]
+------ | table | [] |  | [('bgcolor', '#dee7ef'), ('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'width:100%')]
+------- | tbody | [] | None | []
+-------- | tr | [] |  | []
+--------- | td | [] |  | [('align', 'center'), ('width', '100%')]
+---------- | a | [] | None | [('href', 'http://www.facebook.com/schukat.electronic'), ('target', '_blank')]
+----------- | img | [] | None | [('alt', 'Facebook'), ('height', '18'), ('src', '../facebook_2014.gif'), ('title', 'Werden Sie Schukat-Fan auf Facebook'), ('width', '18')]
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | End Base Table | []
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | SF-Standard | []
+-- | <cyfunction Comment at 0x0000026946C0BB10> | [] | EXCEPTIONS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Plugin Manager caught the following Excepetions: 
++ - - Start plugin processing:
++ - - - WGDisplayWarengruppen
++ - - - Pfadanzeiger
++ - - - TopNav
++ - - - ServiceMenu
++ - - - HauptmenueContent
++ - - - ServiceUnten
++ - - End of plugin processing.
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+LOGGING:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - | []
+-- | div | [] | None | [('id', 'cboxOverlay'), ('style', 'display: none;')]
+-- | div | [] | None | [('class', ''), ('id', 'colorbox'), ('role', 'dialog'), ('style', 'display: none;'), ('tabindex', '-1')]
+--- | div | [] | None | [('id', 'cboxWrapper')]
+---- | div | [] | None | []
+----- | div | [] | None | [('id', 'cboxTopLeft'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxTopCenter'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxTopRight'), ('style', 'float: left;')]
+---- | div | [] | None | [('style', 'clear: left;')]
+----- | div | [] | None | [('id', 'cboxMiddleLeft'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxContent'), ('style', 'float: left;')]
+------ | div | [] | None | [('id', 'cboxTitle'), ('style', 'float: left;')]
+------ | div | [] | None | [('id', 'cboxCurrent'), ('style', 'float: left;')]
+------ | button | [] | None | [('class', 'nav-button prev'), ('id', 'cboxPrevious'), ('type', 'button')]
+------ | button | [] | None | [('class', 'nav-button next'), ('id', 'cboxNext'), ('type', 'button')]
+------ | button | [] | None | [('id', 'cboxSlideshow'), ('type', 'button')]
+------ | div | [] | None | [('id', 'cboxLoadingOverlay'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxMiddleRight'), ('style', 'float: left;')]
+---- | div | [] | None | [('style', 'clear: left;')]
+----- | div | [] | None | [('id', 'cboxBottomLeft'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxBottomCenter'), ('style', 'float: left;')]
+----- | div | [] | None | [('id', 'cboxBottomRight'), ('style', 'float: left;')]
+--- | div | [] | None | [('style', 'position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;')]
+-- | div | [] | None | [('class', 'back-to-top'), ('style', 'display: none;')]
+--- | a | [] | None | [('href', '#top'), ('title', 'to top')]
+---- | div | [] | None | [('class', 'arrow-up')]
+-- | div | [] | None | [('class', 'cookie-info')]
+--- | div | [] | None | [('class', 'cookie-container')]
+---- | button | [] | OK | [('class', 'btn btn-inverted'), ('id', 'cookie-button'), ('type', 'button')]
+---- | p | [] | This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Continue or find out | []
+----- | a | [] | more | [('href', '/schukat/schukat_cms_en.nsf/index/CMS224F6857F5DEA479C125776700325017?OpenDocument')]

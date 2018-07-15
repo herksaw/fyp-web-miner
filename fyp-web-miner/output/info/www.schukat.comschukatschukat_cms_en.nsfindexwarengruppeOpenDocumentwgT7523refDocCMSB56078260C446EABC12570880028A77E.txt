@@ -16,7 +16,7 @@
 -- | meta | 0 | None | [('content', 'no-cache'), ('http-equiv', 'Pragma')]
 -- | link | 0 | None | [('href', '/schukat/schukat_cms_de.nsf/resources/css-20180525/$file/schukat.min.css'), ('rel', 'stylesheet'), ('type', 'text/css')]
 - | body | 0 |  | [('bgcolor', '#FFFFFF'), ('class', ''), ('onload', 'init()'), ('style', 'margin: 0'), ('text', '#000000')]
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Piwik | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Piwik | []
 -- | script | 0 | None | [('async', ''), ('defer', ''), ('src', 'https://stats.schukat.com/piwik.js'), ('type', 'text/javascript')]
 -- | script | 0 | var _paq = _paq || [];
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); 
@@ -30,9 +30,9 @@
     var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
     g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
   })(); | [('type', 'application/javascript')]
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | End Piwik Code | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | End Piwik Code | []
 -- | script | 0 | None | [('charset', 'utf-8'), ('src', '/scripts/04843c74/compatible.min.js'), ('type', 'application/javascript')]
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | <script type="text/javascript" src="/jquery.js"></script> | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | <script type="text/javascript" src="/jquery.js"></script> | []
 -- | script | 0 | $(document).ready(function () {
   var back_to_top_button = '<div class="back-to-top"><a href="#top" title="to top"><div class="arrow-up"></div></a></div>';
   $("body").append(back_to_top_button)
@@ -225,8 +225,8 @@ function langswitch(to) {
     })
   })
 } | [('type', 'application/javascript')]
--- | script | 0 | document.cookie = 'SessionID=3308779997136517610; Path=/; Comment=GlobalContext; Version=1;';
-document.cookie = 'WG1=T7523CMSB56078260C446EABC12570880028A77E; Path=/; Expires=Fri, 20 Jul 2018 01:10:50 GMT;'; | [('type', 'application/javascript')]
+-- | script | 0 | document.cookie = 'SessionID=7330993460100836880; Path=/; Comment=GlobalContext; Version=1;';
+document.cookie = 'WG1=T7523CMSB56078260C446EABC12570880028A77E; Path=/; Expires=Fri, 20 Jul 2018 01:46:29 GMT;'; | [('type', 'application/javascript')]
 -- | script | 0 | if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) {
   $(function(){
     if ($.fn.socialSharePrivacy && $('#socialshareprivacy').length > 0){
@@ -264,16 +264,16 @@ function doProduktSubmit(formaction, formnr, url){
         document.forms[formAktuell].submit();
 	
 } | [('language', 'JavaScript'), ('type', 'text/javascript')]
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Base Table | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Start Base Table | []
 -- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin: 0 auto;')]
---- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Logo und Service | []
+--- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Start Logo und Service | []
 --- | tbody | 0 | None | []
 ---- | tr | 0 |  | []
 ----- | td | 0 |  | [('valign', 'top'), ('width', '200')]
 ------ | a | 0 | None | [('href', 'home?openDocument')]
 ------- | img | 0 | None | [('alt', 'Logo'), ('border', '0'), ('height', '80'), ('hspace', '0'), ('id', 'toTop'), ('src', '../resources/CMS2F65FB219EE27E1AC1256D47003995C1/$file/logo.gif'), ('vspace', '0'), ('width', '200')]
 ----- | td | 0 |  | [('class', 'service'), ('colspan', '2'), ('valign', 'middle'), ('width', '800')]
------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Service Menu | []
+------ | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Service Menu | []
 ------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '800')]
 ------- | tbody | 0 | None | []
 -------- | tr | 0 |  | []
@@ -297,10 +297,10 @@ function doProduktSubmit(formaction, formnr, url){
 --------- | td | 0 |  | [('colspan', '4')]
 -------- | tr | 0 |  | [('style', 'height:25px')]
 --------- | td | 0 |  | [('colspan', '4')]
----- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start main Nav | []
+---- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Start main Nav | []
 ---- | tr | 0 |  | []
 ----- | td | 0 |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | search | []
+------ | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | search | []
 ------ | form | 0 |  | [('accept-charset', 'utf-8'), ('action', '/schukat/schukat_cms_en.nsf/index/suchergebnisse'), ('method', 'GET'), ('name', 'search'), ('onsubmit', 'return searchThis();')]
 ------- | input | 0 | None | [('name', 'OpenDocument'), ('type', 'hidden')]
 ------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '190px')]
@@ -312,7 +312,7 @@ function doProduktSubmit(formaction, formnr, url){
 ----------- | button | 0 | None | [('class', 'searchButtonContent'), ('type', 'submit')]
 ------------ | img | 0 | None | [('alt', 'Suche'), ('height', '12px'), ('src', '/schukat/schukat_cms_de.nsf/resources/icon_lupe.png/$file/icon_lupe.png'), ('width', '10px')]
 ----- | td | 0 |  | [('class', 'background-gray'), ('colspan', '2'), ('valign', 'top'), ('width', '800')]
------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | oberes menÃ¼ start | []
+------ | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | oberes menÃ¼ start | []
 ------ | table | 0 |  | [('cellpadding', '0'), ('cellspacing', '0')]
 ------- | tbody | 0 | None | []
 -------- | tr | 0 | None | []
@@ -361,13 +361,13 @@ function doProduktSubmit(formaction, formnr, url){
 ---------- | a | 0 | IC Transporting Accessories | [('class', 'breadcrumb-item'), ('href', 'CMSB56078260C446EABC12570880028A77E?OpenDocument')]
 ---------- | a | 0 | T7523 | [('class', 'breadcrumb-item active'), ('href', 'warengruppe?OpenDocument&wg=T7523&refDoc=CMSB56078260C446EABC12570880028A77E')]
 ---------- | script | 0 | {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/schukat/schukat_cms_en.nsf/index/home?OpenDocument","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"CMS0C846C9ADFB523C7C1256D48004FC63C?OpenDocument","name":"Tools, Measuring, Electro-Chemicals, Motors and more"}},{"@type":"ListItem","position":3,"item":{"@id":"CMSDBD74A6388CFAF15C1256D67002DE72C?OpenDocument","name":"Soldering Equipment, PCB Prototyping, Hand Tools"}},{"@type":"ListItem","position":4,"item":{"@id":"CMS857463C03FA561C0C1256D6E0046E880?OpenDocument","name":"ESD Equipment"}},{"@type":"ListItem","position":5,"item":{"@id":"CMSB56078260C446EABC12570880028A77E?OpenDocument","name":"IC Transporting Accessories"}},{"@type":"ListItem","position":6,"item":{"@id":"warengruppe?OpenDocument&wg=T7523&refDoc=CMSB56078260C446EABC12570880028A77E","name":"T7523"}}]} | [('type', 'application/ld+json')]
------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | oberes menÃ¼ ende | []
----- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Ende Logo und Service | []
+------ | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | oberes menÃ¼ ende | []
+---- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Ende Logo und Service | []
 ---- | tr | 0 |  | []
------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Linker MenÃ¼ Bereich | []
+----- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Start Linker MenÃ¼ Bereich | []
 ----- | td | 0 |  | [('class', 'background-gray'), ('valign', 'top'), ('width', '200')]
 ------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0')]
-------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | HauptmenÃ¼ | []
+------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | HauptmenÃ¼ | []
 ------- | tbody | 0 | None | []
 -------- | tr | 0 | None | []
 --------- | td | 0 | None | [('width', '200')]
@@ -435,19 +435,19 @@ function doProduktSubmit(formaction, formnr, url){
 ------------- | td | 0 | None | [('style', 'min-width:9px; height:0; border-top:1px solid #ffffff'), ('width', '9')]
 ------------- | td | 0 | None | [('style', 'min-width:153px; height:0; border-top:1px solid #ffffff'), ('width', '153')]
 ---------- | br | 0 | None | []
------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | Ende Linker MenÃ¼ Bereich | []
------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | Start Rechter Content Bereich | []
+----- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Ende Linker MenÃ¼ Bereich | []
+----- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Start Rechter Content Bereich | []
 ----- | td | 0 |  | [('colspan', '2'), ('valign', 'top'), ('width', '800')]
 ------ | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-top:0px;'), ('width', '800')]
 ------- | tbody | 0 | None | []
 -------- | tr | 0 |  | []
 --------- | td | 0 |  | [('valign', 'top'), ('width', '800')]
 ---------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('style', 'margin-left:10px;margin-right:0px;margin-top:0px;')]
------------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | do not next row show in nav level 1 | []
+----------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | do not next row show in nav level 1 | []
 ----------- | tbody | 0 | None | []
 ------------ | tr | 0 | None | []
 ------------- | td | 0 | None | [('colspan', '3')]
--------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | legende | []
+-------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | legende | []
 -------------- | table | 0 | None | [('cellpadding', '0'), ('cellspacing', '0'), ('class', 'plTa'), ('style', 'height:25px;')]
 --------------- | tbody | 0 | None | []
 ---------------- | tr | 0 | None | []
@@ -472,8 +472,8 @@ function doProduktSubmit(formaction, formnr, url){
 ----------------- | td | 0 | Replace. part (not always suited) | [('width', '200')]
 ------------ | tr | 0 |  | []
 ------------- | td | 0 |  | [('valign', 'top')]
--------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Tabelle Start | []
--------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel Tabelle ### | []
+-------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Tabelle Start | []
+-------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | ### Artikel Tabelle ### | []
 -------------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '1'), ('width', '789')]
 --------------- | tbody | 0 | None | []
 ---------------- | tr | 0 |  | []
@@ -522,7 +522,7 @@ function doProduktSubmit(formaction, formnr, url){
 ----------------- | td | 0 | Procurement time | [('class', 'plHM'), ('valign', 'top'), ('width', '66')]
 ----------------- | td | 0 | Select amount | [('class', 'plHM'), ('valign', 'top'), ('width', '83')]
 ---------------- | tr | 0 | None | [('bgcolor', '#dee7ef'), ('valign', 'top')]
------------------ | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel TME100 ### | []
+----------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | ### Artikel TME100 ### | []
 ----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
 ------------------ | div | 0 | None | []
 ------------------- | img | 0 | None | [('alt', ''), ('border', '0'), ('height', '14'), ('src', '../icon_rohs.gif'), ('style', 'padding-top:2px'), ('title', 'RoHS compliant'), ('width', '12')]
@@ -567,7 +567,7 @@ function doProduktSubmit(formaction, formnr, url){
 ----------------- | td | 0 | None | [('align', 'center'), ('bgcolor', '#dee7ef'), ('class', 'plWB'), ('valign', 'top')]
 ------------------ | button | 0 | None | [('class', 'plBu'), ('onclick', "doProduktSubmit('wk','0','https://www.schukat.com/schukat/schukat_cms_en.nsf/WKManager?OpenAgent&prodanlegen=true&proddbdocuid=C1256D5500447B04C125717100780AC7&wkaktualisieren=1&lg=EN&Target=schukat/schukat_wk_en.nsf&mode=WK') "), ('type', 'button')]
 ------------------- | img | 0 | None | [('alt', '(Order)'), ('src', '../button_order.gif')]
------------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | form | []
+------------------ | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | form | []
 ------------------ | form | 0 |  | [('action', 'https://www.schukat.com/schukat/schukat_cms_en.nsf/WKManager?OpenAgent&prodanlegen=true&proddbdocuid={0}&wkaktualisieren=1&lg=EN&Target=schukat/schukat_wk_en.nsf&mode=WK'), ('class', 'formbe'), ('method', 'post'), ('name', 'wkform0'), ('style', 'padding:0px;margin:0px'), ('target', '_self')]
 ------------------- | input | 0 | None | [('name', 'LostData'), ('type', 'hidden'), ('value', 'Dummy')]
 ------------------- | input | 0 | None | [('class', 'inpbe'), ('name', 'p_prodAnzahl'), ('size', '5'), ('style', 'font-size: 9px;font-weight:normal;height:14px'), ('type', 'text'), ('value', '')]
@@ -611,8 +611,8 @@ function doProduktSubmit(formaction, formnr, url){
 --------------- | b | 0 | RRP | []
 --------------- | br | 0 | None | []
 --------------- | br | 0 | None | []
--------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | ### Artikel Tabelle ### | []
--------------- | <cyfunction Comment at 0x00000272670BBB10> | 0 | Tabelle ENDE | []
+-------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | ### Artikel Tabelle ### | []
+-------------- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | Tabelle ENDE | []
 -------------- | br | 0 | None | []
 -------------- | table | 0 |  | [('border', '0'), ('cellpadding', '0'), ('cellspacing', '0'), ('width', '790')]
 --------------- | tbody | 0 | None | []
@@ -727,9 +727,9 @@ function doProduktSubmit(formaction, formnr, url){
 --------- | td | 0 |  | [('align', 'center'), ('width', '100%')]
 ---------- | a | 0 | None | [('href', 'http://www.facebook.com/schukat.electronic'), ('target', '_blank')]
 ----------- | img | 0 | None | [('alt', 'Facebook'), ('height', '18'), ('src', '../facebook_2014.gif'), ('title', 'Werden Sie Schukat-Fan auf Facebook'), ('width', '18')]
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | SF-Warengruppe | []
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | End Base Table | []
--- | <cyfunction Comment at 0x00000272670BBB10> | 0 | EXCEPTIONS:
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | SF-Warengruppe | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | End Base Table | []
+-- | <cyfunction Comment at 0x000001BCA06F7B10> | 0 | EXCEPTIONS:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Plugin Manager caught the following Excepetions: 
 + - - Start plugin processing:

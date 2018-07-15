@@ -16,6 +16,7 @@ import os.path
 
 from entity.node import Node
 from misc import const, helper
+from mdr_util import *
 
 # import tensorflow as tf
 
@@ -111,9 +112,11 @@ class Parser:
         print("Done.")
         print("Building DOM for current page...")
 
-        curr_node_list = self.build_dom(curr_url, root)
+        curr_node_list = self.build_dom(curr_url, root, True)
 
         self.write_info(curr_url, curr_node_list)
+
+        traverse(root)
 
         print("Done.")
         print("Reference url: ", link_dict_list[1]["url"])
@@ -165,16 +168,14 @@ class Parser:
 
         for curr in curr_node_list:
             if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
-                # Commented, h* tags are not allowed to set attributes
+                # Commented, invalid html tags are not allowed to set attributes
                 # print(curr.el.tag ," ", curr.el.attrib)
-                
                 try:
                     curr.el.set("fyp-web-miner", "content")
+                    result_node_list.append(curr)
                 except TypeError as e:
-                    print(curr.el.tag, " can't set attributes")                         
+                    print("Skipped, can't set attributes for tag: ", curr.el.tag, " text: ", curr.el.text)                                       
                 
-                result_node_list.append(curr)
-
         for node in curr_node_list:            
             curr_child_el = None
             index = 0
@@ -220,7 +221,7 @@ class Parser:
 
         print("Done.")
 
-    def build_dom(self, curr_url, root):
+    def build_dom(self, curr_url, root, required_link=False):
         node_list = []
 
         for element in root.iter():
@@ -239,10 +240,11 @@ class Parser:
 
                 node_list.append(node)
 
-        # for p_node in node_list:
-        #     for c_node in node_list:
-        #         if (Node.is_same(p_node.el, c_node.el.getparent())):
-        #             p_node.children.append(c_node)
+        if required_link == True:
+            for p_node in node_list:
+                for c_node in node_list:
+                    if (Node.is_same(p_node.el, c_node.el.getparent())):
+                        p_node.children.append(c_node)
 
         return node_list
 
@@ -397,4 +399,4 @@ class Parser:
                 # output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.same_child_count, info.el.text, info.el.items()))
 
                 # Different pages test info
-                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))
+                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))    

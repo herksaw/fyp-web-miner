@@ -1,3 +1,5 @@
+import lxml.etree._Element
+
 class Node:
     body_link_chars = 0 # Hyperlink characters count under body tag
     body_chars = 0 # Characters count under body tag
@@ -20,6 +22,20 @@ class Node:
         self.parent_count = 0
         self.same_child_count = []
         self.largest_child_trait = {}
+
+        self.prev_sibling = None
+        self.next_sibling = None
+        self.child_distance_matrix = None
+        self.preorder_pos = 0
+        self.relative_pos = 0
+        self.data_regions = None
+        self.aligned = None
+
+    def __init__(self, tag):
+        self.__init__()
+
+        self.el = new _Element()
+        self.el.tag = tag
     
     def is_same(e1, e2):    # Compare if two elements are the same instance
         if e1 == None or e2 == None:
@@ -36,4 +52,38 @@ class Node:
             return False
 
         return all(Node.is_same(c1, c2) for c1, c2 in zip(e1, e2))
+
+    def height(self):
+        if len(self.children) == 0:
+            return 1
+        else:
+            child_heights = []
+
+            for child in self.children:
+                child_heights.append(child.height())
+
+            return max(child_heights) + 1
+
+    def to_preorder_string(self):
+        sw = []
+
+        sw.append(self.el.tag)
+
+        for child in self.children:
+            sw.extend(child.to_preorder_string())
+
+        return sw
     
+    def get_child_at_preorder_position(self, preorder_pos):
+        if self.preorder_pos == preorder_pos:
+            return self
+        else:
+            for child in self.children:
+                sub_node = child.get_child_at_preorder_position(preorder_pos)
+
+                if sub_node != None:
+                    return sub_node
+                else:
+                    continue
+
+            return None

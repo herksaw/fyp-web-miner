@@ -304,18 +304,16 @@ def build_data_record_tree(dr):
 
         if g.size() == 1:
             if di == GeneralizedNode.SELF:
-                # data_record_queue.put(new Tree(g.get(0)))
-                data_record_queue.append(new Tree(g.get(0)))
+                data_record_queue.append(Tree(g.get(0)))
                 break
             else if di == GeneralizedNode.CHILD_CONT:
                 for child in g.get(0).children:
-                    # data_record_queue.put(new Tree(child))
-                    data_record_queue.append(new Tree(child))
+                    data_record_queue.append(Tree(child))
                 break
             else if di == GeneralizedNode.CHILD_NON_CONT:
                 break
         else:
-            tag_tree = new Tree(new Node("p"))
+            tag_tree = Tree(Node("p"))
 
             if di == GeneralizedNode.SELF:
                 for node in g.get_nodes():
@@ -328,7 +326,7 @@ def build_data_record_tree(dr):
                 break
             else if di == GeneralizedNode.CHILD_NON_CONT:
                 for j in xrange(0, len(g.get(0).children), 1):
-                    tag_tree = new Tree(new Node("p"))
+                    tag_tree = Tree(Node("p"))
 
                     for tag_node in g.get_nodes():
                         tag_tree.get_root().children.append(tag_node.children[j])

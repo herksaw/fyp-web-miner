@@ -15,36 +15,26 @@ from pprint import pprint
 import os.path
 
 from entity.node import Node
+from entity.tree import Tree
 from misc import const, helper
-from mdr_util import *
+import mdr_util
 
 # import tensorflow as tf
 
 
 class Parser:
-    url_list = ["https://www.lazada.com.my/catalog/?q=laptop&_keyori=ss&from=input&spm=a2o4k.home.search.go.75f824f6QLmzE4",
-                "http://www.11street.my/totalsearch/TotalSearchAction/searchTotal.do?targetTab=T&isGnb=Y&prdType=&category=&cmd=&pageSize=60&lCtgrNo=0&mCtgrNo=0&sCtgrNo=0&ctgrType=&fromACK=&gnbTag=TO&schFrom=&tagetTabNm=T&aKwdTrcNo=&aUrl=&kwd=laptop&callId=7274c0ac642e390b8fc",
-                "https://shopee.com.my/search/?keyword=laptop",
-                "https://www.lelong.com.my/catalog/all/list?TheKeyword=laptop",
-                "https://s.taobao.com/search?q=%E6%89%8B%E6%8F%90%E7%94%B5%E8%84%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306",
-                "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=laptop",
-                "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSDF15D356B046D53BC1256D550038A9E0?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15",
-                "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSB5A38F73D94252D2C125707B00357507?OpenDocument"]
-
-    curr_url = ""
-
     root_path = ""
 
     threshold = 0
 
     def __init__(self):
-        pass    
+        pass
 
-    def start_parsing(self):
+    def start_parsing(self, curr_url):
+        print("Starting different pages method...")
+
         # path = os.path.join(os.path.abspath(
-        #     os.path.dirname(__file__)), self.url_list[2])       
-
-        curr_url = self.url_list[6]
+        #     os.path.dirname(__file__)), self.url_list[2])
 
         # cleaner=Cleaner()
 
@@ -112,11 +102,9 @@ class Parser:
         print("Done.")
         print("Building DOM for current page...")
 
-        curr_node_list = self.build_dom(curr_url, root, True)
+        curr_node_list = self.build_dom(curr_url, root)
 
-        self.write_info(curr_url, curr_node_list)
-
-        traverse(root)
+        self.write_info(curr_url, curr_node_list)        
 
         print("Done.")
         print("Reference url: ", link_dict_list[1]["url"])
@@ -220,6 +208,42 @@ class Parser:
         self.write_diff_pages(curr_url, result_node_list)
 
         print("Done.")
+
+    def start_mdr(self, curr_url):
+        print("Starting MDR method...")
+
+        print("Rendering page for current url...")
+
+        session = HTMLSession()
+        r = session.get(curr_url)
+
+        r.html.render()
+        root = r.html.lxml
+
+        curr_node_list = self.build_dom(curr_url, root, True)
+        traverse(root)
+
+        k = 10
+        t = 0.3
+
+        mdr_util.init()
+        mdr_util.mdr(root, k)
+        mdr_util.find_DR(root, k, t)
+        dr_list = mdr_util.get_DRs(root)
+
+        for dr in dr_list:
+            if dr[0].size() == 1:
+                mdr_util.find_record1(dr[0])
+            else:
+                mdr_util.find_recordN(dr[0])
+
+        for dr in dr_list:
+            data_record_queue = mdr_util.build_data_record_tree(dr)
+            mdr_util.partial_tree_alignment(data_record_queue)
+
+        result_tree = Tree(root).get_subtree_by_preorder(55)
+
+        print(result_tree.get_root())
 
     def build_dom(self, curr_url, root, required_link=False):
         node_list = []

@@ -71,8 +71,8 @@ class Tree:
 
             for i in xrange(1, m + 1, 1):
                 for j in xrange(1, n + 1, 1):
-                    ai = new Tree(self.get_root().children[i - 1])
-                    bj = new Tree(b.get_root().children[j - 1])
+                    ai = Tree(self.get_root().children[i - 1])
+                    bj = Tree(b.get_root().children[j - 1])
 
                     wij = ai.simple_tree_matching(bj)
 
@@ -83,4 +83,4 @@ class Tree:
     def get_subtree_by_preorder(self, preorder_pos):
         subtree_root = self.get_root().get_child_at_preorder_position(preorder_pos)
 
-        return new Tree(subtree_root)
+        return Tree(subtree_root)

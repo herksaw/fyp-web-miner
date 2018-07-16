@@ -1,4 +1,4 @@
-import lxml.etree._Element
+from lxml.etree import _Element
 
 class Node:
     body_link_chars = 0 # Hyperlink characters count under body tag
@@ -34,7 +34,7 @@ class Node:
     def __init__(self, tag):
         self.__init__()
 
-        self.el = new _Element()
+        self.el = _Element()
         self.el.tag = tag
     
     def is_same(e1, e2):    # Compare if two elements are the same instance

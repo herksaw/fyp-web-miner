@@ -4,7 +4,7 @@ class Node:
     body_link_chars = 0 # Hyperlink characters count under body tag
     body_chars = 0 # Characters count under body tag
 
-    def __init__(self):
+    def __init__(self, tag=""):
         self.td = 0    # Text density
         self.ctd = 0    # Composite text density
         self.children = []  # Children node
@@ -31,11 +31,9 @@ class Node:
         self.data_regions = None
         self.aligned = None
 
-    def __init__(self, tag):
-        self.__init__()
-
-        self.el = _Element()
-        self.el.tag = tag
+        if tag != "":
+            self.el = _Element()
+            self.el.tag = tag        
     
     def is_same(e1, e2):    # Compare if two elements are the same instance
         if e1 == None or e2 == None:

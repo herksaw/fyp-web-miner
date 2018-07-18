@@ -17,10 +17,9 @@ import os.path
 from entity.node import Node
 from entity.tree import Tree
 from misc import const, helper
-import mdr_util
+from web.mdr_util import MDRUtil
 
 # import tensorflow as tf
-
 
 class Parser:
     root_path = ""
@@ -220,16 +219,40 @@ class Parser:
         r.html.render()
         root = r.html.lxml
 
+        print("Done.")
+        print("Building DOM...")
+
         curr_node_list = self.build_dom(curr_url, root, True)
-        traverse(root)
+
+        root_node = curr_node_list[0]
+
+        mdr_util = MDRUtil()
+
+        print("Done.")
+        print("Traversing DOM...")        
+
+        mdr_util.traverse_dom(root_node)        
 
         k = 10
         t = 0.3
 
-        mdr_util.init()
-        mdr_util.mdr(root, k)
-        mdr_util.find_DR(root, k, t)
-        dr_list = mdr_util.get_DRs(root)
+        print("Done.")
+        print("Running MDR algorithm now...")
+
+        mdr_util.mdr(root_node, k)
+
+        print("Done.")
+        print("Finding data region...")
+
+        mdr_util.find_DR(root_node, k, t)
+
+        print("Done.")
+        print("Creating generalized nodes...")
+
+        dr_list = mdr_util.get_DRs(root_node)
+
+        print("Done.")
+        print("Finding data records...")
 
         for dr in dr_list:
             if dr[0].size() == 1:
@@ -237,11 +260,14 @@ class Parser:
             else:
                 mdr_util.find_recordN(dr[0])
 
+        print("Done.")
+        print("Building data record tree...")
+
         for dr in dr_list:
             data_record_queue = mdr_util.build_data_record_tree(dr)
             mdr_util.partial_tree_alignment(data_record_queue)
 
-        result_tree = Tree(root).get_subtree_by_preorder(55)
+        result_tree = Tree(root_node).get_subtree_by_preorder(55)
 
         print(result_tree.get_root())
 

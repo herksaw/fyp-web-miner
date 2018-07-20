@@ -65,7 +65,7 @@ class Node:
     def to_preorder_string(self):
         sw = []
 
-        sw.append(self.el.tag)
+        sw.append(str(self.el.tag))
 
         for child in self.children:
             sw.extend(child.to_preorder_string())

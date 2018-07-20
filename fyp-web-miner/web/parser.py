@@ -3,6 +3,7 @@ from urllib.request import urlopen
 import codecs
 import math
 import urllib.parse as urlparse
+import pdb
 
 from lxml import etree
 from lxml.html import tostring, html5parser
@@ -21,6 +22,7 @@ from web.mdr_util import MDRUtil
 
 # import tensorflow as tf
 
+
 class Parser:
     root_path = ""
 
@@ -29,47 +31,198 @@ class Parser:
     def __init__(self):
         pass
 
-    def start_parsing(self, curr_url):
-        print("Starting different pages method...")
+    # def start_parsing(self, curr_url):
+    #     print("Starting different pages method...")
 
-        # path = os.path.join(os.path.abspath(
-        #     os.path.dirname(__file__)), self.url_list[2])
+    #     # path = os.path.join(os.path.abspath(
+    #     #     os.path.dirname(__file__)), self.url_list[2])
 
-        # cleaner=Cleaner()
+    #     # cleaner=Cleaner()
 
-        # cleaner.style=True
-        # cleaner.kill_tags=["textarea"]
+    #     # cleaner.style=True
+    #     # cleaner.kill_tags=["textarea"]
 
-        # request=urllib.request.Request(curr_url)
-        # request.add_header('User-Agent', 'Mozilla/5.0')
+    #     # request=urllib.request.Request(curr_url)
+    #     # request.add_header('User-Agent', 'Mozilla/5.0')
 
-        # url=urlopen(request)
+    #     # url=urlopen(request)
 
-        # tree = cleaner.clean_html(lxml.html.parse(url))
+    #     # tree = cleaner.clean_html(lxml.html.parse(url))
 
-        # tree=lxml.html.parse(url)
-        # root=tree.getroot()
+    #     # tree=lxml.html.parse(url)
+    #     # root=tree.getroot()
 
-        #############################################       
+    #     #############################################
 
-        print("Rendering page for current url...")
-        
-        session = HTMLSession()
-        r = session.get(curr_url)
+    #     print("Rendering page for current url...")
 
-        r.html.render()
-        root = r.html.lxml
+    #     session = HTMLSession()
+    #     r = session.get(curr_url)
 
-        link_list = r.html.absolute_links
+    #     r.html.render()
+    #     root = r.html.lxml
+
+    #     link_list = r.html.absolute_links
+
+    #     link_dict_list = []
+
+    #     curr_url_qs = urlparse.parse_qs(urlparse.urlparse(curr_url).query)
+
+    #     link_dict_list.append({"url": curr_url, "query": curr_url_qs})
+
+    #     print("Done.")
+    #     print("Searching for similar url by queries...")
+
+    #     for link in link_list:
+    #         link_qs = urlparse.parse_qs(urlparse.urlparse(link).query)
+
+    #         has_same_query = True
+
+    #         # if len(curr_url_qs) <= len(link_qs) and curr_url != link:
+    #         # if curr_url != link and len(curr_url) != len(link):
+    #         if curr_url != link:
+    #             for key, value in curr_url_qs.items():
+    #                 if key not in link_qs:
+    #                     has_same_query = False
+    #                     break
+    #         else:
+    #             has_same_query = False
+
+    #         if has_same_query:
+    #             link_dict_list.append({"url": link, "query": link_qs})
+
+    #     def sort_link(a):
+    #         return len(a["url"])
+
+    #     link_dict_list.sort(key=sort_link)
+
+    #     ##############################################
+
+    #     self.write_query(curr_url, link_dict_list)
+
+    #     print("Done.")
+    #     print("Building DOM for current page...")
+
+    #     curr_node_list = self.build_dom(curr_url, root)
+
+    #     self.write_info(curr_url, curr_node_list)
+
+    #     print("Done.")
+    #     print("Reference url: ", link_dict_list[1]["url"])
+    #     print("Rendering page for reference url...")
+
+    #     session = HTMLSession()
+    #     r = session.get(link_dict_list[1]["url"])
+
+    #     r.html.render()
+    #     root = r.html.lxml
+
+    #     print("Done.")
+    #     print("Building DOM for reference page...")
+
+    #     refer_node_list = self.build_dom(link_dict_list[1]["url"], root)
+
+    #     self.write_info(link_dict_list[1]["url"], refer_node_list)
+
+    #     print("Done.")
+    #     print("Searching for duplicated nodes...")
+
+    #     root_path = os.path.join(os.path.abspath(
+    #         os.path.dirname(__file__)), "../")
+
+    #     out_name = curr_url
+
+    #     if curr_url[-1] == "/":
+    #         out_name = curr_url[:len(curr_url) - 1]
+
+    #     out_name = root_path + const.DIR_OUTPUT_LOG + \
+    #         helper.as_valid_filename(
+    #             out_name[out_name.find("//") + 2:]) + ".txt"
+
+    #     with codecs.open(out_name, "w", "utf-8") as output:
+    #         for curr in curr_node_list:
+    #             if curr.el.text != None:
+    #                 output.write("Curr: {} | {}\n".format(
+    #                     curr.el.tag, curr.el.text))
+    #                 for refer in refer_node_list:
+    #                     if refer.el.text != None:
+    #                         # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
+    #                         if Node.is_same(curr.el, refer.el):
+    #                             output.write("Refer: {} | {}\n".format(
+    #                                 refer.el.tag, refer.el.text))
+    #                             output.write("{}\n".format("Same"))
+    #                             curr.duplicate_count = curr.duplicate_count + 1
+    #                             break
+
+    #     print("Done.")
+    #     print("Counting number of children for each node...")
+
+    #     result_node_list = []
+
+    #     for curr in curr_node_list:
+    #         if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
+    #             # Commented, invalid html tags are not allowed to set attributes
+    #             # print(curr.el.tag ," ", curr.el.attrib)
+    #             try:
+    #                 curr.el.set("fyp-web-miner", "content")
+    #                 result_node_list.append(curr)
+    #             except TypeError as e:
+    #                 print("Skipped, can't set attributes for tag: ",
+    #                       curr.el.tag, " text: ", curr.el.text)
+
+    #     for node in curr_node_list:
+    #         curr_child_el = None
+    #         index = 0
+    #         node.same_child_count.append(0)
+    #         curr_largest = -1
+
+    #         for child_el in node.el.iterchildren():
+    #             if child_el.tag != "meta":
+    #                 curr_child_el = child_el
+    #                 break
+
+    #         for child_el in node.el.iterchildren():
+    #             if child_el.tag != "meta":
+    #                 if curr_child_el.tag == child_el.tag and curr_child_el.keys() == child_el.keys():
+    #                     node.same_child_count[index] = node.same_child_count[index] + 1
+    #                 else:
+    #                     curr_child_el = child_el
+    #                     index = index + 1
+    #                     node.same_child_count.append(0)
+
+    #                 if node.same_child_count[index] > curr_largest:
+    #                     curr_largest = node.same_child_count[index]
+    #                     node.largest_child_trait["tag"] = curr_child_el.tag
+    #                     node.largest_child_trait["keys"] = curr_child_el.keys()
+
+    #         node.same_child_count.sort(reverse=True)
+
+    #     selected_node = curr_node_list[0]
+
+    #     for node in curr_node_list:
+    #         if node.same_child_count[0] > selected_node.same_child_count[0]:
+    #             selected_node = node
+
+    #     selected_node.el.set("fyp-web-miner", "same-child-count")
+
+    #     self.write_info(curr_url, curr_node_list)
+
+    #     print("Done.")
+    #     print("Writing nodes into file...")
+
+    #     self.write_same_children(curr_url, selected_node)
+    #     self.write_diff_pages(curr_url, result_node_list)
+
+    #     print("Done.")
+
+    def start_diff_pages(self, curr_url, curr_node_list, curr_link_list):
+        link_list = curr_link_list
 
         link_dict_list = []
 
         curr_url_qs = urlparse.parse_qs(urlparse.urlparse(curr_url).query)
 
         link_dict_list.append({"url": curr_url, "query": curr_url_qs})
-
-        print("Done.")
-        print("Searching for similar url by queries...")
 
         for link in link_list:
             link_qs = urlparse.parse_qs(urlparse.urlparse(link).query)
@@ -94,16 +247,9 @@ class Parser:
 
         link_dict_list.sort(key=sort_link)
 
-        ##############################################
+        # self.write_query(curr_url, link_dict_list)
 
-        self.write_query(curr_url, link_dict_list)
-        
-        print("Done.")
-        print("Building DOM for current page...")
-
-        curr_node_list = self.build_dom(curr_url, root)
-
-        self.write_info(curr_url, curr_node_list)        
+        # self.write_info(curr_url, curr_node_list)
 
         print("Done.")
         print("Reference url: ", link_dict_list[1]["url"])
@@ -113,104 +259,47 @@ class Parser:
         r = session.get(link_dict_list[1]["url"])
 
         r.html.render()
-        root = r.html.lxml
+        refer_root = r.html.lxml
 
         print("Done.")
         print("Building DOM for reference page...")
 
-        refer_node_list = self.build_dom(link_dict_list[1]["url"], root)
+        refer_node_list = self.build_dom(link_dict_list[1]["url"], refer_root)
 
-        self.write_info(link_dict_list[1]["url"], refer_node_list)
-
-        print("Done.")
-        print("Searching for duplicated nodes...")    
-
-        root_path = os.path.join(os.path.abspath(
-            os.path.dirname(__file__)), "../")
-
-        out_name = curr_url
-
-        if curr_url[-1] == "/":
-            out_name = curr_url[:len(curr_url) - 1]
-
-        out_name = root_path + const.DIR_OUTPUT_LOG + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
-
-        with codecs.open(out_name, "w", "utf-8") as output:
-            for curr in curr_node_list:
-                if curr.el.text != None:
-                    output.write("Curr: {} | {}\n".format(curr.el.tag, curr.el.text))
-                    for refer in refer_node_list:
-                        if refer.el.text != None:
-                            # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
-                            if Node.is_same(curr.el, refer.el):
-                                output.write("Refer: {} | {}\n".format(refer.el.tag, refer.el.text))
-                                output.write("{}\n".format("Same"))
-                                curr.duplicate_count = curr.duplicate_count + 1
-                                break
+        # self.write_info(link_dict_list[1]["url"], refer_node_list)
 
         print("Done.")
-        print("Counting number of children for each node...")
+        print("Searching for duplicated nodes...")
 
-        result_node_list = []   
+        for curr in curr_node_list:
+            if curr.el.text != None:
+                for refer in refer_node_list:
+                    if refer.el.text != None:
+                        # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
+                        if Node.is_same(curr.el, refer.el):
+                            curr.duplicate_count = curr.duplicate_count + 1
+                            break
+
+        print("Done.")
+        print("Finding for non-duplicated nodes...")
+
+        result_node_list = []
 
         for curr in curr_node_list:
             if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
                 # Commented, invalid html tags are not allowed to set attributes
                 # print(curr.el.tag ," ", curr.el.attrib)
                 try:
-                    curr.el.set("fyp-web-miner", "content")
-                    result_node_list.append(curr)
+                    # curr.el.set("fyp-web-miner", "content")
+                    curr.is_content = True
+                    # result_node_list.append(curr)
                 except TypeError as e:
-                    print("Skipped, can't set attributes for tag: ", curr.el.tag, " text: ", curr.el.text)                                       
-                
-        for node in curr_node_list:            
-            curr_child_el = None
-            index = 0
-            node.same_child_count.append(0)
-            curr_largest = -1
+                    print("Skipped, can't set attributes for tag: ",
+                          curr.el.tag, " text: ", curr.el.text)
 
-            for child_el in node.el.iterchildren():
-                if child_el.tag != "meta":
-                    curr_child_el = child_el
-                    break
-
-            for child_el in node.el.iterchildren():
-                if child_el.tag != "meta":
-                    if curr_child_el.tag == child_el.tag and curr_child_el.keys() == child_el.keys():                        
-                        node.same_child_count[index] = node.same_child_count[index] + 1
-                    else:
-                        curr_child_el = child_el
-                        index = index + 1                    
-                        node.same_child_count.append(0)
-
-                    if node.same_child_count[index] > curr_largest:
-                            curr_largest = node.same_child_count[index]
-                            node.largest_child_trait["tag"] = curr_child_el.tag
-                            node.largest_child_trait["keys"] = curr_child_el.keys()                    
-
-            node.same_child_count.sort(reverse=True)
-
-        selected_node = curr_node_list[0]
-
-        for node in curr_node_list:
-            if node.same_child_count[0] > selected_node.same_child_count[0]:
-                selected_node = node
-
-        selected_node.el.set("fyp-web-miner", "same-child-count")
-
-        self.write_info(curr_url, curr_node_list)
-
-        print("Done.")
-        print("Writing nodes into file...") 
-
-        self.write_same_children(curr_url, selected_node)
-        self.write_diff_pages(curr_url, result_node_list)
-
-        print("Done.")
+        return curr_node_list
 
     def start_mdr(self, curr_url):
-        print("Starting MDR method...")
-
         print("Rendering page for current url...")
 
         session = HTMLSession()
@@ -220,21 +309,41 @@ class Parser:
         root = r.html.lxml
 
         print("Done.")
-        print("Building DOM...")
+        print("Building DOM for current page...")
 
         curr_node_list = self.build_dom(curr_url, root, True)
 
-        root_node = curr_node_list[0]
+        # print("Done.")
+        # print("Starting different pages method...")
+
+        # curr_node_list = self.start_diff_pages(curr_url, curr_node_list, r.html.absolute_links)
+
+        # highest_node = None
+
+        # for node in curr_node_list:
+        #     for child in node.children:
+        #         if child.is_content == True:
+        #             highest_node = child
+        #             break
+
+        #     if highest_node != None:
+        #         break
+
+        root_node = curr_node_list[0]       
+
+        print("Done.")
+        print("Starting MDR method...")        
 
         mdr_util = MDRUtil()
 
         print("Done.")
-        print("Traversing DOM...")        
+        print("Traversing DOM...")
 
-        mdr_util.traverse_dom(root_node)        
+        mdr_util.traverse_dom(root_node)
 
         k = 10
-        t = 0.3
+        # t = 0.3
+        t = 3.0
 
         print("Done.")
         print("Running MDR algorithm now...")
@@ -276,19 +385,19 @@ class Parser:
 
         for element in root.iter():
             # if element.tag != "script" and element.tag != "style":
-                node = Node()
-                node.el = element
-                # node.tag = element.tag
+            node = Node()
+            node.el = element
+            # node.tag = element.tag
 
-                if node.el.text != None:
-                    node.el.text = node.el.text.strip()
+            if node.el.text != None:
+                node.el.text = node.el.text.strip()
 
-                # node.tag = element.tag[const.TAG_TRIM_LEN:]
+            # node.tag = element.tag[const.TAG_TRIM_LEN:]
 
-                for parent in node.el.iterancestors():
-                    node.parent_count = node.parent_count + 1
+            for parent in node.el.iterancestors():
+                node.parent_count = node.parent_count + 1
 
-                node_list.append(node)
+            node_list.append(node)
 
         if required_link == True:
             for p_node in node_list:
@@ -380,7 +489,9 @@ class Parser:
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
 
-        out_name = root_path + const.DIR_OUTPUT_SAME_CHILDREN + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+        out_name = root_path + const.DIR_OUTPUT_SAME_CHILDREN + \
+            helper.as_valid_filename(
+                out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for el in selected_node.el.iterchildren():
@@ -389,7 +500,7 @@ class Parser:
                         # if child_el.get("fyp-web-miner") == "content":
                         if child_el.text != None and child_el.tag not in const.UNWANTED_TAGS:
                             output.write("{}\n".format(child_el.text))
-                
+
                 output.write("{}\n".format("-" * 64))
 
     def write_diff_pages(self, curr_url, result_node_list):
@@ -401,7 +512,9 @@ class Parser:
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
 
-        out_name = root_path + const.DIR_OUTPUT_DIFF_PAGES + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+        out_name = root_path + const.DIR_OUTPUT_DIFF_PAGES + \
+            helper.as_valid_filename(
+                out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             # for node in reversed(node_list):
@@ -415,7 +528,8 @@ class Parser:
             #     self.init_ctd(node)
 
             for node in result_node_list:
-                output.write("{} | {}\n".format("-" * node.parent_count, node.el.text))
+                output.write("{} | {}\n".format(
+                    "-" * node.parent_count, node.el.text))
 
     def write_query(self, curr_url, query_list):
         root_path = os.path.join(os.path.abspath(
@@ -426,7 +540,9 @@ class Parser:
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
 
-        out_name = root_path + const.DIR_OUTPUT_QUERY + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+        out_name = root_path + const.DIR_OUTPUT_QUERY + \
+            helper.as_valid_filename(
+                out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for query in query_list:
@@ -440,8 +556,10 @@ class Parser:
 
         if curr_url[-1] == "/":
             out_name = curr_url[:len(curr_url) - 1]
-    
-        out_name = root_path + const.DIR_OUTPUT_INFO + helper.as_valid_filename(out_name[out_name.find("//") + 2:]) + ".txt"
+
+        out_name = root_path + const.DIR_OUTPUT_INFO + \
+            helper.as_valid_filename(
+                out_name[out_name.find("//") + 2:]) + ".txt"
 
         with codecs.open(out_name, "w", "utf-8") as output:
             for info in info_list:
@@ -449,4 +567,5 @@ class Parser:
                 # output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.same_child_count, info.el.text, info.el.items()))
 
                 # Different pages test info
-                output.write("{} | {} | {} | {} | {}\n".format("-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))    
+                output.write("{} | {} | {} | {} | {}\n".format(
+                    "-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))

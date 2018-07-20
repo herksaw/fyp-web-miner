@@ -6,7 +6,7 @@ from lxml.html import tostring, html5parser
 
 # import tensorflow as tf
 
-url_list = ["https://www.york.ac.uk/teaching/cws/wws/webpage1.html",
+url_list = ["http://unruffled-leakey-d4e14a.bitballoon.com",
             "https://www.lazada.com.my/catalog/?q=laptop&_keyori=ss&from=input&spm=a2o4k.home.search.go.75f824f6QLmzE4",
             "http://www.11street.my/totalsearch/TotalSearchAction/searchTotal.do?targetTab=T&isGnb=Y&prdType=&category=&cmd=&pageSize=60&lCtgrNo=0&mCtgrNo=0&sCtgrNo=0&ctgrType=&fromACK=&gnbTag=TO&schFrom=&tagetTabNm=T&aKwdTrcNo=&aUrl=&kwd=laptop&callId=7274c0ac642e390b8fc",
             "https://shopee.com.my/search/?keyword=laptop",

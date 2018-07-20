@@ -3,6 +3,7 @@
 import decimal
 import math
 import queue
+import pdb
 
 from entity.node import Node
 from entity.data_region import DataRegion
@@ -12,9 +13,11 @@ from entity.tree import Tree
 class MDRUtil:
     def __init__(self):
         decimal.setcontext(decimal.BasicContext)
-        self.total_preorder_pos = 1
+        self.total_preorder_pos = 0
 
     def traverse_dom(self, node):
+        self.total_preorder_pos += 1
+
         node.preorder_pos = self.total_preorder_pos
         node.relative_pos = len(node.children)
 
@@ -22,9 +25,7 @@ class MDRUtil:
             child.prev_sibling = node.children[i - 1] if i > 0 and i < len(node.children) else None
             child.next_sibling = node.children[i + 1] if i >= 0 and i < len(node.children) - 1 else None
 
-            self.traverse_dom(child)
-
-        self.total_preorder_pos += 1        
+            self.traverse_dom(child)        
 
     def mdr(self, node, k):
         if node.height() >= 3:
@@ -40,6 +41,7 @@ class MDRUtil:
         node.child_distance_matrix = [[None for x in range(len(children))] for y in range(maxComb)]
 
         for i in range(0, min([maxComb, math.ceil(len(children) / 2)]), 1):
+        # for i in range(0, maxComb, 1):
             for j in range(i + 1, maxComb + 1, 1):
                 if (i + 2 * j - 1) < len(children):
                     st = i
@@ -60,7 +62,12 @@ class MDRUtil:
         for child in first_child_list:
             sw_first.extend(child.to_preorder_string())
 
-        str1 = "".join(sw_first)
+        str1 = ""
+
+        try:
+            str1 = "".join(sw_first)
+        except:
+            print("Error")
 
         sw_second = []
 
@@ -71,7 +78,8 @@ class MDRUtil:
 
         edit_distance = decimal.Decimal(self.xlevenshte_in_distance(str1, str2))
 
-        mean_length = decimal.Decimal(len(str1) + len(str2) / 2.0)
+        # mean_length = decimal.Decimal(len(str1) + len(str2) / 2.0)
+        mean_length = decimal.Decimal((len(str1) + len(str2)) / 2.0) # Changed to actual mean length
 
         normalized_edit_distance = edit_distance / mean_length
 
@@ -130,6 +138,7 @@ class MDRUtil:
         curDR = DataRegion(0, 0, 0, 0)
 
         for j in range(1, min([k, math.ceil(len(node.children) / 2)]) + 1, 1):
+        # for j in range(1, k + 1, 1):
             for f in range(start, start + j + 1, 1):
                 flag = True
 
@@ -137,6 +146,8 @@ class MDRUtil:
                     distanceij = node.child_distance_matrix[j - 1][i]
 
                     current_child_node_preorder_position = node.children[i].preorder_pos
+
+                    # print(current_child_node_preorder_position, " ", node.children[i].el.tag, " ", node.children[i].el.text)
 
                     if distanceij != None and distanceij < t:
                         if flag == True:
@@ -147,8 +158,9 @@ class MDRUtil:
                     elif (not flag):
                         break
 
-                if maxDR.get_node_count() < curDR.get_node_count() and (maxDR.get_region_start_relative_position() == 0 or
-                maxDR.get_node_count() >= curDR.get_node_count()):
+                if maxDR.get_node_count() < curDR.get_node_count() and (maxDR.get_region_start_relative_position() == 0 or \
+                maxDR.get_region_start_relative_position() >= curDR.get_region_start_relative_position()):
+                # maxDR.get_node_count() >= curDR.get_node_count()):                
                     maxDR = curDR
 
         if maxDR.get_node_count() != 0:
@@ -174,7 +186,7 @@ class MDRUtil:
             generalized_node_list = []
             tag_node = None
 
-            for i in range(0, dr.get_node_count() / dr.get_node_comb(), 1):
+            for i in range(0, int(dr.get_node_count() / dr.get_node_comb()), 1):
                 g = GeneralizedNode()
 
                 for j in range(0, dr.get_node_comb(), 1):
@@ -187,7 +199,7 @@ class MDRUtil:
 
                 generalized_node_list.append(g)
 
-            dr_list.extend(generalized_node_list)
+            dr_list.append(generalized_node_list)
 
         return dr_list
 

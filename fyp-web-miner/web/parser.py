@@ -363,11 +363,18 @@ class Parser:
         print("Done.")
         print("Finding data records...")
 
+        # for dr in dr_list:            
+        #     if dr[0].size() == 1:
+        #         mdr_util.find_record1(dr[0])
+        #     else:
+        #         mdr_util.find_recordN(dr[0])
+
         for dr in dr_list:
-            if dr[0].size() == 1:
-                mdr_util.find_record1(dr[0])
-            else:
-                mdr_util.find_recordN(dr[0])
+            for generalized_node in dr:          
+                if generalized_node.size() == 1:
+                    mdr_util.find_record1(generalized_node)
+                else:
+                    mdr_util.find_recordN(generalized_node)
 
         print("Done.")
         print("Building data record tree...")

@@ -19,9 +19,9 @@ class Tree:
         traverse_list = []
 
         if traverse_type == Tree.PRE_ORDER:
-            pre_order(self.get_root(), traverse_list)
+            self.pre_order(self.get_root(), traverse_list)
         elif traverse_type == Tree.POST_ORDER:
-            post_order(self.get_root(), traverse_list)
+            self.post_order(self.get_root(), traverse_list)
         else:
             traverse_list = None
 

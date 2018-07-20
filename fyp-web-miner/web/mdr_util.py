@@ -62,12 +62,7 @@ class MDRUtil:
         for child in first_child_list:
             sw_first.extend(child.to_preorder_string())
 
-        str1 = ""
-
-        try:
-            str1 = "".join(sw_first)
-        except:
-            print("Error")
+        str1 = "".join(sw_first)
 
         sw_second = []
 
@@ -222,7 +217,7 @@ class MDRUtil:
             else:
                 next_child = next_node
 
-                if child.to_preorder_string().lower() == next_child.to_preorder_string().lower():
+                if "".join(child.to_preorder_string()).lower() == "".join(next_child.to_preorder_string()).lower():
                     similar_children = True
 
                     while next_node != None:
@@ -233,7 +228,7 @@ class MDRUtil:
                         child = next_child
                         next_child = next_node
 
-                        if child.to_preorder_string().lower() == next_child.to_preorder_string().lower():
+                        if "".join(child.to_preorder_string()).lower() == "".join(next_child.to_preorder_string()).lower():
                             similar_children = True
                         else:
                             similar_children = False
@@ -281,7 +276,7 @@ class MDRUtil:
                 else:
                     next_child = next_child_node
 
-                    if child.to_preorder_string().lower() == next_child.to_preorder_string().lower():
+                    if "".join(child.to_preorder_string()).lower() == "".join(next_child.to_preorder_string()).lower():
                         similar_children = True                    
 
                         while next_child_node != None:
@@ -292,7 +287,7 @@ class MDRUtil:
                             child = next_child
                             next_child = next_child_node
 
-                            if child.to_preorder_string().lower() == next_child.to_preorder_string().lower():
+                            if "".join(child.to_preorder_string()).lower() == "".join(next_child.to_preorder_string()).lower():
                                 similar_children = True
                             else:
                                 similar_children = False
@@ -359,7 +354,7 @@ class MDRUtil:
 
             matched_count = ts.simple_tree_matching(ti)
 
-            if matched_count < len(ti):
+            if matched_count < ti.size():
                 i = self.insert_into_seed(ts, ti)
 
                 if (not i):
@@ -377,7 +372,10 @@ class MDRUtil:
     def insert_into_seed(self, ts, ti):
         unaligned_nodes = []
         
-        child = ti.get_root().children[0]
+        child = None
+
+        if len(ti.get_root().children) != 0:
+            child = ti.get_root().children[0]
 
         while child != None:
             if not child.aligned:

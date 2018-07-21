@@ -18,11 +18,14 @@ class Node:
         self.non_link_chars = 0 # Non-hyperlink characters count
         self.link_tags = 0  # Hyperlink tags count
         self.is_content = False
+        self.is_content_holder = False
+        self.is_content_group = False        
         self.duplicate_count = 0
         self.parent_count = 0
         self.same_child_count = []
         self.largest_child_trait = {}
 
+        self.parent = None
         self.prev_sibling = None
         self.next_sibling = None
         self.child_distance_matrix = None

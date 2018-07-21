@@ -2,6 +2,7 @@ import urllib
 from urllib.request import urlopen
 import codecs
 import math
+import decimal
 import urllib.parse as urlparse
 import pdb
 
@@ -218,11 +219,11 @@ class Parser:
     def start_diff_pages(self, curr_url, curr_node_list, curr_link_list):
         link_list = curr_link_list
 
-        link_dict_list = []
+        link_dict_list = []        
 
         curr_url_qs = urlparse.parse_qs(urlparse.urlparse(curr_url).query)
 
-        link_dict_list.append({"url": curr_url, "query": curr_url_qs})
+        # link_dict_list.append({"url": curr_url, "query": curr_url_qs})
 
         for link in link_list:
             link_qs = urlparse.parse_qs(urlparse.urlparse(link).query)
@@ -247,16 +248,32 @@ class Parser:
 
         link_dict_list.sort(key=sort_link)
 
+        if len(link_dict_list) == 0:
+            link_dict_list = []
+
+            mdr_util = MDRUtil()
+
+            for link in link_list:
+                edit_distance = decimal.Decimal(mdr_util.xlevenshte_in_distance(curr_url, link))
+
+                if edit_distance != 0:
+                    link_dict_list.append({"url": link, "edit_distance": edit_distance})
+
+            def sort_link(a):
+                return a["edit_distance"]
+
+            link_dict_list.sort(key=sort_link)
+
         # self.write_query(curr_url, link_dict_list)
 
         # self.write_info(curr_url, curr_node_list)
 
         print("Done.")
-        print("Reference url: ", link_dict_list[1]["url"])
+        print("Reference url: ", link_dict_list[0]["url"])
         print("Rendering page for reference url...")
 
         session = HTMLSession()
-        r = session.get(link_dict_list[1]["url"])
+        r = session.get(link_dict_list[0]["url"])
 
         r.html.render()
         refer_root = r.html.lxml
@@ -264,7 +281,7 @@ class Parser:
         print("Done.")
         print("Building DOM for reference page...")
 
-        refer_node_list = self.build_dom(link_dict_list[1]["url"], refer_root)
+        refer_node_list = self.build_dom(link_dict_list[0]["url"], refer_root)
 
         # self.write_info(link_dict_list[1]["url"], refer_node_list)
 
@@ -286,13 +303,24 @@ class Parser:
         result_node_list = []
 
         for curr in curr_node_list:
-            if curr.duplicate_count == 0 and curr.el.text != None and curr.el.tag not in const.UNWANTED_TAGS:
+            if curr.duplicate_count == 0 and curr.el.text != None and curr.el.text != "" and curr.el.tag not in const.UNWANTED_TAGS:
                 # Commented, invalid html tags are not allowed to set attributes
                 # print(curr.el.tag ," ", curr.el.attrib)
                 try:
                     # curr.el.set("fyp-web-miner", "content")
                     curr.is_content = True
                     # result_node_list.append(curr)
+
+                    iter_node = curr
+
+                    while iter_node.parent != None:
+                        iter_node = iter_node.parent
+
+                        if iter_node.data_regions != None and len(iter_node.data_regions) > 0:
+                            iter_node.is_content_group = True
+                        elif iter_node.is_content != True:
+                            iter_node.is_content_holder = True
+
                 except TypeError as e:
                     print("Skipped, can't set attributes for tag: ",
                           curr.el.tag, " text: ", curr.el.text)
@@ -311,12 +339,7 @@ class Parser:
         print("Done.")
         print("Building DOM for current page...")
 
-        curr_node_list = self.build_dom(curr_url, root, True)
-
-        # print("Done.")
-        # print("Starting different pages method...")
-
-        # curr_node_list = self.start_diff_pages(curr_url, curr_node_list, r.html.absolute_links)
+        curr_node_list = self.build_dom(curr_url, root, True)        
 
         # highest_node = None
 
@@ -361,13 +384,12 @@ class Parser:
         dr_list = mdr_util.get_DRs(root_node)
 
         print("Done.")
-        print("Finding data records...")
+        print("Starting different pages method...")
 
-        # for dr in dr_list:            
-        #     if dr[0].size() == 1:
-        #         mdr_util.find_record1(dr[0])
-        #     else:
-        #         mdr_util.find_recordN(dr[0])
+        curr_node_list = self.start_diff_pages(curr_url, curr_node_list, r.html.absolute_links)
+
+        print("Done.")
+        print("Finding data records...")
 
         for dr in dr_list:
             for generalized_node in dr:          
@@ -376,16 +398,60 @@ class Parser:
                 else:
                     mdr_util.find_recordN(generalized_node)
 
-        print("Done.")
-        print("Building data record tree...")
+        result_item_lists = []
 
         for dr in dr_list:
-            data_record_queue = mdr_util.build_data_record_tree(dr)
-            mdr_util.partial_tree_alignment(data_record_queue)
+            for generalized_node in dr:
+                for node in generalized_node.get_nodes():
+                    if node.data_regions != None:
+                        for data_region in node.data_regions:
+                            item_list = []
 
-        result_tree = Tree(root_node).get_subtree_by_preorder(55)
+                            preorder_pos = data_region.get_region_start_preorder_position()
+                            relative_pos = data_region.get_region_start_relative_position()
+                            node_comb = data_region.get_node_comb()
+                            node_count = data_region.get_node_count()
 
-        print(result_tree.get_root())
+                            parent_node = (Tree(root_node).get_subtree_by_preorder(preorder_pos)).get_root().parent
+
+                            index = 1
+
+                            for i in range(relative_pos, relative_pos + node_count, node_comb):
+                                item = { "item_no": index, "details": [] }
+
+                                for j in range(i, i + node_comb, 1):
+                                    item_node = parent_node.children[j]
+
+                                    if item_node.is_content:
+                                        item["details"].append(item_node.el.text)
+                                        index += 1
+                                    elif item_node.is_content_holder:
+                                        traverse_node_list = Tree(item_node).traverse(Tree.PRE_ORDER)
+
+                                        for child_node in traverse_node_list:
+                                            if child_node.is_content:
+                                                item["details"].append(child_node.el.text)
+
+                                        index += 1
+
+                                if len(item["details"]) > 0:
+                                    item_list.append(item)
+
+                            if len(item_list) > 0:
+                                result_item_lists.append(item_list)
+
+        print(result_item_lists)
+
+        # print("Done.")
+        # print("Building data record tree...")
+
+        # for dr in dr_list:
+        #     data_record_queue = mdr_util.build_data_record_tree(dr)
+        #     mdr_util.partial_tree_alignment(data_record_queue)
+
+        # result_tree = Tree(root_node).get_subtree_by_preorder(55)
+
+        # print(result_tree.get_root())
 
     def build_dom(self, curr_url, root, required_link=False):
         node_list = []
@@ -410,6 +476,7 @@ class Parser:
             for p_node in node_list:
                 for c_node in node_list:
                     if (Node.is_same(p_node.el, c_node.el.getparent())):
+                        c_node.parent = p_node
                         p_node.children.append(c_node)
 
         return node_list

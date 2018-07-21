@@ -27,12 +27,12 @@ class MDRUtil:
 
             self.traverse_dom(child)        
 
-    def mdr(self, node, k):
+    def mdr(self, node):
         if node.height() >= 3:
-            self.comb_comp(node, k)
+            self.comb_comp(node, math.ceil(len(node.children) / 2))
 
             for child in node.children:
-                self.mdr(child, k)
+                self.mdr(child)
 
     def comb_comp(self, node, maxComb):
         children = node.children
@@ -40,7 +40,7 @@ class MDRUtil:
         # node.child_distance_matrix = numpy.zeros((maxComb, len(children)))
         node.child_distance_matrix = [[None for x in range(len(children))] for y in range(maxComb)]
 
-        for i in range(0, min([maxComb, math.ceil(len(children) / 2)]), 1):
+        for i in range(0, maxComb, 1):
         # for i in range(0, maxComb, 1):
             for j in range(i + 1, maxComb + 1, 1):
                 if (i + 2 * j - 1) < len(children):
@@ -110,14 +110,14 @@ class MDRUtil:
 
         return distance
 
-    def find_DR(self, node, k, t):
+    def find_DR(self, node, t):
         if node.height() >= 3:
-            node.data_regions = self.identify_DRs(0, node, k, t)
+            node.data_regions = self.identify_DRs(0, node, t)
 
             temp_DRs = []
 
             for child in node.children:
-                self.find_DR(child, k, t)
+                self.find_DR(child, t)
 
                 uncovers_DRs = self.uncover_DRs(node, child)
 
@@ -126,13 +126,15 @@ class MDRUtil:
                 
             node.data_regions.extend(temp_DRs)
 
-    def identify_DRs(self, start, node, k, t):
+    def identify_DRs(self, start, node, t):
         iden_DRs = []
 
         maxDR = DataRegion(0, 0, 0, 0)
         curDR = DataRegion(0, 0, 0, 0)
 
-        for j in range(1, min([k, math.ceil(len(node.children) / 2)]) + 1, 1):
+        k = math.ceil(len(node.children) / 2)
+
+        for j in range(1, k + 1, 1):
         # for j in range(1, k + 1, 1):
             for f in range(start, start + j + 1, 1):
                 flag = True
@@ -160,7 +162,7 @@ class MDRUtil:
 
         if maxDR.get_node_count() != 0:
             if maxDR.get_region_start_relative_position() + maxDR.get_node_count() != len(node.children):
-                iden_DRs.extend(self.identify_DRs(maxDR.get_region_start_relative_position() + maxDR.get_node_comb(), node, k, t))
+                iden_DRs.extend(self.identify_DRs(maxDR.get_region_start_relative_position() + maxDR.get_node_comb(), node, t))
             else:
                 iden_DRs.append(maxDR)
         

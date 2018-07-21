@@ -4,7 +4,7 @@ import codecs
 import math
 import decimal
 import urllib.parse as urlparse
-import pdb
+import json
 
 from lxml import etree
 from lxml.html import tostring, html5parser
@@ -15,6 +15,7 @@ from requests_html import HTMLSession
 
 from pprint import pprint
 import os.path
+import time
 
 from entity.node import Node
 from entity.tree import Tree
@@ -217,6 +218,10 @@ class Parser:
     #     print("Done.")
 
     def start_diff_pages(self, curr_url, curr_node_list, curr_link_list):
+        curr_time = time.time()
+
+        print("Finding similar pages by queries and edit distance...")
+
         link_list = curr_link_list
 
         link_dict_list = []        
@@ -267,9 +272,12 @@ class Parser:
         # self.write_query(curr_url, link_dict_list)
 
         # self.write_info(curr_url, curr_node_list)
+        #         
+        # print("Reference url: ", link_dict_list[0]["url"])
 
-        print("Done.")
-        print("Reference url: ", link_dict_list[0]["url"])
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
         print("Rendering page for reference url...")
 
         session = HTMLSession()
@@ -278,15 +286,19 @@ class Parser:
         r.html.render()
         refer_root = r.html.lxml
 
-        print("Done.")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
         print("Building DOM for reference page...")
 
         refer_node_list = self.build_dom(link_dict_list[0]["url"], refer_root)
 
         # self.write_info(link_dict_list[1]["url"], refer_node_list)
 
-        print("Done.")
-        print("Searching for duplicated nodes...")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
+        print("Calculating duplicated count for each node...")
 
         for curr in curr_node_list:
             if curr.el.text != None:
@@ -297,8 +309,10 @@ class Parser:
                             curr.duplicate_count = curr.duplicate_count + 1
                             break
 
-        print("Done.")
-        print("Finding for non-duplicated nodes...")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
+        print("Searching for unique nodes...")
 
         result_node_list = []
 
@@ -325,9 +339,22 @@ class Parser:
                     print("Skipped, can't set attributes for tag: ",
                           curr.el.tag, " text: ", curr.el.text)
 
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+
         return curr_node_list
 
     def start_mdr(self, curr_url):
+        total_time = 0
+
+        start_time = time.time()
+        curr_time = time.time()
+
+        # k = 10
+        # t = 0.3
+        t = 3.0
+
+        mdr_util = MDRUtil()
+
         print("Rendering page for current url...")
 
         session = HTMLSession()
@@ -336,59 +363,49 @@ class Parser:
         r.html.render()
         root = r.html.lxml
 
-        print("Done.")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
         print("Building DOM for current page...")
 
-        curr_node_list = self.build_dom(curr_url, root, True)        
-
-        # highest_node = None
-
-        # for node in curr_node_list:
-        #     for child in node.children:
-        #         if child.is_content == True:
-        #             highest_node = child
-        #             break
-
-        #     if highest_node != None:
-        #         break
+        curr_node_list = self.build_dom(curr_url, root, True) 
 
         root_node = curr_node_list[0]       
 
-        print("Done.")
-        print("Starting MDR method...")        
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()           
 
-        mdr_util = MDRUtil()
-
-        print("Done.")
         print("Traversing DOM...")
 
-        mdr_util.traverse_dom(root_node)
+        mdr_util.traverse_dom(root_node)        
 
-        k = 10
-        # t = 0.3
-        t = 3.0
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
 
-        print("Done.")
-        print("Running MDR algorithm now...")
+        print("Finding combination of each node...")
 
-        mdr_util.mdr(root_node, k)
+        mdr_util.mdr(root_node)
 
-        print("Done.")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
         print("Finding data region...")
 
-        mdr_util.find_DR(root_node, k, t)
+        mdr_util.find_DR(root_node, t)
 
-        print("Done.")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
         print("Creating generalized nodes...")
 
         dr_list = mdr_util.get_DRs(root_node)
 
-        print("Done.")
-        print("Starting different pages method...")
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
 
         curr_node_list = self.start_diff_pages(curr_url, curr_node_list, r.html.absolute_links)
 
-        print("Done.")
+        curr_time = time.time()
+
         print("Finding data records...")
 
         for dr in dr_list:
@@ -396,9 +413,16 @@ class Parser:
                 if generalized_node.size() == 1:
                     mdr_util.find_record1(generalized_node)
                 else:
-                    mdr_util.find_recordN(generalized_node)
+                    mdr_util.find_recordN(generalized_node)        
+
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+        
+        print("Extracting data records...")
 
         result_item_lists = []
+
+        item_list_index = 1
 
         for dr in dr_list:
             for generalized_node in dr:
@@ -417,30 +441,36 @@ class Parser:
                             index = 1
 
                             for i in range(relative_pos, relative_pos + node_count, node_comb):
-                                item = { "item_no": index, "details": [] }
+                                item = { "item_no": index, "item": [] }
 
                                 for j in range(i, i + node_comb, 1):
                                     item_node = parent_node.children[j]
 
                                     if item_node.is_content:
-                                        item["details"].append(item_node.el.text)
+                                        item["item"].append(item_node.el.text)
                                         index += 1
                                     elif item_node.is_content_holder:
                                         traverse_node_list = Tree(item_node).traverse(Tree.PRE_ORDER)
 
                                         for child_node in traverse_node_list:
                                             if child_node.is_content:
-                                                item["details"].append(child_node.el.text)
+                                                item["item"].append(child_node.el.text)
 
                                         index += 1
 
-                                if len(item["details"]) > 0:
+                                if len(item["item"]) > 0:
                                     item_list.append(item)
 
                             if len(item_list) > 0:
-                                result_item_lists.append(item_list)
+                                result_item_lists.append({ "item_list_no": item_list_index, "item_list": item_list })
+                                item_list_index += 1
 
-        print(result_item_lists)
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        print("Total elapsed time: {}s.".format(str(round(time.time() - start_time, 2))))
+
+        self.write_mdr_diff(curr_url, result_item_lists)
+
+        print("Run successfully.")
 
         # print("Done.")
         # print("Building data record tree...")
@@ -643,3 +673,19 @@ class Parser:
                 # Different pages test info
                 output.write("{} | {} | {} | {} | {}\n".format(
                     "-" * info.parent_count, info.el.tag, info.duplicate_count, info.el.text, info.el.items()))
+
+    def write_mdr_diff(self, curr_url, result_item_lists):
+        root_path = os.path.join(os.path.abspath(
+            os.path.dirname(__file__)), "../")
+
+        out_name = curr_url
+
+        if curr_url[-1] == "/":
+            out_name = curr_url[:len(curr_url) - 1]
+
+        out_name = root_path + const.DIR_OUTPUT_MDR_DIFF + \
+            helper.as_valid_filename(
+                out_name[out_name.find("//") + 2:]) + ".json"
+
+        with codecs.open(out_name, "w", "utf-8") as output:
+            json.dump(result_item_lists, output)

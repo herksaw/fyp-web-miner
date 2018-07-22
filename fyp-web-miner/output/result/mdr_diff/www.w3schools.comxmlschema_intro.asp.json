@@ -1,0 +1,1007 @@
+[
+    {
+        "item_list_no": 1,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "XML Schema Tutorial"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 2,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "[if lt IE 9]>\n<script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n<script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>  \n<![endif]"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 3,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "w3schools"
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "THE WORLD'S LARGEST WEB DEVELOPER SITE"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 4,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "HTML"
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "CSS"
+                ]
+            },
+            {
+                "item_no": 3,
+                "item": [
+                    "JAVASCRIPT"
+                ]
+            },
+            {
+                "item_no": 4,
+                "item": [
+                    "SQL"
+                ]
+            },
+            {
+                "item_no": 5,
+                "item": [
+                    "PHP"
+                ]
+            },
+            {
+                "item_no": 6,
+                "item": [
+                    "BOOTSTRAP"
+                ]
+            },
+            {
+                "item_no": 7,
+                "item": [
+                    "HOW TO"
+                ]
+            },
+            {
+                "item_no": 8,
+                "item": [
+                    "JQUERY"
+                ]
+            },
+            {
+                "item_no": 9,
+                "item": [
+                    "W3.CSS"
+                ]
+            },
+            {
+                "item_no": 10,
+                "item": [
+                    "ANGULARJS"
+                ]
+            },
+            {
+                "item_no": 11,
+                "item": [
+                    "XML"
+                ]
+            },
+            {
+                "item_no": 12,
+                "item": [
+                    "MORE"
+                ]
+            },
+            {
+                "item_no": 13,
+                "item": [
+                    "\ue802"
+                ]
+            },
+            {
+                "item_no": 14,
+                "item": [
+                    "\ue801"
+                ]
+            },
+            {
+                "item_no": 15,
+                "item": [
+                    "FORUM"
+                ]
+            },
+            {
+                "item_no": 16,
+                "item": [
+                    "EXAMPLES"
+                ]
+            },
+            {
+                "item_no": 17,
+                "item": [
+                    "REFERENCES"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 5,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "\u00d7"
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "XML"
+                ]
+            },
+            {
+                "item_no": 3,
+                "item": [
+                    "XML HOME"
+                ]
+            },
+            {
+                "item_no": 4,
+                "item": [
+                    "XML Introduction"
+                ]
+            },
+            {
+                "item_no": 5,
+                "item": [
+                    "XML How to use"
+                ]
+            },
+            {
+                "item_no": 6,
+                "item": [
+                    "XML Tree"
+                ]
+            },
+            {
+                "item_no": 7,
+                "item": [
+                    "XML Syntax"
+                ]
+            },
+            {
+                "item_no": 8,
+                "item": [
+                    "XML Elements"
+                ]
+            },
+            {
+                "item_no": 9,
+                "item": [
+                    "XML Attributes"
+                ]
+            },
+            {
+                "item_no": 10,
+                "item": [
+                    "XML Namespaces"
+                ]
+            },
+            {
+                "item_no": 11,
+                "item": [
+                    "XML Display"
+                ]
+            },
+            {
+                "item_no": 12,
+                "item": [
+                    "XML HttpRequest"
+                ]
+            },
+            {
+                "item_no": 13,
+                "item": [
+                    "XML Parser"
+                ]
+            },
+            {
+                "item_no": 14,
+                "item": [
+                    "XML DOM"
+                ]
+            },
+            {
+                "item_no": 15,
+                "item": [
+                    "XML XPath"
+                ]
+            },
+            {
+                "item_no": 16,
+                "item": [
+                    "XML XSLT"
+                ]
+            },
+            {
+                "item_no": 17,
+                "item": [
+                    "XML XQuery"
+                ]
+            },
+            {
+                "item_no": 18,
+                "item": [
+                    "XML XLink"
+                ]
+            },
+            {
+                "item_no": 19,
+                "item": [
+                    "XML Validator"
+                ]
+            },
+            {
+                "item_no": 20,
+                "item": [
+                    "XML DTD"
+                ]
+            },
+            {
+                "item_no": 21,
+                "item": [
+                    "XML Schema"
+                ]
+            },
+            {
+                "item_no": 22,
+                "item": [
+                    "XML Server"
+                ]
+            },
+            {
+                "item_no": 23,
+                "item": [
+                    "XML Examples"
+                ]
+            },
+            {
+                "item_no": 24,
+                "item": [
+                    "XML Quiz"
+                ]
+            },
+            {
+                "item_no": 25,
+                "item": [
+                    "XML Certificate"
+                ]
+            },
+            {
+                "item_no": 26,
+                "item": [
+                    "XML AJAX"
+                ]
+            },
+            {
+                "item_no": 27,
+                "item": [
+                    "AJAX Introduction"
+                ]
+            },
+            {
+                "item_no": 28,
+                "item": [
+                    "AJAX XMLHttp"
+                ]
+            },
+            {
+                "item_no": 29,
+                "item": [
+                    "AJAX Request"
+                ]
+            },
+            {
+                "item_no": 30,
+                "item": [
+                    "AJAX Response"
+                ]
+            },
+            {
+                "item_no": 31,
+                "item": [
+                    "AJAX XML File"
+                ]
+            },
+            {
+                "item_no": 32,
+                "item": [
+                    "AJAX PHP"
+                ]
+            },
+            {
+                "item_no": 33,
+                "item": [
+                    "AJAX ASP"
+                ]
+            },
+            {
+                "item_no": 34,
+                "item": [
+                    "AJAX Database"
+                ]
+            },
+            {
+                "item_no": 35,
+                "item": [
+                    "AJAX Applications"
+                ]
+            },
+            {
+                "item_no": 36,
+                "item": [
+                    "AJAX Examples"
+                ]
+            },
+            {
+                "item_no": 37,
+                "item": [
+                    "XML DOM"
+                ]
+            },
+            {
+                "item_no": 38,
+                "item": [
+                    "DOM Introduction"
+                ]
+            },
+            {
+                "item_no": 39,
+                "item": [
+                    "DOM Nodes"
+                ]
+            },
+            {
+                "item_no": 40,
+                "item": [
+                    "DOM Accessing"
+                ]
+            },
+            {
+                "item_no": 41,
+                "item": [
+                    "DOM Node Info"
+                ]
+            },
+            {
+                "item_no": 42,
+                "item": [
+                    "DOM Node List"
+                ]
+            },
+            {
+                "item_no": 43,
+                "item": [
+                    "DOM Traversing"
+                ]
+            },
+            {
+                "item_no": 44,
+                "item": [
+                    "DOM Navigating"
+                ]
+            },
+            {
+                "item_no": 45,
+                "item": [
+                    "DOM Get Values"
+                ]
+            },
+            {
+                "item_no": 46,
+                "item": [
+                    "DOM Change Nodes"
+                ]
+            },
+            {
+                "item_no": 47,
+                "item": [
+                    "DOM Remove Nodes"
+                ]
+            },
+            {
+                "item_no": 48,
+                "item": [
+                    "DOM Replace Nodes"
+                ]
+            },
+            {
+                "item_no": 49,
+                "item": [
+                    "DOM Create Nodes"
+                ]
+            },
+            {
+                "item_no": 50,
+                "item": [
+                    "DOM Add Nodes"
+                ]
+            },
+            {
+                "item_no": 51,
+                "item": [
+                    "DOM Clone Nodes"
+                ]
+            },
+            {
+                "item_no": 52,
+                "item": [
+                    "DOM Examples"
+                ]
+            },
+            {
+                "item_no": 53,
+                "item": [
+                    "XPath"
+                ]
+            },
+            {
+                "item_no": 54,
+                "item": [
+                    "XPath Introduction"
+                ]
+            },
+            {
+                "item_no": 55,
+                "item": [
+                    "XPath Nodes"
+                ]
+            },
+            {
+                "item_no": 56,
+                "item": [
+                    "XPath Syntax"
+                ]
+            },
+            {
+                "item_no": 57,
+                "item": [
+                    "XPath Axes"
+                ]
+            },
+            {
+                "item_no": 58,
+                "item": [
+                    "XPath Operators"
+                ]
+            },
+            {
+                "item_no": 59,
+                "item": [
+                    "XPath Examples"
+                ]
+            },
+            {
+                "item_no": 60,
+                "item": [
+                    "XSLT"
+                ]
+            },
+            {
+                "item_no": 61,
+                "item": [
+                    "XSLT Introduction"
+                ]
+            },
+            {
+                "item_no": 62,
+                "item": [
+                    "XSL Languages"
+                ]
+            },
+            {
+                "item_no": 63,
+                "item": [
+                    "XSLT Transform"
+                ]
+            },
+            {
+                "item_no": 64,
+                "item": [
+                    "XSLT <template>"
+                ]
+            },
+            {
+                "item_no": 65,
+                "item": [
+                    "XSLT <value-of>"
+                ]
+            },
+            {
+                "item_no": 66,
+                "item": [
+                    "XSLT <for-each>"
+                ]
+            },
+            {
+                "item_no": 67,
+                "item": [
+                    "XSLT <sort>"
+                ]
+            },
+            {
+                "item_no": 68,
+                "item": [
+                    "XSLT <if>"
+                ]
+            },
+            {
+                "item_no": 69,
+                "item": [
+                    "XSLT <choose>"
+                ]
+            },
+            {
+                "item_no": 70,
+                "item": [
+                    "XSLT Apply"
+                ]
+            },
+            {
+                "item_no": 71,
+                "item": [
+                    "XSLT on the Client"
+                ]
+            },
+            {
+                "item_no": 72,
+                "item": [
+                    "XSLT on the Server"
+                ]
+            },
+            {
+                "item_no": 73,
+                "item": [
+                    "XSLT Edit XML"
+                ]
+            },
+            {
+                "item_no": 74,
+                "item": [
+                    "XSLT Examples"
+                ]
+            },
+            {
+                "item_no": 75,
+                "item": [
+                    "XQuery"
+                ]
+            },
+            {
+                "item_no": 76,
+                "item": [
+                    "XQuery Introduction"
+                ]
+            },
+            {
+                "item_no": 77,
+                "item": [
+                    "XQuery Example"
+                ]
+            },
+            {
+                "item_no": 78,
+                "item": [
+                    "XQuery FLWOR"
+                ]
+            },
+            {
+                "item_no": 79,
+                "item": [
+                    "XQuery HTML"
+                ]
+            },
+            {
+                "item_no": 80,
+                "item": [
+                    "XQuery Terms"
+                ]
+            },
+            {
+                "item_no": 81,
+                "item": [
+                    "XQuery Syntax"
+                ]
+            },
+            {
+                "item_no": 82,
+                "item": [
+                    "XQuery Add"
+                ]
+            },
+            {
+                "item_no": 83,
+                "item": [
+                    "XQuery Select"
+                ]
+            },
+            {
+                "item_no": 84,
+                "item": [
+                    "XQuery Functions"
+                ]
+            },
+            {
+                "item_no": 85,
+                "item": [
+                    "XML"
+                ]
+            },
+            {
+                "item_no": 86,
+                "item": [
+                    "DTD Introduction"
+                ]
+            },
+            {
+                "item_no": 87,
+                "item": [
+                    "DTD Building Blocks"
+                ]
+            },
+            {
+                "item_no": 88,
+                "item": [
+                    "DTD Elements"
+                ]
+            },
+            {
+                "item_no": 89,
+                "item": [
+                    "DTD Attributes"
+                ]
+            },
+            {
+                "item_no": 90,
+                "item": [
+                    "DTD Elements vs Attr"
+                ]
+            },
+            {
+                "item_no": 91,
+                "item": [
+                    "DTD Entities"
+                ]
+            },
+            {
+                "item_no": 92,
+                "item": [
+                    "DTD Examples"
+                ]
+            },
+            {
+                "item_no": 93,
+                "item": [
+                    "XSD"
+                ]
+            },
+            {
+                "item_no": 94,
+                "item": [
+                    "XSD Introduction"
+                ]
+            },
+            {
+                "item_no": 95,
+                "item": [
+                    "XSD How To"
+                ]
+            },
+            {
+                "item_no": 96,
+                "item": [
+                    "XSD <schema>"
+                ]
+            },
+            {
+                "item_no": 97,
+                "item": [
+                    "XSD Elements"
+                ]
+            },
+            {
+                "item_no": 98,
+                "item": [
+                    "XSD Attributes"
+                ]
+            },
+            {
+                "item_no": 99,
+                "item": [
+                    "XSD Restrictions"
+                ]
+            },
+            {
+                "item_no": 100,
+                "item": [
+                    "XSD"
+                ]
+            },
+            {
+                "item_no": 101,
+                "item": [
+                    "XSD Elements"
+                ]
+            },
+            {
+                "item_no": 102,
+                "item": [
+                    "XSD Empty"
+                ]
+            },
+            {
+                "item_no": 103,
+                "item": [
+                    "XSD Elements Only"
+                ]
+            },
+            {
+                "item_no": 104,
+                "item": [
+                    "XSD Text Only"
+                ]
+            },
+            {
+                "item_no": 105,
+                "item": [
+                    "XSD Mixed"
+                ]
+            },
+            {
+                "item_no": 106,
+                "item": [
+                    "XSD Indicators"
+                ]
+            },
+            {
+                "item_no": 107,
+                "item": [
+                    "XSD <any>"
+                ]
+            },
+            {
+                "item_no": 108,
+                "item": [
+                    "XSD <anyAttribute>"
+                ]
+            },
+            {
+                "item_no": 109,
+                "item": [
+                    "XSD Substitution"
+                ]
+            },
+            {
+                "item_no": 110,
+                "item": [
+                    "XSD Example"
+                ]
+            },
+            {
+                "item_no": 111,
+                "item": [
+                    "XSD"
+                ]
+            },
+            {
+                "item_no": 112,
+                "item": [
+                    "XSD String"
+                ]
+            },
+            {
+                "item_no": 113,
+                "item": [
+                    "XSD Date"
+                ]
+            },
+            {
+                "item_no": 114,
+                "item": [
+                    "XSD Numeric"
+                ]
+            },
+            {
+                "item_no": 115,
+                "item": [
+                    "XSD Misc"
+                ]
+            },
+            {
+                "item_no": 116,
+                "item": [
+                    "XSD Reference"
+                ]
+            },
+            {
+                "item_no": 117,
+                "item": [
+                    "Web"
+                ]
+            },
+            {
+                "item_no": 118,
+                "item": [
+                    "XML Services"
+                ]
+            },
+            {
+                "item_no": 119,
+                "item": [
+                    "XML WSDL"
+                ]
+            },
+            {
+                "item_no": 120,
+                "item": [
+                    "XML SOAP"
+                ]
+            },
+            {
+                "item_no": 121,
+                "item": [
+                    "XML RDF"
+                ]
+            },
+            {
+                "item_no": 122,
+                "item": [
+                    "XML RSS"
+                ]
+            },
+            {
+                "item_no": 123,
+                "item": [
+                    "References"
+                ]
+            },
+            {
+                "item_no": 124,
+                "item": [
+                    "DOM Node Types"
+                ]
+            },
+            {
+                "item_no": 125,
+                "item": [
+                    "DOM Node"
+                ]
+            },
+            {
+                "item_no": 126,
+                "item": [
+                    "DOM NodeList"
+                ]
+            },
+            {
+                "item_no": 127,
+                "item": [
+                    "DOM NamedNodeMap"
+                ]
+            },
+            {
+                "item_no": 128,
+                "item": [
+                    "DOM Document"
+                ]
+            },
+            {
+                "item_no": 129,
+                "item": [
+                    "DOM Element"
+                ]
+            },
+            {
+                "item_no": 130,
+                "item": [
+                    "DOM Attribute"
+                ]
+            },
+            {
+                "item_no": 131,
+                "item": [
+                    "DOM Text"
+                ]
+            },
+            {
+                "item_no": 132,
+                "item": [
+                    "DOM CDATA"
+                ]
+            },
+            {
+                "item_no": 133,
+                "item": [
+                    "DOM Comment"
+                ]
+            },
+            {
+                "item_no": 134,
+                "item": [
+                    "DOM XMLHttpRequest"
+                ]
+            },
+            {
+                "item_no": 135,
+                "item": [
+                    "DOM Parser"
+                ]
+            },
+            {
+                "item_no": 136,
+                "item": [
+                    "XSLT Elements"
+                ]
+            },
+            {
+                "item_no": 137,
+                "item": [
+                    "XSLT/XPath Functions"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 6,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "\u00d7",
+                    "Thank You For Helping Us!",
+                    "Your message has been sent to W3Schools."
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.\nTutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.\nWhile using this site, you agree to have read and accepted our"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 7,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "[if lt IE 9]>\n<script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n<script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>  \n<![endif]"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    }
+]

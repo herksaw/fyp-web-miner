@@ -1,0 +1,258 @@
+[
+    {
+        "item_list_no": 1,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "<![endif]"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 2,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Latest MALAYSIA | The Straits Times",
+                    "HTML5 element support for IE6-8",
+                    "[if lt IE 9]>\n    <script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js\"></script>\n  <![endif]",
+                    "Defining _data variables starts",
+                    "Defining _data variables ends",
+                    "Begin Lotame ID",
+                    "End Lotame ID",
+                    "preview script",
+                    "preview script",
+                    "### JS loaded check ###",
+                    "Smart App Banner implementation",
+                    "TMS script Starts",
+                    "TMS implementation Ends",
+                    "Smart tag script starts",
+                    "<script src=\"//tag.aticdn.net/538291/smarttag.js\"></script>",
+                    "Smart tag script ends"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 3,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Google Tag Manager (noscript)"
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "End Google Tag Manager (noscript)"
+                ]
+            },
+            {
+                "item_no": 3,
+                "item": [
+                    "Skip to main content"
+                ]
+            },
+            {
+                "item_no": 4,
+                "item": [
+                    "Modal"
+                ]
+            },
+            {
+                "item_no": 5,
+                "item": [
+                    "mainWrapper end"
+                ]
+            },
+            {
+                "item_no": 6,
+                "item": [
+                    "mainWrapper end"
+                ]
+            },
+            {
+                "item_no": 7,
+                "item": [
+                    "Start Querly Tag"
+                ]
+            },
+            {
+                "item_no": 8,
+                "item": [
+                    "End Querly Tag"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 4,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Google Tag Manager (noscript)"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 5,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "End Google Tag Manager (noscript)"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 6,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Skip to main content"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 7,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    ".btn-navbar is used as the toggle for collapsed navbar content"
+                ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "Toggle navigation"
+                ]
+            },
+            {
+                "item_no": 3,
+                "item": [
+                    "The Straits Times"
+                ]
+            },
+            {
+                "item_no": 4,
+                "item": [
+                    "add win IFRA header"
+                ]
+            },
+            {
+                "item_no": 5,
+                "item": [
+                    "add win IFRA header in tags pages"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 8,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "/#page-header"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 9,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Modal"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 10,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "We have been experiencing some problems with subscriber log-ins and apologise for the inconvenience caused. Until we resolve the issues, subscribers need not log in to access ST Digital articles. But a log-in is still required for our PDFs."
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 11,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Modal content"
+                ]
+            }
+        ]
+    },
+    {
+        "item_list_no": 12,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "mainWrapper end"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 13,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "mainWrapper end"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 14,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "Start Querly Tag"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    },
+    {
+        "item_list_no": 15,
+        "item_list": [
+            {
+                "item_no": 1,
+                "item": [
+                    "End Querly Tag"
+                ],
+                "type": "no_data_region"
+            }
+        ]
+    }
+]

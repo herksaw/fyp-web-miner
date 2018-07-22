@@ -28,3 +28,6 @@ class DataRegion:
 
     def get_node_count(self):
         return self.k
+
+    def is_same(self, dr):
+        return self.p == dr.p and self.i == dr.i and self.j == dr.j and self.k == dr.k

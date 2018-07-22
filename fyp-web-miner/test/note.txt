@@ -1,0 +1,85 @@
+284, t = 2.0
+
+t = 10.0
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_group, [24573, 3]
+table, 24571, None, content_group, [24573, 3]
+td, 24569, None, content_group, [24570, 2]
+tr, 24526, None, content_group, [24527, 10]
+tbody, 284, None, content_group, [285, 22]
+table, 283, None, content_group, [285, 22]
+
+t = 5.0
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_group, [24573, 3]
+table, 24571, None, content_group, [24573, 3]
+td, 24569, None, content_group, [24570, 2]
+tr, 24526, None, content_group, [24527, 10]
+tbody, 284, None, content_group, [285, 22]
+table, 283, None, content_group, [285, 22]
+
+t = 3.0
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_holder
+table, 24571, None, content_holder
+td, 24569, None, content_holder
+tr, 24526, None, content_holder
+tbody, 284, None, content_group, [285, 22]
+table, 283, None, content_group, [285, 22]
+
+t = 2.5
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_holder
+table, 24571, None, content_holder
+td, 24569, None, content_holder
+tr, 24526, None, content_holder
+tbody, 284, None, content_group, [285, 22]
+table, 283, None, content_group, [285, 22]
+
+t = 2.1
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_holder
+table, 24571, None, content_holder
+td, 24569, None, content_holder
+tr, 24526, None, content_holder
+tbody, 284, None, content_group, [285, 22]
+table, 283, None, content_group, [285, 22]
+
+t = 2.0
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_holder
+table, 24571, None, content_holder
+td, 24569, None, content_holder
+tr, 24526, None, content_holder
+tbody, 284, None, content_holder
+table, 283, None, content_holder
+
+t = 1.0
+b, 24576, BC556B, content
+h3, 24575, None, content_holder
+td, 24574, None content_holder
+tr, 24573, None, content_holder
+tbody, 24572, None, content_holder
+table, 24571, None, content_holder
+td, 24569, None, content_holder
+tr, 24526, None, content_holder
+tbody, 284, None, content_holder
+table, 283, None, content_holder

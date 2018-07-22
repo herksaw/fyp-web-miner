@@ -14,10 +14,12 @@ url_list = ["http://unruffled-leakey-d4e14a.bitballoon.com",
             "https://s.taobao.com/search?q=%E6%89%8B%E6%8F%90%E7%94%B5%E8%84%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306",
             "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=laptop",
             "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSDF15D356B046D53BC1256D550038A9E0?OpenDocument&wg=U1232&refDoc=CMS322921A477B31844C125707B0034EB15",
-            "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSB5A38F73D94252D2C125707B00357507?OpenDocument"]
+            "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSB5A38F73D94252D2C125707B00357507?OpenDocument",
+            "https://www.w3schools.com/xml/schema_intro.asp",
+            "https://www.straitstimes.com/tags/malaysia"]
 
 if __name__ == "__main__":
-    curr_url = url_list[0]
+    curr_url = url_list[7]
 
     parser = Parser()
 

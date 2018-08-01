@@ -28,12 +28,12 @@ class MDRUtil:
             self.traverse_dom(child)        
 
     def mdr(self, node, k):
-        if node.height() >= 3:
+        # if node.height() >= 3:
             # self.comb_comp(node, math.ceil(len(node.children) / 2))
-            self.comb_comp(node, k)
+        self.comb_comp(node, k)
 
-            for child in node.children:
-                self.mdr(child, k)
+        for child in node.children:
+            self.mdr(child, k)
 
     def comb_comp(self, node, maxComb):
         children = node.children
@@ -112,20 +112,20 @@ class MDRUtil:
         return distance
 
     def find_DR(self, node, k, t):
-        if node.height() >= 3:
-            node.data_regions = self.identify_DRs(0, node, k, t)
+        # if node.height() >= 3:
+        node.data_regions = self.identify_DRs(0, node, k, t)
 
-            temp_DRs = []
+        temp_DRs = []
 
-            for child in node.children:
-                self.find_DR(child, k, t)
+        for child in node.children:
+            self.find_DR(child, k, t)
 
-                uncovers_DRs = self.uncover_DRs(node, child)
+            uncovers_DRs = self.uncover_DRs(node, child)
 
-                if uncovers_DRs != None and len(uncovers_DRs) != 0:
-                    temp_DRs.extend(uncovers_DRs)
-                
-            node.data_regions.extend(temp_DRs)
+            if uncovers_DRs != None and len(uncovers_DRs) != 0:
+                temp_DRs.extend(uncovers_DRs)
+            
+        node.data_regions.extend(temp_DRs)
 
     def identify_DRs(self, start, node, k, t):
         iden_DRs = []
@@ -192,8 +192,9 @@ class MDRUtil:
                         tag_node = node.get_child_at_preorder_position(dr.get_region_start_preorder_position())
                         g.add(tag_node)
                     else:
-                        tag_node = node.get_child_at_preorder_position(tag_node.next_sibling.preorder_pos)
-                        g.add(tag_node)
+                        if tag_node.next_sibling != None:
+                            tag_node = node.get_child_at_preorder_position(tag_node.next_sibling.preorder_pos)
+                            g.add(tag_node)
 
                 generalized_node_list.append(g)
 

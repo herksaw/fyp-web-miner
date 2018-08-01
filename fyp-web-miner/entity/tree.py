@@ -1,6 +1,8 @@
 # import operator
 from functools import total_ordering
 
+from entity.node import Node
+
 @total_ordering
 class Tree:
     PRE_ORDER = 0
@@ -28,8 +30,16 @@ class Tree:
         return traverse_list
 
     def pre_order(self, node, traverse_list):
-        traverse_list.append(node)
+        is_found = False
 
+        for child in traverse_list:
+            if Node.is_same(child.el, node.el):
+                is_found = True
+                break
+
+        if not is_found:
+            traverse_list.append(node)
+        
         for child in node.children:
             self.pre_order(child, traverse_list)
 

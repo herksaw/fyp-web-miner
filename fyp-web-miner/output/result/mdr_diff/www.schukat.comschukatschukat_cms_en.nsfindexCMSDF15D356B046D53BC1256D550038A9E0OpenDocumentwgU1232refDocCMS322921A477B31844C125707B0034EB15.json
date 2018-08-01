@@ -1,212 +1,20 @@
 [
     {
-        "item_list_no": 1,
-        "item_list": [
+        "list_no": 0,
+        "list": [
             {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
-                    "U"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "Transistors"
+                    "U1232 Small Signal Transistors Bulk Series: BC_ Case: TO92"
                 ]
             }
         ]
     },
     {
-        "item_list_no": 2,
-        "item_list": [
+        "list_no": 1,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "Bipolar Transistors"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 3,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "-"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "AF Small Signal Transistors"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 4,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "-"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "HF Small Signal Transistors"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 5,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "-"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "Power Transistors"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 6,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "IGBTs"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 7,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BIMOSFETs"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 8,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "J-FETs"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 9,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "MOSFETs"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 10,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "V"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "Diodes"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 11,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "Y"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "ICs Digital"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 12,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "A"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "ICs Mixed Signal/Analog"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 13,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "ICs Analog"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 14,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "U1232",
-                    "Small Signal Transistors Bulk"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 15,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "U1232"
                 ]
@@ -214,10 +22,49 @@
         ]
     },
     {
-        "item_list_no": 16,
-        "item_list": [
+        "list_no": 2,
+        "list": [
+            {
+                "item_no": 0,
+                "item": [
+                    "Visited Product Groups:"
+                ]
+            }
+        ]
+    },
+    {
+        "list_no": 3,
+        "list": [
+            {
+                "item_no": 0,
+                "item": [
+                    "U1232"
+                ]
+            },
             {
                 "item_no": 1,
+                "item": [
+                    "Small Signal Transistors Bulk"
+                ]
+            }
+        ]
+    },
+    {
+        "list_no": 4,
+        "list": [
+            {
+                "item_no": 0,
+                "item": [
+                    "U1232"
+                ]
+            }
+        ]
+    },
+    {
+        "list_no": 5,
+        "list": [
+            {
+                "item_no": 0,
                 "item": [
                     "U1234"
                 ]
@@ -225,542 +72,312 @@
         ]
     },
     {
-        "item_list_no": 17,
-        "item_list": [
+        "list_no": 6,
+        "list": [
             {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "Small Signal Transistors Bulk"
                 ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "Series: BC_\n\u00a0\u00a0\u00a0Case: TO92"
-                ]
             }
         ]
     },
     {
-        "item_list_no": 18,
-        "item_list": [
+        "list_no": 7,
+        "list": [
             {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
-                    "### Artikel BC327-25 ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "15,400"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 19,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC327-25"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 45V 0,8A 0,625W B:160-400 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC32725BU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 20,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC327-40 ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "37,700"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 21,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC327-40"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 45V 0,8A 0,625W B:250-630 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC32740BU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 22,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "6.40"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "3.40"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "### Artikel BC327-25 ###",
+                    "BC327-25",
+                    "BC32725BU : Fairchild Semiconductor",
+                    "100",
+                    "6.05",
+                    "1,000",
+                    "3.05",
                     "5,000",
-                    "2.80"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
+                    "2.45",
                     "10,000",
-                    "2.60"
+                    "2.30",
+                    "100",
+                    "11,800"
                 ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 23,
-        "item_list": [
+            },
             {
                 "item_no": 1,
                 "item": [
-                    "### Artikel BC337-25 ###"
+                    "### Artikel BC327-40 ###",
+                    "BC327-40",
+                    "BC32740BU : Fairchild Semiconductor",
+                    "100",
+                    "6.40",
+                    "1,000",
+                    "3.40",
+                    "5,000",
+                    "2.80",
+                    "10,000",
+                    "2.60",
+                    "100",
+                    "37,400 &"
                 ]
             },
             {
                 "item_no": 2,
                 "item": [
-                    "53,500"
+                    "### Artikel BC337-25 ###",
+                    "BC337-25",
+                    "BC33725BU : Fairchild Semiconductor",
+                    "100",
+                    "1,000",
+                    "3.10",
+                    "5,000",
+                    "10,000",
+                    "2.35",
+                    "100",
+                    "43,500"
                 ]
             },
             {
                 "item_no": 3,
                 "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 24,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC337-25"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 45V 0,8A 0,625W B:160-400 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC33725BU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 25,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC337-40 ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "93,000 &"
+                    "### Artikel BC337-40 ###",
+                    "BC337-40",
+                    "BC33740BU : Fairchild Semiconductor",
+                    "100",
+                    "6.05",
+                    "1,000",
+                    "3.05",
+                    "5,000",
+                    "2.45",
+                    "10,000",
+                    "2.30",
+                    "100",
+                    "82,000 &"
                 ]
             },
             {
                 "item_no": 4,
                 "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 26,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC337-40"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 45V 0,8A 0,625W B:250-630 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC33740BU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 27,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC546A ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
+                    "### Artikel BC546A ###",
+                    "BC546A",
+                    "NPN 65V 0,1A 0,5W B:110-220 TO92",
+                    "BC546ABU : Fairchild Semiconductor",
+                    "100",
+                    "6.05",
+                    "1,000",
+                    "3.05",
+                    "5,000",
+                    "2.45",
+                    "10,000",
+                    "2.30",
+                    "100",
                     "3,800"
                 ]
             },
             {
-                "item_no": 3,
+                "item_no": 5,
                 "item": [
-                    "\u00c3\u02dc6"
+                    "### Artikel BC547B ###",
+                    "BC547B",
+                    "BC547BBU : Fairchild Semiconductor",
+                    "100",
+                    "6.05",
+                    "1,000",
+                    "3.05",
+                    "5,000",
+                    "2.45",
+                    "10,000",
+                    "2.30",
+                    "100",
+                    "105,600 &",
+                    "\u00c3\u02dc9"
+                ]
+            },
+            {
+                "item_no": 6,
+                "item": [
+                    "### Artikel BC547C ###",
+                    "BC547C",
+                    "BC547CBU : Fairchild Semiconductor",
+                    "100",
+                    "6.05",
+                    "1,000",
+                    "3.05",
+                    "5,000",
+                    "2.45",
+                    "10,000",
+                    "2.30",
+                    "100",
+                    "63,300 &"
+                ]
+            },
+            {
+                "item_no": 7,
+                "item": [
+                    "### Artikel BC548B ###",
+                    "BC548B",
+                    "NPN 30V 0,1A 0,5W B:200-450 TO92",
+                    "BC548B B1 : Taiwan Semiconductor",
+                    "100",
+                    "4.95",
+                    "1,000",
+                    "5,000",
+                    "10,000",
+                    "100",
+                    "0",
+                    "\u00c3\u02dc12"
+                ]
+            },
+            {
+                "item_no": 8,
+                "item": [
+                    "### Artikel BC548C ###",
+                    "BC548C",
+                    "NPN 30V 0,1A 0,5W B:420-800 TO92",
+                    "BC548C B1 : Taiwan Semiconductor",
+                    "100",
+                    "4.95",
+                    "1,000",
+                    "5,000",
+                    "10,000",
+                    "100",
+                    "61,300",
+                    "\u00c3\u02dc12"
+                ]
+            },
+            {
+                "item_no": 9,
+                "item": [
+                    "### Artikel BC549C ###",
+                    "BC549C",
+                    "NPN 30V 0,1A 0,5W B:420-800 TO92",
+                    "BC549C B1 : Taiwan Semiconductor",
+                    "100",
+                    "4.95",
+                    "1,000",
+                    "5,000",
+                    "10,000",
+                    "100",
+                    "6,100",
+                    "\u00c3\u02dc12"
+                ]
+            },
+            {
+                "item_no": 10,
+                "item": [
+                    "### Artikel BC550C ###",
+                    "BC550C",
+                    "BC550CBU : Fairchild Semiconductor",
+                    "100",
+                    "1,000",
+                    "3.10",
+                    "5,000",
+                    "10,000",
+                    "2.35",
+                    "100",
+                    "25,400 &"
+                ]
+            },
+            {
+                "item_no": 11,
+                "item": [
+                    "### Artikel BC557B ###",
+                    "BC557B",
+                    "BC557BBK : Diotec",
+                    "100",
+                    "6.90",
+                    "1,000",
+                    "3.90",
+                    "5,000",
+                    "3.30",
+                    "10,000",
+                    "3.10",
+                    "100",
+                    "24,100 &",
+                    "\u00c3\u02dc18"
+                ]
+            },
+            {
+                "item_no": 12,
+                "item": [
+                    "### Artikel BC557C ###",
+                    "BC557C",
+                    "BC557CBK : Diotec",
+                    "100",
+                    "4.76",
+                    "1,000",
+                    "1.76",
+                    "5,000",
+                    "10,000",
+                    "1.09",
+                    "100",
+                    "31,900 &",
+                    "\u00c3\u02dc18"
+                ]
+            },
+            {
+                "item_no": 13,
+                "item": [
+                    "### Artikel BC560C ###",
+                    "BC560C",
+                    "TBC560CG : Continental Device India",
+                    "100",
+                    "5.30",
+                    "1,000",
+                    "2.30",
+                    "5,000",
+                    "1.70",
+                    "10,000",
+                    "1.60",
+                    "100",
+                    "5,200"
                 ]
             }
         ]
     },
     {
-        "item_list_no": 28,
-        "item_list": [
+        "list_no": 8,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "BC546A"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 65V 0,1A 0,5W B:110-220 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC546ABU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 29,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "### Artikel BC546B ###"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "43,100 &"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "\u00c3\u02dc12"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 30,
-        "item_list": [
-            {
                 "item_no": 1,
                 "item": [
-                    "BC546B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 65V 0,1A 0,5W B:200-450 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "BC546B",
                     "BC546B B1 : Taiwan Semiconductor"
                 ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 31,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "6.15"
-                ]
             },
             {
                 "item_no": 2,
                 "item": [
-                    "3.15"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "100",
+                    "6.15",
+                    "1,000",
+                    "3.15",
                     "5,000",
-                    "2.55"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
+                    "2.55",
                     "10,000",
                     "2.40"
                 ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 32,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC547B ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "101,600 &"
-                ]
             },
             {
                 "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc9"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 33,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC547B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 45V 0,1A 0,5W B:200-450 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC547BBU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 34,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC547C ###"
-                ]
-            },
-            {
-                "item_no": 2,
                 "item": [
                     "100"
                 ]
             },
             {
-                "item_no": 3,
-                "item": [
-                    "65,600 &"
-                ]
-            },
-            {
                 "item_no": 4,
                 "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 35,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC547C"
+                    "40,600 &"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "BC547CBU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 36,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "6.05",
-                    "6.05",
-                    "6.05",
-                    "6.05",
-                    "6.05"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "3.05",
-                    "3.05",
-                    "3.05",
-                    "3.05",
-                    "3.05"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "2.45",
-                    "5,000",
-                    "2.45",
-                    "5,000",
-                    "2.45",
-                    "5,000",
-                    "2.45",
-                    "5,000",
-                    "2.45"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "2.30",
-                    "10,000",
-                    "2.30",
-                    "10,000",
-                    "2.30",
-                    "10,000",
-                    "2.30",
-                    "10,000",
-                    "2.30"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 37,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC548B ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "0"
-                ]
-            },
-            {
-                "item_no": 3,
+                "item_no": 5,
                 "item": [
                     "\u00c3\u02dc12"
                 ]
@@ -768,354 +385,48 @@
         ]
     },
     {
-        "item_list_no": 38,
-        "item_list": [
+        "list_no": 9,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "BC548B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 30V 0,1A 0,5W B:200-450 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC548B B1 : Taiwan Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 39,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC548C ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "61,400"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "\u00c3\u02dc12"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 40,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC548C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "BC548C B1 : Taiwan Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 41,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC549C ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "6,100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc12"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 42,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC549C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 30V 0,1A 0,5W B:420-800 TO92",
-                    "NPN 30V 0,1A 0,5W B:420-800 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC549C B1 : Taiwan Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 43,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "4.95",
-                    "4.95",
-                    "4.95"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "1.95",
-                    "1.95",
-                    "1.95"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "1.35",
-                    "5,000",
-                    "1.35",
-                    "5,000",
-                    "1.35"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "1.25",
-                    "10,000",
-                    "1.25",
-                    "10,000",
-                    "1.25"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 44,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC550C ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "26,300 &"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "\u00c3\u02dc6"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 45,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC550C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 45V 0,1A 0,5W B:420-800 TO92",
-                    "NPN 45V 0,1A 0,5W B:420-800 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC550CBU : Fairchild Semiconductor"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 46,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "6.10",
-                    "6.10"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "3.10",
-                    "3.10"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "2.50",
-                    "5,000",
-                    "2.50"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "2.35",
-                    "10,000",
-                    "2.35"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 47,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "### Artikel BC556B ###"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "41,800 &"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc18"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 48,
-        "item_list": [
-            {
                 "item_no": 1,
                 "item": [
-                    "BC556B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 65V 0,1A 0,5W B:220-475 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "BC556B",
                     "BC556BBK : Diotec"
                 ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 49,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "4.80"
-                ]
             },
             {
                 "item_no": 2,
                 "item": [
-                    "1.80"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "100",
+                    "4.80",
+                    "1,000",
+                    "1.80",
                     "5,000",
-                    "1.20"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
+                    "1.20",
                     "10,000",
                     "1.12"
                 ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 50,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC557B ###"
-                ]
             },
             {
-                "item_no": 2,
+                "item_no": 3,
                 "item": [
                     "100"
                 ]
             },
             {
-                "item_no": 3,
+                "item_no": 4,
                 "item": [
-                    "25,600 &"
+                    "39,100 &"
                 ]
             },
             {
-                "item_no": 4,
+                "item_no": 5,
                 "item": [
                     "\u00c3\u02dc18"
                 ]
@@ -1123,518 +434,87 @@
         ]
     },
     {
-        "item_list_no": 51,
-        "item_list": [
+        "list_no": 10,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "BC557B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 45V 0,1A 0,5W B:220-475 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "BC557BBK : Diotec"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 52,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "6.90"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "3.90"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "3.30"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "3.10"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 53,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC557C ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "33,000 &"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc18"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 54,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC557C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "BC557CBK : Diotec"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 55,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "4.76"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "1.76"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "1.16"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "1.09"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 56,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "### Artikel BC560C ###"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,200"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "\u00c3\u02dc10"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 57,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC560C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 45V 0,1A 0,5W B:420-800 TO92",
-                    "PNP 45V 0,1A 0,5W B:420-800 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "TBC560CG : Continental Device India"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 58,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "5.30"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "2.30"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "1.70"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "1.60"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 59,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "### Artikel BC639 ###"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "28,200 &"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "\u00c3\u02dc10"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 60,
-        "item_list": [
-            {
                 "item_no": 1,
                 "item": [
-                    "BC639"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "NPN 80V 1A 0,8W B:40-250 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
+                    "BC639",
                     "TBC639G : Continental Device India"
                 ]
+            },
+            {
+                "item_no": 2,
+                "item": [
+                    "100"
+                ]
+            },
+            {
+                "item_no": 3,
+                "item": [
+                    "28,100 &"
+                ]
             }
         ]
     },
     {
-        "item_list_no": 61,
-        "item_list": [
+        "list_no": 11,
+        "list": [
             {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "### Artikel BC640 ###"
                 ]
             },
             {
+                "item_no": 1,
+                "item": [
+                    "BC640",
+                    "TBC640G : Continental Device India"
+                ]
+            },
+            {
                 "item_no": 2,
+                "item": [
+                    "100",
+                    "9.05",
+                    "1,000",
+                    "6.05",
+                    "5,000",
+                    "5.45",
+                    "10,000",
+                    "5.10"
+                ]
+            },
+            {
+                "item_no": 3,
                 "item": [
                     "100"
                 ]
             },
             {
-                "item_no": 3,
-                "item": [
-                    "6,400 &"
-                ]
-            },
-            {
                 "item_no": 4,
                 "item": [
-                    "\u00c3\u02dc10"
+                    "6,100 &"
                 ]
             }
         ]
     },
     {
-        "item_list_no": 62,
-        "item_list": [
+        "list_no": 12,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "BC640"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "PNP 80V 1A 0,8W B:40-250 TO92"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "TBC640G : Continental Device India"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 63,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "9.05",
-                    "9.05"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "6.05",
-                    "6.05"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "5,000",
-                    "5.45",
-                    "5,000",
-                    "5.45"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "10,000",
-                    "5.10",
-                    "10,000",
-                    "5.10"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 64,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "Technical Specifications"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 65,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "Part Nr."
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "U"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "I"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "P"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "f"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "B"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 66,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "CEO"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 67,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "C"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 68,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "tot"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 69,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "T"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 70,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "[V]"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "[A]"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "[W]"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "[MHz]"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 71,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "BC327-25"
                 ]
             },
-            {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,625"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "160...400"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 72,
-        "item_list": [
             {
                 "item_no": 1,
                 "item": [
@@ -1644,706 +524,103 @@
             {
                 "item_no": 2,
                 "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,625"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "250...630"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 73,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
                     "BC337-25"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
                 "item_no": 3,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,625"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "160...400"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 74,
-        "item_list": [
-            {
-                "item_no": 1,
                 "item": [
                     "BC337-40"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
                 "item_no": 4,
-                "item": [
-                    "0,625"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "250...630"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 75,
-        "item_list": [
-            {
-                "item_no": 1,
                 "item": [
                     "BC546A"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "65"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
                 "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "110...220"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 76,
-        "item_list": [
-            {
-                "item_no": 1,
                 "item": [
                     "BC546B"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "65"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
                 "item_no": 6,
-                "item": [
-                    "200...450"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 77,
-        "item_list": [
-            {
-                "item_no": 1,
                 "item": [
                     "BC547B"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "200...450"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 78,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 7,
                 "item": [
                     "BC547C"
                 ]
             },
             {
-                "item_no": 2,
+                "item_no": 8,
                 "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "420...800"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 79,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC548B"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
+                    "BC548B",
                     "30"
                 ]
             },
             {
-                "item_no": 3,
+                "item_no": 9,
                 "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "200...450"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 80,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC548C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
+                    "BC548C",
                     "30"
                 ]
             },
             {
-                "item_no": 3,
+                "item_no": 10,
                 "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "420...800"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 81,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "BC549C"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
+                    "BC549C",
                     "30"
                 ]
             },
             {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "420...800"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 82,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 11,
                 "item": [
                     "BC550C"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "420...800"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 83,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 12,
                 "item": [
                     "BC556B"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "65"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "220...475"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 84,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 13,
                 "item": [
                     "BC557B"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "220...475"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 85,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 14,
                 "item": [
                     "BC557C"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "45"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "0,1"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,5"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "420...800"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 86,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 15,
                 "item": [
                     "BC639"
                 ]
             },
             {
-                "item_no": 2,
-                "item": [
-                    "80"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "1,0"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "40...250"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 87,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 16,
                 "item": [
                     "BC640"
                 ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "80"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "1,0"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "0,8"
-                ]
-            },
-            {
-                "item_no": 5,
-                "item": [
-                    "100"
-                ]
-            },
-            {
-                "item_no": 6,
-                "item": [
-                    "40...250"
-                ]
             }
         ]
     },
     {
-        "item_list_no": 88,
-        "item_list": [
+        "list_no": 13,
+        "list": [
             {
-                "item_no": 1,
-                "item": [
-                    "U"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 89,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "CEO"
-                ]
-            },
-            {
-                "item_no": 2,
-                "item": [
-                    "C"
-                ]
-            },
-            {
-                "item_no": 3,
-                "item": [
-                    "tot"
-                ]
-            },
-            {
-                "item_no": 4,
-                "item": [
-                    "T"
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 90,
-        "item_list": [
-            {
-                "item_no": 1,
-                "item": [
-                    "Minimum order quantity: please see price list column \"MOQ\"."
-                ]
-            }
-        ]
-    },
-    {
-        "item_list_no": 91,
-        "item_list": [
-            {
-                "item_no": 1,
+                "item_no": 0,
                 "item": [
                     "Various"
                 ]

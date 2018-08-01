@@ -216,14 +216,26 @@ class Parser:
 
     #     print("Done.")
 
-    def start_diff_pages(self, curr_url, curr_node_list, curr_link_list):
+    def start_diff_pages(self, curr_url):
+        curr_time = time.time()
+
+        print("Rendering page for current url...")
+        print(curr_url)
+
+        session = HTMLSession()
+        r = session.get(curr_url)
+
+        r.html.render()
+        root = r.html.lxml
+
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))        
         curr_time = time.time()
 
         print("Finding similar pages by queries and edit distance...")
 
-        link_list = curr_link_list
+        link_list = r.html.absolute_links
 
-        link_dict_list = []        
+        link_dict_list = []
 
         curr_url_qs = urlparse.parse_qs(urlparse.urlparse(curr_url).query)
 
@@ -243,7 +255,21 @@ class Parser:
                 has_same_query = False
 
             if has_same_query:
-                link_dict_list.append({"url": link, "query": link_qs})
+                is_valid = True
+
+                if len(curr_url) == len(link):
+                    is_all_same = True
+
+                    for key, value in curr_url_qs.items():
+                        if link_qs[key] != curr_url_qs[key]:
+                            is_all_same = False
+                            break
+
+                    if is_all_same:
+                        is_valid = False
+
+                if is_valid:
+                    link_dict_list.append({"url": link, "query": link_qs})
 
         def sort_link(a):
             return len(a["url"])
@@ -272,7 +298,16 @@ class Parser:
         #         
         # print("Reference url: ", link_dict_list[0]["url"])
 
-        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))       
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        curr_time = time.time()
+
+        print("Building DOM for current page...")
+
+        curr_node_list = self.build_dom(curr_url, root, True)
+
+        root_node = curr_node_list[0]
+
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
 
         have_duplicated_found = False
 
@@ -304,11 +339,11 @@ class Parser:
             print("Calculating duplicated count for each node...")
 
             for curr in curr_node_list:
-                    for refer in refer_node_list:
-                            # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
-                            if Node.is_same(curr.el, refer.el):
-                                curr.duplicate_count = curr.duplicate_count + 1
-                                break
+                for refer in refer_node_list:
+                    # if curr.el.text == refer.el.text and curr.el.tag == refer.el.tag:
+                    if Node.is_same(curr.el, refer.el):
+                        curr.duplicate_count = curr.duplicate_count + 1
+                        break
 
             print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
             curr_time = time.time()
@@ -320,24 +355,24 @@ class Parser:
             for curr in curr_node_list:
                 if curr.duplicate_count == 0 and curr.el.text != None and curr.el.text != "" and curr.el.tag not in const.UNWANTED_TAGS:
                     # Commented, invalid html tags are not allowed to set attributes
-                    # print(curr.el.tag ," ", curr.el.attrib)
+                    print(curr.el.tag ," ", curr.el.text)
                     try:
                         have_duplicated_found = True
                         # curr.el.set("fyp-web-miner", "content")
                         curr.is_content = True
-                        # result_node_list.append(curr)
+                        curr.iter_parent = curr.parent
 
-                        print(curr.preorder_pos, " | ", curr.el.text)
+                        result_node_list.append(curr)
 
-                        iter_node = curr
+                        # iter_node = curr
 
-                        while iter_node.parent != None:
-                            iter_node = iter_node.parent
+                        # while iter_node.parent != None:
+                        #     iter_node = iter_node.parent
 
-                            if iter_node.data_regions != None and len(iter_node.data_regions) > 0:
-                                iter_node.is_content_group = True
-                            elif iter_node.is_content != True:
-                                iter_node.is_content_holder = True
+                        #     if iter_node.data_regions != None and len(iter_node.data_regions) > 0:
+                        #         iter_node.is_content_group = True
+                        #     elif iter_node.is_content != True:
+                        #         iter_node.is_content_holder = True
 
                     except TypeError as e:
                         print("Skipped, can't set attributes for tag: ",
@@ -348,11 +383,9 @@ class Parser:
             if have_duplicated_found:
                 break
 
-        return curr_node_list
+        return result_node_list
 
-    def start_mdr(self, curr_url):
-        total_time = 0
-
+    def start_mdr(self, root_node):
         start_time = time.time()
         curr_time = time.time()
 
@@ -361,27 +394,6 @@ class Parser:
         t = 2.5
 
         mdr_util = MDRUtil()
-
-        print("Rendering page for current url...")
-        print(curr_url)
-
-        session = HTMLSession()
-        r = session.get(curr_url)
-
-        r.html.render()
-        root = r.html.lxml
-
-        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
-        curr_time = time.time()
-
-        print("Building DOM for current page...")
-
-        curr_node_list = self.build_dom(curr_url, root, True) 
-
-        root_node = curr_node_list[0]       
-
-        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
-        curr_time = time.time()           
 
         print("Traversing DOM...")
 
@@ -403,15 +415,18 @@ class Parser:
 
         print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
 
-        # curr_time = time.time()
+        ##########################################################################
 
-        # print("Creating generalized nodes...")
+        curr_time = time.time()
 
-        # dr_list = mdr_util.get_DRs(root_node)
+        print("Creating generalized nodes...")
 
-        # print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        dr_list = mdr_util.get_DRs(root_node)
 
-        curr_node_list = self.start_diff_pages(curr_url, curr_node_list, r.html.absolute_links)
+        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+
+        for i, dr in enumerate(dr_list):
+            print(str(i) + ", size: " + str(len(dr.nodes)))
 
         # curr_time = time.time()
 
@@ -424,89 +439,93 @@ class Parser:
         #         else:
         #             mdr_util.find_recordN(generalized_node)
 
-        curr_time = time.time()
+        ###########################################################################
 
-        print("Getting data records...")
+        # curr_time = time.time()
 
-        dr_node_list = []
+        # print("Getting data records...")
 
-        for node in curr_node_list:
-            if node.is_content_group == True and node.data_regions != None and len(node.data_regions) > 0 and len(node.data_regions) < 2:
-                have_found = False
+        # dr_node_list = []
 
-                for i in range(0, len(dr_node_list), 1):
-                    dr_node = dr_node_list[i]
+        # for node in curr_node_list:
+        #     if node.is_content_group == True and node.data_regions != None and len(node.data_regions) > 0 and len(node.data_regions) < 2:
+        #         have_found = False
 
-                    if node.preorder_pos < dr_node.preorder_pos:
-                        if node.data_regions[0].is_same(dr_node.data_regions[0]):
-                            dr_node_list[i] = node
-                            have_found = True
-                            break
+        #         for i in range(0, len(dr_node_list), 1):
+        #             dr_node = dr_node_list[i]
 
-                    # if node.preorder_pos < dr_node.preorder_pos:
-                    #     for j in range(0, len(node.data_regions), 1):
-                    #         for k in range(0, len(dr_node.data_regions), 1):
-                    #             if node.data_regions[j].is_same(dr_node.data_regions[k]):                                    
-                    #                 dr_node_list[i] = node
-                    #                 have_found = True
-                    #                 break
+        #             if node.preorder_pos < dr_node.preorder_pos:
+        #                 if node.data_regions[0].is_same(dr_node.data_regions[0]):
+        #                     dr_node_list[i] = node
+        #                     have_found = True
+        #                     break
 
-                if not have_found:
-                    dr_node_list.append(node)
+        #             # if node.preorder_pos < dr_node.preorder_pos:
+        #             #     for j in range(0, len(node.data_regions), 1):
+        #             #         for k in range(0, len(dr_node.data_regions), 1):
+        #             #             if node.data_regions[j].is_same(dr_node.data_regions[k]):                                    
+        #             #                 dr_node_list[i] = node
+        #             #                 have_found = True
+        #             #                 break
 
-        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
-        curr_time = time.time()
+        #         if not have_found:
+        #             dr_node_list.append(node)
+
+        # print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        # curr_time = time.time()
         
-        print("Extracting data records...")
+        # print("Extracting data records...")
 
-        result_item_lists = []
+        # result_item_lists = []
 
-        item_list_index = 1
+        # item_list_index = 1
 
-        for node in dr_node_list:
-            for data_region in node.data_regions:
-                item_list = []
+        # for node in dr_node_list:
+        #     for data_region in node.data_regions:
+        #         item_list = []
 
-                preorder_pos = data_region.get_region_start_preorder_position()
-                relative_pos = data_region.get_region_start_relative_position()
-                node_comb = data_region.get_node_comb()
-                node_count = data_region.get_node_count()
+        #         preorder_pos = data_region.get_region_start_preorder_position()
+        #         relative_pos = data_region.get_region_start_relative_position()
+        #         node_comb = data_region.get_node_comb()
+        #         node_count = data_region.get_node_count()
 
-                # parent_node = (Tree(root_node).get_subtree_by_preorder(preorder_pos)).get_root().parent
+        #         # parent_node = (Tree(root_node).get_subtree_by_preorder(preorder_pos)).get_root().parent
 
-                index = 1
+        #         index = 1
 
-                for i in range(relative_pos, relative_pos + node_count, node_comb):
-                    item = { "item_no": index, "item": [] }
+        #         for i in range(relative_pos, relative_pos + node_count, node_comb):
+        #             item = { "item_no": index, "item": [] }
 
-                    for j in range(i, i + node_comb, 1):
-                        if j >= len(node.children): break
+        #             for j in range(i, i + node_comb, 1):
+        #                 if j >= len(node.children): break
 
-                        item_node = node.children[j]
+        #                 item_node = node.children[j]
 
-                        if item_node.is_content:
-                            item["item"].append(item_node.el.text)
-                            index += 1
-                        elif item_node.is_content_holder:
-                            traverse_node_list = Tree(item_node).traverse(Tree.PRE_ORDER)
+        #                 if item_node.is_content:
+        #                     item["item"].append(item_node.el.text)
+        #                     index += 1
+        #                 elif item_node.is_content_holder:
+        #                     traverse_node_list = Tree(item_node).traverse(Tree.PRE_ORDER)
 
-                            for child_node in traverse_node_list:
-                                if child_node.is_content:
-                                    item["item"].append(child_node.el.text)
+        #                     for child_node in traverse_node_list:
+        #                         if child_node.is_content:
+        #                             item["item"].append(child_node.el.text)
 
-                            index += 1
+        #                     index += 1
 
-                    if len(item["item"]) > 0:
-                        item_list.append(item)
+        #             if len(item["item"]) > 0:
+        #                 item_list.append(item)
 
-                if len(item_list) > 0:
-                    result_item_lists.append({ "item_list_no": item_list_index, "item_list": item_list })
-                    item_list_index += 1
+        #         if len(item_list) > 0:
+        #             result_item_lists.append({ "item_list_no": item_list_index, "item_list": item_list })
+        #             item_list_index += 1
 
-        print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
-        print("Total elapsed time: {}s.".format(str(round(time.time() - start_time, 2))))
+        # print("Done in {}s.".format(str(round(time.time() - curr_time, 2))))
+        # print("Total elapsed time: {}s.".format(str(round(time.time() - start_time, 2))))
 
-        self.write_mdr_diff(curr_url, result_item_lists)
+        # self.write_mdr_diff(curr_url, result_item_lists)
+
+        ###############################################################################################
 
         # self.write_mdr_diff(curr_url, jsonpickle.encode(dr_list), "_dr_list")
         # self.write_mdr_diff(curr_url, jsonpickle.encode(curr_node_list), "_curr_node_list")

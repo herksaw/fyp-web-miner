@@ -1,4 +1,5 @@
 from lxml.etree import _Element
+from lxml import etree
 
 class Node:
     body_link_chars = 0 # Hyperlink characters count under body tag
@@ -26,6 +27,7 @@ class Node:
         self.largest_child_trait = {}
 
         self.parent = None
+        self.iter_parent = None
         self.prev_sibling = None
         self.next_sibling = None
         self.child_distance_matrix = None
@@ -35,8 +37,7 @@ class Node:
         self.aligned = None
 
         if tag != "":
-            self.el = _Element()
-            self.el.tag = tag        
+            self.el = etree.Element("div")
     
     def is_same(e1, e2):    # Compare if two elements are the same instance
         if e1 == None or e2 == None:
@@ -44,6 +45,20 @@ class Node:
         if e1.tag != e2.tag:
             return False
         if e1.text != e2.text:
+            return False
+        if e1.tail != e2.tail:
+            return False
+        if e1.attrib != e2.attrib:
+            return False
+        if len(e1) != len(e2):
+            return False
+
+        return all(Node.is_same(c1, c2) for c1, c2 in zip(e1, e2))
+
+    def is_same_without_text(e1, e2):
+        if e1 == None or e2 == None:
+            return False
+        if e1.tag != e2.tag:
             return False
         if e1.tail != e2.tail:
             return False

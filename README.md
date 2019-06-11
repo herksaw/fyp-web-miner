@@ -1,2 +1,3 @@
 # fyp-web-miner
-FYP Project 2018
+
+Deprecated. Written to test the rough ideas.
